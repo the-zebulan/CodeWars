@@ -1,5 +1,2 @@
-def toString(num):
-    """ to_string == PEP8 (forced camelCase by codewars) """
-    return str(num)
-
-assert toString(123) == '123'
+number_to_string = str
+assert number_to_string(67) == '67'
