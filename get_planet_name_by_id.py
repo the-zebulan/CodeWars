@@ -1,6 +1,7 @@
 PLANETS = ('Mercury', 'Venus', 'Earth', 'Mars',
            'Jupiter', 'Saturn', 'Uranus', 'Neptune')
 
+
 def get_planet_name(id):
     return PLANETS[id - 1]
 
