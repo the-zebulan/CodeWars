@@ -1,6 +1,6 @@
 def shorter_reverse_longer(a, b):
     if len(a) >= len(b):
-        return '{0}{1}{0}'.format(b, a[::-1])
+        b, a = a, b
     return '{0}{1}{0}'.format(a, b[::-1])
 
 assert shorter_reverse_longer("first", "abcde") == 'abcdetsrifabcde'
