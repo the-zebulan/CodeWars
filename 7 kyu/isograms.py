@@ -1,6 +1,5 @@
 def is_isogram(string):
-    string = string.lower()
-    return len(string) == len(set(string))
+    return len(string) == len(set(string.lower()))
 
 assert is_isogram("Dermatoglyphics") is True
 assert is_isogram("isogram") is True
