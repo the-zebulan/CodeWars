@@ -6,5 +6,4 @@ http://www.codewars.com/users/zebulan
 
 Problems are separated into appropriate folders according to 'kyu' (difficulty).
 
-8 kyu -> 1 kyu
-Easy  -> Hard
+8 kyu (Easy) >> 1 kyu (Hard)
