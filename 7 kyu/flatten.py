@@ -1,8 +1,8 @@
 def flatten(lst):
     result = []
     for a in lst:
-        if isinstance(a, (list, tuple)):
-            [result.append(b) for b in a]
+        if isinstance(a, list):
+            result.extend(a)
         else:
             result.append(a)
     return result
