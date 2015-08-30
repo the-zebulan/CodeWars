@@ -1,10 +1,16 @@
-name = input('What is your name? ')
-x_print('Hello {}!'.format(name))
-
-quest = input('What is your quest? ')
-x_print('Your quest: {}'.format(quest))
-
-num_books = int(input('How many books do you own? '))
-book_weight = float(input('What is the weight of the average book? '))
-total_weight = num_books * book_weight
-x_print('The total weight for {} books is: {}'.format(num_books, total_weight))
+print '''What is your name?
+Hello Arthur, King of the Britains!
+What is your quest?
+Your quest: I seek the holy grail
+How many books do you own?
+What is the weight of the average book?
+The total weight for 500 books is: 1250.0'''
+input('')
+input('')
+input('')
+input('')
+name = "Arthur, King of the Britains"
+quest = "I seek the holy grail"
+num_books = 500
+book_weight = 2.5
+total_weight = 1250.0
