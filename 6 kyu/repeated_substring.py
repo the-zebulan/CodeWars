@@ -1,6 +1,6 @@
 def f(string):
     length = len(string)
-    for a in range(1, length + 1):
+    for a in xrange(1, length + 1):
         current = string[:a]
         number = length / a
         if current * number == string:

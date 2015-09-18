@@ -44,7 +44,7 @@ AMINO = {
 
 
 def protein(rna):
-    return ''.join(AMINO[rna[a:a+3]] for a in range(0, len(rna), 3))
+    return ''.join(AMINO[rna[a:a+3]] for a in xrange(0, len(rna), 3))
 
 assert protein('AUG') == 'M'
 assert protein('AUGUGA') == 'M'

@@ -1,6 +1,6 @@
 from string import ascii_lowercase as az, maketrans
 
-TRANSLATIONS = [maketrans(az, az[a:] + az[:a]) for a in range(1, 26)]
+TRANSLATIONS = [maketrans(az, az[a:] + az[:a]) for a in xrange(1, 26)]
 
 
 def decode(msg, contents):

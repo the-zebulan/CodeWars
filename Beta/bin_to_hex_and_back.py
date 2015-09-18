@@ -17,7 +17,7 @@ def bin_to_hex(binary_string):
         length = 4 * (q + 1)
         binary_string = binary_string.zfill(length)
     return ''.join(TO_HEX[binary_string[a:a + 4]]
-                   for a in range(0, length, 4)).lstrip('0') or '0'
+                   for a in xrange(0, length, 4)).lstrip('0') or '0'
     # return '{:x}'.format(int(binary_string, 2))
 
 assert bin_to_hex('000101') == '5'

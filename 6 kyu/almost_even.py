@@ -3,7 +3,7 @@ def splitInteger(num, parts):
     quo, rem = divmod(num, parts)
     if rem == 0:
         return [quo] * parts
-    return [quo if a > rem else quo + 1 for a in range(parts, 0, -1)]
+    return [quo if a > rem else quo + 1 for a in xrange(parts, 0, -1)]
 
 assert splitInteger(20, 6) == [3, 3, 3, 3, 4, 4]
 assert splitInteger(10, 1) == [10]
