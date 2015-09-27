@@ -3,8 +3,8 @@ def sel_number(n, d):
     for a in range(12, n + 1):
         nums = map(int, str(a))
         uniq = sorted(set(nums))
-        if nums == uniq and all(abs(b - nums[i]) <= d
-                                for i, b in enumerate(nums[:-1], 1)):
+        if nums == uniq and all(abs(b - c) <= d
+                                for b, c in zip(nums[:-1], nums[1:])):
             cnt += 1
     return cnt
 
