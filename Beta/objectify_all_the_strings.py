@@ -1,7 +1,7 @@
 def hashify(string):
     result = {}
     string = string + string[0]
-    for a in range(len(string) - 1):
+    for a in xrange(len(string) - 1):
         k, v = string[a:a + 2]
         try:
             result[k].append(v)         # dictionary value is a list
