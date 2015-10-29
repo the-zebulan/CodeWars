@@ -1,5 +1,6 @@
 class Sleigh:
-    def authenticate(self, name, password):
+    @staticmethod
+    def authenticate(name, password):
         return name == 'Santa Claus' and password == 'Ho Ho Ho!'
 
 sleigh = Sleigh()
