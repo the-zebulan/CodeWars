@@ -17,4 +17,5 @@ def toexuto(text):
 
 assert toexuto('little') == 'liitotolie'
 assert toexuto('BIG') == 'BaIGe'
-assert toexuto('This is a test. This is only a test.') == 'Toheiso iso a toesoto. Toheiso iso oniliyu a toesoto.'
+assert toexuto('This is a test. This is only a test.') == \
+       'Toheiso iso a toesoto. Toheiso iso oniliyu a toesoto.'
