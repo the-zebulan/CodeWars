@@ -15,13 +15,13 @@ MORSE_CODE = {'-.-.--': '!', '.-..-.': '"', '...-..-': '$', '.-...': '&',
 
 
 def decodeMorse(morse):
-    """ decode_morse == PEP8, forced camelCase by CodeWars """
+    """ decode_morse == PEP8, forced mixedCase by CodeWars """
     return ' '.join(''.join(MORSE_CODE[a] for a in word.split())
                     for word in morse.split('   ')).strip()
 
 assert decodeMorse('.... . -.--   .--- ..- -.. .') == 'HEY JUDE'
 assert decodeMorse('... --- ...') == 'SOS'
-assert decodeMorse('...---... -.-.-- - .... . --.- ..- .. -.-. -.- -... .-. ---'
-                   ' .-- -. ..-. --- -..- .--- ..- -- .--. ... --- ...- . .-. -'
-                   ' .... . .-.. .- --.. -.-- -.. --- --. .-.-.-') == \
+assert decodeMorse('...---... -.-.-- - .... . --.- ..- .. -.-. -.- -... .-. '
+                   '--- .-- -. ..-. --- -..- .--- ..- -- .--. ... --- ...- . '
+                   '.-. - .... . .-.. .- --.. -.-- -.. --- --. .-.-.-') == \
     'SOS!THEQUICKBROWNFOXJUMPSOVERTHELAZYDOG.'
