@@ -1,22 +1,17 @@
-# def head(lst):
-#     return lst[0]
-#
-#
-# def tail(lst):
-#     return lst[1:]
-#
-#
-# def init(lst):
-#     return lst[:-1]
-#
-#
-# def last(lst):
-#     return lst[-1]
+def head(lst):
+    return lst[0]
 
-head = lambda lst: lst[0]
-tail = lambda lst: lst[1:]
-init = lambda lst: lst[:-1]
-last = lambda lst: lst[-1]
+
+def tail(lst):
+    return lst[1:]
+
+
+def init(lst):
+    return lst[:-1]
+
+
+def last(lst):
+    return lst[-1]
 
 assert head([5, 1]) == 5
 assert tail([1]) == []
