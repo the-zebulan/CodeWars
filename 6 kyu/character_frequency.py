@@ -11,4 +11,4 @@ def letter_frequency(text):
     return result
 
 assert letter_frequency('aaAabb dddDD hhcc') == \
-       [('d',5), ('a',4), ('b',2), ('c',2), ('h',2)]
+       [('d', 5), ('a', 4), ('b', 2), ('c', 2), ('h', 2)]
