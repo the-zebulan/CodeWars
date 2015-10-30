@@ -4,7 +4,7 @@ SUFFIX = {1: 'st', 2: 'nd', 3: 'rd'}
 
 
 def whatCentury(year):
-    """ what_century == PEP8, forced camelCase by CodeWars """
+    """ what_century == PEP8, forced mixedCase by CodeWars """
     century = int(ceil(int(year) / 100.0))
     quo, rem = divmod(century, 10)
     if quo == 1 and 1 <= rem <= 3:
@@ -12,6 +12,7 @@ def whatCentury(year):
     else:
         suffix = SUFFIX.get(rem, 'th')
     return '{}{}'.format(century, suffix)
+
 
 assert whatCentury('1999') == '20th'
 assert whatCentury('2011') == '21st'

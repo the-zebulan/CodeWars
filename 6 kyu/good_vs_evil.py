@@ -7,7 +7,7 @@ OUTPUT = 'Battle Result: {}'.format
 
 
 def goodVsEvil(good, evil):
-    """ good_vs_evil == PEP8, forced mixedCase by CodeWars """
+    """ good_vs_evil == PEP8 (forced mixedCase by CodeWars) """
     good = sum(int(a) * G_WORTH[i] for i, a in enumerate(good.split()))
     evil = sum(int(b) * E_WORTH[i] for i, b in enumerate(evil.split()))
     if good == evil:

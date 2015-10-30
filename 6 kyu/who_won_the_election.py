@@ -2,7 +2,7 @@ from collections import Counter, defaultdict
 
 
 def getWinner(ballots):
-    """ get_winner == PEP8, forced camelCase by CodeWars """
+    """ get_winner == PEP8 (forced mixedCase by CodeWars) """
     counts = Counter(ballots)
     flip = defaultdict(list)
     for a, b in counts.items():

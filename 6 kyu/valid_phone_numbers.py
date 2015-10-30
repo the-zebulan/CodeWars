@@ -14,8 +14,10 @@ VALID = compile('^\(\d{3}\) \d{3}-\d{4}$')
 
 
 def validPhoneNumber(number):
-    """ Thanks to 'g964 & werneckpaiva' from CodeWars """
+    """ valid_phone_number == PEP8 (forced by CodeWars)
+    Thanks to 'g964 & werneckpaiva' from CodeWars """
     return bool(match(VALID, number))
+
 
 assert validPhoneNumber("(123) 456-7890") is True
 assert validPhoneNumber("(1111)555 2345") is False
