@@ -1,4 +1,6 @@
-to_currency = lambda price: '{:,}'.format(price)
+def to_currency(price):
+    return '{:,}'.format(price)
+
 
 assert to_currency(123456) == "123,456"
 assert to_currency(1234) == "1,234"
