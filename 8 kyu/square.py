@@ -1,4 +1,6 @@
-square = lambda a: a ** 2
+def square(n):
+    return n ** 2
+
 
 assert square(2) == 4
 assert square(50) == 2500
