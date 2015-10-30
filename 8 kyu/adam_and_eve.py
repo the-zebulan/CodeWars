@@ -12,7 +12,7 @@ class Woman(Human):
 
 
 def God():
-    """ god == PEP8 (forced to capitalize by codewars) """
+    """ god == PEP8 (forced to capitalize by CodeWars) """
     return [Man(), Woman()]
 
 paradise = God()
