@@ -3,7 +3,7 @@ MSG = "Well done! You have advanced to the qualifying stage. " \
 
 
 def playerRankUp(pts):
-    """ player_rank_up == PEP8 (forced camelCase by codewars) """
+    """ player_rank_up == PEP8 (forced mixedCase by CodeWars) """
     return False if pts < 100 else MSG
 
 assert playerRankUp(64) is False

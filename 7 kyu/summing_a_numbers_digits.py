@@ -1,5 +1,5 @@
 def sumDigits(number):
-    """ sum_digits == PEP8 (camelCase forced by codewars) """
+    """ sum_digits == PEP8 (camelCase forced by CodeWars) """
     return sum(map(int, str(abs(number))))
 
 assert sumDigits(10) == 1
