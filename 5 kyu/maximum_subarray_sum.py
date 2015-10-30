@@ -1,5 +1,5 @@
 def maxSequence(arr):
-    """ max_sequence == PEP8, forced camelCase by CodeWars """
+    """ max_sequence == PEP8 (forced mixedCase by CodeWars) """
     total = 0
     maximum = 0
     for a in arr:
