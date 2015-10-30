@@ -1,5 +1,5 @@
 def splitInteger(num, parts):
-    """ split_integer == PEP8, forced camelCase by CodeWars """
+    """ split_integer == PEP8 (forced mixedCase by CodeWars) """
     quo, rem = divmod(num, parts)
     if rem == 0:
         return [quo] * parts

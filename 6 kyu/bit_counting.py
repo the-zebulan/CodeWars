@@ -1,5 +1,5 @@
 def countBits(n):
-    """ count_bits == PEP8, forced camelCase by CodeWars """
+    """ count_bits == PEP8 (forced mixedCase by CodeWars) """
     return '{:b}'.format(n).count('1')
 
 assert countBits(0) == 0
