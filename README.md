@@ -2,8 +2,13 @@
 
 My solutions for CodeWars problems are written using Python 2.7.10
 
-http://www.codewars.com/users/zebulan
+[zebulan - CodeWars Profile](http://www.codewars.com/users/zebulan)
 
-Problems are separated into appropriate folders according to 'kyu' (difficulty).
+* 8 - 7 kyu: Beginner
+* 6 - 5 kyu: Novice
+* 4 - 3 kyu: Competent
+* 2 - 1 kyu: Proficient
+* 1 - 5 dan: Expert
+* 5 - 8 dan: Master
 
-8 kyu (Easy) >> 1 kyu (Hard)
+Problems are separated into appropriate folders according to difficulty.
