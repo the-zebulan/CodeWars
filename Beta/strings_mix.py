@@ -15,7 +15,7 @@ def mix(s1, s2):
                         d[k] = v, 3
                 except KeyError:
                     d[k] = v, i
-    for k, (v, n) in sorted(d.items(), key=lambda (k, (v, n)): (-v, n, k)):
+    for k, (v, n) in sorted(d.iteritems(), key=lambda (k, (v, n)): (-v, n, k)):
         result.append('{}:{}'.format('=' if n == 3 else n, k * v))
     return '/'.join(result)
 
