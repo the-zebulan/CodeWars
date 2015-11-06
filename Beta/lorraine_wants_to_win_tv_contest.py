@@ -1,4 +1,4 @@
-from collections import Counter, defaultdict
+from collections import defaultdict
 
 # word_list is a hidden variable in this CodeWars kata
 word_list = [
@@ -258,15 +258,15 @@ word_list = [
     'you', 'young', 'your', 'yourself', 'youth'
 ]
 
-BY_COUNTS = defaultdict(list)
+BY_SORTED_WORDS = defaultdict(list)
 for word in word_list:
-    BY_COUNTS[tuple(sorted(Counter(word).items()))].append(word)
+    BY_SORTED_WORDS[''.join(sorted(word))].append(word)
 
 
 def unscramble(scramble):
-    return sorted(BY_COUNTS[tuple(sorted(Counter(scramble).items()))])
+    return sorted(BY_SORTED_WORDS[''.join(sorted(scramble))])
 
 
-assert unscramble("shi"), ['his']
-assert unscramble("nowk"), ['know']
-assert unscramble("amle"), ['male', 'meal']
+assert unscramble("shi") == ['his']
+assert unscramble("nowk") == ['know']
+assert unscramble("amle") == ['male', 'meal']
