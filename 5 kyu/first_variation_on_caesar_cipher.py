@@ -5,8 +5,9 @@ from string import ascii_lowercase as low, ascii_uppercase as up
 def shifty(string, shift, encode=True):
     if not encode:
         string = ''.join(string)
+    length = 0
     shifted_chars = []
-    for i, a in enumerate(string, 1):
+    for a in string:
         shifter = shift if encode else -shift
         if a.islower():
             shifted_chars.append(low[(low.index(a) + shifter) % 26])
@@ -14,19 +15,14 @@ def shifty(string, shift, encode=True):
             shifted_chars.append(up[(up.index(a) + shifter) % 26])
         else:
             shifted_chars.append(a)
+        length += 1
         shift += 1
-    else:
-        length = i
     if not encode:
         return ''.join(shifted_chars)
     chunk = int(ceil(length / 5.0))
-    result = []
-    for i, b in enumerate(xrange(0, length, chunk), 1):
-        result.append(''.join(shifted_chars[b:b + chunk]))
-    else:
-        if i < 5:
-            result.append('')
-    return result
+    result = [''.join(shifted_chars[b:b + chunk])
+              for b in xrange(0, length, chunk)]
+    return result if len(result) == 5 else result + ['']
 
 
 def demoving_shift(strings, shift):
