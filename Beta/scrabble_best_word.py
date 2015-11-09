@@ -1,8 +1,8 @@
 from string import ascii_uppercase
 
 
-def get_best_word(letter_score, words):
-    letter_score = dict(zip(ascii_uppercase, letter_score))
+def get_best_word(points, words):
+    letter_score = dict(zip(ascii_uppercase, points))
     max_score = max_word_index = max_word_length = 0
     for i, word in enumerate(words):
         current_score = current_length = 0
