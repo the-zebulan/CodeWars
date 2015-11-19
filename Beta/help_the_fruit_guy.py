@@ -1,9 +1,9 @@
-def removeRotten(bagOfFruits):
-    """ remove_rotten(bag_of_fruits) == PEP8 (forced mixedCase by CodeWars) """
-    return [] if not bagOfFruits else \
-        [fruit.replace('rotten', '').lower() for fruit in bagOfFruits]
+def remove_rotten(bag_of_fruits):
+    return [] if not bag_of_fruits else \
+        [fruit.replace('rotten', '').lower() for fruit in bag_of_fruits]
 
-assert removeRotten(['rottenApple', 'rottenBanana', 'rottenApple',
+
+assert remove_rotten(['rottenApple', 'rottenBanana', 'rottenApple',
                     'rottenPineapple', 'rottenKiwi']) == \
     ['apple', 'banana', 'apple', 'pineapple', 'kiwi']
-assert removeRotten([]) == []
+assert remove_rotten([]) == []
