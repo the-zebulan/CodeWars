@@ -11,5 +11,5 @@ def split_workload(workload):
     return (None, None) if minimum == (0, 0) else minimum[::-1]
 
 
-print split_workload([1, 6, 2, 3, 5, 4, 1]) == (4, 2)
-print split_workload([]) == (None, None)
+assert split_workload([1, 6, 2, 3, 5, 4, 1]) == (4, 2)
+assert split_workload([]) == (None, None)
