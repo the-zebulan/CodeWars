@@ -1,4 +1,4 @@
-field = [  # FIELD == PEP8 (forced lowercase of constant by CodeWars)
+FIELD = [
     ['0.10', '0.77', '0.18', '0.31', '0.79', '0.11', '0.01', '0.46', '0.76',
      '0.52', '0.22', '0.74', '0.79', '0.57', '0.49', '0.93', '0.33', '0.79',
      '0.91', '0.24'],
@@ -61,31 +61,31 @@ field = [  # FIELD == PEP8 (forced lowercase of constant by CodeWars)
      '0.72', '0.57']]
 
 DIRECTIONS = (
-    (0, 0),  # original point
-    (0, -1),  # left
+    (0, 0),    # original point
+    (0, -1),   # left
     (-1, -1),  # diagonal, up/left
-    (-1, 0),  # up
-    (-1, 1),  # diagonal, up/right
-    (0, 1),  # right
-    (1, 1),  # diagonal, down/right
-    (1, 0),  # down
-    (1, -1)  # diagonal, down/left
+    (-1, 0),   # up
+    (-1, 1),   # diagonal, up/right
+    (0, 1),    # right
+    (1, 1),    # diagonal, down/right
+    (1, 0),    # down
+    (1, -1)    # diagonal, down/left
 )
 
 
-def isefficient(x, y, threshold):
+def is_efficient(x, y, threshold):
     total = 0
     for x2, y2 in DIRECTIONS:
         xx = x + x2
         yy = y + y2
         if 0 <= xx < 20 and 0 <= yy < 20:
-            total += float(field[xx][yy])
+            total += float(FIELD[xx][yy])
     return total >= threshold
 
 
-assert isefficient(10, 10, 2.5) is True
-assert isefficient(12, 3, 1.5) is True
-assert isefficient(12, 3, 7.5) is False
-assert isefficient(17, 11, 3) is True
-assert isefficient(8, 9, 6) is False
-assert isefficient(0, 0, 2.3) is False
+assert is_efficient(10, 10, 2.5) is True
+assert is_efficient(12, 3, 1.5) is True
+assert is_efficient(12, 3, 7.5) is False
+assert is_efficient(17, 11, 3) is True
+assert is_efficient(8, 9, 6) is False
+assert is_efficient(0, 0, 2.3) is False
