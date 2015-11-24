@@ -1,5 +1,8 @@
 def solution(digits):
-    return max(int(digits[a:a + 5]) for a in xrange(len(digits) - 4))
+    # return max(int(digits[a:a + 5]) for a in xrange(len(digits) - 4))
+
+    # code below only calls int once
+    return int(max(digits[a:a + 5] for a in xrange(len(digits) - 4)))
 
 
 number = "731671765313306249192251196744265747423553491949349698352036854250" \
