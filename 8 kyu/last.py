@@ -1,6 +1,7 @@
 def last(*args):
     end = args[-1]
-    return end[-1] if isinstance(end, (str, list, tuple)) else end
+    return end[-1] if isinstance(end, (__builtins__.str, list, tuple)) else end
+
 
 assert last([1, 2, 3, 4, 5]) == 5
 assert last('abcde') == 'e'
