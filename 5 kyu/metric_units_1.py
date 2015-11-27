@@ -4,17 +4,10 @@ PREFIXES = ((10 ** 24, 'Y'), (10 ** 21, 'Z'), (10 ** 18, 'E'),
 
 
 def meters(n):
-    try:
-        a, b = (int(c) for c in str(n).split('e+'))
-        n = a * (10 ** b)
-    except ValueError:
-        pass
-
     for value, prefix in PREFIXES:
-        q, r = divmod(n, value)
-        if q:
-            return '{:.0f}{}{}m'.format(
-                q, '.{}'.format(r).rstrip('0') if r else '', prefix)
+        check = float(n) / value
+        if int(check):
+            return '{:g}{}m'.format(check, prefix)
 
 
 assert meters(5) == '5m'
