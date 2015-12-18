@@ -1,5 +1,5 @@
 def remainder(dividend, divisor):
-    return dividend - ((dividend / divisor) * divisor)
+    return dividend - dividend / divisor * divisor
 
 
 assert remainder(3, 2) == 1
