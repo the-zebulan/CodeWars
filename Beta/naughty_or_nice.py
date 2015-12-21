@@ -6,7 +6,7 @@ def naughty_or_nice(data):
                 naughty += 1
             else:
                 nice += 1
-    return ('Naughty!', 'Nice!')[nice > naughty]
+    return ('Naughty!', 'Nice!')[nice >= naughty]
 
 
 assert naughty_or_nice(
