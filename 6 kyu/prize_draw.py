@@ -10,6 +10,7 @@ def rank(names, weights, n):
             return 'Not enough participants'
     return sorted(scores, key=lambda (score, name): (-score, name))[n - 1][1]
 
+
 assert rank('Elijah,Chloe,Elizabeth,Matthew,Natalie,Jayden',
             [1, 3, 5, 5, 3, 6], 2) == 'Matthew'
 assert rank('COLIN,AMANDBA,AMANDAB,CAROL,PauL,JOSEPH',
