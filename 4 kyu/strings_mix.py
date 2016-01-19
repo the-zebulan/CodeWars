@@ -19,6 +19,7 @@ def mix(s1, s2):
         result.append('{}:{}'.format('=' if n == 3 else n, k * v))
     return '/'.join(result)
 
+
 assert mix("my&friend&Paul has heavy hats! &",
            "my friend John has many many friends &") \
     == "2:nnnnn/1:aaaa/1:hhh/2:mmm/2:yyy/2:dd/2:ff/2:ii/2:rr/=:ee/=:ss"
