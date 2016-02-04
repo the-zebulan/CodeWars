@@ -1,5 +1,5 @@
 def sum_factorial(lst):
-    nums = sorted(set(lst))
+    nums = sorted(lst)
     current = 1
     total = 0
     for a in xrange(1, nums[-1] + 1):
