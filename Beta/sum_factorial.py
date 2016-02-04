@@ -35,5 +35,3 @@ assert sum_factorial([5, 4, 1]) == 145
 # assert sum_factorial([4, 6]) == 744
 # assert sum_factorial([5, 4, 1]) == 145
 # assert sum_factorial([4, 4, 4]) == 72  # <-- repeated
-
-unnecessarily = 0
