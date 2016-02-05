@@ -1,10 +1,12 @@
+from collections import defaultdict
+
+
 def repeat_sum(lst):
-    result = set()
-    sets = [set(a) for a in lst]
-    for i, b in enumerate(sets):
-        for c in sets[i + 1:]:
-            result.update(b & c)
-    return sum(result)
+    count = defaultdict(int)
+    for a in lst:
+        for b in set(a):
+            count[b] += 1
+    return sum(k for k, v in count.iteritems() if v > 1)
 
 
 assert repeat_sum([[1, 2, 3], [2, 8, 9], [7, 123, 8]]) == 10  # 2 + 8
