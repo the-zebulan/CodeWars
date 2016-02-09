@@ -1,11 +1,5 @@
 def rental_car_cost(d):
-    if d < 3:
-        discount = 0
-    elif d < 7:
-        discount = 20
-    else:
-        discount = 50
-    return 40 * d - discount
+    return 40 * d - ((50, 20)[d < 7], 0)[d < 3]
 
 
 assert rental_car_cost(1) == 40
