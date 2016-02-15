@@ -11,6 +11,5 @@ def date_to_mins(date):
 
 assert date_to_mins('02/10/2016') == 59040
 assert date_to_mins('02/29/2016') == 86400
-# I think this third test case is wrong in the kata, issue raised on CodeWars
-print date_to_mins('04/21/2016')  # == 159840  # <-- should be 161280?
+assert date_to_mins('04/21/2016') == 161280  # kata fixed after my suggestion!
 assert date_to_mins('05/31/2016') == 218880
