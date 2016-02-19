@@ -1,16 +1,13 @@
 from re import compile, match
 
-BASES = {'b': 2, 'o': 8, None: 10, 'x': 16}
-REGEX = compile(r'[+-]?(0(?P<base>[bxo]))?[\d\w]+$')
+REGEX = compile(r'[+-]?(0(?P<base>[bxo]))?[\d\w]+\Z')
 
 
 def to_integer(strng):
-    m = match(REGEX, strng)
-    if m and strng == strng[slice(*m.span())]:
-        try:
-            return int(strng, BASES[m.group('base')])
-        except (KeyError, ValueError):
-            pass
+    try:
+        return int(strng, 0 if match(REGEX, strng).group('base') else 10)
+    except (AttributeError, KeyError, ValueError):
+        pass
 
 
 assert to_integer("123") == 123
