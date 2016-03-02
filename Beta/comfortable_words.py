@@ -14,7 +14,3 @@ def comfortable_word(word):
     two = ''.join(two)
     return LEFT.issuperset(one) and RIGHT.issuperset(two) or \
         LEFT.issuperset(two) and RIGHT.issuperset(one)
-
-
-assert comfortable_word('yams') is True
-assert comfortable_word('test') is False

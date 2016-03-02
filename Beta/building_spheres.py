@@ -20,10 +20,3 @@ class Sphere:
 
     def get_volume(self):
         return round(4 / 3.0 * pi * self.radius ** 3, 5)
-
-ball = Sphere(2, 50)
-assert ball.get_radius() == 2
-assert ball.get_mass() == 50
-assert ball.get_volume() == 33.51032
-assert ball.get_surface_area() == 50.26548
-assert ball.get_density() == 1.49208

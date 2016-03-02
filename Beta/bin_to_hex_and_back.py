@@ -19,15 +19,3 @@ def bin_to_hex(binary_string):
     return ''.join(TO_HEX[binary_string[a:a + 4]]
                    for a in xrange(0, length, 4)).lstrip('0') or '0'
     # return '{:x}'.format(int(binary_string, 2))
-
-assert bin_to_hex('000101') == '5'
-assert bin_to_hex('001111') == 'f'
-assert bin_to_hex('000') == '0'
-assert bin_to_hex('10011010010') == '4d2'
-
-assert hex_to_bin('0') == '0'
-assert hex_to_bin('f') == '1111'
-assert hex_to_bin('0F') == '1111'
-assert hex_to_bin('5') == '101'
-assert hex_to_bin('04D2') == '10011010010'
-assert hex_to_bin('A23') == '101000100011'

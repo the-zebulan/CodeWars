@@ -12,8 +12,3 @@ def caesar(s, shift):
         else:
             result.append(a)
     return ''.join(result)
-
-
-assert caesar("Abcd", 2) == "Cdef"
-assert caesar("message", -1) == "ldrrzfd"
-assert caesar("ZZ Top", 3) == "CC Wrs"
