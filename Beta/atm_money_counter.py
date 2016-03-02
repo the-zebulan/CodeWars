@@ -24,11 +24,3 @@ def atm(value):
         return 'Can\'t do {} {}. Value must be divisible by {}!'\
             .format(amount, currency, denoms[0])
     return ', '.join(result)
-
-
-assert atm('XSF 1000') == 'Sorry, have no XSF.'
-assert atm('rub 12341') == 'Can\'t do 12341 RUB. Value must be divisible by 10!'
-assert atm('10202UAH') == '20 * 500 UAH, 2 * 100 UAH, 1 * 2 UAH'
-assert atm('842 usd') == '8 * 100 USD, 2 * 20 USD, 1 * 2 USD'
-assert atm('euR1000') == '2 * 500 EUR'
-assert atm('sos100') == 'Can\'t do 100 SOS. Value must be divisible by 1000!'
