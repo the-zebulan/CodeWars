@@ -1,2 +1,0 @@
-def arrange(strng):
-    pass
