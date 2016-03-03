@@ -20,11 +20,3 @@ def int_to_english(num):
             result.append(word_name)
         if not num:
             return ' '.join(result)
-
-
-assert int_to_english(1) == 'one'
-assert int_to_english(25) == 'twenty five'
-assert int_to_english(161) == 'one hundred sixty one'
-assert int_to_english(25161045656) == \
-    'twenty five billion one hundred sixty one million forty ' \
-    'five thousand six hundred fifty six'

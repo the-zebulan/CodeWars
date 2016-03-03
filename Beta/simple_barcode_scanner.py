@@ -9,9 +9,6 @@ def barcode_scanner(barcode):
     l_r = barcode[3:45] + barcode[50:-3]
     return ''.join(TO_UPC[l_r[a:a + 7]] for a in xrange(0, 84, 7))
 
-assert barcode_scanner(
-    '1010111011011011100010110001011010111101101110101011100101110010'
-    '1110010111001011011001000010101') == '789968000023'
 
 # # This kata on CodeWars forces the 'digits' dictionary...
 # # 'digits' should be hidden, not in every solution!

@@ -266,7 +266,3 @@ def ssw(word):
 SCORED_WORDS = defaultdict(lambda: defaultdict(list))
 for word in WORD_LIST:
     SCORED_WORDS[len(word)][ssw(word)].append(word)
-
-assert find_word(8, 888) == 'southern'
-assert find_word(9, 500) is None
-assert find_word(7, 1412) == 'support'

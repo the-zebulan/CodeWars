@@ -15,16 +15,3 @@ class SecureList(object):
     def __str__(self):
         tmp, self.lst = self.lst, []
         return str(tmp)
-
-
-base = [1, 2, 3, 4]
-a = SecureList(base)
-assert a[0] == base[0]
-assert a[0] == base[1]
-assert len(a) == 2
-print 'Current List: {!s}'.format(a)
-assert len(a) == 0
-
-a = SecureList(base)
-print 'Current List: {!r}'.format(a)
-assert len(a) == 0

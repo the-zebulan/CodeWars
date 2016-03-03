@@ -6,8 +6,3 @@ def multiples(x):
     elif x % 15 == 0:
         return 'Foo'
     return 'Far'
-
-assert multiples(49) == "Fizz"
-assert multiples(147) == "Fang"
-assert multiples(30) == "Foo"
-assert multiples(51) == "Far"

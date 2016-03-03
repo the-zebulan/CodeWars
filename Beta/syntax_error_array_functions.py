@@ -8,7 +8,3 @@ class Foo(object):
 
     def convert(self, num, base):
         return self.arr_of_funcs[base](num)
-
-f = Foo()
-assert f.convert('0', 0) == 0
-assert f.convert('0', 1) == 0

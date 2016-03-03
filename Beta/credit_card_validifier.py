@@ -26,9 +26,3 @@ def credit(num):
     elif num.startswith('4') and length in (13, 16):
         return 'VISA'
     return 'Invalid'
-
-assert credit(6011364837263748) == "Discover"
-assert credit(5318273647283745) == "Master"
-assert credit(12345678910) == "Invalid"
-assert credit(371236473823676) == "AMEX"
-assert credit(4128374839283) == "VISA"

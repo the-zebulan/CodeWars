@@ -10,8 +10,3 @@ def oddity(n):
 #             if not a == n / a:
 #                 result += 1
 #     return 'odd' if result % 2 else 'even'
-
-assert oddity(1) == 'odd'
-assert oddity(5) == 'even'
-assert oddity(16) == 'odd'
-assert oddity(100) == 'odd'

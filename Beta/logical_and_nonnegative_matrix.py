@@ -13,15 +13,6 @@ def sum_nonnegative_logical_matrix(matrix1, matrix2):
     return False
 
 
-assert logical_matrix([[0, 0], [1, 1]]) is True
-assert logical_matrix([[2, 7], [0, 0]]) is False
-assert logical_matrix([[1, 1], [1, 2]]) is False
-assert nonnegative_matrix([[0, 0], [1, 1]]) is True
-assert nonnegative_matrix([[0, 0, 0, 0], [1, 1, 0, 1]]) is True
-assert sum_nonnegative_logical_matrix([[0, 0, 1], [1, 1, 0], [0, 0, 0]],
-                                      [[0, 0, 1], [1, 1, 0], [0, 0, 0]]) == 6
-
-
 # # merged all three functions below
 # def hmm(*args):
 #     is_logical = is_positive = True

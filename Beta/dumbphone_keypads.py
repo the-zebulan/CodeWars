@@ -18,8 +18,3 @@ def sequence(phrase):
         result.append(OUTPUT('p' if first == prev else '', current))
         prev = first
     return ''.join(result)
-
-
-assert sequence('HELLO WORLD') == '4433555p555666096667775553'
-assert sequence('codewar rocks') == '2226663p33927770777666222557777'
-assert sequence('#hashtag') == '#442777744824'

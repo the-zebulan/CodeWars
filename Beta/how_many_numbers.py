@@ -6,11 +6,3 @@ def sel_number(n, d):
                 all(c - b <= d for b, c in zip(nums[:-1], nums[1:])):
             cnt += 1
     return cnt
-
-assert sel_number(0, 1) == 0
-assert sel_number(3, 1) == 0
-assert sel_number(13, 1) == 1  # 12
-assert sel_number(20, 2) == 2  # 12, 13
-assert sel_number(30, 2) == 4  # 12, 13, 23, 24
-assert sel_number(44, 2) == 6  # 12, 13, 23, 24, 34, 35
-assert sel_number(50, 3) == 12  # 12 - 14, 23 - 25, 34 - 36, 45 - 47

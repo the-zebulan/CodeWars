@@ -81,11 +81,3 @@ def is_efficient(x, y, threshold):
         if 0 <= xx < 20 and 0 <= yy < 20:
             total += float(FIELD[xx][yy])
     return total >= threshold
-
-
-assert is_efficient(10, 10, 2.5) is True
-assert is_efficient(12, 3, 1.5) is True
-assert is_efficient(12, 3, 7.5) is False
-assert is_efficient(17, 11, 3) is True
-assert is_efficient(8, 9, 6) is False
-assert is_efficient(0, 0, 2.3) is False

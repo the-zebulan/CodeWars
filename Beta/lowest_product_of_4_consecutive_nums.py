@@ -9,13 +9,6 @@ def lowest_product(nums):
             for b in xrange(length - 3))
 
 
-assert lowest_product("123456789") == 24
-assert lowest_product("2345611117899") == 1
-assert lowest_product("2305611117899") == 0
-assert lowest_product("333") == "Number is too small"
-assert lowest_product("1234111") == 4
-
-
 # # second try:
 # def lowest_product(nums):
 #     int_nums = []

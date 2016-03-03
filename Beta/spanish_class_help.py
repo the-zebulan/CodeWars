@@ -14,10 +14,3 @@ def gender(*nouns):
             prefix = 'el'
         result.append('{} {}'.format(prefix, noun))
     return result
-
-
-assert gender('genio') == ['el genio']
-assert gender('chico', 'esquinas') == ['el chico', 'las esquinas']
-assert gender("parques") == ['los parques']
-assert gender("vino", 5, None) == ['el vino', 5, None]
-assert gender('lampas') == ["las lampas"]

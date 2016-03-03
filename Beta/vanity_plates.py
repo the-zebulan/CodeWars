@@ -1,4 +1,4 @@
-VOWELS = 'AEIOUY'
+VOWELS = set('AEIOUY')
 
 
 def strip_vowels(s):
@@ -23,11 +23,3 @@ def vanity_plate(plate):
     if len(first_letters) <= 8:
         return first_letters
     return ''
-
-
-assert vanity_plate('boss') == 'BOSS'
-assert vanity_plate('boss dude') == 'BSS DDE'
-assert vanity_plate('b0ss dude') == 'B0SS DDE'
-assert vanity_plate('the big boss') == 'THEBGBSS'
-assert vanity_plate('the biggest boss around') == 'TBBA'
-assert vanity_plate('a 00000 a') == 'A00000A'

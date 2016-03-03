@@ -9,10 +9,6 @@ def sum_factorial(lst):
     return total
 
 
-assert sum_factorial([4, 6]) == 744
-assert sum_factorial([5, 4, 1]) == 145
-
-
 # # repeated values would break the solution above but according to
 # # the kata constraints: "Note: Assume that all values in the list are
 # # positive integer values > 0 and each value in the list is unique"

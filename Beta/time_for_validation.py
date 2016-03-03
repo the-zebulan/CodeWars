@@ -17,10 +17,3 @@ def convert_time(output_format, input_time):
             return strftime('%I:%M%p', strptime(input_time, '%H:%M'))
         return input_time
     return False
-
-
-assert convert_time("24", "09:00AM") == "09:00"
-assert convert_time("24", "09:00PM") == "21:00"
-assert convert_time("12", "08:13AM") == "08:13AM"
-assert convert_time("12", "05:19PM") == "05:19PM"
-assert convert_time("12", "21:13") == "09:13PM"

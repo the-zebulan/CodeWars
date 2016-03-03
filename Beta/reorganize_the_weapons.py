@@ -8,7 +8,3 @@ def identify_weapon(character):
         return '{}-{}'.format(character, WEAPONS[character])
     except KeyError:
         return 'Not a character'
-
-
-assert identify_weapon('Laval') == 'Laval-Shado Valious'
-assert identify_weapon('A') == 'Not a character'

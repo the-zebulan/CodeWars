@@ -10,7 +10,3 @@ def getSubstrings(s):
                 break
             seen.add(s[a:end])
     return len(seen)
-
-
-assert getSubstrings('YOLO') == 9
-assert getSubstrings('I am but a string in the meadow.') == 511

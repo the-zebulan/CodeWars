@@ -34,10 +34,3 @@ def merge(line):
 #                 if a > 0:
 #                     result.append(a)
 #     return result + [0] * (length - len(result))
-
-assert merge([8, 16, 16, 8]) == [8, 32, 8, 0]
-assert merge([2, 0, 0, 0, 2]) == [4, 0, 0, 0, 0]
-assert merge([2, 2, 2, 2, 2]) == [4, 4, 2, 0, 0]
-assert merge([2, 0, 2, 2]) == [4, 2, 0, 0]
-assert merge([2, 0, 2, 4]) == [4, 4, 0, 0]
-assert merge([0, 0, 2, 2]) == [4, 0, 0, 0]

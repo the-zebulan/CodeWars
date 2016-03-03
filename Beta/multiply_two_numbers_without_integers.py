@@ -12,15 +12,3 @@ def convert_num(n):
 def multiplyMyNumbers(a, b):
     """ multiply_my_numbers == PEP8 (forced mixedCase by CodeWars) """
     return str(convert_num(a) * convert_num(b))
-
-
-assert multiplyMyNumbers('1', '5') == '5'
-assert multiplyMyNumbers('7', '2') == '14'
-assert multiplyMyNumbers('11', '42') == '462'
-
-# works for number strings with leading zeros
-# also works for number strings larger than 5 characters 
-assert multiplyMyNumbers('12', '35') == '420'
-assert multiplyMyNumbers('00000012', '00000035') == '420'
-assert multiplyMyNumbers('12345' * 10, '00000002') \
-    == '24690246902469024690246902469024690246902469024690'

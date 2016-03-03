@@ -11,8 +11,3 @@ def quicksum(packet):
         except KeyError:
             return 0
     return result
-
-
-assert quicksum('ACM') == 46
-assert quicksum('A C M') == 75
-assert quicksum('AbqTH #5') == 0

@@ -6,10 +6,3 @@ def multiple(x):
     elif x % 5 == 0:
         return 'Boom'
     return 'Miss'
-
-assert multiple(30) == "BangBoom"
-assert multiple(3) == "Bang"
-assert multiple(98) == "Miss"
-assert multiple(65) == "Boom"
-assert multiple(23) == "Miss"
-assert multiple(15) == "BangBoom"
