@@ -9,8 +9,3 @@ def solution(n):
         q, n = divmod(n, num)
         result.append(q * char)
     return ''.join(result)
-
-
-assert solution(1) == 'I'
-assert solution(4) == 'IV'
-assert solution(6) == 'VI'

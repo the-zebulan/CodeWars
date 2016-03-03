@@ -13,14 +13,3 @@ def strip_url_params(url, params=()):
     except ValueError:
         pass
     return url
-
-
-assert strip_url_params('www.codewars.com?a=1&b=2&a=1&b=3') \
-    == 'www.codewars.com?a=1&b=2'
-assert strip_url_params('www.codewars.com?a=1&b=2&a=1&b=3', ['b']) \
-    == 'www.codewars.com?a=1'
-assert strip_url_params('www.codewars.com?a=1&b=2&a=2') \
-    == 'www.codewars.com?a=1&b=2'
-assert strip_url_params('www.codewars.com?a=1&b=2&a=2', ['b']) \
-    == 'www.codewars.com?a=1'
-assert strip_url_params('www.codewars.com', ['b']) == 'www.codewars.com'

@@ -14,12 +14,3 @@ def next_bigger(n):
 
     nums[suffix:] = nums[length:suffix - 1:-1]
     return int(''.join(nums))
-
-
-assert next_bigger(12) == 21
-assert next_bigger(513) == 531
-assert next_bigger(2017) == 2071
-
-assert next_bigger(9) == -1
-assert next_bigger(111) == -1
-assert next_bigger(531) == -1
