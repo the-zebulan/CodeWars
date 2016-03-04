@@ -22,21 +22,3 @@ class Vector(object):
 
     def subtract(self, v2):
         return Vector([g - h for g, h in izip_longest(self.nums, v2.nums)])
-
-
-a = Vector([1, 2, 3])
-b = Vector([3, 4, 5])
-c = Vector([5, 6, 7, 8])
-assert a.add(b).equals(Vector([4, 6, 8]))
-assert a.subtract(b).equals(Vector([-2, -2, -2]))
-assert a.dot(b) == 26
-assert a.norm() == 14 ** 0.5
-assert str(a) == '(1,2,3)'
-try:
-    assert a.add(c)  # different length lists raises an exception
-except TypeError:
-    print 'Vector list lengths MUST be the same!'
-
-d = Vector([1, 2])
-e = Vector([3, 4])
-assert d.add(e).equals(Vector([4, 6]))

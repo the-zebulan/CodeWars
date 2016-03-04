@@ -34,15 +34,3 @@ def encode_str(string, shift):
 
 def decode(arr):
     return shifty(arr, encode=False)
-
-
-u = "I should have known that you would have a perfect answer for me!!!"
-v = ["ijJ tipvme ibw", "f lopxo uibu z", "pv xpvme ibwf ",
-     "b qfsgfdu botx", "fs gps nf!!!"]
-assert decode(v) == u
-assert encode_str(u, 1) == v
-
-u = "O CAPTAIN! my Captain! our fearful trip is done;"
-v = ["opP DBQUBJ", "O! nz Dbqu", "bjo! pvs g", "fbsgvm usj", "q jt epof;"]
-assert decode(v) == u
-assert encode_str(u, 1) == v

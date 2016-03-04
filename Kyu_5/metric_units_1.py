@@ -8,15 +8,3 @@ def meters(n):
         check = float(n) / value
         if int(check):
             return '{:g}{}m'.format(check, prefix)
-
-
-assert meters(5) == '5m'
-assert meters(51500) == '51.5km'
-assert meters(5000000) == '5Mm'
-assert meters(999) == '999m'
-assert meters(123456) == '123.456km'
-assert meters(600) == '600m'
-assert meters(9e+24) == '9Ym'
-assert meters(400000000000000000000000) == '400Zm'
-assert meters(7000000000000000000000000) == '7Ym'
-assert meters(9000000000.0)

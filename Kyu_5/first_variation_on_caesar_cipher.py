@@ -31,13 +31,3 @@ def demoving_shift(strings, shift):
 
 def moving_shift(string, shift):
     return shifty(string, shift)
-
-
-assert demoving_shift(['J vltasl rlhr ', 'zdfog odxr ypw', ' atasl rlhr p ',
-                       'gwkzzyq zntyhv', ' lvz wp!!!'], 1) \
-    == 'I should have known that you would have a perfect answer for me!!!'
-
-assert moving_shift('I should have known that you would have a perfect '
-                    'answer for me!!!', 1) \
-    == ['J vltasl rlhr ', 'zdfog odxr ypw', ' atasl rlhr p ',
-        'gwkzzyq zntyhv', ' lvz wp!!!']

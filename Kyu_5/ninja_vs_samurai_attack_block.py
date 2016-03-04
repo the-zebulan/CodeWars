@@ -25,11 +25,3 @@ class Warrior(object):
             self.zombie = False
         elif self.deceased:
             self.zombie = True
-
-
-ninja = Warrior('Hanzo Hattori')
-samurai = Warrior('Ryōma Sakamoto')
-
-samurai.block = 'l'
-ninja.attack(samurai, 'h')
-assert samurai.health == 90

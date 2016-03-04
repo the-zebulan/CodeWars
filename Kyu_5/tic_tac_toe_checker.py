@@ -25,7 +25,3 @@ def isSolved(board):
         if cats_game and 0 in current:
             cats_game = False
     return 0 if cats_game else -1
-
-
-assert isSolved([[0, 0, 1], [0, 1, 2], [2, 1, 0]]) == -1
-assert isSolved([[1, 2, 1], [1, 1, 2], [2, 1, 2]]) == 0

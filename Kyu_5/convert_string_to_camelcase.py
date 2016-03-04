@@ -12,9 +12,3 @@ def to_camel_case(text):
         else:
             result.append(current.title())
     return ''.join(result)
-
-
-assert to_camel_case("the-stealth-warrior") == "theStealthWarrior"
-assert to_camel_case("The_Stealth_Warrior") == "TheStealthWarrior"
-assert to_camel_case('A-B-C') == 'ABC'
-assert to_camel_case('') == ''

@@ -12,8 +12,3 @@ class CaesarCipher(object):
 
     def encode(self, s):
         return s.upper().translate(self.encode_trans)
-
-
-c = CaesarCipher(5)
-assert c.encode('Codewars') == 'HTIJBFWX'
-assert c.decode('BFKKQJX') == 'WAFFLES'

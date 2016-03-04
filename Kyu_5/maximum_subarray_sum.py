@@ -9,6 +9,3 @@ def maxSequence(arr):
         if total > maximum:
             maximum = total
     return maximum
-
-assert maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4]) == 6
-assert maxSequence([]) == 0

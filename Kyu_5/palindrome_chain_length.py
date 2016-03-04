@@ -7,10 +7,3 @@ def palindrome_chain_length(num):
             return steps
         num += int(rev)
         steps += 1
-
-
-assert palindrome_chain_length(87) == 4
-assert palindrome_chain_length(1) == 0
-assert palindrome_chain_length(88) == 0
-assert palindrome_chain_length(89) == 24
-assert palindrome_chain_length(10) == 1
