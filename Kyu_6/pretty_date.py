@@ -17,7 +17,3 @@ def to_pretty(seconds):
                 a = quo
                 b = 's'
             return OUTPUT(a, HUMAN[key], b)
-
-assert to_pretty(300) == '5 minutes ago'
-assert to_pretty(60) == 'a minute ago'
-assert to_pretty(3600) == 'an hour ago'

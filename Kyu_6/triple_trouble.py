@@ -9,9 +9,3 @@ def chunks(string, size):
 
 def triple_double(num1, num2):
     return 1 if chunks(str(num1), 3).intersection(chunks(str(num2), 2)) else 0
-
-assert triple_double(451999277, 41177722899) == 1
-assert triple_double(1222345, 12345) == 0
-assert triple_double(12345, 12345) == 0
-assert triple_double(666789, 12345667) == 1
-assert triple_double(10560002, 100) == 1

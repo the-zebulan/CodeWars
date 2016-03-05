@@ -9,6 +9,3 @@ def product_mod_47(seq):
 
 def ride(group, comet):
     return 'GO' if product_mod_47(group) == product_mod_47(comet) else 'STAY'
-
-assert ride('COMETQ', 'HVNGAT') == 'GO'
-assert ride('STARAB', 'USACO') == 'STAY'

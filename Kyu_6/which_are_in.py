@@ -11,7 +11,3 @@ def in_array(array1, array2):
                 result.add(a)
                 break
     return sorted(result)
-
-a1 = ['live', 'arp', 'strong']
-a2 = ['lively', 'alive', 'harp', 'sharp', 'armstrong']
-assert in_array(a1, a2) == ['arp', 'live', 'strong']

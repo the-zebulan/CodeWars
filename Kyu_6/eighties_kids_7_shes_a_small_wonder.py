@@ -12,12 +12,3 @@ class Robot(object):
             self.known_words.add(low)
             return 'Thank you for teaching me {}'.format(word)
         return 'I do not understand the input'
-
-
-vicky = Robot()
-assert vicky.learn_word('hello') == 'Thank you for teaching me hello'
-assert vicky.learn_word('world') == 'Thank you for teaching me world'
-assert vicky.learn_word('goodbye') == 'Thank you for teaching me goodbye'
-assert vicky.learn_word('world') == 'I already know the word world'
-assert vicky.learn_word('World') == 'I already know the word World'
-assert vicky.learn_word('Thank') == 'I already know the word Thank'

@@ -9,7 +9,3 @@ def remove_url_anchor(url):
 
 # def remove_url_anchor(url):
 #     return url.split('#')[0]
-
-assert remove_url_anchor('www.codewars.com#about') == 'www.codewars.com'
-assert remove_url_anchor('www.codewars.com?page=1') \
-    == 'www.codewars.com?page=1'

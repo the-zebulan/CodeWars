@@ -17,7 +17,3 @@ def pig_latin(string):
     if first_vowel == 0:
         return OUTPUT(string, 'way')
     return OUTPUT(string[first_vowel:] + string[:first_vowel], 'ay')
-
-assert pig_latin("map") == "apmay"
-assert pig_latin("egg") == "eggway"
-assert pig_latin("spaghetti") == "aghettispay"

@@ -20,10 +20,3 @@ def convert_temp(temp, from_scale, to_scale):
             return int(round(temp))
     a, b = TO_KELVIN[to_scale]
     return int(round((temp - b) / a))
-
-assert convert_temp(100, 'C', 'F') == 212
-assert convert_temp(-30, 'De', 'K') == 393
-assert convert_temp(40, 'Re', 'C') == 50
-assert convert_temp(60, 'De', 'F') == 140
-assert convert_temp(373.15, 'K', 'N') == 33
-assert convert_temp(666, 'K', 'K') == 666

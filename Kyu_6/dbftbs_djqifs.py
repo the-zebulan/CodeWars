@@ -12,9 +12,3 @@ def encryptor(key, message):
         else:
             result.append(a)
     return ''.join(result)
-
-
-assert encryptor(13, '') == ''
-assert encryptor(13, 'Caesar Cipher') == 'Pnrfne Pvcure'
-assert encryptor(-5, 'Hello World!') == 'Czggj Rjmgy!'
-assert encryptor(27, 'Whoopi Goldberg') == 'Xippqj Hpmecfsh'

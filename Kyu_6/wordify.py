@@ -17,13 +17,3 @@ def wordify(n):
             result.append(WORD[key])
             n = rem
     return ' '.join(result)
-
-assert wordify(1) == "one"
-assert wordify(10) == "ten"
-assert wordify(12) == "twelve"
-assert wordify(17) == "seventeen"
-assert wordify(56) == "fifty six"
-assert wordify(90) == "ninety"
-assert wordify(100) == "one hundred"
-assert wordify(120) == 'one hundred twenty'
-assert wordify(326) == "three hundred twenty six"

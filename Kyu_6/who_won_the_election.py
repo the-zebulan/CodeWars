@@ -11,9 +11,3 @@ def getWinner(ballots):
     max_val = flip[max_key]
     return max_val[0] if len(max_val) == 1 and \
         max_key > len(ballots) / 2 else None
-
-assert getWinner('A') == 'A'
-assert getWinner(('A', 'A', 'A', 'B', 'B', 'B', 'A')) == 'A'
-assert getWinner(('A', 'A', 'A', 'B', 'B', 'B')) is None
-assert getWinner(('A', 'A', 'A', 'B', 'C', 'B')) is None
-assert getWinner(('A', 'A', 'B', 'B', 'C')) is None

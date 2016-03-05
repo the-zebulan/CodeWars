@@ -17,24 +17,3 @@ class Viking:
 
     def move(self):
         self.move_behavior.move(self)
-
-
-viking = Viking()
-viking.move()
-assert viking.position == 1
-viking.move()
-assert viking.position == 2
-
-viking = Viking()
-viking.move_behavior = Fly()
-viking.move()
-assert viking.position == 10
-viking.move()
-assert viking.position == 20
-
-viking = Viking()
-viking.move()
-assert viking.position == 1
-viking.move_behavior = Fly()
-viking.move()
-assert viking.position == 11

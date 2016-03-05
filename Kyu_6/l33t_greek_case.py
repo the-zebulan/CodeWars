@@ -12,6 +12,3 @@ def gr33k_l33t(string):
         except KeyError:
             result.append(a.lower())
     return ''.join(result)
-
-assert gr33k_l33t("CodeWars") == "cθδεωαπs"
-assert gr33k_l33t("Kata") == "κατα"

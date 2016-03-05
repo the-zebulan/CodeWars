@@ -9,6 +9,3 @@ def letter_frequency(text):
     for key in sorted(by_value, reverse=True):
         result.extend(sorted(by_value[key]))
     return result
-
-assert letter_frequency('aaAabb dddDD hhcc') == \
-       [('d', 5), ('a', 4), ('b', 2), ('c', 2), ('h', 2)]

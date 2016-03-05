@@ -8,7 +8,3 @@ def diamond(n):
         rows.append(output(spaces * ' ', stars * '*'))
         stars += 2
     return ''.join((rows + rows[:-1][::-1]))
-
-assert diamond(3) == ' *\n***\n *\n'
-assert diamond(6) is None
-assert diamond(-1) is None

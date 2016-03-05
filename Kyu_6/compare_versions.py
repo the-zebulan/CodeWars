@@ -11,12 +11,3 @@ def compare_versions(version1, version2):
             return True
         elif v1 < v2:
             return False
-
-
-assert compare_versions('11', '10') is True
-assert compare_versions('11', '11') is True
-assert compare_versions('10.4.6', '10.4') is True
-assert compare_versions('10.4', '10.4.8') is False
-assert compare_versions('10.4', '11') is False
-assert compare_versions('10.4', '10.10') is False
-assert compare_versions('10.4.9', '10.5') is False

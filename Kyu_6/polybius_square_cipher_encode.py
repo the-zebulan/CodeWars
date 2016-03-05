@@ -9,7 +9,3 @@ CIPHER = {'A': '11', 'B': '12', 'C': '13', 'D': '14',
 
 def polybius(text):
     return ''.join(CIPHER.get(a, ' ') for a in text)
-
-assert polybius('CODEWARS') == '1334141552114243'
-assert polybius('POLYBIUS SQUARE CIPHER') == \
-    '3534315412244543 434145114215 132435231542'

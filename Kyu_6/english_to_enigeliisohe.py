@@ -14,8 +14,3 @@ def toexuto(text):
         else:
             result.append(a)
     return ''.join(result)
-
-assert toexuto('little') == 'liitotolie'
-assert toexuto('BIG') == 'BaIGe'
-assert toexuto('This is a test. This is only a test.') == \
-       'Toheiso iso a toesoto. Toheiso iso oniliyu a toesoto.'

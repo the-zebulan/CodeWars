@@ -10,10 +10,3 @@ def decode(msg, contents):
         if contents in tmp:
             result.append(tmp)
     return result
-
-assert decode('ymjxvznwwjqnxhzyj', 'squirrel') == ['thesquirreliscute']
-assert decode('lzwespnsdmwakafxafalq', 'max') == \
-    ['maxftqotenxblbgybgbmr', 'themaxvalueisinfinity']
-decoded_msgs = decode('lzwespnsdmwakafxafalq', 'max')
-assert 'maxftqotenxblbgybgbmr' in decoded_msgs and \
-       'themaxvalueisinfinity' in decoded_msgs

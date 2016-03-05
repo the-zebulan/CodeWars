@@ -16,18 +16,3 @@ def substring(string):
                 longest_sub = b + 1 - a
                 sub_strings = [string[a:b + 1]]
     return sub_strings[0]
-
-
-assert substring("") == ""
-assert substring("a") == "a"
-assert substring("aa") == "aa"
-assert substring("aaa") == "aaa"
-assert substring("ab") == "ab"
-assert substring("aba") == "aba"
-assert substring("abc") == "ab"
-assert substring("abacd") == "aba"
-assert substring("abcba") == "bcb"
-assert substring("bbacc") == "bba"
-assert substring("ccddeeff") == "ccdd"
-assert substring("abacddcd") == "cddcd"
-assert substring("cefageaacceaccacca") == "accacca"

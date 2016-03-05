@@ -24,10 +24,3 @@ class keyword_cipher(object):
 
     def decode(self, s):
         return s.translate(self.decode_trans)
-
-
-cipher = keyword_cipher("abcdefghijklmnopqrstuvwxyz", "keyword")
-assert cipher.encode("abc") == "key"
-assert cipher.encode("xyz") == "vxz"
-assert cipher.decode("key") == "abc"
-assert cipher.decode("vxz") == "xyz"

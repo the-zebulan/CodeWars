@@ -5,6 +5,3 @@ def f(string):
         number = length / a
         if current * number == string:
             return current, number
-
-assert f('ababab') == ('ab', 3)
-assert f('abcde') == ('abcde', 1)

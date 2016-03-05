@@ -10,9 +10,3 @@ def get_count(n):
             except ZeroDivisionError:
                 pass
     return result
-
-
-assert get_count(123) == 2
-assert get_count(1230) == 5
-assert get_count(1) == 0
-assert get_count(1111111111) == 25

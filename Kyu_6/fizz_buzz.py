@@ -19,8 +19,3 @@ def solution(number):
     b = number // 5
     c = number // 15
     return [a - c, b - c, c]
-
-assert solution(20) == [5, 2, 1]
-assert solution(2) == [0, 0, 0]
-assert solution(30) == [8, 4, 1]
-assert solution(300) == [80, 40, 19]

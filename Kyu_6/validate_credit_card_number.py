@@ -13,17 +13,3 @@ def validate(n):
         else:
             total += current
     return total % 10 == 0
-
-assert validate(1) is False
-assert validate(26) is True
-assert validate(91) is True
-assert validate(92) is False
-assert validate(123) is False
-assert validate(1230) is True
-assert validate(1714) is False
-assert validate(2121) is True
-assert validate(912030) is True
-assert validate(922030) is False
-assert validate(8675309) is False
-assert validate(2626262626262626) is True
-assert validate(4111111111111111) is True

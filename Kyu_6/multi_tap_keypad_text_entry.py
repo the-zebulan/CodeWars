@@ -15,7 +15,3 @@ def presses(phrase):
                 total += v
                 break
     return total
-
-assert presses('LOL') == 9
-assert presses('HOW R U') == 13
-assert presses('WHERE DO U WANT 2 MEET L8R') == 47

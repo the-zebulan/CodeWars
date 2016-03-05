@@ -17,14 +17,3 @@ def find(needle, haystack):
     compiled = re.compile(re.escape(needle).replace("\\_", "\S"))
     searched = re.search(compiled, haystack)
     return searched.start() if searched else -1
-
-test = "Once upon a midnight dreary, while I pondered, weak and weary"
-assert find("Once", test) == 0
-assert find("midnight", test) == 12
-assert find("codewars", test) == -1
-assert find("_po_", test) == 5
-assert find("___night", test) == 12
-assert find('_lexe', 'googgoogleggggoooglxeplexhexflexmexkex') == -1
-assert find('--_.,', '-..,.44$&%$--,.,') == 11
-assert find('-..,.44$&%$--,.,', '-..,.44$&%$--,.,') == 0
-assert find('___4$&%$--___', '-..,.44$&%$--,.,') == 3
