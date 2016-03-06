@@ -15,12 +15,3 @@ def powerof4(n):
 #         if int(n) != n:
 #             return False
 #     return True
-
-assert powerof4(1024) is True
-assert powerof4(102) is False
-assert powerof4(64) is True
-assert powerof4(1) is True
-assert powerof4(25) is False
-assert powerof4(-25) is False
-assert powerof4('aa') is False
-assert powerof4(True) is False

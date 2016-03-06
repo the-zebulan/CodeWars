@@ -11,11 +11,3 @@ AZ = {'A': '1', 'B': '2', 'C': '3', 'D': '4', 'E': '5', 'F': '6',
 
 def encode(string):
     return ''.join(AZ.get(a, a) for a in string)
-
-assert encode('abc') == '123'
-assert encode('codewars') == '315452311819'
-assert encode('abc-#@5') == '123-#@5'
-assert encode('ABCD') == '1234'
-assert encode('ZzzzZ') == '2626262626'
-assert encode('this is a long string!! Please [encode] @C0RrEctly') == \
-    '208919 919 1 1215147 1920189147!! 161251195 [51431545] @30181853201225'

@@ -6,5 +6,3 @@ def evaporator(content, evap_per_day, threshold):
         content -= content * evap_per_day
         day += 1
     return day
-
-assert evaporator(10, 10, 10) == 22

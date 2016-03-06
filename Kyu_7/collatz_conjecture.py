@@ -7,6 +7,3 @@ def collatz(n):
             n = n * 3 + 1
         result += 1
     return result
-
-assert collatz(20) == 8
-assert collatz(15) == 18

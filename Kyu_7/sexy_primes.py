@@ -4,9 +4,3 @@ def is_prime(n):
 
 def sexy_prime(x, y):
     return abs(x - y) == 6 and is_prime(x) and is_prime(y)
-
-
-assert sexy_prime(5, 11) is True
-assert sexy_prime(13, 19) is True
-assert sexy_prime(83, 89) is True
-assert sexy_prime(1, 11) is False

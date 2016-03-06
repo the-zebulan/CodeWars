@@ -6,6 +6,3 @@ OUTPUT = '{:g}{}'.format
 
 math.degrees = lambda rad: OUTPUT(round(RADIANS_PER_DEGREE * rad, 2), 'deg')
 math.radians = lambda deg: OUTPUT(round(DEGREES_PER_RADIAN * deg, 2), 'rad')
-
-assert math.degrees(math.pi) == '180deg'
-assert math.radians(180) == '3.14rad'

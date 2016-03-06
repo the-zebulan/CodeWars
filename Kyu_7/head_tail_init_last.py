@@ -12,8 +12,3 @@ def init(lst):
 
 def last(lst):
     return lst[-1]
-
-assert head([5, 1]) == 5
-assert tail([1]) == []
-assert init([1, 5, 7, 9]) == [1, 5, 7]
-assert last([7, 2]) == 2

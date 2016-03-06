@@ -6,8 +6,3 @@ def flatten(lst):
         else:
             result.append(a)
     return result
-
-assert flatten([1, 2, 3]) == [1, 2, 3]
-assert flatten([[1, 2, 3], ['a', 'b', 'c'], [1, 2, 3]]) == \
-    [1, 2, 3, 'a', 'b', 'c', 1, 2, 3]
-assert flatten([[[1, 2, 3]]]) == [[1, 2, 3]]

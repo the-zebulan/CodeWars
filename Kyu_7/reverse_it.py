@@ -13,8 +13,3 @@ def reverse_it(data):
     if type(data) in (int, str, float):
         return type(data)(str(data)[::-1])
     return data
-
-assert reverse_it('Hello') == 'olleH'
-assert reverse_it(314159) == 951413
-assert reverse_it('314159') == '951413'
-assert reverse_it('123.123') == '321.321'

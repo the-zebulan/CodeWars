@@ -6,6 +6,3 @@ class Dog(object):
         self.sex = sex
 
 setattr(Dog, 'bark', lambda a: 'Woof!')  # class is pre-loaded in kata
-
-assert Dog('Apollo', 'Dobermann', 'male', '4').bark() == 'Woof!'
-assert Dog('Zeus', 'Dobermann', 'male', '4').bark() == 'Woof!'

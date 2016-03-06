@@ -19,14 +19,3 @@ class Marauder(Thing):
 
 class TankBullet:
     pass
-
-
-bullet = TankBullet()
-light = Marine()
-light.accept(bullet)
-assert light.health == 100 - 21
-
-bullet = TankBullet()
-armored = Marauder()
-armored.accept(bullet)
-assert armored.health == 125 - 32

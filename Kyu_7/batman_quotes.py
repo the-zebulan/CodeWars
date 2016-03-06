@@ -12,8 +12,3 @@ class BatmanQuotes(object):
                 quotes = quotes[int(a)]
                 break
         return OUTPUT(hero, quotes)
-
-quotes = ["WHERE IS SHE?!", "Holy haberdashery, Batman!",
-          "Let's put a smile on that faaaceee!"]
-assert BatmanQuotes.get_quote(quotes, "Rob1n") == \
-       "Robin: Holy haberdashery, Batman!"

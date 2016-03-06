@@ -10,9 +10,3 @@ DICTIONARY = {'A': 'awesome', 'C': 'confident', 'B': 'beautiful',
 
 def make_backronym(acronym):
     return ' '.join(DICTIONARY[a] for a in acronym.upper())
-
-assert make_backronym('interesting') \
-    == 'ingestable newtonian turn eager rant eager stylish ' \
-       'turn ingestable newtonian gregarious'
-assert make_backronym('codewars') \
-    == 'confident oscillating disturbing eager weird awesome rant stylish'

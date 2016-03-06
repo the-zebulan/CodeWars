@@ -15,17 +15,3 @@ def highest_age(group1, group2):
         elif name_total == max_age:
             max_names.append(name)
     return min(max_names)
-
-g1 = [{'name': 'kay', 'age': 1}, {'name': 'john', 'age': 13},
-      {'name': 'kay', 'age': 76}]
-g2 = [{'name': 'john', 'age': 1}, {'name': 'alice', 'age': 76}]
-
-assert highest_age(g1, [{'name': 'john', 'age': 1},
-                        {'name': 'alice', 'age': 77}]) == 'alice'
-assert highest_age(g1, g2) == 'kay'
-assert highest_age([{'name': 'kay', 'age': 1}, {'name': 'john', 'age': 130},
-                    {'name': 'kay', 'age': 76}], g2) == 'john'
-assert highest_age([{'name': 'kay', 'age': 1}, {'name': 'john', 'age': 130},
-                    {'name': 'kay', 'age': 130}], g2) == 'john'
-assert highest_age([{'name': 'kay', 'age': 2}, {'name': 'john', 'age': 130},
-                    {'name': 'kay', 'age': 130}], g2) == 'kay'

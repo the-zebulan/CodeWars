@@ -19,8 +19,3 @@ def candies(seq):
         if current > maximum:
             maximum = current
     return maximum * length - total if length > 1 else -1
-
-assert candies([5, 8, 6, 4]) == 9
-assert candies([1, 2, 4, 6]) == 11
-assert candies([1, 6]) == 5
-assert candies([]) == -1

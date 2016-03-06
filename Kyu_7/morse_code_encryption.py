@@ -19,13 +19,3 @@ CHAR_TO_MORSE = {
 
 def encryption(string):
     return ' '.join(CHAR_TO_MORSE.get(a, a) for a in string)
-
-
-assert encryption("HELLO WORLD") == \
-    ".... . .-.. .-.. ---   .-- --- .-. .-.. -.."
-assert encryption("SOS") == "... --- ..."
-assert encryption("1836") == ".---- ---.. ...-- -...."
-assert encryption("THE QUICK BROWN FOX") == \
-    "- .... .   --.- ..- .. -.-. -.-   -... .-. --- .-- -.   ..-. --- -..-"
-assert encryption("JUMPED OVER THE") == \
-    ".--- ..- -- .--. . -..   --- ...- . .-.   - .... ."

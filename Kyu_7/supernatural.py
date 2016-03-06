@@ -23,8 +23,3 @@ drunkenDoodling = {
 def bob(what):
     return '{}, idjits!'.format(drunkenDoodling.get(
         what, 'I have friggin no idea yet'))
-
-
-assert bob('vampire') == 'Behead it with a machete, idjits!'
-assert bob('pagan god') == 'It depends on which one it is, idjits!'
-assert bob('werepuppy') == 'I have friggin no idea yet, idjits!'

@@ -265,8 +265,3 @@ for word in word_list:
 
 def unscramble(scramble):
     return sorted(BY_SORTED_WORDS[''.join(sorted(scramble))])
-
-
-assert unscramble("shi") == ['his']
-assert unscramble("nowk") == ['know']
-assert unscramble("amle") == ['male', 'meal']

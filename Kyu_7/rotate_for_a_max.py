@@ -7,10 +7,3 @@ def max_rot(n):
         if current > maximum:
             maximum = current
     return maximum
-
-
-assert max_rot(56789) == 68957
-assert max_rot(38458215) == 85821534
-assert max_rot(195881031) == 988103115
-assert max_rot(896219342) == 962193428
-assert max_rot(69418307) == 94183076

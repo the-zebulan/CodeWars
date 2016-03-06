@@ -11,9 +11,3 @@ def check_root(string):
         return 'not consecutive' if f else '{}, {:.0f}'.format(total, i)
     except ValueError:
         return 'incorrect input'
-
-assert check_root('4,5,6,7') == '841, 29'
-assert check_root('3,s,5,6') == 'incorrect input'
-assert check_root('11,13,14,15') == 'not consecutive'
-assert check_root('10,11,12,13,15') == 'incorrect input'
-assert check_root('10,11,12,13') == '17161, 131'

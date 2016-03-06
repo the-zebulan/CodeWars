@@ -6,7 +6,4 @@
 
 
 def disemvowel(s):
-    return s.translate(None, "aeiouAEIOU")
-
-assert disemvowel('This website is for losers LOL!') \
-    == 'Ths wbst s fr lsrs LL!'
+    return s.translate(None, 'aeiouAEIOU')

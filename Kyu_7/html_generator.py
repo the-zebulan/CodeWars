@@ -33,8 +33,3 @@ class HTMLGen:
     @staticmethod
     def title(text):
         return HTML_TAG('title', text)
-
-test = HTMLGen()
-assert test.a('test') == '<a>test</a>'
-assert test.comment('test') == '<!--test-->'
-assert test.title('hmm') == '<title>hmm</title>'

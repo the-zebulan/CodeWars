@@ -10,8 +10,3 @@ class List:
         self.items.append(item)
         self.count += 1
         return self
-
-my_list = List(str)
-assert my_list.add('Hello').count == 1
-assert my_list.add(5) == "This item is not of type: str"
-assert my_list.add(' ').add('World!').count == 3

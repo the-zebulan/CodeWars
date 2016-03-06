@@ -29,7 +29,3 @@ def longest_possible(playback):
             longest_song = song_length
             song_title = song['title']
     return song_title or False
-
-assert longest_possible(215) == 'For Reasons Unknown'
-assert longest_possible(270) == 'YYZ'
-assert longest_possible(13) is False

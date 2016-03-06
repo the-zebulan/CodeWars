@@ -19,12 +19,3 @@ def bucket_of(said):
     elif has_water:
         return 'water'
     return 'air'
-
-
-assert bucket_of('wet water') == 'water'
-assert bucket_of('slime water') == 'sludge'
-assert bucket_of('I don\'t know if this will work') == 'slime'
-assert bucket_of(
-    'I don\'t know if this will work without watering it first.') == 'sludge'
-assert bucket_of('') == 'air'
-assert bucket_of('slimeslimeslimeslimewater') == 'sludge'

@@ -9,7 +9,3 @@ def calculate(n1, n2, o):
     elif o == 'subtract':
         return BINARY(n1 - n2)
     return BINARY(n1 * n2)
-
-assert calculate('1', '1', 'add') == '10'
-assert calculate('1', '1', 'subtract') == '0'
-assert calculate('1', '1', 'multiply') == '1'

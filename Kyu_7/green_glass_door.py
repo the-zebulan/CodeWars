@@ -6,11 +6,3 @@ def step_through_with(s):
         if a == b:
             return True
     return False
-
-
-assert step_through_with("moon") is True
-assert step_through_with("test") is False
-assert step_through_with("glasses") is True
-assert step_through_with("airplane") is False
-assert step_through_with("free") is True
-assert step_through_with("branch") is False

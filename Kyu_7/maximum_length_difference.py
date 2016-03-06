@@ -9,9 +9,3 @@ def mxdiflg(a1, a2):
     a, b = min_max(a1)
     c, d = min_max(a2)
     return max(abs(d - a), abs(b - c))
-
-
-s1 = ["hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt",
-      "znnnnfqknaz", "qqquuhii", "dvvvwz"]
-s2 = ["cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"]
-assert mxdiflg(s1, s2) == 13

@@ -27,8 +27,3 @@ def find_employees_role(name):
         if '{} {}'.format(e['first_name'], e['last_name']) == name:
             return e['role']
     return 'Does not work here!'
-
-
-assert find_employees_role("Dipper Pines") == "Does not work here!"
-assert find_employees_role("Morty Smith") == "Truck Driver"
-assert find_employees_role("Anna Bell") == "Admin"

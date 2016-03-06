@@ -8,7 +8,3 @@ def triangular_range(start, stop):
         elif triangle_num > stop:
             return result
         cnt += 1
-
-
-assert triangular_range(1, 3) == {1: 1, 2: 3}
-assert triangular_range(5, 16) == {3: 6, 4: 10, 5: 15}

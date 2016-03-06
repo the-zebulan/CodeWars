@@ -9,5 +9,3 @@ letters = {'A': 'Alpha', 'B': 'Bravo', 'C': 'Charlie', 'D': 'Delta',
 
 def nato(word):
     return ' '.join(letters[a] for a in word.upper())
-
-assert nato("babble") == "Bravo Alpha Bravo Bravo Lima Echo"
