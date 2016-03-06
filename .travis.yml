@@ -5,6 +5,6 @@ before_install:
   - pip install pytest-cov
   - pip install coveralls
 script:
-  - py.test --cov tests/
+  - py.test tests/ --cov coveralls --cov-report term-missing
 after_success:
   - coveralls
