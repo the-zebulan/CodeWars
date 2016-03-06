@@ -1,6 +1,6 @@
 # CodeWars
 
-[![Build Status](https://travis-ci.org/the-zebulan/CodeWars.svg?branch=master)](https://travis-ci.org/the-zebulan/CodeWars)
+[![Build Status](https://travis-ci.org/the-zebulan/CodeWars.svg?branch=master)](https://travis-ci.org/the-zebulan/CodeWars) [![Coverage Status](https://coveralls.io/repos/github/the-zebulan/CodeWars/badge.svg?branch=master)](https://coveralls.io/github/the-zebulan/CodeWars?branch=master)
 My solutions for CodeWars problems are written using Python 2.7 and unittests are run using pytest.
 
 [zebulan - CodeWars Profile](http://www.codewars.com/users/zebulan)
