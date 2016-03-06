@@ -1,6 +1,7 @@
-# CodeWars [![Build Status](https://travis-ci.org/the-zebulan/CodeWars.svg?branch=master)](https://travis-ci.org/the-zebulan/CodeWars)
+# CodeWars
 
-My solutions for CodeWars problems are written using Python 2.7
+[![Build Status](https://travis-ci.org/the-zebulan/CodeWars.svg?branch=master)](https://travis-ci.org/the-zebulan/CodeWars)
+My solutions for CodeWars problems are written using Python 2.7 and unittests are run using pytest.
 
 [zebulan - CodeWars Profile](http://www.codewars.com/users/zebulan)
 
