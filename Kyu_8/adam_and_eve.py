@@ -1,6 +1,5 @@
 class Human:
-    def __init__(self):
-        pass
+    pass
 
 
 class Man(Human):
@@ -14,6 +13,3 @@ class Woman(Human):
 def God():
     """ god == PEP8 (forced to capitalize by CodeWars) """
     return [Man(), Woman()]
-
-paradise = God()
-assert isinstance(paradise[0], Man) is True

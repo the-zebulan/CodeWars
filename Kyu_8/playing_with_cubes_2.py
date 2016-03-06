@@ -9,9 +9,3 @@ class Cube:
     def set_side(self, new_side):
         """ Set the value of the Cube's side. """
         self._side = abs(new_side)
-
-
-c = Cube(10)
-assert c.get_side() == 10
-c = Cube()
-assert c.get_side() == 0

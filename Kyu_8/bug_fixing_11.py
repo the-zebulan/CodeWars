@@ -1,9 +1,22 @@
-def validate(username, password):
-    # Validator class is hidden in this kata from CodeWars
-    return Validator().login(username, password)
+USERS = (
+    {'username': 'Timmy', 'password': 'password'},
+    {'username': 'Johny', 'password': 'Hf7FAbf6'},
+    {'username': 'Alice', 'password': 'alice'},
+    {'username': 'Roger', 'password': 'pass'},
+    {'username': 'Simon', 'password': 'says'},
+    {'username': 'Admin', 'password': 'ads78adsg7dasga'}
+)
 
-validate('Timmy', 'password') == 'Successfully Logged in!'
-validate('Timmy', 'h4x0r') == 'Wrong username or password!'
-validate('Alice', 'alice') == 'Successfully Logged in!'
-validate('Timmy', 'password"||""=="') == 'Wrong username or password!'
-validate('Admin', 'gs5bw"||1==1//') == 'Wrong username or password!'
+
+class Validator(object):  # Validator class is hidden in this kata
+    @staticmethod
+    def login(username, password):
+        for user in USERS:
+            if user['username'] == username and user['password'] == password:
+                return 'Successfully Logged in!'
+        return 'Wrong username or password!'
+
+
+# solution is below this line
+def validate(username, password):
+    return Validator().login(username, password)

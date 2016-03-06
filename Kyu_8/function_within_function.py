@@ -6,6 +6,3 @@
 
 def always(n=0):
     return lambda: n
-
-three = always(3)
-assert three() == 3

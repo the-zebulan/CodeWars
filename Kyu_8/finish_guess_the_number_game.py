@@ -10,15 +10,3 @@ class Guesser:
             return True
         self.lives -= 1
         return False
-
-
-guesser = Guesser(10, 2)
-guesser.guess(10)
-guesser.guess(10)
-guesser.guess(10)
-guesser.guess(10)
-assert guesser.guess(10) is True
-
-guesser = Guesser(10, 2)
-guesser.guess(1)
-assert guesser.guess(1) is False

@@ -6,5 +6,3 @@ def greet():
         current = current + a if dex % 2 == 0 else current - a
         phrase += chr(current)
     return phrase
-
-assert greet() == 'hello world'

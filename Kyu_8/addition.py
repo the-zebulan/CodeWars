@@ -1,5 +1,5 @@
 def on_square(square):
-    return pow(2, square-1)
+    return pow(2, square - 1)
 
 
 def total_after(square):

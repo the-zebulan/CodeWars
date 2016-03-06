@@ -1,10 +1,6 @@
+import __builtin__
+
+
 def last(*args):
     end = args[-1]
-    return end[-1] if isinstance(end, (__builtins__.str, list, tuple)) else end
-
-
-assert last([1, 2, 3, 4, 5]) == 5
-assert last('abcde') == 'e'
-assert last(1, 'b', 3, 'd', 5) == 5
-assert last((['a', 'b', 'c', 'k', 'x', 'y', 'z'],),
-            ['a', 'b', 'c', 'k', 'x', 'y', 'z']) == 'z'
+    return end[-1] if isinstance(end, (__builtin__.str, list, tuple)) else end
