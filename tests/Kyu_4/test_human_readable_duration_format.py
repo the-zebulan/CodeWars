@@ -20,6 +20,9 @@ class FormatDurationTestCase(unittest.TestCase):
         self.assertEqual(format_duration(3662),
                          '1 hour, 1 minute and 2 seconds')
 
+    def test_equals_6(self):
+        self.assertEqual(format_duration(0), 'now')
+
 
 if __name__ == '__main__':
     unittest.main()

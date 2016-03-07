@@ -18,6 +18,9 @@ class NewAverageTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(new_avg([14, 30, 5, 7, 9, 11, 15], 92), 645)
 
+    def test_exception(self):
+        self.assertRaises(ValueError, new_avg, [0, 0], 0)
+
 
 if __name__ == '__main__':
     unittest.main()
