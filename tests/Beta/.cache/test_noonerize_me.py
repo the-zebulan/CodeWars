@@ -17,13 +17,13 @@ class NoonerizeTestCase(unittest.TestCase):
         self.assertEqual(noonerize([1000000, 9999999]), 7000001)
 
     def test_equals_5(self):
-        self.assertEqual(noonerize([1000000, "hello"]), "invalid array")
+        self.assertEqual(noonerize([1000000, 'hello']), 'invalid array')
 
     def test_equals_6(self):
-        self.assertEqual(noonerize(["pippi", 9999999]), "invalid array")
+        self.assertEqual(noonerize(['pippi', 9999999]), 'invalid array')
 
     def test_equals_7(self):
-        self.assertEqual(noonerize(["pippi", "hello"]), "invalid array")
+        self.assertEqual(noonerize(['pippi', 'hello']), 'invalid array')
 
     def test_equals_8(self):
         self.assertEqual(noonerize([1, 1]), 0)
