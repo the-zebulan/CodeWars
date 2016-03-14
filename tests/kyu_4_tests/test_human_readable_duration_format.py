@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_4.human_readable_duration_format import format_duration
+from katas.kyu_4.human_readable_duration_format import format_duration
 
 
 class FormatDurationTestCase(unittest.TestCase):

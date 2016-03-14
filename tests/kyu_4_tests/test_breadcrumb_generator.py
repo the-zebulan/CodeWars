@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_4.breadcrumb_generator import generate_bc
+from katas.kyu_4.breadcrumb_generator import generate_bc
 
 
 class BreadcrumbGeneratorTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_4.next_bigger_number_with_same_digits import next_bigger
+from katas.kyu_4.next_bigger_number_with_same_digits import next_bigger
 
 
 class NextBiggerTestCase(unittest.TestCase):

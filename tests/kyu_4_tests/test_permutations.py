@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_4.permutations import permutations
+from katas.kyu_4.permutations import permutations
 
 
 class PermutationsTestCase(unittest.TestCase):

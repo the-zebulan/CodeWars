@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_4.roman_numerals_helper import RomanNumerals
+from katas.kyu_4.roman_numerals_helper import RomanNumerals
 
 
 class RomanNumeralsHelperTestCase(unittest.TestCase):
