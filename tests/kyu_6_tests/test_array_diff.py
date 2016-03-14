@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.array_diff import array_diff
+from katas.kyu_6.array_diff import array_diff
 
 
 class ArrayDiffTestCase(unittest.TestCase):

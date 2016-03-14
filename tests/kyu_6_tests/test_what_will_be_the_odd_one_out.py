@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.what_will_be_the_odd_one_out import odd_one_out
+from katas.kyu_6.what_will_be_the_odd_one_out import odd_one_out
 
 
 class OddOneOutTestCase(unittest.TestCase):

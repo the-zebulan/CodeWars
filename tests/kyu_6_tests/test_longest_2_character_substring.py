@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.longest_2_character_substring import substring
+from katas.kyu_6.longest_2_character_substring import substring
 
 
 class SubstringTestCase(unittest.TestCase):

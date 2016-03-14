@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.bit_counting import countBits
+from katas.kyu_6.bit_counting import countBits
 
 
 class CountBitsTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.regexp_basics_parsing_mana_cost import parse_mana_cost
+from katas.kyu_6.regexp_basics_parsing_mana_cost import parse_mana_cost
 
 
 class ParseManaCostTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.binding_within_the_list_monad import bind
+from katas.kyu_6.binding_within_the_list_monad import bind
 
 
 class BindTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.lambdas_as_mechanism_for_open_closed import (
+from katas.kyu_6.lambdas_as_mechanism_for_open_closed import (
     greet, shouted, spoken, whispered
 )
 

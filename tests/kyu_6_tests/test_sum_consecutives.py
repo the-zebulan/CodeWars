@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.sum_consecutives import sum_consecutives
+from katas.kyu_6.sum_consecutives import sum_consecutives
 
 
 class SumConsecutivesTestCase(unittest.TestCase):

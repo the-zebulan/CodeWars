@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.square_n_sum import square_sum
+from katas.kyu_6.square_n_sum import square_sum
 
 
 class SquareSumTestCase(unittest.TestCase):

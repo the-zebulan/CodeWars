@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.regexp_basics_is_it_ipv4_address import ipv4_address
+from katas.kyu_6.regexp_basics_is_it_ipv4_address import ipv4_address
 
 
 class IPV4AddressTestCase(unittest.TestCase):

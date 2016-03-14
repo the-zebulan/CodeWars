@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.sequences_and_series import get_score
+from katas.kyu_6.sequences_and_series import get_score
 
 
 class GetScoreTestCase(unittest.TestCase):

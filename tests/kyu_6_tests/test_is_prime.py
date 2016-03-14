@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.is_prime import is_prime
+from katas.kyu_6.is_prime import is_prime
 
 
 class IsPrimeTestCase(unittest.TestCase):

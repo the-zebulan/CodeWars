@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.rna_to_protein import protein
+from katas.kyu_6.rna_to_protein import protein
 
 
 class ProteinTestCase(unittest.TestCase):

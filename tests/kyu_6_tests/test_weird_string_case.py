@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.weird_string_case import to_weird_case
+from katas.kyu_6.weird_string_case import to_weird_case
 
 
 class WeirdStringCaseTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.playing_with_digits import dig_pow
+from katas.kyu_6.playing_with_digits import dig_pow
 
 
 class PlayingWithDigitsTestCase(unittest.TestCase):

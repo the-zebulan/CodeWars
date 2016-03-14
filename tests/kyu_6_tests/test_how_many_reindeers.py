@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.how_many_reindeers import reindeer
+from katas.kyu_6.how_many_reindeers import reindeer
 
 
 class ReindeerTestCase(unittest.TestCase):

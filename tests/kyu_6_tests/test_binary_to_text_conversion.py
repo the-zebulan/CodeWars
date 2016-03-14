@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.binary_to_text_conversion import binary_to_string
+from katas.kyu_6.binary_to_text_conversion import binary_to_string
 
 
 class BinaryToStringTestCase(unittest.TestCase):

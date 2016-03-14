@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.group_repeating_fractions import repeating_fractions
+from katas.kyu_6.group_repeating_fractions import repeating_fractions
 
 
 class RepeatingFractionsTestCase(unittest.TestCase):

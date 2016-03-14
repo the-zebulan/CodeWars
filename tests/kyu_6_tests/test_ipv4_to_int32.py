@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.ipv4_to_int32 import ip_to_int32
+from katas.kyu_6.ipv4_to_int32 import ip_to_int32
 
 
 class IPToInt32TestCase(unittest.TestCase):

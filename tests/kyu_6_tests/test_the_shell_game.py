@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.the_shell_game import find_the_ball
+from katas.kyu_6.the_shell_game import find_the_ball
 
 
 class FindTheBallTestCase(unittest.TestCase):

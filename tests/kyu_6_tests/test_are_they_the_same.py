@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.are_they_the_same import comp
+from katas.kyu_6.are_they_the_same import comp
 
 
 class AreTheyTheSameTestCase(unittest.TestCase):

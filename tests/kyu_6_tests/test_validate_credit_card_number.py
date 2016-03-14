@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.validate_credit_card_number import validate
+from katas.kyu_6.validate_credit_card_number import validate
 
 
 class ValidateCreditCardNumberTestCase(unittest.TestCase):

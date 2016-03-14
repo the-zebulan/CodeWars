@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.urban_dictionary import WordDictionary
+from katas.kyu_6.urban_dictionary import WordDictionary
 
 
 class WordDictionaryTestCase(unittest.TestCase):

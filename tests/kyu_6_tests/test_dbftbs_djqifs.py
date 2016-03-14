@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.dbftbs_djqifs import encryptor
+from katas.kyu_6.dbftbs_djqifs import encryptor
 
 
 class EncryptorTestCase(unittest.TestCase):

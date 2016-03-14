@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.counting_duplicates import duplicate_count
+from katas.kyu_6.counting_duplicates import duplicate_count
 
 
 class DuplicateCountTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.function_iteration import create_iterator
+from katas.kyu_6.function_iteration import create_iterator
 
 
 class CreateIteratorTestCase(unittest.TestCase):

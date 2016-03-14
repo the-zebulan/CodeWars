@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.temperature_converter import convert_temp
+from katas.kyu_6.temperature_converter import convert_temp
 
 
 class ConvertTemperatureTestCase(unittest.TestCase):

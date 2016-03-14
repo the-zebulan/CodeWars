@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.grouped_by_commas import group_by_commas
+from katas.kyu_6.grouped_by_commas import group_by_commas
 
 
 class GroupByCommasTestCase(unittest.TestCase):

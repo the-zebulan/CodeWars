@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.ease_the_stockbroker import balance_statement
+from katas.kyu_6.ease_the_stockbroker import balance_statement
 
 
 class BalanceStatementTestCase(unittest.TestCase):

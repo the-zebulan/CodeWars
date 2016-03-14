@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.title_case import title_case
+from katas.kyu_6.title_case import title_case
 
 
 class TitleCaseTestCase(unittest.TestCase):

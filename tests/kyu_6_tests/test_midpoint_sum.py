@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.midpoint_sum import midpoint_sum
+from katas.kyu_6.midpoint_sum import midpoint_sum
 
 
 class MidpointSumTestCase(unittest.TestCase):

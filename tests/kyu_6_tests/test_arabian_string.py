@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.arabian_string import camelize
+from katas.kyu_6.arabian_string import camelize
 
 
 class CamelizeTestCase(unittest.TestCase):

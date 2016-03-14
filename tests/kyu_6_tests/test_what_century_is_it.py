@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.what_century_is_it import whatCentury
+from katas.kyu_6.what_century_is_it import whatCentury
 
 
 class WhatCenturyTestCase(unittest.TestCase):

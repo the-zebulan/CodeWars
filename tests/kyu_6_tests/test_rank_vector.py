@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.rank_vector import ranks
+from katas.kyu_6.rank_vector import ranks
 
 
 class RankVectorTestCase(unittest.TestCase):

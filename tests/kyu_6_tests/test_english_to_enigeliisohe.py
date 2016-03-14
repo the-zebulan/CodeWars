@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.english_to_enigeliisohe import toexuto
+from katas.kyu_6.english_to_enigeliisohe import toexuto
 
 
 class ToexutoTestCase(unittest.TestCase):

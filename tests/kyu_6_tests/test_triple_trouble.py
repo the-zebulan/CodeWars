@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.triple_trouble import triple_double
+from katas.kyu_6.triple_trouble import triple_double
 
 
 class TripleTroubleTestCase(unittest.TestCase):

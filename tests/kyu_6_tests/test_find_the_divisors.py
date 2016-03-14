@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.find_the_divisors import divisors
+from katas.kyu_6.find_the_divisors import divisors
 
 
 class FindTheDivisorsTestCase(unittest.TestCase):

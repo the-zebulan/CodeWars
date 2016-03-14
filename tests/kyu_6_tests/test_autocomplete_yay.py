@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.autocomplete_yay import autocomplete
+from katas.kyu_6.autocomplete_yay import autocomplete
 
 
 class AutocompleteTestCase(unittest.TestCase):

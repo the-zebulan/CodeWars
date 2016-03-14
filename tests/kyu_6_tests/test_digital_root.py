@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.digital_root import digital_root
+from katas.kyu_6.digital_root import digital_root
 
 
 class DigitalRootTestCase(unittest.TestCase):

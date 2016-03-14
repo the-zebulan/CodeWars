@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.prize_draw import rank
+from katas.kyu_6.prize_draw import rank
 
 
 class PrizeDrawTestCase(unittest.TestCase):

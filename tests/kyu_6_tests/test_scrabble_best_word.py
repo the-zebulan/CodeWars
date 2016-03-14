@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.scrabble_best_word import get_best_word
+from katas.kyu_6.scrabble_best_word import get_best_word
 
 
 class GetBestWordTestCase(unittest.TestCase):

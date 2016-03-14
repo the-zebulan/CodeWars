@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.delete_nth_occurrence import delete_nth
+from katas.kyu_6.delete_nth_occurrence import delete_nth
 
 
 class DeleteNthOccurrenceTestCase(unittest.TestCase):

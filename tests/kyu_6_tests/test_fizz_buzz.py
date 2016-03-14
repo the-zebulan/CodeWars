@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.fizz_buzz import solution
+from katas.kyu_6.fizz_buzz import solution
 
 
 class FizzBuzzTestCase(unittest.TestCase):

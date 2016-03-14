@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.good_vs_evil import goodVsEvil
+from katas.kyu_6.good_vs_evil import goodVsEvil
 
 
 class GoodVsEvilTestCase(unittest.TestCase):

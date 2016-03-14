@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.multiplication_tables import multiplication_table
+from katas.kyu_6.multiplication_tables import multiplication_table
 
 
 class MultiplicationTableTestCase(unittest.TestCase):

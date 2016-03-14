@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.string_suffixes import string_suffix
+from katas.kyu_6.string_suffixes import string_suffix
 
 
 class StringSuffixTestCase(unittest.TestCase):

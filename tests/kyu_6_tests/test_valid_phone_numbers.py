@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.valid_phone_numbers import validPhoneNumber
+from katas.kyu_6.valid_phone_numbers import validPhoneNumber
 
 
 class ValidPhoneNumberTestCase(unittest.TestCase):

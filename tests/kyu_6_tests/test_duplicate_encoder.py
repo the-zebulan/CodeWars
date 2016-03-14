@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.duplicate_encoder import duplicate_encode
+from katas.kyu_6.duplicate_encoder import duplicate_encode
 
 
 class DuplicateEncoderTestCase(unittest.TestCase):

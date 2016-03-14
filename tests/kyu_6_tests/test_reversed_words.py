@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.reversed_words import reverseWords
+from katas.kyu_6.reversed_words import reverseWords
 
 
 class ReverseWordsTestCase(unittest.TestCase):

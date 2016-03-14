@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.your_ride_is_here import ride
+from katas.kyu_6.your_ride_is_here import ride
 
 
 class RideTestCase(unittest.TestCase):

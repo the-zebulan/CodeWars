@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.regexp_basics_parsing_time import to_seconds
+from katas.kyu_6.regexp_basics_parsing_time import to_seconds
 
 
 class ToSecondsTestCase(unittest.TestCase):

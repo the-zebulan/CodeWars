@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.objectify_all_the_strings import hashify
+from katas.kyu_6.objectify_all_the_strings import hashify
 
 
 class HashifyTestCase(unittest.TestCase):

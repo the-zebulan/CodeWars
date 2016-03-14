@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.cambridge_word_scramble import mix_words
+from katas.kyu_6.cambridge_word_scramble import mix_words
 
 
 class MixWordsTestCase(unittest.TestCase):

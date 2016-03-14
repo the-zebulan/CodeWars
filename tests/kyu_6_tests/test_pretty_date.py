@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.pretty_date import to_pretty
+from katas.kyu_6.pretty_date import to_pretty
 
 
 class PrettyDateTestCase(unittest.TestCase):

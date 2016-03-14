@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.polybius_square_cipher_encode import polybius
+from katas.kyu_6.polybius_square_cipher_encode import polybius
 
 
 class PolybiusTestCase(unittest.TestCase):

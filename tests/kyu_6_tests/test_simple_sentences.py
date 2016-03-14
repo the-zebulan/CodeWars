@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.simple_sentences import make_sentences
+from katas.kyu_6.simple_sentences import make_sentences
 
 
 class MakeSentencesTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.eighties_kids_4_legends_of_the_hidden_temple import mark_spot
+from katas.kyu_6.eighties_kids_4_legends_of_the_hidden_temple import mark_spot
 
 
 class MarkSpotTestCase(unittest.TestCase):

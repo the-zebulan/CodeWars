@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.salesmans_travel import travel
+from katas.kyu_6.salesmans_travel import travel
 
 
 class TravelTestCase(unittest.TestCase):

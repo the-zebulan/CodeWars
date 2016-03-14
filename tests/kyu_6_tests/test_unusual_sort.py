@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.unusual_sort import unusual_sort
+from katas.kyu_6.unusual_sort import unusual_sort
 
 
 class UnusualSortTestCase(unittest.TestCase):

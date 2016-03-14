@@ -1,7 +1,7 @@
 # coding=utf-8
 import unittest
 
-from kyu_6.l33t_greek_case import gr33k_l33t
+from katas.kyu_6.l33t_greek_case import gr33k_l33t
 
 
 class GreekTestCase(unittest.TestCase):

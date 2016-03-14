@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_6.multi_tap_keypad_text_entry import presses
+from katas.kyu_6.multi_tap_keypad_text_entry import presses
 
 
 class PressesTestCase(unittest.TestCase):
