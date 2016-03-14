@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.ninja_vs_samurai_strike import Warrior
+from katas.kyu_7.ninja_vs_samurai_strike import Warrior
 
 
 class WarriorTestCase(unittest.TestCase):

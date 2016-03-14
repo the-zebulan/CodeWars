@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.remove_duplicates import unique
+from katas.kyu_7.remove_duplicates import unique
 
 
 class UniqueTestCase(unittest.TestCase):

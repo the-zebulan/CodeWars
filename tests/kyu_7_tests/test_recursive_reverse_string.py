@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.recursive_reverse_string import reverse
+from katas.kyu_7.recursive_reverse_string import reverse
 
 
 class ReverseTestCase(unittest.TestCase):

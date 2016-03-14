@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.find_count_of_most_frequent_item_in_array import \
+from katas.kyu_7.find_count_of_most_frequent_item_in_array import \
     most_frequent_item_count
 
 

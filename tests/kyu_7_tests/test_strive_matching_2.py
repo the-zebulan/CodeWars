@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.strive_matching_2 import match
+from katas.kyu_7.strive_matching_2 import match
 
 
 class StriveMatchingTestCase(unittest.TestCase):

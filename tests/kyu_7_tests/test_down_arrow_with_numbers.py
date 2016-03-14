@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.down_arrow_with_numbers import get_a_down_arrow_of
+from katas.kyu_7.down_arrow_with_numbers import get_a_down_arrow_of
 
 
 class DownArrowTestCase(unittest.TestCase):

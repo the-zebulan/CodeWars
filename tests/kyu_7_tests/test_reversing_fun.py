@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.reversing_fun import ReverseFun
+from katas.kyu_7.reversing_fun import ReverseFun
 
 
 class ReverseFunTestCase(unittest.TestCase):

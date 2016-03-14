@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.multiply_characters import spam
+from katas.kyu_7.multiply_characters import spam
 
 
 class SpamTestCase(unittest.TestCase):

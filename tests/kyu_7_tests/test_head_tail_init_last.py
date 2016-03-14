@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.head_tail_init_last import head, init, last, tail
+from katas.kyu_7.head_tail_init_last import head, init, last, tail
 
 
 class HeadTailInitLastTestCase(unittest.TestCase):

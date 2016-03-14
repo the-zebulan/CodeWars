@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.genetic_algorithm_series_2_mutation import mutate
+from katas.kyu_7.genetic_algorithm_series_2_mutation import mutate
 
 
 class MutateTestCase(unittest.TestCase):

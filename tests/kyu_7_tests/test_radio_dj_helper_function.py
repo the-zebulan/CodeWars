@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.radio_dj_helper_function import longest_possible
+from katas.kyu_7.radio_dj_helper_function import longest_possible
 
 
 class LongestPossibleTestCase(unittest.TestCase):

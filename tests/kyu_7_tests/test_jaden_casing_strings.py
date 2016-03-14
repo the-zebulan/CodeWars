@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.jaden_casing_strings import toJadenCase
+from katas.kyu_7.jaden_casing_strings import toJadenCase
 
 
 class JadenCaseTestCase(unittest.TestCase):

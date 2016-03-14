@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.unlimited_sum import sum
+from katas.kyu_7.unlimited_sum import sum
 
 
 class UnlimitedSumTestCase(unittest.TestCase):

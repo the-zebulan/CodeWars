@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.square_digits import square_digits
+from katas.kyu_7.square_digits import square_digits
 
 
 class SquareDigitsTestCase(unittest.TestCase):

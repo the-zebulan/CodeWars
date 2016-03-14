@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.case_swapping import swap
+from katas.kyu_7.case_swapping import swap
 
 
 class CaseSwappingTestCase(unittest.TestCase):

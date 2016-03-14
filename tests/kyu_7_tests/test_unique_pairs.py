@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.unique_pairs import projectPartners
+from katas.kyu_7.unique_pairs import projectPartners
 
 
 class UniquePairsTestCase(unittest.TestCase):

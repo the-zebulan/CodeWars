@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.exes_and_ohs import xo
+from katas.kyu_7.exes_and_ohs import xo
 
 
 class XOTestCase(unittest.TestCase):

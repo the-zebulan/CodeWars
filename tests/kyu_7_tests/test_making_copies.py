@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.making_copies import copy_list
+from katas.kyu_7.making_copies import copy_list
 
 
 class CopyListTestCase(unittest.TestCase):

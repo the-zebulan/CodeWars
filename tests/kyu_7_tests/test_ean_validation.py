@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.ean_validation import validate_ean
+from katas.kyu_7.ean_validation import validate_ean
 
 
 class ValidateEANTestCase(unittest.TestCase):

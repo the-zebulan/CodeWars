@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.beginner_series_sum_of_numbers import get_sum
+from katas.kyu_7.beginner_series_sum_of_numbers import get_sum
 
 
 class GetSumTestCase(unittest.TestCase):

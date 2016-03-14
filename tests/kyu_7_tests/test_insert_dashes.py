@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.insert_dashes import insert_dash
+from katas.kyu_7.insert_dashes import insert_dash
 
 
 class InsertDashTestCase(unittest.TestCase):

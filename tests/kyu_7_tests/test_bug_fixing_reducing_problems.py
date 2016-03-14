@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.bug_fixing_reducing_problems import calculate_total
+from katas.kyu_7.bug_fixing_reducing_problems import calculate_total
 
 
 class CalculateTotalTestCase(unittest.TestCase):

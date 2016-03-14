@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.credit_card_mask import maskify
+from katas.kyu_7.credit_card_mask import maskify
 
 
 class MaskifyTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.every_archer_has_its_arrows import archers_ready
+from katas.kyu_7.every_archer_has_its_arrows import archers_ready
 
 
 class ArchersReadyTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.mobile_operator_detector import detect_operator
+from katas.kyu_7.mobile_operator_detector import detect_operator
 
 
 class DetectOperatorTestCase(unittest.TestCase):

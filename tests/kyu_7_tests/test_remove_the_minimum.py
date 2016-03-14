@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.remove_the_minimum import remove_smallest
+from katas.kyu_7.remove_the_minimum import remove_smallest
 
 
 class RemoveSmallestTestCase(unittest.TestCase):

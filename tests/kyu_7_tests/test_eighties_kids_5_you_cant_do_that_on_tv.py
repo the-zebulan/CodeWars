@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.eighties_kids_5_you_cant_do_that_on_tv import bucket_of
+from katas.kyu_7.eighties_kids_5_you_cant_do_that_on_tv import bucket_of
 
 
 class BucketTestCase(unittest.TestCase):

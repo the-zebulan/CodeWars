@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.selective_fear_of_numbers import am_I_afraid
+from katas.kyu_7.selective_fear_of_numbers import am_I_afraid
 
 
 class AmIAfraidTestCase(unittest.TestCase):

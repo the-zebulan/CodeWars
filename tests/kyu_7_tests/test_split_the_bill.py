@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.split_the_bill import split_the_bill
+from katas.kyu_7.split_the_bill import split_the_bill
 
 
 class SplitTheBillTestCase(unittest.TestCase):

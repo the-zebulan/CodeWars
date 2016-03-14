@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.sequence_sum import sum_of_n
+from katas.kyu_7.sequence_sum import sum_of_n
 
 
 class SequenceSumTestCase(unittest.TestCase):

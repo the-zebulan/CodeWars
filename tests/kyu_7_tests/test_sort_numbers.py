@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.sort_numbers import solution
+from katas.kyu_7.sort_numbers import solution
 
 
 class SortNumbersTestCase(unittest.TestCase):

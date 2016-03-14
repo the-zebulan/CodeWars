@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.bug_fixing_unfinished_loop import create_array
+from katas.kyu_7.bug_fixing_unfinished_loop import create_array
 
 
 class CreateArrayTestCase(unittest.TestCase):

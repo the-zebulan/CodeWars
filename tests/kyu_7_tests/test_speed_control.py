@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.speed_control import gps
+from katas.kyu_7.speed_control import gps
 
 
 class GPSTestCase(unittest.TestCase):

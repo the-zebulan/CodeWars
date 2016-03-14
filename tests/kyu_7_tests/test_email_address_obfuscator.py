@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.email_address_obfuscator import obfuscate
+from katas.kyu_7.email_address_obfuscator import obfuscate
 
 
 class ObfuscateTestCase(unittest.TestCase):

@@ -1,6 +1,7 @@
 import unittest
 
-from kyu_7.regexp_basics_is_eight_bit_number import signed_eight_bit_number
+from katas.kyu_7.regexp_basics_is_eight_bit_number import \
+    signed_eight_bit_number
 
 
 class EightBitNumberTestCase(unittest.TestCase):

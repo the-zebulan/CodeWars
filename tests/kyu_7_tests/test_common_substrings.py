@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.common_substrings import substring_test
+from katas.kyu_7.common_substrings import substring_test
 
 
 class SubstringTestCase(unittest.TestCase):

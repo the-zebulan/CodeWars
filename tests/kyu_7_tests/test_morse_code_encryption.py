@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.morse_code_encryption import encryption
+from katas.kyu_7.morse_code_encryption import encryption
 
 
 class EncryptionTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.find_duplicates import duplicates
+from katas.kyu_7.find_duplicates import duplicates
 
 
 class FindDuplicatesTestCase(unittest.TestCase):

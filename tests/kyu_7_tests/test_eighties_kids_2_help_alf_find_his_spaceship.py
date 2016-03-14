@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.eighties_kids_2_help_alf_find_his_spaceship import find_spaceship
+from katas.kyu_7.eighties_kids_2_help_alf_find_his_spaceship import find_spaceship
 
 
 class FindSpaceshipTestCase(unittest.TestCase):

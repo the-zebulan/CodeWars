@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.regexp_basics_parsing_prices import to_cents
+from katas.kyu_7.regexp_basics_parsing_prices import to_cents
 
 
 class ToCentsTestCase(unittest.TestCase):

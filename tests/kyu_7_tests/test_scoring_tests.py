@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.scoring_tests import score_test
+from katas.kyu_7.scoring_tests import score_test
 
 
 class ScoreTestCase(unittest.TestCase):

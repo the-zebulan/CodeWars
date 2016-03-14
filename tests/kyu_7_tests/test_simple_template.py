@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.simple_template import create_template
+from katas.kyu_7.simple_template import create_template
 
 
 class TemplateTestCase(unittest.TestCase):

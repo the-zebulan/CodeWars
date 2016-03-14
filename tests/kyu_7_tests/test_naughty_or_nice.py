@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.naughty_or_nice import naughty_or_nice
+from katas.kyu_7.naughty_or_nice import naughty_or_nice
 
 
 class NaughtyOrNiceTestCase(unittest.TestCase):

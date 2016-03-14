@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.all_unique import has_unique_chars
+from katas.kyu_7.all_unique import has_unique_chars
 
 
 class HasUniqueCharsTestCase(unittest.TestCase):

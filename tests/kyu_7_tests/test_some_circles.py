@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.some_circles import sum_circles
+from katas.kyu_7.some_circles import sum_circles
 
 
 class SumCirclesTestCase(unittest.TestCase):

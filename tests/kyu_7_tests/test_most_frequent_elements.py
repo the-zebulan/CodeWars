@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.most_frequent_elements import find_most_frequent
+from katas.kyu_7.most_frequent_elements import find_most_frequent
 
 
 class FindMostFrequentTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.caffeine_script import caffeineBuzz
+from katas.kyu_7.caffeine_script import caffeineBuzz
 
 
 class CaffeineBuzzTestCase(unittest.TestCase):

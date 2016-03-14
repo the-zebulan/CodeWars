@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.patterncraft_visitor import Marauder, Marine, TankBullet
+from katas.kyu_7.patterncraft_visitor import Marauder, Marine, TankBullet
 
 
 class PatterncraftVisitorTestCase(unittest.TestCase):

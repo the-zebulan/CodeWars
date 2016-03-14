@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.categorize_new_member import openOrSenior
+from katas.kyu_7.categorize_new_member import openOrSenior
 
 
 class OpenOrSeniorTestCase(unittest.TestCase):

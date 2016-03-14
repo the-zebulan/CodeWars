@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.filter_the_number import filter_string
+from katas.kyu_7.filter_the_number import filter_string
 
 
 class FilterStringTestCase(unittest.TestCase):

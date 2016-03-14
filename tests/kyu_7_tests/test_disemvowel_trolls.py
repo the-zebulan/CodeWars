@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.disemvowel_trolls import disemvowel
+from katas.kyu_7.disemvowel_trolls import disemvowel
 
 
 class DisemvowelTestCase(unittest.TestCase):

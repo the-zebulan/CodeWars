@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.string_chunks import string_chunk
+from katas.kyu_7.string_chunks import string_chunk
 
 
 class StringChunkTestCase(unittest.TestCase):

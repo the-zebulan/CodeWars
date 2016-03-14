@@ -1,7 +1,7 @@
 import math
 import unittest
 
-import kyu_7.radians_to_degrees
+import katas.kyu_7.radians_to_degrees
 
 
 class RadiansToDegreesTestCase(unittest.TestCase):

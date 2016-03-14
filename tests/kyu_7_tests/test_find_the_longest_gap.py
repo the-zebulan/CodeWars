@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.find_the_longest_gap import gap
+from katas.kyu_7.find_the_longest_gap import gap
 
 
 class GapTestCase(unittest.TestCase):

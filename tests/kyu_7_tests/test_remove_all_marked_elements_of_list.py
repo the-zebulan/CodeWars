@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.remove_all_marked_elements_of_list import List
+from katas.kyu_7.remove_all_marked_elements_of_list import List
 
 
 class RemoveMarkedElementsTestCase(unittest.TestCase):

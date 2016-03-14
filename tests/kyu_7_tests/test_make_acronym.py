@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.make_acronym import make_acronym
+from katas.kyu_7.make_acronym import make_acronym
 
 
 class MakeAcronymTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.excel_sheet_column_numbers import title_to_number
+from katas.kyu_7.excel_sheet_column_numbers import title_to_number
 
 
 class TitleToNumberTestCase(unittest.TestCase):

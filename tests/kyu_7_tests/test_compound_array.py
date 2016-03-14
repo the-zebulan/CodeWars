@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.compound_array import compound_array
+from katas.kyu_7.compound_array import compound_array
 
 
 class CompoundArrayTestCase(unittest.TestCase):

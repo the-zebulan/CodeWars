@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.make_them_bark import Dog
+from katas.kyu_7.make_them_bark import Dog
 
 
 class DogTestCase(unittest.TestCase):

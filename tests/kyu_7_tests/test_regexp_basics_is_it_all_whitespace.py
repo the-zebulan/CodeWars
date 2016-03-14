@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.regexp_basics_is_it_all_whitespace import whitespace
+from katas.kyu_7.regexp_basics_is_it_all_whitespace import whitespace
 
 
 class WhitespaceTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.anagram_detection import is_anagram
+from katas.kyu_7.anagram_detection import is_anagram
 
 
 class IsAnagramTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.shorter_concat import shorter_reverse_longer
+from katas.kyu_7.shorter_concat import shorter_reverse_longer
 
 
 class ShorterReverseLongerTestCase(unittest.TestCase):

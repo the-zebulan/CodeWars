@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.spoonerize_me import spoonerize
+from katas.kyu_7.spoonerize_me import spoonerize
 
 
 class SpoonerizeTestCase(unittest.TestCase):

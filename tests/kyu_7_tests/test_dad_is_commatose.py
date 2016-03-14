@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.dad_is_commatose import dad_filter
+from katas.kyu_7.dad_is_commatose import dad_filter
 
 
 class DadFilterTestCase(unittest.TestCase):

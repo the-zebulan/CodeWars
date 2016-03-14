@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.green_glass_door import step_through_with
+from katas.kyu_7.green_glass_door import step_through_with
 
 
 class StepThroughWithTestCase(unittest.TestCase):

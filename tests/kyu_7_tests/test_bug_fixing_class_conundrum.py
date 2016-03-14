@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.bug_fixing_class_conundrum import List
+from katas.kyu_7.bug_fixing_class_conundrum import List
 
 
 class ListTestCase(unittest.TestCase):

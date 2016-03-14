@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.the_old_switcheroo import vowel_2_index
+from katas.kyu_7.the_old_switcheroo import vowel_2_index
 
 
 class VowelToIndexTestCase(unittest.TestCase):

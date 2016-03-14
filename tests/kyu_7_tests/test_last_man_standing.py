@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.last_man_standing import last_man_standing
+from katas.kyu_7.last_man_standing import last_man_standing
 
 
 class LastManStandingTestCase(unittest.TestCase):

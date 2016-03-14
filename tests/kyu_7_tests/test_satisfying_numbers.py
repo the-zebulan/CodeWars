@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.satisfying_numbers import smallest
+from katas.kyu_7.satisfying_numbers import smallest
 
 
 class SatisfyingNumbersTestCase(unittest.TestCase):

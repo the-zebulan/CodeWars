@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.combine_objects import combine
+from katas.kyu_7.combine_objects import combine
 
 
 class CombineObjectsTestCase(unittest.TestCase):

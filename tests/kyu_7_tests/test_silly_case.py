@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.silly_case import sillycase
+from katas.kyu_7.silly_case import sillycase
 
 
 class SillyCaseTestCase(unittest.TestCase):

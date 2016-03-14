@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.maximum_length_difference import mxdiflg
+from katas.kyu_7.maximum_length_difference import mxdiflg
 
 
 class MaximumLengthDifferenceTestCase(unittest.TestCase):

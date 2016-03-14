@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.genetic_algorithm_series_1_generate import generate
+from katas.kyu_7.genetic_algorithm_series_1_generate import generate
 
 
 class GenerateTestCase(unittest.TestCase):

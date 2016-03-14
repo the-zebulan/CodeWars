@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.are_the_numbers_in_order import in_asc_order
+from katas.kyu_7.are_the_numbers_in_order import in_asc_order
 
 
 class AscendingOrderTestCase(unittest.TestCase):

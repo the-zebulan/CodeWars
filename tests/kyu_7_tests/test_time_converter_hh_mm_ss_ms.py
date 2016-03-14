@@ -1,7 +1,7 @@
 import unittest
-
 from datetime import datetime
-from kyu_7.time_converter_hh_mm_ss_ms import convert
+
+from katas.kyu_7.time_converter_hh_mm_ss_ms import convert
 
 
 class ConvertTestCase(unittest.TestCase):

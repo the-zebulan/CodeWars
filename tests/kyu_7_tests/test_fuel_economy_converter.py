@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.fuel_economy_converter import lp100km2mpg, mpg2lp100km
+from katas.kyu_7.fuel_economy_converter import lp100km2mpg, mpg2lp100km
 
 
 class FuelEconomyConverterTestCase(unittest.TestCase):

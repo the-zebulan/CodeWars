@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.count_the_digit import nb_dig
+from katas.kyu_7.count_the_digit import nb_dig
 
 
 class CountTheDigitTestCase(unittest.TestCase):

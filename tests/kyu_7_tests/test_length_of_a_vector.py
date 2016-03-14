@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.length_of_a_vector import vector_length
+from katas.kyu_7.length_of_a_vector import vector_length
 
 
 class VectorLengthTestCase(unittest.TestCase):

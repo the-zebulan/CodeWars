@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.uvb76_message_validator import validate
+from katas.kyu_7.uvb76_message_validator import validate
 
 
 class MessageValidatorTestCase(unittest.TestCase):

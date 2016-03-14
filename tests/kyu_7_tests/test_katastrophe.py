@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.katastrophe import strong_enough
+from katas.kyu_7.katastrophe import strong_enough
 
 
 class StrongEnoughTestCase(unittest.TestCase):

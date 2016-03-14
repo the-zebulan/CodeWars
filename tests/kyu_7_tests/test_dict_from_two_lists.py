@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.dict_from_two_lists import createDict
+from katas.kyu_7.dict_from_two_lists import createDict
 
 
 class CreateDictTestCase(unittest.TestCase):

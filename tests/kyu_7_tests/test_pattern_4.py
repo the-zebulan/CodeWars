@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.pattern_4 import pattern
+from katas.kyu_7.pattern_4 import pattern
 
 
 class PatternFourTestCase(unittest.TestCase):

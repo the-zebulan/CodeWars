@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.flatten import flatten
+from katas.kyu_7.flatten import flatten
 
 
 class FlattenTestCase(unittest.TestCase):

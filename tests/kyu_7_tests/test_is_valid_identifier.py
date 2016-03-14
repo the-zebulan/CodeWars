@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.is_valid_identifier import is_valid
+from katas.kyu_7.is_valid_identifier import is_valid
 
 
 class IsValidIdentifierTestCase(unittest.TestCase):

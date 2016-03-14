@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.how_many_are_smaller_than_me import smaller
+from katas.kyu_7.how_many_are_smaller_than_me import smaller
 
 
 class SmallerTestCase(unittest.TestCase):

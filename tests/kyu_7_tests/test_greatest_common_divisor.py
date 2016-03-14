@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.greatest_common_divisor import mygcd
+from katas.kyu_7.greatest_common_divisor import mygcd
 
 
 class MyGCDTestCase(unittest.TestCase):

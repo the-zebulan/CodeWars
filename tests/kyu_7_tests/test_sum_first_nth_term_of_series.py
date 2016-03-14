@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.sum_first_nth_term_of_series import series_sum
+from katas.kyu_7.sum_first_nth_term_of_series import series_sum
 
 
 class SeriesSumTestCase(unittest.TestCase):

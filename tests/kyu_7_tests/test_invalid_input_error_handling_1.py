@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.invalid_input_error_handling_1 import get_count
+from katas.kyu_7.invalid_input_error_handling_1 import get_count
 
 
 class GetCountTestCase(unittest.TestCase):

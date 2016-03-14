@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.digitize import digitize
+from katas.kyu_7.digitize import digitize
 
 
 class DigitizeTestCase(unittest.TestCase):

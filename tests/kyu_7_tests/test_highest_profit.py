@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.highest_profit import min_max
+from katas.kyu_7.highest_profit import min_max
 
 
 class HighestProfitTestCase(unittest.TestCase):

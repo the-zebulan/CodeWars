@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.operations_with_sets import process_2arrays
+from katas.kyu_7.operations_with_sets import process_2arrays
 
 
 class ProcessTwoArraysTestCase(unittest.TestCase):

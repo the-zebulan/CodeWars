@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.filter_coffee import search
+from katas.kyu_7.filter_coffee import search
 
 
 class SearchTestCase(unittest.TestCase):

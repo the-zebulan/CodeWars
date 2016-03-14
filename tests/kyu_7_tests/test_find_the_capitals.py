@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.find_the_capitals import capitals
+from katas.kyu_7.find_the_capitals import capitals
 
 
 class CapitalsTestCase(unittest.TestCase):

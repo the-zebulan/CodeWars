@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.supernatural import bob
+from katas.kyu_7.supernatural import bob
 
 
 class BobTestCase(unittest.TestCase):

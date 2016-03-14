@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.odd_ladder import pattern
+from katas.kyu_7.odd_ladder import pattern
 
 
 class OddLadderTestCase(unittest.TestCase):

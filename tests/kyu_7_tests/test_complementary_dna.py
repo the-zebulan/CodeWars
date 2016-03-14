@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.complementary_dna import DNA_strand
+from katas.kyu_7.complementary_dna import DNA_strand
 
 
 class DNAStrandTestCase(unittest.TestCase):

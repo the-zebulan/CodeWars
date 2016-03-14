@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.the_old_switcheroo_2 import encode
+from katas.kyu_7.the_old_switcheroo_2 import encode
 
 
 class EncodeTestCase(unittest.TestCase):

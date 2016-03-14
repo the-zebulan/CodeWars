@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.consecutive_numbers_needed import consecutive
+from katas.kyu_7.consecutive_numbers_needed import consecutive
 
 
 class ConsecutiveTestCase(unittest.TestCase):

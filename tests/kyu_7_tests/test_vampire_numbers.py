@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.vampire_numbers import vampire_test
+from katas.kyu_7.vampire_numbers import vampire_test
 
 
 class VampireTestCase(unittest.TestCase):

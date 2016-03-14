@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.zip_it import lstzip
+from katas.kyu_7.zip_it import lstzip
 
 
 class ZipItTestCase(unittest.TestCase):

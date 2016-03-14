@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.find_factors_of_a_number import factors
+from katas.kyu_7.find_factors_of_a_number import factors
 
 
 class FactorsTestCase(unittest.TestCase):

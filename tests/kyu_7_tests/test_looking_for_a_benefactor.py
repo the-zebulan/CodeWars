@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.looking_for_a_benefactor import new_avg
+from katas.kyu_7.looking_for_a_benefactor import new_avg
 
 
 class NewAverageTestCase(unittest.TestCase):

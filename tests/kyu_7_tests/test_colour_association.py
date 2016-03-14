@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_7.colour_association import colour_association
+from katas.kyu_7.colour_association import colour_association
 
 
 class ColourAssociationTestCase(unittest.TestCase):
