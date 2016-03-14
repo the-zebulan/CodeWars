@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.for_loop import problem
+from beta.for_loop import problem
 
 
 class ProblemTestCase(unittest.TestCase):

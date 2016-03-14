@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.sum_of_all_arguments import sum_all
+from beta.sum_of_all_arguments import sum_all
 
 
 class SumAllTestCase(unittest.TestCase):

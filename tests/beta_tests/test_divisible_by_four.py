@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.divisible_by_four import divisible_by_four
+from beta.divisible_by_four import divisible_by_four
 
 
 class DivisibleByFourTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.beginner_series_2_clock import past
+from beta.beginner_series_2_clock import past
 
 
 class PastTestCase(unittest.TestCase):

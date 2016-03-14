@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.trigrams import trigrams
+from beta.trigrams import trigrams
 
 
 class TrigramsTestCase(unittest.TestCase):

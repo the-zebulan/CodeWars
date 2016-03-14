@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.sum_the_repeats import repeat_sum
+from beta.sum_the_repeats import repeat_sum
 
 
 class RepeatSumTestCase(unittest.TestCase):

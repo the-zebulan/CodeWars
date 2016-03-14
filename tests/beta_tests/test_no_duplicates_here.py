@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.no_duplicates_here import list_de_dup
+from beta.no_duplicates_here import list_de_dup
 
 
 class ListDeDuplicateTestCase(unittest.TestCase):

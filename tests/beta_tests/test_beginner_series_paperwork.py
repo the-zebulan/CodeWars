@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.beginner_series_paperwork import paperwork
+from beta.beginner_series_paperwork import paperwork
 
 
 class PaperworkTestCase(unittest.TestCase):

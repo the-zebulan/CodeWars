@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.noonerize_me import noonerize
+from beta.noonerize_me import noonerize
 
 
 class NoonerizeTestCase(unittest.TestCase):

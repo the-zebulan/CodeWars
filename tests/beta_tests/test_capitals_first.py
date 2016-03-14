@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.capitals_first import capitals_first
+from beta.capitals_first import capitals_first
 
 
 class CapitalsFirstTestCase(unittest.TestCase):

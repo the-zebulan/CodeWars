@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.super_duper_easy import problem
+from beta.super_duper_easy import problem
 
 
 class ProblemTestCase(unittest.TestCase):

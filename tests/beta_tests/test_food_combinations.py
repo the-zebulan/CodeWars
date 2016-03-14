@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.food_combinations import actually_really_good
+from beta.food_combinations import actually_really_good
 
 
 class ActuallyReallyGoodTestCase(unittest.TestCase):

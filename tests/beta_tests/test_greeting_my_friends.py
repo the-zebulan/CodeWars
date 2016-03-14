@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.greeting_my_friends import greeting_for_all_friends
+from beta.greeting_my_friends import greeting_for_all_friends
 
 
 class GreetingTestCase(unittest.TestCase):
@@ -9,7 +9,7 @@ class GreetingTestCase(unittest.TestCase):
 
     def test_none(self):
         self.assertIsNone(greeting_for_all_friends(None))
-        
+
     def test_none_2(self):
         self.assertIsNone(greeting_for_all_friends([]))
 

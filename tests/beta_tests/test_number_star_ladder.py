@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.number_star_ladder import pattern
+from beta.number_star_ladder import pattern
 
 
 class PatternTestCase(unittest.TestCase):

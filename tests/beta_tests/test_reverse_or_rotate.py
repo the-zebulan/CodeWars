@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.reverse_or_rotate import revrot
+from beta.reverse_or_rotate import revrot
 
 
 class ReverseOrRotateTestCase(unittest.TestCase):

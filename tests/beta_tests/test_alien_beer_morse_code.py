@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.alien_beer_morse_code import morse_converter
+from beta.alien_beer_morse_code import morse_converter
 
 
 class MorseConverterTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.integer_to_english import int_to_english
+from beta.integer_to_english import int_to_english
 
 
 class IntegerToEnglishTestCase(unittest.TestCase):

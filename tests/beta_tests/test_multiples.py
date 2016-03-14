@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.multiples import multiple
+from beta.multiples import multiple
 
 
 class MultiplesTestCase(unittest.TestCase):

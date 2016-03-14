@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.syntax_error_array_functions import Foo
+from beta.syntax_error_array_functions import Foo
 
 
 class FooTestCase(unittest.TestCase):

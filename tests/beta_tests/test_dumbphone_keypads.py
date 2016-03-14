@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.dumbphone_keypads import sequence
+from beta.dumbphone_keypads import sequence
 
 
 class SequenceTestCase(unittest.TestCase):

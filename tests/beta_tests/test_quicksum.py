@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.quicksum import quicksum
+from beta.quicksum import quicksum
 
 
 class QuicksumTestCase(unittest.TestCase):

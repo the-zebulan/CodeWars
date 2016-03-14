@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.friend_or_foe import friend
+from beta.friend_or_foe import friend
 
 
 class FriendTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.multiply_two_numbers_without_integers import multiplyMyNumbers
+from beta.multiply_two_numbers_without_integers import multiplyMyNumbers
 
 
 class MultiplyTwoNumberWithoutIntegersTestCase(unittest.TestCase):

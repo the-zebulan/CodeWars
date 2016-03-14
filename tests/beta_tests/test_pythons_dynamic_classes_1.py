@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.pythons_dynamic_classes_1 import class_name_changer
+from beta.pythons_dynamic_classes_1 import class_name_changer
 
 
 class ClassNameChangerTestCase(unittest.TestCase):

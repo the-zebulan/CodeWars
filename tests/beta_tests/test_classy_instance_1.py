@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.classy_instance_1 import show_me
+from beta.classy_instance_1 import show_me
 
 
 class ClassyTestCase(unittest.TestCase):

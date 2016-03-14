@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.next_version import next_version
+from beta.next_version import next_version
 
 
 class NextVersionTestCase(unittest.TestCase):

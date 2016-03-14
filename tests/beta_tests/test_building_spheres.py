@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.building_spheres import Sphere
+from beta.building_spheres import Sphere
 
 
 class SphereTestCase(unittest.TestCase):

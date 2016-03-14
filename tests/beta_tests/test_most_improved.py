@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.most_improved import calculate_improved
+from beta.most_improved import calculate_improved
 
 
 class CalculateImprovedTestCase(unittest.TestCase):

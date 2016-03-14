@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.spanish_class_help import gender
+from beta.spanish_class_help import gender
 
 
 class SpanishClassHelpTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.variance_in_array_of_words import variance
+from beta.variance_in_array_of_words import variance
 
 
 class VarianceTestCase(unittest.TestCase):

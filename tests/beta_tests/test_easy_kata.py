@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.easy_kata import print_x
+from beta.easy_kata import print_x
 
 
 class PrintXTestCase(unittest.TestCase):

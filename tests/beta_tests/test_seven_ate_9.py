@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.seven_ate_9 import seven_ate9
+from beta.seven_ate_9 import seven_ate9
 
 
 class SevenAteNineTestCase(unittest.TestCase):

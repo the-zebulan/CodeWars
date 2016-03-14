@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.email_validation import validate
+from beta.email_validation import validate
 
 
 class ValidateTestCase(unittest.TestCase):

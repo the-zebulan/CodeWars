@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.this_is_odd import is_odd
+from beta.this_is_odd import is_odd
 
 
 class IsOddTestCase(unittest.TestCase):

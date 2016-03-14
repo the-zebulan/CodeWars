@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.fix_the_loop import list_animals
+from beta.fix_the_loop import list_animals
 
 
 class ListAnimalsTestCase(unittest.TestCase):

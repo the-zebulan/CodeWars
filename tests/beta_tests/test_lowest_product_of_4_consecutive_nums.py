@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.lowest_product_of_4_consecutive_nums import lowest_product
+from beta.lowest_product_of_4_consecutive_nums import lowest_product
 
 
 class LowestProductTestCase(unittest.TestCase):

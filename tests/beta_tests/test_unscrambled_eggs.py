@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.unscrambled_eggs import unscramble_eggs
+from beta.unscrambled_eggs import unscramble_eggs
 
 
 class UnscrambleEggsTestCase(unittest.TestCase):

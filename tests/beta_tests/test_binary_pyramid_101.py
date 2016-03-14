@@ -1,7 +1,7 @@
 import unittest
 
 # function spelling mistake is from CodeWars
-from Beta.binary_pyramid_101 import binary_piramid
+from beta.binary_pyramid_101 import binary_piramid
 
 
 class BinaryPyramidTestCase(unittest.TestCase):

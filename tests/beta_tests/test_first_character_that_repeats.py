@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.first_character_that_repeats import first_dup
+from beta.first_character_that_repeats import first_dup
 
 
 class FirstDuplicateTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.herons_formula import heron
+from beta.herons_formula import heron
 
 
 class HeronTestCase(unittest.TestCase):

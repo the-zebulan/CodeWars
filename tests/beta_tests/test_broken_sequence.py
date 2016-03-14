@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.broken_sequence import find_missing_number
+from beta.broken_sequence import find_missing_number
 
 
 class MissingNumberTestCase(unittest.TestCase):

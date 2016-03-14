@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.testing_123 import number
+from beta.testing_123 import number
 
 
 class NumberTestCase(unittest.TestCase):

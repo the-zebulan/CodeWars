@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.guess_my_number import guess_my_number
+from beta.guess_my_number import guess_my_number
 
 
 class GuessMyNumberTestCase(unittest.TestCase):

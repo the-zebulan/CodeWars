@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.selecting_quotients_from_an_array import sel_quot
+from beta.selecting_quotients_from_an_array import sel_quot
 
 
 class SelectingQuotientsTestCase(unittest.TestCase):

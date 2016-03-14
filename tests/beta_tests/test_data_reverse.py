@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.data_reverse import data_reverse
+from beta.data_reverse import data_reverse
 
 
 class DataReverseTestCase(unittest.TestCase):

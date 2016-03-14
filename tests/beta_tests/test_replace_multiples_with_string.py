@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.replace_multiples_with_string import getNumber, getNumberRange
+from beta.replace_multiples_with_string import getNumber, getNumberRange
 
 
 class ReplaceMultiplesWithStringTestCase(unittest.TestCase):

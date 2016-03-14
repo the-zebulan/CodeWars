@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.get_all_possible_anagrams_from_a_hash import get_words
+from beta.get_all_possible_anagrams_from_a_hash import get_words
 
 
 class GetWordsTestCase(unittest.TestCase):

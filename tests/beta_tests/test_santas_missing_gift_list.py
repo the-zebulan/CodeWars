@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.santas_missing_gift_list import gifts
+from beta.santas_missing_gift_list import gifts
 
 
 class GiftsTestCase(unittest.TestCase):

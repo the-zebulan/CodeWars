@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.float_or_integer_verifier import i_or_f
+from beta.float_or_integer_verifier import i_or_f
 
 
 class IntegerOrFloatTestCase(unittest.TestCase):

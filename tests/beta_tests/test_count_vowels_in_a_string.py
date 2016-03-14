@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.count_vowels_in_a_string import count_vowels
+from beta.count_vowels_in_a_string import count_vowels
 
 
 class CountVowelsTestCase(unittest.TestCase):

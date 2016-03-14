@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.digit_sum import sum_digits
+from beta.digit_sum import sum_digits
 
 
 class SumDigitsTestCase(unittest.TestCase):

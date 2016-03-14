@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.evening_up_a_workload import split_workload
+from beta.evening_up_a_workload import split_workload
 
 
 class SplitWorkloadTestCase(unittest.TestCase):

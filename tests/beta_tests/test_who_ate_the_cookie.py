@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.who_ate_the_cookie import cookie
+from beta.who_ate_the_cookie import cookie
 
 
 class CookieTestCase(unittest.TestCase):

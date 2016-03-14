@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.another_one_down_survival_of_fittest import remove_smallest
+from beta.another_one_down_survival_of_fittest import remove_smallest
 
 
 class RemoveSmallestTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.find_the_middle_element import gimme
+from beta.find_the_middle_element import gimme
 
 
 class GimmeTestCase(unittest.TestCase):

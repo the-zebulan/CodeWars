@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.help_the_fruit_guy import remove_rotten
+from beta.help_the_fruit_guy import remove_rotten
 
 
 class RemoveRottenTestCase(unittest.TestCase):

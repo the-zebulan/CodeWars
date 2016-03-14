@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.fundamentals_return import add, divide, exponent, mod, multiply, subt
+from beta.fundamentals_return import add, divide, exponent, mod, multiply, subt
 
 
 class FundamentalsTestCase(unittest.TestCase):

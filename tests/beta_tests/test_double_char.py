@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.double_char import double_char
+from beta.double_char import double_char
 
 
 class DoubleCharTestCase(unittest.TestCase):

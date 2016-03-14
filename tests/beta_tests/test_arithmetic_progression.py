@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.arithmetic_progression import arithmetic_sequence_elements
+from beta.arithmetic_progression import arithmetic_sequence_elements
 
 
 class ArithmeticSequenceTestCase(unittest.TestCase):

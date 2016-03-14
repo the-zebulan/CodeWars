@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.credit_card_validifier import credit
+from beta.credit_card_validifier import credit
 
 
 class CreditTestCase(unittest.TestCase):

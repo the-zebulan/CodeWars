@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.lightswitches import lightswitch
+from beta.lightswitches import lightswitch
 
 
 class LightswitchTestCase(unittest.TestCase):

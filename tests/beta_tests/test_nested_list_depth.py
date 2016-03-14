@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.nested_list_depth import list_depth
+from beta.nested_list_depth import list_depth
 
 
 class ListDepthTestCase(unittest.TestCase):

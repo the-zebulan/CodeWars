@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.greek_sort import greek_comparator
+from beta.greek_sort import greek_comparator
 
 
 class GreekComparatorTestCase(unittest.TestCase):

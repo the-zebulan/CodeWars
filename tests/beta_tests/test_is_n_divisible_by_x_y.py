@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.is_n_divisible_by_x_y import is_divisible
+from beta.is_n_divisible_by_x_y import is_divisible
 
 
 class IsDivisibleTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.thinking_and_testing_03 import testit as solution
+from beta.thinking_and_testing_03 import testit as solution
 
 
 class ThinkingAndTestingTestCase(unittest.TestCase):

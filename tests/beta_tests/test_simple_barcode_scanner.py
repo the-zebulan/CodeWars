@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.simple_barcode_scanner import barcode_scanner
+from beta.simple_barcode_scanner import barcode_scanner
 
 
 class BarcodeScannerTestCase(unittest.TestCase):

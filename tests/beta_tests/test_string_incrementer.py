@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.string_incrementer import increment_string
+from beta.string_incrementer import increment_string
 
 
 class IncrementStringTestCase(unittest.TestCase):

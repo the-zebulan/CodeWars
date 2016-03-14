@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.array_2_binary import arr2bin
+from beta.array_2_binary import arr2bin
 
 
 class ArrayToBinaryTestCase(unittest.TestCase):

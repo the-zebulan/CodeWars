@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.easiest_kata import addition_calc
+from beta.easiest_kata import addition_calc
 
 
 class AdditionCalcTestCase(unittest.TestCase):

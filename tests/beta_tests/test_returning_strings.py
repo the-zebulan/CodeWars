@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.returning_strings import greet
+from beta.returning_strings import greet
 
 
 class GreetTestCase(unittest.TestCase):

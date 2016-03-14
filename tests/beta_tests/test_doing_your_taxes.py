@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.doing_your_taxes import tax
+from beta.doing_your_taxes import tax
 
 
 class TaxTestCase(unittest.TestCase):

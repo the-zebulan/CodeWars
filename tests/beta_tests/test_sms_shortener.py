@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.sms_shortener import shortener
+from beta.sms_shortener import shortener
 
 
 class ShortenerTestCase(unittest.TestCase):

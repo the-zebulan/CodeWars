@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.back_to_basics import types
+from beta.back_to_basics import types
 
 
 class TypesTestCase(unittest.TestCase):

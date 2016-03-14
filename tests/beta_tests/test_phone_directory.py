@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.phone_directory import phone
+from beta.phone_directory import phone
 
 
 class PhoneDirectoryTestCase(unittest.TestCase):

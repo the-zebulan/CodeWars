@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.consecutive_strings import longest_consec
+from beta.consecutive_strings import longest_consec
 
 
 class ConsecutiveTestCase(unittest.TestCase):

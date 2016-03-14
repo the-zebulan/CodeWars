@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.modulus_11_check_digit import add_check_digit
+from beta.modulus_11_check_digit import add_check_digit
 
 
 class AddCheckDigitTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.remember import remember
+from beta.remember import remember
 
 
 class RememberTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.regexp_basics_parsing_integers import to_integer
+from beta.regexp_basics_parsing_integers import to_integer
 
 
 class ParsingIntegersTestCase(unittest.TestCase):

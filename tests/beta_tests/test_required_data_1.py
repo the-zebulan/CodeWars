@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.required_data_1 import count_sel
+from beta.required_data_1 import count_sel
 
 
 class RequiredData1TestCase(unittest.TestCase):

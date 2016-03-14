@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.rainfall import mean, variance
+from beta.rainfall import mean, variance
 
 
 class RainfallTestCase(unittest.TestCase):

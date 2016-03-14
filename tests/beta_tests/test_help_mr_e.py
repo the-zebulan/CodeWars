@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.help_mr_e import evenator
+from beta.help_mr_e import evenator
 
 
 class EvenatorTestCase(unittest.TestCase):

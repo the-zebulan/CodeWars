@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.finding_averages import average
+from beta.finding_averages import average
 
 
 class AverageTestCase(unittest.TestCase):

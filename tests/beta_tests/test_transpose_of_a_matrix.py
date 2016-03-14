@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.transpose_of_a_matrix import transpose
+from beta.transpose_of_a_matrix import transpose
 
 
 class TransposeTestCase(unittest.TestCase):

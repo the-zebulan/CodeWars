@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.summations_1 import summation
+from beta.summations_1 import summation
 
 
 class SummationTestCase(unittest.TestCase):

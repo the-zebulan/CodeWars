@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.leonardo_dicaprio_and_oscars import leo
+from beta.leonardo_dicaprio_and_oscars import leo
 
 
 class LeonardoTestCase(unittest.TestCase):

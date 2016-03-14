@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.html_complementary_color import get_reversed_color
+from beta.html_complementary_color import get_reversed_color
 
 
 class ReversedColorTestCase(unittest.TestCase):

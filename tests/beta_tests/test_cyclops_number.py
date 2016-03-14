@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.cyclops_number import cyclops
+from beta.cyclops_number import cyclops
 
 
 class CyclopsTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.special_scores_for_words import find_word
+from beta.special_scores_for_words import find_word
 
 
 class FindWordTestCase(unittest.TestCase):

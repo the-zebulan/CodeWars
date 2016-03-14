@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.find_something_in_an_array import find
+from beta.find_something_in_an_array import find
 
 
 class FindTestCase(unittest.TestCase):

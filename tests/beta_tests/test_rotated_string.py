@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.rotated_string import is_rotation
+from beta.rotated_string import is_rotation
 
 
 class IsRotationTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.sum_factorial import sum_factorial
+from beta.sum_factorial import sum_factorial
 
 
 class SumFactorialTestCase(unittest.TestCase):

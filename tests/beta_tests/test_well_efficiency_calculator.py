@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.well_efficiency_calculator import is_efficient
+from beta.well_efficiency_calculator import is_efficient
 
 
 class IsEfficientTestCase(unittest.TestCase):

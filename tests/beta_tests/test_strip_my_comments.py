@@ -1,6 +1,6 @@
 import unittest
 
-from Beta.strip_my_comments import strip_it
+from beta.strip_my_comments import strip_it
 
 
 class StripMyCommentsTestCase(unittest.TestCase):
