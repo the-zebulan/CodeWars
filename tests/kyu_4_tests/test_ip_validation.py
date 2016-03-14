@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_4.ip_validation import is_valid_IP
+from kyu_4.ip_validation import is_valid_IP
 
 
 class IPValidationTestCase(unittest.TestCase):

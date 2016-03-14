@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_4.strings_mix import mix
+from kyu_4.strings_mix import mix
 
 
 class MixTestCase(unittest.TestCase):

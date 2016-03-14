@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_4.strip_url_params import strip_url_params
+from kyu_4.strip_url_params import strip_url_params
 
 
 class StripURLParamsTestCase(unittest.TestCase):

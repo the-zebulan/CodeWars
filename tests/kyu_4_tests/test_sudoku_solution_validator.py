@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_4.sudoku_solution_validator import validSolution
+from kyu_4.sudoku_solution_validator import validSolution
 
 
 class SudokuSolutionValidatorTestCase(unittest.TestCase):

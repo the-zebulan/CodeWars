@@ -1,7 +1,7 @@
 # coding=utf-8
 import unittest
 
-from Kyu_4.strip_comments import solution
+from kyu_4.strip_comments import solution
 
 
 class StripCommentsTestCase(unittest.TestCase):

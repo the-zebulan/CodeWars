@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_4.roman_numerals_encoder import solution
+from kyu_4.roman_numerals_encoder import solution
 
 
 class RomanNumeralsEncoderTestCase(unittest.TestCase):
