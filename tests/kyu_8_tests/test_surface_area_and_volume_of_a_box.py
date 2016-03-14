@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.surface_area_and_volume_of_a_box import get_size
+from kyu_8.surface_area_and_volume_of_a_box import get_size
 
 
 class GetSizeTestCase(unittest.TestCase):

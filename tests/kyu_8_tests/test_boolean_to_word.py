@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.boolean_to_word import bool_to_word
+from kyu_8.boolean_to_word import bool_to_word
 
 
 class BooleanToWordTestCase(unittest.TestCase):

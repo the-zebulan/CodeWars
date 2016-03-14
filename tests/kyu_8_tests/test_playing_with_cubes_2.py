@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.playing_with_cubes_2 import Cube
+from kyu_8.playing_with_cubes_2 import Cube
 
 
 class CubeTestCase(unittest.TestCase):

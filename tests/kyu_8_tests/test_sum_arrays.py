@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.sum_arrays import sum_array
+from kyu_8.sum_arrays import sum_array
 
 
 class SumArrayTestCase(unittest.TestCase):

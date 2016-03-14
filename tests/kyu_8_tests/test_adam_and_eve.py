@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.adam_and_eve import God, Man
+from kyu_8.adam_and_eve import God, Man
 
 
 class AdamAndEveTestCase(unittest.TestCase):

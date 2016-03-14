@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.bug_fixing_11 import validate
+from kyu_8.bug_fixing_11 import validate
 
 
 class ValidateTestCase(unittest.TestCase):

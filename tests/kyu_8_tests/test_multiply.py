@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.multiply import multiply
+from kyu_8.multiply import multiply
 
 
 class MultiplyTestCase(unittest.TestCase):

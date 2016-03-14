@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.jennys_secret_msg import greet
+from kyu_8.jennys_secret_msg import greet
 
 
 class GreetTestCase(unittest.TestCase):

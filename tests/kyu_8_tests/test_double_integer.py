@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.double_integer import doubleInteger
+from kyu_8.double_integer import doubleInteger
 
 
 class DoubleIntegerTestCase(unittest.TestCase):

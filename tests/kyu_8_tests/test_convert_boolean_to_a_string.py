@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.convert_boolean_to_a_string import boolean_to_string
+from kyu_8.convert_boolean_to_a_string import boolean_to_string
 
 
 class BooleanToStringTestCase(unittest.TestCase):

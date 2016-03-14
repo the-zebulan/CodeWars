@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.grasshopper_grade_book import get_grade
+from kyu_8.grasshopper_grade_book import get_grade
 
 
 class GetGradeTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.bug_fixing_6 import eval_object
+from kyu_8.bug_fixing_6 import eval_object
 
 
 class EvalObjectTestCase(unittest.TestCase):

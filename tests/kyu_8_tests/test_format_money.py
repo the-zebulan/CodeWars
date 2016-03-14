@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.format_money import format_money
+from kyu_8.format_money import format_money
 
 
 class FormatMoneyTestCase(unittest.TestCase):

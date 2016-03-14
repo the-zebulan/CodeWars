@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.grader import grader
+from kyu_8.grader import grader
 
 
 class GraderTestCase(unittest.TestCase):

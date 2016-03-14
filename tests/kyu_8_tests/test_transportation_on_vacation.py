@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.transportation_on_vacation import rental_car_cost
+from kyu_8.transportation_on_vacation import rental_car_cost
 
 
 class RentalCarCostTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.how_good_are_you_really import better_than_average
+from kyu_8.how_good_are_you_really import better_than_average
 
 
 class BetterThanAverageTestCase(unittest.TestCase):

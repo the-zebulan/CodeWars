@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.opposites_attract import lovefunc
+from kyu_8.opposites_attract import lovefunc
 
 
 class LoveTestCase(unittest.TestCase):

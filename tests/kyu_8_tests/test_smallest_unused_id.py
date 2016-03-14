@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.smallest_unused_id import next_id
+from kyu_8.smallest_unused_id import next_id
 
 
 class NextIDTestCase(unittest.TestCase):

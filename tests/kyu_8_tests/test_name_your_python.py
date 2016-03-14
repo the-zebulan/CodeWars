@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.name_your_python import Python
+from kyu_8.name_your_python import Python
 
 
 class NameYourPythonTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.dna_to_rna import DNAtoRNA
+from kyu_8.dna_to_rna import DNAtoRNA
 
 
 class DNAToRNATestCase(unittest.TestCase):

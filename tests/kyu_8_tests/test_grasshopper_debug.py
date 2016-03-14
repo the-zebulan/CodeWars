@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.grasshopper_debug import weather_info
+from kyu_8.grasshopper_debug import weather_info
 
 
 class WeatherInformationTestCase(unittest.TestCase):

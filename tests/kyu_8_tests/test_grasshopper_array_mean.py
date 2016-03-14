@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.grasshopper_array_mean import find_average
+from kyu_8.grasshopper_array_mean import find_average
 
 
 class FindAverageTestCase(unittest.TestCase):

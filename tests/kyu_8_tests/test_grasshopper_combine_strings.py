@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.grasshopper_combine_strings import combine_names
+from kyu_8.grasshopper_combine_strings import combine_names
 
 
 class CombineNamesTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.a_needle_in_the_haystack import find_needle
+from kyu_8.a_needle_in_the_haystack import find_needle
 
 
 class FindNeedleTestCase(unittest.TestCase):

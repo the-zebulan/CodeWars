@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.last import last
+from kyu_8.last import last
 
 
 class LastTestCase(unittest.TestCase):

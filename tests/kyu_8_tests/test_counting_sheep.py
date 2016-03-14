@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.counting_sheep import count_sheeps
+from kyu_8.counting_sheep import count_sheeps
 
 
 class CountSheepTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.repeat_it import repeat_it
+from kyu_8.repeat_it import repeat_it
 
 
 class RepeatItTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.remove_the_time import shorten_to_date
+from kyu_8.remove_the_time import shorten_to_date
 
 
 class ShortenToDateTestCase(unittest.TestCase):

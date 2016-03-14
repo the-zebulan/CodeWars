@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.welcome_to_the_city import say_hello
+from kyu_8.welcome_to_the_city import say_hello
 
 
 class SayHelloTestCase(unittest.TestCase):

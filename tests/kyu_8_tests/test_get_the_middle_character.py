@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.get_the_middle_character import get_middle
+from kyu_8.get_the_middle_character import get_middle
 
 
 class GetMiddleTestCase(unittest.TestCase):

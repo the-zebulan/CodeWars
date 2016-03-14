@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.name_shuffler import name_shuffler
+from kyu_8.name_shuffler import name_shuffler
 
 
 class NameShufflerTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.return_negative import make_negative
+from kyu_8.return_negative import make_negative
 
 
 class MakeNegativeTestCase(unittest.TestCase):

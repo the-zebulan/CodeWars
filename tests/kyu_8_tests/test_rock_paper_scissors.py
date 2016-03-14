@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.rock_paper_scissors import rps
+from kyu_8.rock_paper_scissors import rps
 
 
 class RockPaperScissorsTestCase(unittest.TestCase):

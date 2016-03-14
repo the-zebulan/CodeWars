@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.addition import on_square, total_after
+from kyu_8.addition import on_square, total_after
 
 
 class AdditionTestCase(unittest.TestCase):

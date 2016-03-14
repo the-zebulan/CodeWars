@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.regular_ball_super_ball import Ball
+from kyu_8.regular_ball_super_ball import Ball
 
 
 class BallTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.grasshopper_make_change import candy, change, chips, money, soda
+from kyu_8.grasshopper_make_change import candy, change, chips, money, soda
 
 
 class MakeChangeTestCase(unittest.TestCase):

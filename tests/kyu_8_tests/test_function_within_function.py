@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.function_within_function import always
+from kyu_8.function_within_function import always
 
 
 class AlwaysTestCase(unittest.TestCase):

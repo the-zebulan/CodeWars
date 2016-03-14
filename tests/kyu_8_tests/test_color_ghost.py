@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.color_ghost import COLORS, Ghost
+from kyu_8.color_ghost import COLORS, Ghost
 
 
 class GhostTestCase(unittest.TestCase):

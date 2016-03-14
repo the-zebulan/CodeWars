@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.reverse_list_order import reverse_list
+from kyu_8.reverse_list_order import reverse_list
 
 
 class ReverseListTestCase(unittest.TestCase):

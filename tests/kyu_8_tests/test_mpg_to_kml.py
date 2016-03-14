@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.mpg_to_kml import converter
+from kyu_8.mpg_to_kml import converter
 
 
 class ConverterTestCase(unittest.TestCase):

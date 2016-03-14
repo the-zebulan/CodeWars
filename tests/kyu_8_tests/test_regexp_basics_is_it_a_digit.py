@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.regexp_basics_is_it_a_digit import is_digit
+from kyu_8.regexp_basics_is_it_a_digit import is_digit
 
 
 class IsDigitTestCase(unittest.TestCase):

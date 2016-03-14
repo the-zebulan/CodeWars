@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.grasshopper_shopping_list import (
+from kyu_8.grasshopper_shopping_list import (
     frenchFries, salads, sandwiches, wraps, totalPrice
 )
 

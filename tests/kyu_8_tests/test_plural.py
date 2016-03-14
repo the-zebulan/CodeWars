@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.plural import plural
+from kyu_8.plural import plural
 
 
 class PluralTestCase(unittest.TestCase):

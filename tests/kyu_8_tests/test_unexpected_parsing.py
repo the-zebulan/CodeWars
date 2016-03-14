@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.unexpected_parsing import get_status
+from kyu_8.unexpected_parsing import get_status
 
 
 class GetStatusTestCase(unittest.TestCase):

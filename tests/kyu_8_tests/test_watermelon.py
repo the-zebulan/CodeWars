@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.watermelon import divide
+from kyu_8.watermelon import divide
 
 
 class DivideTestCase(unittest.TestCase):

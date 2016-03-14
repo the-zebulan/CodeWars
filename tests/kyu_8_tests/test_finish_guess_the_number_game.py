@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.finish_guess_the_number_game import Guesser
+from kyu_8.finish_guess_the_number_game import Guesser
 
 
 class GuesserTestCase(unittest.TestCase):

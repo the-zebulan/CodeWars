@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.find_the_slope import find_slope
+from kyu_8.find_the_slope import find_slope
 
 
 class FindSlopeTestCase(unittest.TestCase):

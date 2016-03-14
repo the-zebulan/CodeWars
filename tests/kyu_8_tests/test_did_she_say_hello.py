@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.did_she_say_hello import validate_hello
+from kyu_8.did_she_say_hello import validate_hello
 
 
 class ValidateHelloTestCase(unittest.TestCase):

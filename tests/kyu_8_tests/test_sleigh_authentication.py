@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.sleigh_authentication import Sleigh
+from kyu_8.sleigh_authentication import Sleigh
 
 
 class SleighTestCase(unittest.TestCase):

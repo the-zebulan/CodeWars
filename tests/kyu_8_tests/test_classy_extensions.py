@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.classy_extensions import Cat
+from kyu_8.classy_extensions import Cat
 
 
 class CatTestCase(unittest.TestCase):

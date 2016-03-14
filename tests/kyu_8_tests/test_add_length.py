@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.add_length import add_length
+from kyu_8.add_length import add_length
 
 
 class AddLengthTestCase(unittest.TestCase):

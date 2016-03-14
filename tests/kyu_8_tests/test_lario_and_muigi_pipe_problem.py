@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.lario_and_muigi_pipe_problem import pipe_fix
+from kyu_8.lario_and_muigi_pipe_problem import pipe_fix
 
 
 class PipeFixTestCase(unittest.TestCase):

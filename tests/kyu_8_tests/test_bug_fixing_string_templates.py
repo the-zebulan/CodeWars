@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.bug_fixing_string_templates import build_string
+from kyu_8.bug_fixing_string_templates import build_string
 
 
 class BuildStringTestCase(unittest.TestCase):

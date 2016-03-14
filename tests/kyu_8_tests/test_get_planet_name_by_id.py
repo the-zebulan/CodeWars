@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_8.get_planet_name_by_id import get_planet_name
+from kyu_8.get_planet_name_by_id import get_planet_name
 
 
 class GetPlanetNameTestCase(unittest.TestCase):
