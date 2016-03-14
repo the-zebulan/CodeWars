@@ -1,6 +1,6 @@
 import unittest
 
-from beta.write_your_own_multiplication_function import multiply
+from katas.beta.write_your_own_multiplication_function import multiply
 
 
 class MultiplyTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from beta.odd_even_num_of_divisors import oddity
+from katas.beta.odd_even_num_of_divisors import oddity
 
 
 class OddityTestCase(unittest.TestCase):

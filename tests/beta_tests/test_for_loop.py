@@ -1,6 +1,6 @@
 import unittest
 
-from beta.for_loop import problem
+from katas.beta.for_loop import problem
 
 
 class ProblemTestCase(unittest.TestCase):

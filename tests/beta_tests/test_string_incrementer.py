@@ -1,6 +1,6 @@
 import unittest
 
-from beta.string_incrementer import increment_string
+from katas.beta.string_incrementer import increment_string
 
 
 class IncrementStringTestCase(unittest.TestCase):

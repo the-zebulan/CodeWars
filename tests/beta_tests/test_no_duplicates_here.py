@@ -1,6 +1,6 @@
 import unittest
 
-from beta.no_duplicates_here import list_de_dup
+from katas.beta.no_duplicates_here import list_de_dup
 
 
 class ListDeDuplicateTestCase(unittest.TestCase):

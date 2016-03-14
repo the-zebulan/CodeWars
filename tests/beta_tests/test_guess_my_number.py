@@ -1,6 +1,6 @@
 import unittest
 
-from beta.guess_my_number import guess_my_number
+from katas.beta.guess_my_number import guess_my_number
 
 
 class GuessMyNumberTestCase(unittest.TestCase):

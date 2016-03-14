@@ -1,6 +1,6 @@
 import unittest
 
-from beta.multi_range_iterator import multiiter
+from katas.beta.multi_range_iterator import multiiter
 
 
 class MultiIterTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from beta.count_words import word_count
+from katas.beta.count_words import word_count
 
 
 class WordCountTestCase(unittest.TestCase):

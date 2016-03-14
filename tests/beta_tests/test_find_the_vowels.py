@@ -1,6 +1,6 @@
 import unittest
 
-from beta.find_the_vowels import vowel_indices
+from katas.beta.find_the_vowels import vowel_indices
 
 
 class VowelIndicesTestCase(unittest.TestCase):

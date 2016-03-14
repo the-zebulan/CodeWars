@@ -1,6 +1,6 @@
 import unittest
 
-from beta.palindrome_checker import is_palindrome
+from katas.beta.palindrome_checker import is_palindrome
 
 
 class IsPalindromeTestCase(unittest.TestCase):

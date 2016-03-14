@@ -1,6 +1,6 @@
 import unittest
 
-from beta.find_gcf import largestFactor
+from katas.beta.find_gcf import largestFactor
 
 
 class LargestFactorTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from beta.loose_change import loose_change
+from katas.beta.loose_change import loose_change
 
 
 class LooseChangeTestCase(unittest.TestCase):

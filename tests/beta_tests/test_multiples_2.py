@@ -1,6 +1,6 @@
 import unittest
 
-from beta.multiples_2 import multiples
+from katas.beta.multiples_2 import multiples
 
 
 class MultiplesTestCase(unittest.TestCase):

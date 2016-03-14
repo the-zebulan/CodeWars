@@ -1,6 +1,6 @@
 import unittest
 
-from beta.circular_primes import circular_prime
+from katas.beta.circular_primes import circular_prime
 
 
 class CircularPrimeTestCase(unittest.TestCase):

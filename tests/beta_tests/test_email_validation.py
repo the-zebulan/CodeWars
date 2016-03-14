@@ -1,6 +1,6 @@
 import unittest
 
-from beta.email_validation import validate
+from katas.beta.email_validation import validate
 
 
 class ValidateTestCase(unittest.TestCase):

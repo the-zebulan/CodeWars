@@ -1,6 +1,6 @@
 import unittest
 
-from beta.nested_list_depth import list_depth
+from katas.beta.nested_list_depth import list_depth
 
 
 class ListDepthTestCase(unittest.TestCase):

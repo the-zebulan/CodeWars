@@ -1,6 +1,6 @@
 import unittest
 
-from beta.round_to_next_5 import round_to_next5
+from katas.beta.round_to_next_5 import round_to_next5
 
 
 class RoundToNextFiveTestCase(unittest.TestCase):

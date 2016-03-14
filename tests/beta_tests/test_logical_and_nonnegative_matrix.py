@@ -1,6 +1,6 @@
 import unittest
 
-from beta.logical_and_nonnegative_matrix import (
+from katas.beta.logical_and_nonnegative_matrix import (
     logical_matrix, nonnegative_matrix, sum_nonnegative_logical_matrix)
 
 

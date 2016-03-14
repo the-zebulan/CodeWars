@@ -1,6 +1,6 @@
 import unittest
 
-from beta.addition_function_problem import add
+from katas.beta.addition_function_problem import add
 
 
 class AdditionTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from beta.required_data_1 import count_sel
+from katas.beta.required_data_1 import count_sel
 
 
 class RequiredData1TestCase(unittest.TestCase):

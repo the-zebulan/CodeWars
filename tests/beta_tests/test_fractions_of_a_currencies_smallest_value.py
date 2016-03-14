@@ -1,6 +1,6 @@
 import unittest
 
-from beta.fractions_of_a_currencies_smallest_value import PriceDisplayFraction
+from katas.beta.fractions_of_a_currencies_smallest_value import PriceDisplayFraction
 
 
 class PriceDisplayFractionTestCase(unittest.TestCase):

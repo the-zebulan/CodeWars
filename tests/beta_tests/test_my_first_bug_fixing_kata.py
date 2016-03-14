@@ -1,6 +1,6 @@
 import unittest
 
-from beta.my_first_bug_fixing_kata import foo
+from katas.beta.my_first_bug_fixing_kata import foo
 
 
 class FooTestCase(unittest.TestCase):

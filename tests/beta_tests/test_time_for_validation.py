@@ -1,6 +1,6 @@
 import unittest
 
-from beta.time_for_validation import convert_time
+from katas.beta.time_for_validation import convert_time
 
 
 class ConvertTimeTestCase(unittest.TestCase):

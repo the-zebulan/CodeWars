@@ -1,6 +1,6 @@
 import unittest
 
-from beta.find_the_middle_element import gimme
+from katas.beta.find_the_middle_element import gimme
 
 
 class GimmeTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from beta.dumbphone_keypads import sequence
+from katas.beta.dumbphone_keypads import sequence
 
 
 class SequenceTestCase(unittest.TestCase):

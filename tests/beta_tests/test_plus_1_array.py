@@ -1,6 +1,6 @@
 import unittest
 
-from beta.plus_1_array import up_array
+from katas.beta.plus_1_array import up_array
 
 
 class UpArrayTestCase(unittest.TestCase):

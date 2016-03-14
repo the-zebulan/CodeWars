@@ -1,6 +1,6 @@
 import unittest
 
-from beta.divisible_by_four import divisible_by_four
+from katas.beta.divisible_by_four import divisible_by_four
 
 
 class DivisibleByFourTestCase(unittest.TestCase):

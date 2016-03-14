@@ -1,6 +1,6 @@
 import unittest
 
-from beta.unique_sum import unique_sum
+from katas.beta.unique_sum import unique_sum
 
 
 class UniqueSumTestCase(unittest.TestCase):

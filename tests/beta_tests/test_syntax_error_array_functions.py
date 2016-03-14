@@ -1,6 +1,6 @@
 import unittest
 
-from beta.syntax_error_array_functions import Foo
+from katas.beta.syntax_error_array_functions import Foo
 
 
 class FooTestCase(unittest.TestCase):

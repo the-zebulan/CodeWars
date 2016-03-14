@@ -1,6 +1,6 @@
 import unittest
 
-from beta.basic_arabic_to_roman_numerals import arabic_to_roman
+from katas.beta.basic_arabic_to_roman_numerals import arabic_to_roman
 
 
 class ArabicToRomanTestCase(unittest.TestCase):

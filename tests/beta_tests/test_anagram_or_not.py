@@ -1,6 +1,6 @@
 import unittest
 
-from beta.anagram_or_not import isAnagram
+from katas.beta.anagram_or_not import isAnagram
 
 
 class IsAnagramTestCase(unittest.TestCase):

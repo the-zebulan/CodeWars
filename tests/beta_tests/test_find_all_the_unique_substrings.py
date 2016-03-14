@@ -1,6 +1,6 @@
 import unittest
 
-from beta.find_all_the_unique_substrings import getSubstrings
+from katas.beta.find_all_the_unique_substrings import getSubstrings
 
 
 class GetSubstringsTestCase(unittest.TestCase):

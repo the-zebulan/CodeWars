@@ -1,6 +1,6 @@
 import unittest
 
-from beta.required_data_2 import given_nth_value
+from katas.beta.required_data_2 import given_nth_value
 
 
 class RequiredData2TestCase(unittest.TestCase):

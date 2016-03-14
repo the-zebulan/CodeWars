@@ -1,6 +1,6 @@
 import unittest
 
-from beta.filter_long_words import filter_long_words
+from katas.beta.filter_long_words import filter_long_words
 
 
 class FilterLongWordsTestCase(unittest.TestCase):

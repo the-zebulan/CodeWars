@@ -1,6 +1,6 @@
 import unittest
 
-from beta.building_spheres import Sphere
+from katas.beta.building_spheres import Sphere
 
 
 class SphereTestCase(unittest.TestCase):

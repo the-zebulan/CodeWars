@@ -1,6 +1,6 @@
 import unittest
 
-from beta.keep_up_the_hoop import hoopCount
+from katas.beta.keep_up_the_hoop import hoopCount
 
 
 class HoopCountTestCase(unittest.TestCase):

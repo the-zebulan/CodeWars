@@ -1,6 +1,6 @@
 import unittest
 
-from beta.list_length_v1 import count
+from katas.beta.list_length_v1 import count
 
 
 class ListLengthTestCase(unittest.TestCase):

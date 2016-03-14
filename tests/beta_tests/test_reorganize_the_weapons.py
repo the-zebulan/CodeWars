@@ -1,6 +1,6 @@
 import unittest
 
-from beta.reorganize_the_weapons import identify_weapon
+from katas.beta.reorganize_the_weapons import identify_weapon
 
 
 class WeaponsTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from beta.lightswitches import lightswitch
+from katas.beta.lightswitches import lightswitch
 
 
 class LightswitchTestCase(unittest.TestCase):

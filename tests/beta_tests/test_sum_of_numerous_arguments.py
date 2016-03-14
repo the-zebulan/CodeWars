@@ -1,6 +1,6 @@
 import unittest
 
-from beta.sum_of_numerous_arguments import find_sum
+from katas.beta.sum_of_numerous_arguments import find_sum
 
 
 class FindSumTestCase(unittest.TestCase):

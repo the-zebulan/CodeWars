@@ -1,6 +1,6 @@
 import unittest
 
-from beta.sum_the_repeats import repeat_sum
+from katas.beta.sum_the_repeats import repeat_sum
 
 
 class RepeatSumTestCase(unittest.TestCase):

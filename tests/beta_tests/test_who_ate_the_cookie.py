@@ -1,6 +1,6 @@
 import unittest
 
-from beta.who_ate_the_cookie import cookie
+from katas.beta.who_ate_the_cookie import cookie
 
 
 class CookieTestCase(unittest.TestCase):

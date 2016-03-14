@@ -1,6 +1,6 @@
 import unittest
 
-from beta.find_something_in_an_array import find
+from katas.beta.find_something_in_an_array import find
 
 
 class FindTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from beta.doing_your_taxes import tax
+from katas.beta.doing_your_taxes import tax
 
 
 class TaxTestCase(unittest.TestCase):

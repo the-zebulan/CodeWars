@@ -1,7 +1,7 @@
 # coding=utf-8
 import unittest
 
-from beta.the_ladies_of_eniac import rad_ladies
+from katas.beta.the_ladies_of_eniac import rad_ladies
 
 
 class RadLadiesTestCase(unittest.TestCase):

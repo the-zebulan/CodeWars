@@ -1,6 +1,6 @@
 import unittest
 
-from beta.beginner_series_paperwork import paperwork
+from katas.beta.beginner_series_paperwork import paperwork
 
 
 class PaperworkTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from beta.closest_neighbouring_points import closest_points
+from katas.beta.closest_neighbouring_points import closest_points
 
 
 class ClosestPointsTestCase(unittest.TestCase):

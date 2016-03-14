@@ -1,6 +1,6 @@
 import unittest
 
-from beta.reverse_the_number import reverse
+from katas.beta.reverse_the_number import reverse
 
 
 class ReverseTheNumberTestCase(unittest.TestCase):

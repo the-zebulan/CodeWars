@@ -1,6 +1,6 @@
 import unittest
 
-from beta.summations_1 import summation
+from katas.beta.summations_1 import summation
 
 
 class SummationTestCase(unittest.TestCase):

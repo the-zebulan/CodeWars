@@ -1,6 +1,6 @@
 import unittest
 
-from beta.counting_occurrence_of_digits import List
+from katas.beta.counting_occurrence_of_digits import List
 
 
 class ListTestCase(unittest.TestCase):

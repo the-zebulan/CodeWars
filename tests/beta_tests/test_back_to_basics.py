@@ -1,6 +1,6 @@
 import unittest
 
-from beta.back_to_basics import types
+from katas.beta.back_to_basics import types
 
 
 class TypesTestCase(unittest.TestCase):

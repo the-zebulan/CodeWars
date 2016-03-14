@@ -1,6 +1,6 @@
 import unittest
 
-from beta.testing_123 import number
+from katas.beta.testing_123 import number
 
 
 class NumberTestCase(unittest.TestCase):

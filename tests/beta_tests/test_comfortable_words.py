@@ -1,6 +1,6 @@
 import unittest
 
-from beta.comfortable_words import comfortable_word
+from katas.beta.comfortable_words import comfortable_word
 
 
 class ComfortableWordTestCase(unittest.TestCase):

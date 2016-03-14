@@ -1,6 +1,6 @@
 import unittest
 
-from beta.special_scores_for_words import find_word
+from katas.beta.special_scores_for_words import find_word
 
 
 class FindWordTestCase(unittest.TestCase):

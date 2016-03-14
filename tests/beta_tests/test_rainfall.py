@@ -1,6 +1,6 @@
 import unittest
 
-from beta.rainfall import mean, variance
+from katas.beta.rainfall import mean, variance
 
 
 class RainfallTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from beta.beginner_series_cockroach import cockroach_speed
+from katas.beta.beginner_series_cockroach import cockroach_speed
 
 
 class CockroachSpeedTestCase(unittest.TestCase):

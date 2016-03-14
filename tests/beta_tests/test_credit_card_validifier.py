@@ -1,6 +1,6 @@
 import unittest
 
-from beta.credit_card_validifier import credit
+from katas.beta.credit_card_validifier import credit
 
 
 class CreditTestCase(unittest.TestCase):

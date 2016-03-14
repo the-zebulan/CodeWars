@@ -1,6 +1,6 @@
 import unittest
 
-from beta.vanity_plates import vanity_plate
+from katas.beta.vanity_plates import vanity_plate
 
 
 class VanityPlateTestCase(unittest.TestCase):

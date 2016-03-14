@@ -1,6 +1,6 @@
 import unittest
 
-from beta.geometric_progression import geometric_sequence_elements
+from katas.beta.geometric_progression import geometric_sequence_elements
 
 
 class GeometricSequenceElementsTestCase(unittest.TestCase):

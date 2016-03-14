@@ -1,6 +1,6 @@
 import unittest
 
-from beta.returning_strings import greet
+from katas.beta.returning_strings import greet
 
 
 class GreetTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from beta.greeting_my_friends import greeting_for_all_friends
+from katas.beta.greeting_my_friends import greeting_for_all_friends
 
 
 class GreetingTestCase(unittest.TestCase):

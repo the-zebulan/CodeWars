@@ -1,6 +1,6 @@
 import unittest
 
-from beta.narcissistic_numbers import is_narcissistic
+from katas.beta.narcissistic_numbers import is_narcissistic
 
 
 class NarcissisticTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from beta.remove_first_and_last_character import remove_char
+from katas.beta.remove_first_and_last_character import remove_char
 
 
 class RemoveFirstAndLastCharacterTestCase(unittest.TestCase):

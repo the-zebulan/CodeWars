@@ -1,6 +1,6 @@
 import unittest
 
-from beta.what_day_is_it import day
+from katas.beta.what_day_is_it import day
 
 
 class DayTestCase(unittest.TestCase):

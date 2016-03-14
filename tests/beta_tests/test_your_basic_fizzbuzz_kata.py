@@ -1,6 +1,6 @@
 import unittest
 
-from beta.your_basic_fizzbuzz_kata import fizzbuzz
+from katas.beta.your_basic_fizzbuzz_kata import fizzbuzz
 
 
 class FizzBuzzTestCase(unittest.TestCase):

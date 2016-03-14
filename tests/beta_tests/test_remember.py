@@ -1,6 +1,6 @@
 import unittest
 
-from beta.remember import remember
+from katas.beta.remember import remember
 
 
 class RememberTestCase(unittest.TestCase):

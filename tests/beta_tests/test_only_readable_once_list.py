@@ -1,6 +1,6 @@
 import unittest
 
-from beta.only_readable_once_list import SecureList
+from katas.beta.only_readable_once_list import SecureList
 
 
 class SecureListTestCase(unittest.TestCase):

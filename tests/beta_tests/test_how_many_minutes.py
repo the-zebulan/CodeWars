@@ -1,6 +1,6 @@
 import unittest
 
-from beta.how_many_minutes import date_to_mins
+from katas.beta.how_many_minutes import date_to_mins
 
 
 class DateToMinutesTestCase(unittest.TestCase):

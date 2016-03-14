@@ -1,6 +1,6 @@
 import unittest
 
-from beta.atm_money_counter import atm
+from katas.beta.atm_money_counter import atm
 
 
 class AtmTestCase(unittest.TestCase):

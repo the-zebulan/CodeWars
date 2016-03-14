@@ -1,6 +1,6 @@
 import unittest
 
-from beta.finding_averages import average
+from katas.beta.finding_averages import average
 
 
 class AverageTestCase(unittest.TestCase):

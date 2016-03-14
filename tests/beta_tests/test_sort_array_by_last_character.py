@@ -1,6 +1,6 @@
 import unittest
 
-from beta.sort_array_by_last_character import sort_me
+from katas.beta.sort_array_by_last_character import sort_me
 
 
 class SortMeTestCase(unittest.TestCase):

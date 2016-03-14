@@ -1,6 +1,6 @@
 import unittest
 
-from beta.how_many_numbers import sel_number
+from katas.beta.how_many_numbers import sel_number
 
 
 class HowManyNumbersTestCase(unittest.TestCase):

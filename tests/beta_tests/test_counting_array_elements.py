@@ -1,6 +1,6 @@
 import unittest
 
-from beta.counting_array_elements import count
+from katas.beta.counting_array_elements import count
 
 
 class CountTestCase(unittest.TestCase):

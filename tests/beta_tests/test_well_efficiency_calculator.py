@@ -1,6 +1,6 @@
 import unittest
 
-from beta.well_efficiency_calculator import is_efficient
+from katas.beta.well_efficiency_calculator import is_efficient
 
 
 class IsEfficientTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from beta.sum_of_all_arguments import sum_all
+from katas.beta.sum_of_all_arguments import sum_all
 
 
 class SumAllTestCase(unittest.TestCase):

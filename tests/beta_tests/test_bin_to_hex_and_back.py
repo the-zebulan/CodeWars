@@ -1,6 +1,6 @@
 import unittest
 
-from beta.bin_to_hex_and_back import bin_to_hex, hex_to_bin
+from katas.beta.bin_to_hex_and_back import bin_to_hex, hex_to_bin
 
 
 class BinaryHexTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from beta.friend_or_foe import friend
+from katas.beta.friend_or_foe import friend
 
 
 class FriendTestCase(unittest.TestCase):

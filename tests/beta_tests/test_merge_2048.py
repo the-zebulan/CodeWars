@@ -1,6 +1,6 @@
 import unittest
 
-from beta.merge_2048 import merge
+from katas.beta.merge_2048 import merge
 
 
 class Merge2048TestCase(unittest.TestCase):
