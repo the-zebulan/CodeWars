@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_3.calculator import Calculator
+from katas.kyu_3.calculator import Calculator
 
 
 class CalculatorTestCase(unittest.TestCase):
