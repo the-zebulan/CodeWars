@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.word_patterns import word_pattern
+from kyu_6.word_patterns import word_pattern
 
 
 class WordPatternTestCase(unittest.TestCase):

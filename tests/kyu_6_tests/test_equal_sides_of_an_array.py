@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.equal_sides_of_an_array import find_even_index
+from kyu_6.equal_sides_of_an_array import find_even_index
 
 
 class FindEvenIndexTestCase(unittest.TestCase):

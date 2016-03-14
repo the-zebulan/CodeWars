@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.patterncraft_strategy import Fly, Viking
+from kyu_6.patterncraft_strategy import Fly, Viking
 
 
 class VikingTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.stop_spinning_my_words import spin_words
+from kyu_6.stop_spinning_my_words import spin_words
 
 
 class SpinWordsTestCase(unittest.TestCase):

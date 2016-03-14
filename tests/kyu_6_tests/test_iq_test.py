@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.iq_test import iq_test
+from kyu_6.iq_test import iq_test
 
 
 class IQTestCase(unittest.TestCase):

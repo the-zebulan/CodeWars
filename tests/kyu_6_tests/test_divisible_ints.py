@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.divisible_ints import get_count
+from kyu_6.divisible_ints import get_count
 
 
 class GetCountTestCase(unittest.TestCase):

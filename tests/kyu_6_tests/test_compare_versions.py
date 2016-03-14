@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.compare_versions import compare_versions
+from kyu_6.compare_versions import compare_versions
 
 
 class CompareVersionsTestCase(unittest.TestCase):

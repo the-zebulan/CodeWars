@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.eighties_kids_7_shes_a_small_wonder import Robot
+from kyu_6.eighties_kids_7_shes_a_small_wonder import Robot
 
 
 class RobotTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.exercise_in_summing import maximum_sum, minimum_sum
+from kyu_6.exercise_in_summing import maximum_sum, minimum_sum
 
 
 class ExerciseInSummingTestCase(unittest.TestCase):

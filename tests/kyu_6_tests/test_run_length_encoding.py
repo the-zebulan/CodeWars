@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.run_length_encoding import run_length_encoding
+from kyu_6.run_length_encoding import run_length_encoding
 
 
 class RunLengthEncodingTestCase(unittest.TestCase):

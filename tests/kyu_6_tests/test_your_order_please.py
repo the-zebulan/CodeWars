@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.your_order_please import order
+from kyu_6.your_order_please import order
 
 
 class OrderTestCase(unittest.TestCase):

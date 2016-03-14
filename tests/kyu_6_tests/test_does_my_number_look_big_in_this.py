@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.does_my_number_look_big_in_this import narcissistic
+from kyu_6.does_my_number_look_big_in_this import narcissistic
 
 
 class NarcissisticTestCase(unittest.TestCase):

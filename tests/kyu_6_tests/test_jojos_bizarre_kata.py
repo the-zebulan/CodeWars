@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.jojos_bizarre_kata import is_jojo
+from kyu_6.jojos_bizarre_kata import is_jojo
 
 
 class JoJoTestCase(unittest.TestCase):

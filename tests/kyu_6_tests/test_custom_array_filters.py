@@ -1,7 +1,7 @@
 # import __builtin__
 # import unittest
 #
-# from Kyu_6.custom_array_filters import MyList
+# from kyu_6.custom_array_filters import MyList
 #
 # __builtin__.list = MyList
 #

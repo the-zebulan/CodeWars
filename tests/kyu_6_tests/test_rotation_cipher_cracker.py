@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.rotation_cipher_cracker import decode
+from kyu_6.rotation_cipher_cracker import decode
 
 
 class DecodeTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.longest_palindrome import longest_palindrome
+from kyu_6.longest_palindrome import longest_palindrome
 
 
 class LongestPalindromeTestCase(unittest.TestCase):

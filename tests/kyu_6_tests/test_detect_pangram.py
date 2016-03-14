@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.detect_pangram import is_pangram
+from kyu_6.detect_pangram import is_pangram
 
 
 class DetectPangramTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.unique_in_order import unique_in_order
+from kyu_6.unique_in_order import unique_in_order
 
 
 class UniqueInOrderTestCase(unittest.TestCase):

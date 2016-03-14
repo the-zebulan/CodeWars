@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.simple_card_game import winner
+from kyu_6.simple_card_game import winner
 
 
 class WinnerTestCase(unittest.TestCase):

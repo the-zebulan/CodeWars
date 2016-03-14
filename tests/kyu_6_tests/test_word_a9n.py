@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.word_a9n import abbreviate
+from kyu_6.word_a9n import abbreviate
 
 
 class AbbreviateTestCase(unittest.TestCase):

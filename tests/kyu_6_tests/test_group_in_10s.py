@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.group_in_10s import group_in_10s
+from kyu_6.group_in_10s import group_in_10s
 
 
 class GroupInTensTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.turkish_national_identity_number import check_valid_tr_number
+from kyu_6.turkish_national_identity_number import check_valid_tr_number
 
 
 class TurkishNationalIdentityNumberTestCase(unittest.TestCase):

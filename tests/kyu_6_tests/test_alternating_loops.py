@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.alternating_loops import combine
+from kyu_6.alternating_loops import combine
 
 
 class CombineTestCase(unittest.TestCase):

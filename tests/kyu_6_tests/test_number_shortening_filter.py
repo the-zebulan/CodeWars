@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.number_shortening_filter import shorten_number
+from kyu_6.number_shortening_filter import shorten_number
 
 
 class ShortenNumberTestCase(unittest.TestCase):

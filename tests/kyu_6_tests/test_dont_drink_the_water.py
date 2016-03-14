@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.dont_drink_the_water import separate_liquids
+from kyu_6.dont_drink_the_water import separate_liquids
 
 
 class SeparateLiquidsTestCase(unittest.TestCase):

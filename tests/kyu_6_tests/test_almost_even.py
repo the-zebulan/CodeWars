@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.almost_even import splitInteger
+from kyu_6.almost_even import splitInteger
 
 
 class SplitIntegerTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.persistent_bugger import persistence
+from kyu_6.persistent_bugger import persistence
 
 
 class PersistenceTestCase(unittest.TestCase):

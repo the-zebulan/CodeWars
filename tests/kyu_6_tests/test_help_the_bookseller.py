@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.help_the_bookseller import stock_list
+from kyu_6.help_the_bookseller import stock_list
 
 
 class StockListTestCase(unittest.TestCase):

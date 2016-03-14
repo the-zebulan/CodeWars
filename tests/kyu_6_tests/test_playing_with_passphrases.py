@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.playing_with_passphrases import play_pass
+from kyu_6.playing_with_passphrases import play_pass
 
 
 class PlayingWithPassphrasesTestCase(unittest.TestCase):

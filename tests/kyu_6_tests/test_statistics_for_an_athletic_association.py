@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.statistics_for_an_athletic_association import stat
+from kyu_6.statistics_for_an_athletic_association import stat
 
 
 class StatTestCase(unittest.TestCase):

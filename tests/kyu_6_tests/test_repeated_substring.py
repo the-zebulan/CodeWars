@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.repeated_substring import f
+from kyu_6.repeated_substring import f
 
 
 class RepeatedSubstringTestCase(unittest.TestCase):

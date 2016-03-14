@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.remove_anchor_from_url import remove_url_anchor
+from kyu_6.remove_anchor_from_url import remove_url_anchor
 
 
 class RemoveURLAnchorTestCase(unittest.TestCase):

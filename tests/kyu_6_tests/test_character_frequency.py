@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.character_frequency import letter_frequency
+from kyu_6.character_frequency import letter_frequency
 
 
 class LetterFrequencyTestCase(unittest.TestCase):

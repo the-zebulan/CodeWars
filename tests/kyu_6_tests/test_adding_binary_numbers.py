@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.adding_binary_numbers import add
+from kyu_6.adding_binary_numbers import add
 
 
 class AddingBinaryNumbersTestCase(unittest.TestCase):

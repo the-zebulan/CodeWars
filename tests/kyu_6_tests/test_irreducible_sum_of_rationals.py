@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.irreducible_sum_of_rationals import sum_fracts
+from kyu_6.irreducible_sum_of_rationals import sum_fracts
 
 
 class SumOfRationalsTestCase(unittest.TestCase):

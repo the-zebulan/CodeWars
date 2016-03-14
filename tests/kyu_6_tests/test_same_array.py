@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.same_array import same
+from kyu_6.same_array import same
 
 
 class SameTestCase(unittest.TestCase):

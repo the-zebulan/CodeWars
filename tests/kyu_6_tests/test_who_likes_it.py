@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.who_likes_it import likes
+from kyu_6.who_likes_it import likes
 
 
 class WhoLikesItTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.evil_autocorrect_prank import autocorrect
+from kyu_6.evil_autocorrect_prank import autocorrect
 
 
 class AutocorrectPrankTestCase(unittest.TestCase):

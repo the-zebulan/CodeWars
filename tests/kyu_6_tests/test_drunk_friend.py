@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.drunk_friend import decode
+from kyu_6.drunk_friend import decode
 
 
 class DrunkFriendTestCase(unittest.TestCase):

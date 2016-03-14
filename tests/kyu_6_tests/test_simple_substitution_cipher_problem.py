@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.simple_substitution_cipher_helper import Cipher
+from kyu_6.simple_substitution_cipher_helper import Cipher
 
 
 class CipherTestCase(unittest.TestCase):

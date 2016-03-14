@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.string_searching_with_wildcard import find
+from kyu_6.string_searching_with_wildcard import find
 
 
 class FindTestCase(unittest.TestCase):

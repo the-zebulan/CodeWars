@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.find_the_mine import mineLocation
+from kyu_6.find_the_mine import mineLocation
 
 
 class MineLocationTestCase(unittest.TestCase):

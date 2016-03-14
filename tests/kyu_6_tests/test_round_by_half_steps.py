@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.round_by_half_steps import solution
+from kyu_6.round_by_half_steps import solution
 
 
 class RoundByHalfStepsTestCase(unittest.TestCase):

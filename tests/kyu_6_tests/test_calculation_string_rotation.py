@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.calculate_string_rotation import shifted_diff
+from kyu_6.calculate_string_rotation import shifted_diff
 
 
 class ShiftedDiffTestCase(unittest.TestCase):

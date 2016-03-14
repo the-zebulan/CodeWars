@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.what_is_the_point import pointless
+from kyu_6.what_is_the_point import pointless
 
 
 class PointlessTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.are_they_the_same import comp
+from kyu_6.are_they_the_same import comp
 
 
 class AreTheyTheSameTestCase(unittest.TestCase):

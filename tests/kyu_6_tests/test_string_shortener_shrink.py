@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.string_shortener_shrink import shorten
+from kyu_6.string_shortener_shrink import shorten
 
 
 class ShortenTestCase(unittest.TestCase):

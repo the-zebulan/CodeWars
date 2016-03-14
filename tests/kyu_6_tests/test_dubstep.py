@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.dubstep import song_decoder
+from kyu_6.dubstep import song_decoder
 
 
 class SongDecoderTestCase(unittest.TestCase):

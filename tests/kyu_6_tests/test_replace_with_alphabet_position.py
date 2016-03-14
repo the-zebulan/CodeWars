@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.replace_wth_alphabet_position import alphabet_position
+from kyu_6.replace_wth_alphabet_position import alphabet_position
 
 
 class AlphabetPositionTestCase(unittest.TestCase):

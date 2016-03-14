@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.pingpong_service_problem import service
+from kyu_6.pingpong_service_problem import service
 
 
 class ServiceTestCase(unittest.TestCase):

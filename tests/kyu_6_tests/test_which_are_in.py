@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.which_are_in import in_array
+from kyu_6.which_are_in import in_array
 
 
 class InArrayTestCase(unittest.TestCase):

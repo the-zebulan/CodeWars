@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.keyword_cipher_helper import keyword_cipher
+from kyu_6.keyword_cipher_helper import keyword_cipher
 
 
 class KeywordCipherTestCase(unittest.TestCase):

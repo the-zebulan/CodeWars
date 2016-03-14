@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.wordify import wordify
+from kyu_6.wordify import wordify
 
 
 class WordifyTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.fizz_buzz import solution
+from kyu_6.fizz_buzz import solution
 
 
 class FizzBuzzTestCase(unittest.TestCase):

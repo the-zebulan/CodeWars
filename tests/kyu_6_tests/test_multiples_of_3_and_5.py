@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.multiples_of_3_and_5 import solution
+from kyu_6.multiples_of_3_and_5 import solution
 
 
 class MultiplesOfThreeAndFiveTestCase(unittest.TestCase):

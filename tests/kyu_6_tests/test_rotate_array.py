@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.rotate_array import rotate
+from kyu_6.rotate_array import rotate
 
 
 class RotateTestCase(unittest.TestCase):

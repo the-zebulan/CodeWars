@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.find_the_odd_int import find_it
+from kyu_6.find_the_odd_int import find_it
 
 
 class FindTheOddIntegerTestCase(unittest.TestCase):

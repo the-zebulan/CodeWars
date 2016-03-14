@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.what_adds_up import addsup
+from kyu_6.what_adds_up import addsup
 
 
 class WhatAddsUpTestCase(unittest.TestCase):

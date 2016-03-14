@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.give_me_diamond import diamond
+from kyu_6.give_me_diamond import diamond
 
 
 class DiamondTestCase(unittest.TestCase):

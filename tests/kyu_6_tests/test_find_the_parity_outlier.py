@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.find_the_parity_outlier import find_outlier
+from kyu_6.find_the_parity_outlier import find_outlier
 
 
 class FindOutlierTestCase(unittest.TestCase):

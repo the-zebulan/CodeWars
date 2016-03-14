@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.decode_the_morse_code import decodeMorse
+from kyu_6.decode_the_morse_code import decodeMorse
 
 
 class DecodeMorseTestCase(unittest.TestCase):

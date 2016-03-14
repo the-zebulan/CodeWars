@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.secret_message import find_secret_message
+from kyu_6.secret_message import find_secret_message
 
 
 class FindSecretMessageTestCase(unittest.TestCase):

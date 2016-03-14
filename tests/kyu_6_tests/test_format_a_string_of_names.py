@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.format_a_string_of_names import namelist
+from kyu_6.format_a_string_of_names import namelist
 
 
 class NameListTestCase(unittest.TestCase):

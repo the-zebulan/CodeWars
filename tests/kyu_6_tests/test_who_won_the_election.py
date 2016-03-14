@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.who_won_the_election import getWinner
+from kyu_6.who_won_the_election import getWinner
 
 
 class GetWinnerTestCase(unittest.TestCase):

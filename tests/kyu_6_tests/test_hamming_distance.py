@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.hamming_distance import hamming
+from kyu_6.hamming_distance import hamming
 
 
 class HammingDistanceTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_6.greatest_position_distance import greatest_distance
+from kyu_6.greatest_position_distance import greatest_distance
 
 
 class GreatestDistanceTestCase(unittest.TestCase):

@@ -1,7 +1,7 @@
 import re
 import unittest
 
-from Kyu_6.parse_the_log import logparser
+from kyu_6.parse_the_log import logparser
 
 
 class LogparserTestCase(unittest.TestCase):
