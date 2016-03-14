@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.two_to_one import longest
+from kyu_7.two_to_one import longest
 
 
 class LongestTestCase(unittest.TestCase):

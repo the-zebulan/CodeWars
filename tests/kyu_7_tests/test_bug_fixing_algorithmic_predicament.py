@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.bug_fixing_algorithmic_predicament import highest_age
+from kyu_7.bug_fixing_algorithmic_predicament import highest_age
 
 
 class HighestAgeTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.high_and_low import high_and_low
+from kyu_7.high_and_low import high_and_low
 
 
 class HighAndLowTestCase(unittest.TestCase):

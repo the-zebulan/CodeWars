@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.how_far_will_i_go import travel
+from kyu_7.how_far_will_i_go import travel
 
 
 class TravelTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.html_generator import HTMLGen
+from kyu_7.html_generator import HTMLGen
 
 
 class HTMLGeneratorTestCase(unittest.TestCase):

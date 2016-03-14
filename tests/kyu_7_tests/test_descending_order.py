@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.descending_order import Descending_Order
+from kyu_7.descending_order import Descending_Order
 
 
 class DescendingOrderTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.boiled_eggs import cooking_time
+from kyu_7.boiled_eggs import cooking_time
 
 
 class CookingTimeTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.self_descriptive_numbers import self_descriptive
+from kyu_7.self_descriptive_numbers import self_descriptive
 
 
 class SelfDescriptiveNumbersTestCase(unittest.TestCase):

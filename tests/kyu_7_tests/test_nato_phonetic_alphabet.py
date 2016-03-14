@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.nato_phonetic_alphabet import nato
+from kyu_7.nato_phonetic_alphabet import nato
 
 
 class NATOTestCase(unittest.TestCase):

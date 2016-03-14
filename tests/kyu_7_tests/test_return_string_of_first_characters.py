@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.return_string_of_first_characters import make_string
+from kyu_7.return_string_of_first_characters import make_string
 
 
 class MakeStringTestCase(unittest.TestCase):

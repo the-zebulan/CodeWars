@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.rotate_for_a_max import max_rot
+from kyu_7.rotate_for_a_max import max_rot
 
 
 class MaximumRotationTestCase(unittest.TestCase):

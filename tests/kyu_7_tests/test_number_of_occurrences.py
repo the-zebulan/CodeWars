@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.number_of_occurrences import number_of_occurrences
+from kyu_7.number_of_occurrences import number_of_occurrences
 
 
 class NumberOfOccurrencesTestCase(unittest.TestCase):

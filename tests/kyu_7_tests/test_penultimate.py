@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.penultimate import penultimate
+from kyu_7.penultimate import penultimate
 
 
 class PenultimateTestCase(unittest.TestCase):

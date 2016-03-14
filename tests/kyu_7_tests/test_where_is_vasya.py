@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.where_is_vasya import where_is_he
+from kyu_7.where_is_vasya import where_is_he
 
 
 class WhereIsHeTestCase(unittest.TestCase):

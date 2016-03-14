@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.ghostbusters_whitespace_removal import ghostbusters
+from kyu_7.ghostbusters_whitespace_removal import ghostbusters
 
 
 class GhostbustersTestCase(unittest.TestCase):

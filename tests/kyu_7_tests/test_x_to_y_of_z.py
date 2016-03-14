@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.x_to_y_of_z import pagination_text
+from kyu_7.x_to_y_of_z import pagination_text
 
 
 class PaginationTextTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.largest_elements import largest
+from kyu_7.largest_elements import largest
 
 
 class LargestTestCase(unittest.TestCase):

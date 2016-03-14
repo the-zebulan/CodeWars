@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.bug_fixing_regex_failure import filter_words
+from kyu_7.bug_fixing_regex_failure import filter_words
 
 
 class FilterWordsTestCase(unittest.TestCase):

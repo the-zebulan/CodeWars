@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.decreasing_inputs import add
+from kyu_7.decreasing_inputs import add
 
 
 class DescreasingInputsTestCase(unittest.TestCase):

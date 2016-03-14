@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.gradually_adding_parameters import add
+from kyu_7.gradually_adding_parameters import add
 
 
 class AddingParametersTestCase(unittest.TestCase):

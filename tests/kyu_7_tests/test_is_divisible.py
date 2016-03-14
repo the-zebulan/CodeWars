@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.is_divisible import is_divisible
+from kyu_7.is_divisible import is_divisible
 
 
 class IsDivisibleTestCase(unittest.TestCase):

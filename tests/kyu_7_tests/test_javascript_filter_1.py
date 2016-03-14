@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.javascript_filter_1 import search_names
+from kyu_7.javascript_filter_1 import search_names
 
 
 class SearchNamesTestCase(unittest.TestCase):

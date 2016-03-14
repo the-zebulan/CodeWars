@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.bug_fixing_failed_sort import sort_array
+from kyu_7.bug_fixing_failed_sort import sort_array
 
 
 class SortArrayTestCase(unittest.TestCase):

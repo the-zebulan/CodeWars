@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.filter_list import filter_list
+from kyu_7.filter_list import filter_list
 
 
 class FilterListTestCase(unittest.TestCase):

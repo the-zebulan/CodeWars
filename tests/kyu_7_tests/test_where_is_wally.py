@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.where_is_wally import wheres_wally
+from kyu_7.where_is_wally import wheres_wally
 
 
 class WhereIsWallyTestCase(unittest.TestCase):

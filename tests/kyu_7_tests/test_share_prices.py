@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.share_prices import share_price
+from kyu_7.share_prices import share_price
 
 
 class SharePriceTestCase(unittest.TestCase):

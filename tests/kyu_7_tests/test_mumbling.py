@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.mumbling import accum
+from kyu_7.mumbling import accum
 
 
 class MumblingTestCase(unittest.TestCase):

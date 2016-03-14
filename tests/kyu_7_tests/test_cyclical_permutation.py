@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.cyclical_permutation import pattern
+from kyu_7.cyclical_permutation import pattern
 
 
 class CyclicalPermutationTestCase(unittest.TestCase):

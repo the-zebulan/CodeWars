@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.you_are_a_square import is_square
+from kyu_7.you_are_a_square import is_square
 
 
 class IsSquareTestCase(unittest.TestCase):

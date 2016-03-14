@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.counting_in_the_amazon import count_arara
+from kyu_7.counting_in_the_amazon import count_arara
 
 
 class CountAraraTestCase(unittest.TestCase):

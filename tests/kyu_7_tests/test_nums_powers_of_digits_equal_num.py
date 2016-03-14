@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.nums_powers_of_digits_equal_num import eq_sum_powdig
+from kyu_7.nums_powers_of_digits_equal_num import eq_sum_powdig
 
 
 class PowersOfDigitsTestCase(unittest.TestCase):

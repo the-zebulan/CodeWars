@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.keypad_horror import computer_to_phone
+from kyu_7.keypad_horror import computer_to_phone
 
 
 class ComputerToPhoneTestCase(unittest.TestCase):

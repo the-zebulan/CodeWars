@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.what_dominates_your_array import dominator
+from kyu_7.what_dominates_your_array import dominator
 
 
 class DominatorTestCase(unittest.TestCase):

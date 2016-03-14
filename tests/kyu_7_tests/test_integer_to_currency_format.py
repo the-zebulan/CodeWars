@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.integer_to_currency_format import to_currency
+from kyu_7.integer_to_currency_format import to_currency
 
 
 class IntegerToCurrencyTestCase(unittest.TestCase):

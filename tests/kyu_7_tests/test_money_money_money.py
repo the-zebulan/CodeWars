@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.money_money_money import calculate_years
+from kyu_7.money_money_money import calculate_years
 
 
 class CalculateYearsTestCase(unittest.TestCase):

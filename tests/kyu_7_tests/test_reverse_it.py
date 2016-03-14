@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.reverse_it import reverse_it
+from kyu_7.reverse_it import reverse_it
 
 
 class ReverseItTestCase(unittest.TestCase):

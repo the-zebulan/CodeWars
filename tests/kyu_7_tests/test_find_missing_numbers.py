@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.find_missing_numbers import find_missing_numbers
+from kyu_7.find_missing_numbers import find_missing_numbers
 
 
 class FindMissingNumbersTestCase(unittest.TestCase):

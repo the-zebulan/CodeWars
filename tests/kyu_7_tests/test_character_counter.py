@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.character_counter import validate_word
+from kyu_7.character_counter import validate_word
 
 
 class ValidateWordTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.not_all_but_sometimes_all import remove
+from kyu_7.not_all_but_sometimes_all import remove
 
 
 class RemoveTestCase(unittest.TestCase):

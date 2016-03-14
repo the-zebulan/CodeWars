@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.vowel_count import getCount
+from kyu_7.vowel_count import getCount
 
 
 class GetCountTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.growth_of_a_population import nb_year
+from kyu_7.growth_of_a_population import nb_year
 
 
 class GrowthOfAPopulationTestCase(unittest.TestCase):

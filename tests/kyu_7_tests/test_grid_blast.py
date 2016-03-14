@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.grid_blast import fire
+from kyu_7.grid_blast import fire
 
 
 class FireTestCase(unittest.TestCase):

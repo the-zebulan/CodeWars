@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.distance_from_the_average import distances_from_average
+from kyu_7.distance_from_the_average import distances_from_average
 
 
 class DistancesFromTheAverageTestCase(unittest.TestCase):

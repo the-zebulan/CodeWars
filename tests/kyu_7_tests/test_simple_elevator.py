@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.simple_elevator import goto
+from kyu_7.simple_elevator import goto
 
 
 class SimpleElevatorTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.power_of_two import power_of_two
+from kyu_7.power_of_two import power_of_two
 
 
 class PowerOfTwoTestCase(unittest.TestCase):

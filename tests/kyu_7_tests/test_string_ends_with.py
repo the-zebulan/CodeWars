@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.string_ends_with import solution
+from kyu_7.string_ends_with import solution
 
 
 class StringEndsWithTestCase(unittest.TestCase):

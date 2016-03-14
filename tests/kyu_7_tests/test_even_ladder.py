@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.even_ladder import pattern
+from kyu_7.even_ladder import pattern
 
 
 class EvenLadderTestCase(unittest.TestCase):

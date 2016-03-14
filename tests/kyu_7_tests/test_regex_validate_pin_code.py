@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.regex_validate_pin_code import validate_pin
+from kyu_7.regex_validate_pin_code import validate_pin
 
 
 class ValidatePinTestCase(unittest.TestCase):

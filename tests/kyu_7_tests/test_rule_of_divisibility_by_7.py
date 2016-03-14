@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.rule_of_divisibility_by_7 import seven
+from kyu_7.rule_of_divisibility_by_7 import seven
 
 
 class SevenTestCase(unittest.TestCase):

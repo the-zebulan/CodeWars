@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.alternate_square_sum import alternate_sq_sum
+from kyu_7.alternate_square_sum import alternate_sq_sum
 
 
 class AlternateSquareSumTestCase(unittest.TestCase):

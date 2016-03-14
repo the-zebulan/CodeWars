@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.genetic_algorithm_series_crossover import crossover
+from kyu_7.genetic_algorithm_series_crossover import crossover
 
 
 class CrossoverTestCase(unittest.TestCase):

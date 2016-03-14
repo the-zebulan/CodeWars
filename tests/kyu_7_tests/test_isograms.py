@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.isograms import is_isogram
+from kyu_7.isograms import is_isogram
 
 
 class IsogramTestCase(unittest.TestCase):

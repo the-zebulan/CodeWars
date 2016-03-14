@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.c_wars import initials
+from kyu_7.c_wars import initials
 
 
 class InitialsTestCase(unittest.TestCase):

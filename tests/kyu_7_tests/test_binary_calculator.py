@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.binary_calculator import calculate
+from kyu_7.binary_calculator import calculate
 
 
 class CalculateTestCase(unittest.TestCase):

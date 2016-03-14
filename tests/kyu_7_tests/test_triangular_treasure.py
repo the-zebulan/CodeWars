@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.triangular_treasure import triangular
+from kyu_7.triangular_treasure import triangular
 
 
 class TriangularTestCase(unittest.TestCase):

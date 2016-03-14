@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.leap_years import isLeapYear
+from kyu_7.leap_years import isLeapYear
 
 
 class IsLeapYearTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.filter_unused_digits import unused_digits
+from kyu_7.filter_unused_digits import unused_digits
 
 
 class UnusedDigitsTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.monotone_travel import is_monotone
+from kyu_7.monotone_travel import is_monotone
 
 
 class IsMonotoneTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.dropcaps import drop_cap
+from kyu_7.dropcaps import drop_cap
 
 
 class DropCapTestCase(unittest.TestCase):

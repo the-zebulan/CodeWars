@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.string_to_integer_conversion import my_parse_int
+from kyu_7.string_to_integer_conversion import my_parse_int
 
 
 class StringToIntegerConversionTestCase(unittest.TestCase):

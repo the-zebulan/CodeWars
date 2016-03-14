@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.summing_a_numbers_digits import sumDigits
+from kyu_7.summing_a_numbers_digits import sumDigits
 
 
 class SumDigitsTestCase(unittest.TestCase):

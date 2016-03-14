@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.character_concatenation import char_concat
+from kyu_7.character_concatenation import char_concat
 
 
 class CharacterConcatenationTestCase(unittest.TestCase):

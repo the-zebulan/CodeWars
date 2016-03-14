@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.eighties_kids_3_punky_brewsters_socks import get_socks
+from kyu_7.eighties_kids_3_punky_brewsters_socks import get_socks
 
 
 class GetSocksTestCase(unittest.TestCase):

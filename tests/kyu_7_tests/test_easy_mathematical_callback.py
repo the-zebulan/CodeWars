@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.easy_mathematical_callback import process_array
+from kyu_7.easy_mathematical_callback import process_array
 
 
 class ProcessArrayTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.lorraine_wants_to_win_tv_contest import unscramble
+from kyu_7.lorraine_wants_to_win_tv_contest import unscramble
 
 
 class UnscrambleTestCase(unittest.TestCase):

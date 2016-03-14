@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.area_of_a_circle import circleArea
+from kyu_7.area_of_a_circle import circleArea
 
 
 class CircleAreaTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.number_pairs import get_larger_numbers
+from kyu_7.number_pairs import get_larger_numbers
 
 
 class GetLargerNumbersTestCase(unittest.TestCase):

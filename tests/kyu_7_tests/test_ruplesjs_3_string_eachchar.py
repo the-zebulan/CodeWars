@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.ruplesjs_3_string_eachchar import each_char
+from kyu_7.ruplesjs_3_string_eachchar import each_char
 
 
 class EachCharacterTestCase(unittest.TestCase):

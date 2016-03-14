@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.unpacking_arguments import spread
+from kyu_7.unpacking_arguments import spread
 
 
 class SpreadTestCase(unittest.TestCase):

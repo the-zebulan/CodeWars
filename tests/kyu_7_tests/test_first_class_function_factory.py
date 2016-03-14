@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.first_class_function_factory import factory
+from kyu_7.first_class_function_factory import factory
 
 
 class FactoryTestCase(unittest.TestCase):

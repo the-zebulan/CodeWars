@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.zip_it import lstzip
+from kyu_7.zip_it import lstzip
 
 
 class ZipItTestCase(unittest.TestCase):

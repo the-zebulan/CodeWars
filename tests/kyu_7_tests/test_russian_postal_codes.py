@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.russian_postal_codes import zip_validate
+from kyu_7.russian_postal_codes import zip_validate
 
 
 class ZipValidateTestCase(unittest.TestCase):

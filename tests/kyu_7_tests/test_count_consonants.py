@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.count_consonants import consonant_count
+from kyu_7.count_consonants import consonant_count
 
 
 class ConsonantCountTestCase(unittest.TestCase):

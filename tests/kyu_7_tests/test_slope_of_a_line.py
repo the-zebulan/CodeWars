@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.slope_of_a_line import getSlope
+from kyu_7.slope_of_a_line import getSlope
 
 
 class GetSlopeTestCase(unittest.TestCase):

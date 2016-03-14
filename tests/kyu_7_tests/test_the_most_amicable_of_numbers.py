@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.the_most_amicable_of_numbers import amicable_numbers
+from kyu_7.the_most_amicable_of_numbers import amicable_numbers
 
 
 class AmicableNumbersTestCase(unittest.TestCase):

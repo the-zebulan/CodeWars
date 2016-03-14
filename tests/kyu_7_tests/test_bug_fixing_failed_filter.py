@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.bug_fixing_failed_filter import filter_numbers
+from kyu_7.bug_fixing_failed_filter import filter_numbers
 
 
 class FilterNumbersTestCase(unittest.TestCase):

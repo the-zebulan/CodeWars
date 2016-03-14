@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.deodorant_evaporator import evaporator
+from kyu_7.deodorant_evaporator import evaporator
 
 
 class EvaporatorTestCase(unittest.TestCase):

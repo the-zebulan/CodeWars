@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.power_of_4 import powerof4
+from kyu_7.power_of_4 import powerof4
 
 
 class PowerOfFourTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.array_comparator import match_arrays
+from kyu_7.array_comparator import match_arrays
 
 
 class MatchArraysTestCase(unittest.TestCase):

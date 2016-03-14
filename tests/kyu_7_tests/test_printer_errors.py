@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.printer_errors import printer_error
+from kyu_7.printer_errors import printer_error
 
 
 class PrinterErrorTestCase(unittest.TestCase):

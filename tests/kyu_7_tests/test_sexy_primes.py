@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.sexy_primes import sexy_prime
+from kyu_7.sexy_primes import sexy_prime
 
 
 class SexyPrimeTestCase(unittest.TestCase):

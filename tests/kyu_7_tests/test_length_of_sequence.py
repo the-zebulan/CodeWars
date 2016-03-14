@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.length_of_sequence import length_of_sequence
+from kyu_7.length_of_sequence import length_of_sequence
 
 
 class LengthOfSequenceTestCase(unittest.TestCase):

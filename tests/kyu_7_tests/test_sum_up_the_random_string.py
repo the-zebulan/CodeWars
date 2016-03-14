@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.sum_up_the_random_string import sum_from_string
+from kyu_7.sum_up_the_random_string import sum_from_string
 
 
 class SumFromStringTestCase(unittest.TestCase):

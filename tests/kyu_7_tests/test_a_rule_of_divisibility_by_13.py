@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.a_rule_of_divisibility_by_13 import thirt
+from kyu_7.a_rule_of_divisibility_by_13 import thirt
 
 
 class ThirtTestCase(unittest.TestCase):

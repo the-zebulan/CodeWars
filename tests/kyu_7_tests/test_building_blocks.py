@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.building_blocks import Block
+from kyu_7.building_blocks import Block
 
 
 class BlockTestCase(unittest.TestCase):

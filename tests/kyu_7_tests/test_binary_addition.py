@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.binary_addition import add_binary
+from kyu_7.binary_addition import add_binary
 
 
 class AddBinaryTestCase(unittest.TestCase):

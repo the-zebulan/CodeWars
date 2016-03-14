@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.sum_of_all_arguments import sum_args
+from kyu_7.sum_of_all_arguments import sum_args
 
 
 class SumArgsTestCase(unittest.TestCase):

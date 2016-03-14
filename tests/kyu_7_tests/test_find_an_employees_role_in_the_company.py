@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.find_an_employees_role_in_the_company import find_employees_role
+from kyu_7.find_an_employees_role_in_the_company import find_employees_role
 
 
 class FindEmployeesRoleTestCase(unittest.TestCase):

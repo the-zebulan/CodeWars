@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.factorial_factory import factorial
+from kyu_7.factorial_factory import factorial
 
 
 class FactorialTestCase(unittest.TestCase):

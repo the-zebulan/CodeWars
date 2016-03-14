@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.functional_addition import add
+from kyu_7.functional_addition import add
 
 
 class AddTestCase(unittest.TestCase):

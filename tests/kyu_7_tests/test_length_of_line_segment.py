@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.length_of_line_segment import length_of_line
+from kyu_7.length_of_line_segment import length_of_line
 
 
 class LengthOfLineTestCase(unittest.TestCase):

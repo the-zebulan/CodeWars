@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.the_coins_of_ter import adjust
+from kyu_7.the_coins_of_ter import adjust
 
 
 class AdjustTestCase(unittest.TestCase):

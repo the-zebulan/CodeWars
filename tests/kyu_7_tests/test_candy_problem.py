@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.candy_problem import candies
+from kyu_7.candy_problem import candies
 
 
 class CandiesTestCase(unittest.TestCase):

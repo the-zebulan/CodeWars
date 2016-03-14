@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.the_owls_are_not_what_they_seem import owl_pic
+from kyu_7.the_owls_are_not_what_they_seem import owl_pic
 
 
 class OwlTestCase(unittest.TestCase):

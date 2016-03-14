@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.always_perfect import check_root
+from kyu_7.always_perfect import check_root
 
 
 class CheckRootTestCase(unittest.TestCase):

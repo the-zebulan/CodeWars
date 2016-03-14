@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.make_backronym import make_backronym
+from kyu_7.make_backronym import make_backronym
 
 
 class MakeBackronymTestCase(unittest.TestCase):

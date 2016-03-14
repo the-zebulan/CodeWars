@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.finding_remainder_without_using_modulo import remainder
+from kyu_7.finding_remainder_without_using_modulo import remainder
 
 
 class RemainderTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.product_of_main_diagonal import main_diagonal_product
+from kyu_7.product_of_main_diagonal import main_diagonal_product
 
 
 class MainDiagonalProductTestCase(unittest.TestCase):

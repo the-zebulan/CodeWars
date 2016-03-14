@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.collatz_conjecture import collatz
+from kyu_7.collatz_conjecture import collatz
 
 
 class CollatzTestCase(unittest.TestCase):

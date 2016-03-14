@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.char_to_ascii import char_to_ascii
+from kyu_7.char_to_ascii import char_to_ascii
 
 
 class CharToAsciiTestCase(unittest.TestCase):

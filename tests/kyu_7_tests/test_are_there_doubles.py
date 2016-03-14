@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.are_there_doubles import double_check
+from kyu_7.are_there_doubles import double_check
 
 
 class DoubleCheckTestCase(unittest.TestCase):

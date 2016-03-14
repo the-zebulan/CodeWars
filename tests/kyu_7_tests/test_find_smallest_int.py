@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.find_smallest_int import findSmallestInt
+from kyu_7.find_smallest_int import findSmallestInt
 
 
 class FindSmallestIntegerTestCase(unittest.TestCase):

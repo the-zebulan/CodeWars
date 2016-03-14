@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.alphabetize_by_nth_char import sort_it
+from kyu_7.alphabetize_by_nth_char import sort_it
 
 
 class SortItTestCase(unittest.TestCase):

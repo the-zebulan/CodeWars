@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.batman_quotes import BatmanQuotes
+from kyu_7.batman_quotes import BatmanQuotes
 
 
 class BatmanQuotesTestCase(unittest.TestCase):

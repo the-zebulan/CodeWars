@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.perfect_number_verifier import isPerfect
+from kyu_7.perfect_number_verifier import isPerfect
 
 
 class IsPerfectTestCase(unittest.TestCase):

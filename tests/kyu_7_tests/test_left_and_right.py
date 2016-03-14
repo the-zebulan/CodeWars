@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.left_and_right import left, right
+from kyu_7.left_and_right import left, right
 
 
 class TestCase(unittest.TestCase):

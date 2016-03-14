@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.partial_word_searching import word_search
+from kyu_7.partial_word_searching import word_search
 
 
 class WordSearchTestCase(unittest.TestCase):

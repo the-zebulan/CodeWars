@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.reversed_strings import solution
+from kyu_7.reversed_strings import solution
 
 
 class ReversedStringsTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.parallelogram import pattern
+from kyu_7.parallelogram import pattern
 
 
 class ParallelogramTestCase(unittest.TestCase):

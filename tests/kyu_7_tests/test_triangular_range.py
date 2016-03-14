@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.triangular_range import triangular_range
+from kyu_7.triangular_range import triangular_range
 
 
 class TriangularRangeTestCase(unittest.TestCase):

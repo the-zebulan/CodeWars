@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.sorting_dictionaries import sort_dict
+from kyu_7.sorting_dictionaries import sort_dict
 
 
 class SortDictTestCase(unittest.TestCase):

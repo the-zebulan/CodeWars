@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_7.tax_calculator import tax_calculator
+from kyu_7.tax_calculator import tax_calculator
 
 
 class TaxCalculatorTestCase(unittest.TestCase):
