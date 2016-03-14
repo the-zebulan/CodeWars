@@ -1,6 +1,6 @@
 import unittest
 
-from Retired.palindromes import is_palindrome
+from katas.retired.palindromes import is_palindrome
 
 
 class IsPalindromeTestCase(unittest.TestCase):
