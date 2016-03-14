@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_5.scramblies import scramble
+from kyu_5.scramblies import scramble
 
 
 class ScrambliesTestCase(unittest.TestCase):

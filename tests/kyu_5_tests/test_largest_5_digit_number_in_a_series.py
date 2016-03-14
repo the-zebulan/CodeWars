@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_5.largest_5_digit_number_in_a_series import solution
+from kyu_5.largest_5_digit_number_in_a_series import solution
 
 
 class LargestFiveDigitNumberTestCase(unittest.TestCase):

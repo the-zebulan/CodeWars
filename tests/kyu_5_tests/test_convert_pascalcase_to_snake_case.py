@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_5.convert_pascalcase_to_snake_case import to_underscore
+from kyu_5.convert_pascalcase_to_snake_case import to_underscore
 
 
 class PascalToSnakeTestCase(unittest.TestCase):

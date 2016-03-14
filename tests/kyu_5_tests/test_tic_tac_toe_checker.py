@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_5.tic_tac_toe_checker import isSolved
+from kyu_5.tic_tac_toe_checker import isSolved
 
 
 class TicTacToeTestCase(unittest.TestCase):

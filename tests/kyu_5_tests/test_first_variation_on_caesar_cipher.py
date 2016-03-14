@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_5.first_variation_on_caesar_cipher import demoving_shift, moving_shift
+from kyu_5.first_variation_on_caesar_cipher import demoving_shift, moving_shift
 
 
 class CaesarCipherTestCase(unittest.TestCase):

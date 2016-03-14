@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_5.weight_for_weight import order_weight
+from kyu_5.weight_for_weight import order_weight
 
 
 class OrderWeightTestCase(unittest.TestCase):

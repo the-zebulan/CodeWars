@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_5.valid_date_regex import valid_date
+from kyu_5.valid_date_regex import valid_date
 
 
 class ValidDateTestCase(unittest.TestCase):

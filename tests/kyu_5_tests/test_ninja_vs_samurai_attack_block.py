@@ -1,7 +1,7 @@
 # coding=utf-8
 import unittest
 
-from Kyu_5.ninja_vs_samurai_attack_block import Warrior
+from kyu_5.ninja_vs_samurai_attack_block import Warrior
 
 
 class WarriorTestCase(unittest.TestCase):

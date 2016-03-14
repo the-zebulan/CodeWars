@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_5.did_i_finish_my_sudoku import done_or_not
+from kyu_5.did_i_finish_my_sudoku import done_or_not
 
 
 class DoneOrNotTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_5.rgb_to_hex_conversion import rgb
+from kyu_5.rgb_to_hex_conversion import rgb
 
 
 class RGBToHexTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from Kyu_5.luck_check import luck_check
+from kyu_5.luck_check import luck_check
 
 
 class LuckCheckTestCase(unittest.TestCase):
