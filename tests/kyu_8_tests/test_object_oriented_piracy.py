@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.object_oriented_piracy import Ship
+from katas.kyu_8.object_oriented_piracy import Ship
 
 
 class PirateShipTestCase(unittest.TestCase):

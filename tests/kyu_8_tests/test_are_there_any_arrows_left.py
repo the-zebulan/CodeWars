@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.are_there_any_arrows_left import any_arrows
+from katas.kyu_8.are_there_any_arrows_left import any_arrows
 
 
 class ArrowsTestCase(unittest.TestCase):

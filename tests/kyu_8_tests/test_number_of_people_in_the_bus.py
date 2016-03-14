@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.number_of_people_in_the_bus import number
+from katas.kyu_8.number_of_people_in_the_bus import number
 
 
 class PeopleInTheBusTestCase(unittest.TestCase):

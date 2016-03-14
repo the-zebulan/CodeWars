@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.formatting_decimal_places_0 import two_decimal_places
+from katas.kyu_8.formatting_decimal_places_0 import two_decimal_places
 
 
 class TwoDecimalPlacesTestCase(unittest.TestCase):

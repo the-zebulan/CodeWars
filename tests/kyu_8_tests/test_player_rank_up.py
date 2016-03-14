@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.player_rank_up import playerRankUp
+from katas.kyu_8.player_rank_up import playerRankUp
 
 
 class PlayerRankUpTestCase(unittest.TestCase):

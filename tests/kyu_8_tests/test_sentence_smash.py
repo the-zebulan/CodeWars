@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.sentence_smash import smash
+from katas.kyu_8.sentence_smash import smash
 
 
 class SmashTestCase(unittest.TestCase):

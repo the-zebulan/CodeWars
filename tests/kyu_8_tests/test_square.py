@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.square import square
+from katas.kyu_8.square import square
 
 
 class SquareTestCase(unittest.TestCase):

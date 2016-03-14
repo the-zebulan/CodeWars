@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.grasshopper_bug_squashing import (
+from katas.kyu_8.grasshopper_bug_squashing import (
     coins, health, log, main, position
 )
 

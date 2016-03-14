@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.stringy_strings import stringy
+from katas.kyu_8.stringy_strings import stringy
 
 
 class StringyTestCase(unittest.TestCase):

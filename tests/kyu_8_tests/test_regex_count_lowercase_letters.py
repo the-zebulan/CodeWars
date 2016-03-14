@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.regex_count_lowercase_letters import lowercase_count
+from katas.kyu_8.regex_count_lowercase_letters import lowercase_count
 
 
 class LowercaseCountTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.even_or_odd import even_or_odd
+from katas.kyu_8.even_or_odd import even_or_odd
 
 
 class EvenOrOddTestCase(unittest.TestCase):

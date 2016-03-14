@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.lightsabers import howManyLightsabersDoYouOwn
+from katas.kyu_8.lightsabers import howManyLightsabersDoYouOwn
 
 
 class LightsabersTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.get_the_mean_of_array import get_average
+from katas.kyu_8.get_the_mean_of_array import get_average
 
 
 class GetAverageTestCase(unittest.TestCase):

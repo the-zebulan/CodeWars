@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.grasshopper_messi_goals import (
+from katas.kyu_8.grasshopper_messi_goals import (
     champions_league_goals, copa_del_rey_goals, la_liga_goals, total_goals
 )
 

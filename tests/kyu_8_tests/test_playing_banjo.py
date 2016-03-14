@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.playing_banjo import areYouPlayingBanjo
+from katas.kyu_8.playing_banjo import areYouPlayingBanjo
 
 
 class BanjoTestCase(unittest.TestCase):

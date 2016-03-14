@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.count_by_x import count_by
+from katas.kyu_8.count_by_x import count_by
 
 
 class CountByXTestCase(unittest.TestCase):

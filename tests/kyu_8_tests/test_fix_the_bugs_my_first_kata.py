@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.fix_the_bugs_my_first_kata import my_first_kata
+from katas.kyu_8.fix_the_bugs_my_first_kata import my_first_kata
 
 
 class MyFirstKataTestCase(unittest.TestCase):

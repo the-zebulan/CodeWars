@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.grasshopper_terminal_game_1 import Hero
+from katas.kyu_8.grasshopper_terminal_game_1 import Hero
 
 
 class HeroTestCase(unittest.TestCase):

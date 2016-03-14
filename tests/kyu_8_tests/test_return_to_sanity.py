@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.return_to_sanity import mystery
+from katas.kyu_8.return_to_sanity import mystery
 
 
 class MysteryTestCase(unittest.TestCase):

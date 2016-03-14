@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.grasshopper_variable_assignment_debug import a, b, name
+from katas.kyu_8.grasshopper_variable_assignment_debug import a, b, name
 
 
 class VariablesTestCase(unittest.TestCase):

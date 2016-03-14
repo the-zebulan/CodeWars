@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.how_do_i_compare_numbers import what_is
+from katas.kyu_8.how_do_i_compare_numbers import what_is
 
 
 class WhatIsTestCase(unittest.TestCase):

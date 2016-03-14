@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.days_in_the_year import year_days
+from katas.kyu_8.days_in_the_year import year_days
 
 
 class YearDaysTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.string_to_number import string_to_number
+from katas.kyu_8.string_to_number import string_to_number
 
 
 class StringToNumberTestCase(unittest.TestCase):

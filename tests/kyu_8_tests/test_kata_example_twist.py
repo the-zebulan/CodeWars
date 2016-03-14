@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.kata_example_twist import websites
+from katas.kyu_8.kata_example_twist import websites
 
 
 class WebsitesTestCase(unittest.TestCase):

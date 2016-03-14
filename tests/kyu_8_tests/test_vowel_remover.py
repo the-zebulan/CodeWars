@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.vowel_remover import shortcut
+from katas.kyu_8.vowel_remover import shortcut
 
 
 class ShortcutTestCase(unittest.TestCase):

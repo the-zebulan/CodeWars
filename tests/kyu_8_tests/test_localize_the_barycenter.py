@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.localize_the_barycenter import bar_triang
+from katas.kyu_8.localize_the_barycenter import bar_triang
 
 
 class BarycenterTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.grasshopper_summation import summation
+from katas.kyu_8.grasshopper_summation import summation
 
 
 class SummationTestCase(unittest.TestCase):

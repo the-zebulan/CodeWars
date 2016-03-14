@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.validate_code_with_simple_regex import validate_code
+from katas.kyu_8.validate_code_with_simple_regex import validate_code
 
 
 class ValidateCodeTestCase(unittest.TestCase):

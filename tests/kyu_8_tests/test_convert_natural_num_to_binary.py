@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.convert_natural_num_to_binary import int_to_bin
+from katas.kyu_8.convert_natural_num_to_binary import int_to_bin
 
 
 class IntegerToBinaryTestCase(unittest.TestCase):

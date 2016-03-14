@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.two_plus_two_times_two import calculate
+from katas.kyu_8.two_plus_two_times_two import calculate
 
 
 class CalculateTestCase(unittest.TestCase):

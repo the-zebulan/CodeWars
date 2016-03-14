@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.hello_world import greet
+from katas.kyu_8.hello_world import greet
 
 
 class HelloWorldTestCase(unittest.TestCase):

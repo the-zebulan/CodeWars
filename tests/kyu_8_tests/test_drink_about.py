@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.drink_about import people_with_age_drink
+from katas.kyu_8.drink_about import people_with_age_drink
 
 
 class DrinkTestCase(unittest.TestCase):

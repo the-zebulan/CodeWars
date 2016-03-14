@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_8.broken_greetings import Person
+from katas.kyu_8.broken_greetings import Person
 
 
 class PersonTestCase(unittest.TestCase):
