@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.extract_domain_name_from_url import domain_name
+from katas.kyu_5.extract_domain_name_from_url import domain_name
 
 
 class DomainNameTestCase(unittest.TestCase):

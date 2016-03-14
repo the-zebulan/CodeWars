@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.ookkk_ok_o_ook_ok_ooo import okkOokOo
+from katas.kyu_5.ookkk_ok_o_ook_ok_ooo import okkOokOo
 
 
 class OKTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.two_joggers import nbr_of_laps
+from katas.kyu_5.two_joggers import nbr_of_laps
 
 
 class NumberOfLapsTestCase(unittest.TestCase):

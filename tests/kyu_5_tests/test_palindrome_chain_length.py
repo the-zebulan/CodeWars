@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.palindrome_chain_length import palindrome_chain_length
+from katas.kyu_5.palindrome_chain_length import palindrome_chain_length
 
 
 class PalindromeChainLengthTestCase(unittest.TestCase):

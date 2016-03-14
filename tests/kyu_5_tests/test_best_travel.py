@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.best_travel import choose_best_sum
+from katas.kyu_5.best_travel import choose_best_sum
 
 
 class BestSumTestCase(unittest.TestCase):

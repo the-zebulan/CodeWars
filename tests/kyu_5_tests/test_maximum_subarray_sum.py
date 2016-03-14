@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.maximum_subarray_sum import maxSequence
+from katas.kyu_5.maximum_subarray_sum import maxSequence
 
 
 class MaximumSubarraySumTestCase(unittest.TestCase):

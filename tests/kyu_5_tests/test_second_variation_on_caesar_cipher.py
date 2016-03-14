@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.second_variation_on_caesar_cipher import encode_str, decode
+from katas.kyu_5.second_variation_on_caesar_cipher import encode_str, decode
 
 
 class CaesarCipherTestCase(unittest.TestCase):

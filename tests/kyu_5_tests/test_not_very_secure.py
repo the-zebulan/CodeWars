@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.not_very_secure import alphanumeric
+from katas.kyu_5.not_very_secure import alphanumeric
 
 
 class AlphaNumericTestCase(unittest.TestCase):

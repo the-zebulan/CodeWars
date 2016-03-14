@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.metric_units_1 import meters
+from katas.kyu_5.metric_units_1 import meters
 
 
 class MetersTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.simple_pig_latin import pig_it
+from katas.kyu_5.simple_pig_latin import pig_it
 
 
 class PigLatinTestCase(unittest.TestCase):

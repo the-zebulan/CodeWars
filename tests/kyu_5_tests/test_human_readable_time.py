@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.human_readable_time import make_readable
+from katas.kyu_5.human_readable_time import make_readable
 
 
 class HumanReadableTimeTestCase(unittest.TestCase):

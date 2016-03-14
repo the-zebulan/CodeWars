@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.prefill_an_array import prefill
+from katas.kyu_5.prefill_an_array import prefill
 
 
 class PrefillTestCase(unittest.TestCase):

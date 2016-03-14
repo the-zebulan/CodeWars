@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.caesar_cipher_helper import CaesarCipher
+from katas.kyu_5.caesar_cipher_helper import CaesarCipher
 
 
 class CaesarCipherTestCase(unittest.TestCase):

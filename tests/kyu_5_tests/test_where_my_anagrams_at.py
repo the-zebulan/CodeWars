@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.where_my_anagrams_at import anagrams
+from katas.kyu_5.where_my_anagrams_at import anagrams
 
 
 class AnagramsTestCase(unittest.TestCase):

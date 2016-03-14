@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.readability_is_king import flesch_kincaid
+from katas.kyu_5.readability_is_king import flesch_kincaid
 
 
 class FleschKincaidTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.ascii_hex_converter import Converter
+from katas.kyu_5.ascii_hex_converter import Converter
 
 
 class ConverterTestCase(unittest.TestCase):

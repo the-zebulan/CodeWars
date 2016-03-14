@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.rot13 import rot13
+from katas.kyu_5.rot13 import rot13
 
 
 class ROT13TestCase(unittest.TestCase):

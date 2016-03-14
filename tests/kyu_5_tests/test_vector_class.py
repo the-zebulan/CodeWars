@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.vector_class import Vector
+from katas.kyu_5.vector_class import Vector
 
 
 class VectorTestCase(unittest.TestCase):

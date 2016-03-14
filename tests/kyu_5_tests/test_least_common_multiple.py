@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.least_common_multiple import lcm
+from katas.kyu_5.least_common_multiple import lcm
 
 
 class LeastCommonMultipleTestCase(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from kyu_5.convert_string_to_camelcase import to_camel_case
+from katas.kyu_5.convert_string_to_camelcase import to_camel_case
 
 
 class ToCamelCaseTestCase(unittest.TestCase):
