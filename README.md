@@ -1,6 +1,9 @@
 # CodeWars
 
-[![Build Status](https://travis-ci.org/the-zebulan/CodeWars.svg?branch=master)](https://travis-ci.org/the-zebulan/CodeWars) [![Coverage Status](https://coveralls.io/repos/github/the-zebulan/CodeWars/badge.svg?branch=master)](https://coveralls.io/github/the-zebulan/CodeWars?branch=master)
+[![Build Status](https://travis-ci.org/the-zebulan/CodeWars.svg?branch=master)](https://travis-ci.org/the-zebulan/CodeWars)
+[![Coverage Status](https://coveralls.io/repos/github/the-zebulan/CodeWars/badge.svg?branch=master)](https://coveralls.io/github/the-zebulan/CodeWars?branch=master)
+[![CodeWars Rank](https://img.shields.io/badge/codewars%20rank-%2381%20-brightgreen.svg)](http://www.codewars.com/users/zebulan)
+[![Python Version](https://img.shields.io/badge/python-2.7-blue.svg)]()
 
 My solutions for CodeWars problems are written using Python 2.7 and unittests are run using pytest.
 
