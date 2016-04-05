@@ -1,7 +1,7 @@
 from collections import Counter
 
-VEGETABLES = {'cabbage', 'carrots', 'celery', 'cucumber', 'mushrooms',
-              'onions', 'pepper', 'potato', 'tofu', 'turnip'}
+VEGETABLES = {'cabbage', 'carrot', 'celery', 'cucumber', 'mushroom',
+              'onion', 'pepper', 'potato', 'tofu', 'turnip'}
 
 
 def count_vegetables(vegetables):
