@@ -1,10 +1,8 @@
-import re
-
-REGEX = re.compile(r'[^a-zA-Z ]')
+from string import punctuation
 
 
 def nothing_special(s):
     try:
-        return REGEX.sub('', s)
-    except TypeError:
+        return s.translate(None, punctuation)
+    except AttributeError:
         return 'Not a string!'
