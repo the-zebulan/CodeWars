@@ -13,5 +13,5 @@ def string_color(name):
     if length < 2:
         return None
     return '{:02X}{:02X}{:02X}'.format(
-        sum_chars % 255, prod_chars % 255, abs(first_char - other_chars) % 255
+        sum_chars % 256, prod_chars % 256, abs(first_char - other_chars) % 256
     )
