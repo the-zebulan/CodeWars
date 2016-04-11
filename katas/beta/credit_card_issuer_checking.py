@@ -7,8 +7,7 @@ REGEX = re.compile(r'''
 (?P<VISA>(?:4\d{15}|4\d{12})$)''', re.VERBOSE)
 
 
-def getIssuer(card_num):
-    # get_issuer == PEP8, forced mixedCase by CodeWars
+def get_issuer(card_num):
     try:
         return next(
             k for k, v in REGEX.match(str(card_num)).groupdict().iteritems()
