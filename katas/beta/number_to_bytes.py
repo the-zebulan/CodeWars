@@ -1,7 +1,7 @@
 from math import ceil
 
 
-def toBytes(n):
+def to_bytes(n):
     binary = '{:b}'.format(n)
     width = int(ceil(len(binary) / 8.0) * 8)
     padded = binary.zfill(width)
