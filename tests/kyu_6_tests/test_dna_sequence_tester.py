@@ -63,6 +63,9 @@ class CheckDNATestCase(unittest.TestCase):
         self.assertFalse(check_DNA('TACGATCCAAGGCTACTCAGAG',
                                    'GGGATACTCTGAGTAGCCTTGGAA'))
 
+    def test_false_11(self):
+        self.assertFalse(check_DNA('ATGCTACG', 'CGTAGCAA'))
+
 
 if __name__ == '__main__':
     unittest.main()
