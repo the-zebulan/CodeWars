@@ -1,5 +1,5 @@
 OUTPUT = 'ko{}-{}ntti'.format
-VOWELS = frozenset('aeiouAEIOU')
+VOWELS = frozenset('aeiouyAEIOUY')
 
 
 def kontti(s):

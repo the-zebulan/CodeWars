@@ -17,7 +17,7 @@ class KonttiTestCase(unittest.TestCase):
         self.assertEqual(kontti('aeiou'), 'koeiou-antti')
 
     def test_equals_5(self):
-        self.assertEqual(kontti('xyz lamppu'), 'xyz komppu-lantti')
+        self.assertEqual(kontti('xyz lamppu'), 'koz-xyntti komppu-lantti')
 
     def test_equals_6(self):
         self.assertEqual(kontti(''), '')
