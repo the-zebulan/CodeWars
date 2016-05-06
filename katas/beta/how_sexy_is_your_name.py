@@ -4,7 +4,7 @@ SCORES = {'A': 100, 'B': 14, 'C': 9, 'D': 28, 'E': 145, 'F': 12, 'G': 3,
           'U': 11, 'V': 10, 'W': 10, 'X': 3, 'Y': 210, 'Z': 23}
 
 
-def sexyName(name):
+def sexy_name(name):
     name_score = sum(SCORES.get(a, 0) for a in name.upper())
     if name_score >= 600:
         return 'THE ULTIMATE SEXIEST'
