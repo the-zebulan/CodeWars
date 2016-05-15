@@ -13,6 +13,12 @@ class MissingNumberTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(find_missing_number(''), 0)
 
+    def test_equals_4(self):
+        self.assertEqual(find_missing_number('a b c'), 1)
+
+    def test_equals_5(self):
+        self.assertEqual(find_missing_number('1 2 3'), 0)
+
 
 if __name__ == '__main__':
     unittest.main()
