@@ -1,6 +1,6 @@
 import re
 
-REGEX = re.compile(r'((?:^|:)[0:]+(?::|$))')
+REGEX = re.compile(r'((?:^|:)[0:]+)')
 
 
 def shorten(ip):
