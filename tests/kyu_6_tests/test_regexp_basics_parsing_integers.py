@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.regexp_basics_parsing_integers import to_integer
+from katas.kyu_6.regexp_basics_parsing_integers import to_integer
 
 
 class ParsingIntegersTestCase(unittest.TestCase):
