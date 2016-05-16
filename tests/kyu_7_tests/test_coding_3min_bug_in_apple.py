@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.coding_3min_bug_in_apple import sc
+from katas.kyu_7.coding_3min_bug_in_apple import sc
 
 
 class BugInAppleTestCase(unittest.TestCase):
