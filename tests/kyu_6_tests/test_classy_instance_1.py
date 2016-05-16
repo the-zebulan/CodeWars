@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.classy_instance_1 import show_me
+from katas.kyu_6.classy_instance_1 import show_me
 
 
 class ClassyTestCase(unittest.TestCase):
