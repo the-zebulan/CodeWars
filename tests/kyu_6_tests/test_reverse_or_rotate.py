@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.reverse_or_rotate import revrot
+from katas.kyu_6.reverse_or_rotate import revrot
 
 
 class ReverseOrRotateTestCase(unittest.TestCase):
