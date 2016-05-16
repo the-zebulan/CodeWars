@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.phone_directory import phone
+from katas.kyu_5.phone_directory import phone
 
 
 class PhoneDirectoryTestCase(unittest.TestCase):
