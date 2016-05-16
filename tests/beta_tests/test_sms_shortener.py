@@ -4,7 +4,7 @@ from katas.beta.sms_shortener import shortener
 
 
 class ShortenerTestCase(unittest.TestCase):
-    def test_equals(self):
+    def test_equal_1(self):
         self.assertEqual(shortener(
             'No one expects the Spanish Inquisition! Our chief weapon is '
             'surprise, fear and surprise; two chief weapons, fear, surpri'
@@ -13,7 +13,7 @@ class ShortenerTestCase(unittest.TestCase):
             'urprise, fear and surprise; two chief weapons, fear,Surprise,'
             'AndRuthlessEfficiency!AndThatWillBeIt.')
 
-    def test_equals_2(self):
+    def test_equal_2(self):
         self.assertEqual(shortener(
             'SMS messages are limited to 160 characters. It tends to be ir'
             'ritating, especially when freshly written message is 164 char'
@@ -24,6 +24,20 @@ class ShortenerTestCase(unittest.TestCase):
             'peciallyWhenFreshlyWrittenMessageIs164CharactersLong.SMSMessa'
             'gesAreLimitedTo160Characters.ItTendsToBeIrritating,Especially'
             'WhenFreshlyWrittenMessageIs164CharactersLong.')
+
+    def test_equal_3(self):
+        self.assertEqual(shortener(
+            'here is my message here is my message here is my message here '
+            'is my message here is my message!'
+        ), 'here is my message here is my message here is my message here '
+           'is my message here is my message!')
+
+    def test_equal_4(self):
+        self.assertEqual(shortener(
+            'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijab'
+            'cdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghij'
+        ), 'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabc'
+           'defghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghij')
 
 
 if __name__ == '__main__':
