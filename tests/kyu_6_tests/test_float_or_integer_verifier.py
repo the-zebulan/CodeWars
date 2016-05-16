@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.float_or_integer_verifier import i_or_f
+from katas.kyu_6.float_or_integer_verifier import i_or_f
 
 
 class IntegerOrFloatTestCase(unittest.TestCase):
