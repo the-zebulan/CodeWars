@@ -33,6 +33,14 @@ class RequiredData2TestCase(unittest.TestCase):
     def test_equals_7(self):
         self.assertEqual(given_nth_value(self.list_3, 2, 'MaX'), 22)
 
+    def test_equals_8(self):
+        self.assertEqual(given_nth_value(self.list_1, -1, 'max'),
+                         'Incorrect value for k')
+
+    def test_equals_9(self):
+        self.assertEqual(given_nth_value(self.list_1, 'string', 2),
+                         'Incorrect value for k')
+
 
 if __name__ == '__main__':
     unittest.main()
