@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.sorted_union import unite_unique
+from katas.kyu_7.sorted_union import unite_unique
 
 
 class UniteUniqueTestCase(unittest.TestCase):
