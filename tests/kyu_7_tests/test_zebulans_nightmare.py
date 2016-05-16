@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.zebulans_nightmare import zebulansNightmare
+from katas.kyu_7.zebulans_nightmare import zebulansNightmare
 
 
 class ZebulanTestCase(unittest.TestCase):
