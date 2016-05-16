@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.most_improved import calculate_improved
+from katas.kyu_6.most_improved import calculate_improved
 
 
 class CalculateImprovedTestCase(unittest.TestCase):
