@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.new_gps_system import check_distance, total_kilometers
+from katas.beta.fuel_usage_reporting import check_distance, total_kilometers
 
 
 class NewGPSSystemTestCase(unittest.TestCase):
