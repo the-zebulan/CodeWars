@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.pythons_dynamic_classes_1 import class_name_changer
+from katas.kyu_7.pythons_dynamic_classes_1 import class_name_changer
 
 
 class ClassNameChangerTestCase(unittest.TestCase):
