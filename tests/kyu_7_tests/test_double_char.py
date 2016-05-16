@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.double_char import double_char
+from katas.kyu_7.double_char import double_char
 
 
 class DoubleCharTestCase(unittest.TestCase):
