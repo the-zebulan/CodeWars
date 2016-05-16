@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.next_version import next_version
+from katas.kyu_6.next_version import next_version
 
 
 class NextVersionTestCase(unittest.TestCase):
