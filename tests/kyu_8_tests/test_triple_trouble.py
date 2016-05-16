@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.triple_trouble import triple_trouble
+from katas.kyu_8.triple_trouble import triple_trouble
 
 
 class TripleTroubleTestCase(unittest.TestCase):
