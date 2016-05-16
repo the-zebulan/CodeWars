@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.suzuki_needs_help_lining_up_his_students import \
+from katas.kyu_7.suzuki_needs_help_lining_up_his_students import \
     lineup_students
 
 
