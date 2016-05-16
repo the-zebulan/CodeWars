@@ -1,7 +1,7 @@
-from datetime import date
 import unittest
+from datetime import date
 
-from katas.beta.countdown_to_christmas import days_until_christmas
+from katas.kyu_7.countdown_to_christmas import days_until_christmas
 
 
 class DaysUntilChristmasTestCase(unittest.TestCase):
