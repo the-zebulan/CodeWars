@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.leonardo_dicaprio_and_oscars import leo
+from katas.kyu_8.leonardo_dicaprio_and_oscars import leo
 
 
 class LeonardoTestCase(unittest.TestCase):
