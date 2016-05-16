@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.help_suzuki_rake_his_garden import rake_garden
+from katas.kyu_7.help_suzuki_rake_his_garden import rake_garden
 
 
 class RakeGardenTestCase(unittest.TestCase):
