@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.noonerize_me import noonerize
+from katas.kyu_7.noonerize_me import noonerize
 
 
 class NoonerizeTestCase(unittest.TestCase):
