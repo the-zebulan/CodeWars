@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.integer_to_english import int_to_english
+from katas.kyu_5.integer_to_english import int_to_english
 
 
 class IntegerToEnglishTestCase(unittest.TestCase):
