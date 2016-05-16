@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.sum_factorial import sum_factorial
+from katas.kyu_7.sum_factorial import sum_factorial
 
 
 class SumFactorialTestCase(unittest.TestCase):
