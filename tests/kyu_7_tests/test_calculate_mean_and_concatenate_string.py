@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.calculate_mean_and_concatenate_string import mean
+from katas.kyu_7.calculate_mean_and_concatenate_string import mean
 
 
 class MeanTestCase(unittest.TestCase):
