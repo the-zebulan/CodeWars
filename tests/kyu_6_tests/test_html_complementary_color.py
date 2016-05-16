@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.html_complementary_color import get_reversed_color
+from katas.kyu_6.html_complementary_color import get_reversed_color
 
 
 class ReversedColorTestCase(unittest.TestCase):
