@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.permutation_average import permutation_average
+from katas.kyu_7.permutation_average import permutation_average
 
 
 class PermutationAverageTestCase(unittest.TestCase):
