@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.number_star_ladder import pattern
+from katas.kyu_7.number_star_ladder import pattern
 
 
 class PatternTestCase(unittest.TestCase):
