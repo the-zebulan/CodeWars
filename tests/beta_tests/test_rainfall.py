@@ -40,6 +40,12 @@ class RainfallTestCase(unittest.TestCase):
     def test_equals_4(self):
         self.assertEqual(round(variance('Beijing', self.test)), 4808.0)
 
+    def test_equals_5(self):
+        self.assertEqual(mean('Zimbabwe', self.test), -1)
+
+    def test_equals_6(self):
+        self.assertEqual(variance('Sundre', self.test), -1)
+
 
 if __name__ == '__main__':
     unittest.main()
