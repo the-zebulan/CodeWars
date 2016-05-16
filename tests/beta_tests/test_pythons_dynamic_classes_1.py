@@ -17,6 +17,11 @@ class ClassNameChangerTestCase(unittest.TestCase):
         class_name_changer(MyClass, 'SecondUsefulClass')
         self.assertEqual(str(MyClass), '<class \'tests.beta_tests.test_pythons_dyna'
                                        'mic_classes_1.SecondUsefulClass\'>')
+    def test_raises_1(self):
+        self.assertRaises(NameError, class_name_changer, MyClass, 'bad_name')
+
+    def test_raises_2(self):
+        self.assertRaises(NameError, class_name_changer, MyClass, '!@#$%%^')
 
 
 class MyClass(object):
