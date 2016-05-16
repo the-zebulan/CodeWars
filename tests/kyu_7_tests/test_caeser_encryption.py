@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.caeser_encryption import caeser
+from katas.kyu_7.caeser_encryption import caeser
 
 
 class CaeserTestCase(unittest.TestCase):
