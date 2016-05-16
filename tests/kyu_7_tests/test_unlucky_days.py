@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.unlucky_days import unlucky_days
+from katas.kyu_7.unlucky_days import unlucky_days
 
 
 class UnluckyDaysTestCase(unittest.TestCase):
