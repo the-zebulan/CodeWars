@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.regexp_fun_1_when_i_miss_few_days_of_gym import gym_slang
+from katas.kyu_7.regexp_fun_1_when_i_miss_few_days_of_gym import gym_slang
 
 
 class GymSlangTestCase(unittest.TestCase):
