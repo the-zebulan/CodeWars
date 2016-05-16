@@ -16,6 +16,9 @@ class DateToMinutesTestCase(unittest.TestCase):
     def test_equals_4(self):
         self.assertEqual(date_to_mins('05/31/2016'), 218880)
 
+    def test_equals_5(self):
+        self.assertEqual(date_to_mins('invalid date!'), -1)
+
 
 if __name__ == '__main__':
     unittest.main()
