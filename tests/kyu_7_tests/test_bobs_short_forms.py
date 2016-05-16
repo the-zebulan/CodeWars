@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.bobs_short_forms import short_form
+from katas.kyu_7.bobs_short_forms import short_form
 
 
 class ShortFormTestCase(unittest.TestCase):
