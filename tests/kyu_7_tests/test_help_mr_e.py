@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.help_mr_e import evenator
+from katas.kyu_7.help_mr_e import evenator
 
 
 class EvenatorTestCase(unittest.TestCase):
