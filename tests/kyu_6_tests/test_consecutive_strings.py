@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.consecutive_strings import longest_consec
+from katas.kyu_6.consecutive_strings import longest_consec
 
 
 class ConsecutiveTestCase(unittest.TestCase):
