@@ -25,6 +25,11 @@ class LogicalAndNonNegativeMatrixTestCase(unittest.TestCase):
     def test_false_2(self):
         self.assertFalse(logical_matrix([[1, 1], [1, 2]]))
 
+    def test_false_3(self):
+        self.assertFalse(sum_nonnegative_logical_matrix(
+            [[-1, 0], [-1, 0]], [[0, -1], [0, -1]]
+        ))
+
 
 if __name__ == '__main__':
     unittest.main()
