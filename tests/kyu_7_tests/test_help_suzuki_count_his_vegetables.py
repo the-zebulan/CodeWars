@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.help_suzuki_count_his_vegetables import count_vegetables
+from katas.kyu_7.help_suzuki_count_his_vegetables import count_vegetables
 
 
 class CountVegetablesTestCase(unittest.TestCase):
