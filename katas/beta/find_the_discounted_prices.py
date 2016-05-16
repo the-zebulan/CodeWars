@@ -2,7 +2,7 @@ from collections import Counter
 
 
 def find_discounted(prices):
-    count_prices = Counter(int(a) for a in prices.split())
+    count_prices = dict(Counter(int(a) for a in prices.split()))
     result = []
     for key in sorted(count_prices):
         value = count_prices[key]
