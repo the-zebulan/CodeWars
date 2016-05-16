@@ -13,6 +13,12 @@ class ReversedColorTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(get_reversed_color('a23'), '#FFF5DC')
 
+    def test_raises_1(self):
+        self.assertRaises(ValueError, get_reversed_color, 123)
+
+    def test_raises_2(self):
+        self.assertRaises(ValueError, get_reversed_color, '#FFFFFFF')
+
 
 if __name__ == '__main__':
     unittest.main()
