@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.thinking_and_testing_01 import testit as solution
+from katas.kyu_7.thinking_and_testing_a_and_b import testit as solution
 
 
 class TestItTestCase(unittest.TestCase):
