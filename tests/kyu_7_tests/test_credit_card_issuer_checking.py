@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.credit_card_issuer_checking import get_issuer
+from katas.kyu_7.credit_card_issuer_checking import get_issuer
 
 
 class GetIssuerTestCase(unittest.TestCase):
