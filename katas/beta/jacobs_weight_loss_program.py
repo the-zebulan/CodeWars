@@ -5,7 +5,4 @@ def lose_weight(gender, weight, duration):
         return 'Invalid duration'
     elif weight <= 0:
         return 'Invalid weight'
-    percent = 0.015 if gender == 'M' else 0.012
-    for _ in xrange(duration):
-        weight -= weight * percent
-    return round(weight, 1)
+    return round(weight * ((0.988, 0.985)[gender == 'M'] ** duration), 1)
