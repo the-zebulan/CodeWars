@@ -3,7 +3,7 @@ import unittest
 from katas.kyu_6.function_composition import compose
 
 
-class MyTestCase(unittest.TestCase):
+class ComposeTestCase(unittest.TestCase):
     def setUp(self):
         self.add_1 = lambda a: a + 1
         self.sub_2 = lambda b: b - 2
