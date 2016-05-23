@@ -10,34 +10,34 @@ class MirrorTestCase(unittest.TestCase):
         ), 'an hxmgmuqu1l=*gey')
 
     def test_equal_2(self):
-        self.assertEqual(mirror("Welcome home"), "dvoxlnv slnv")
+        self.assertEqual(mirror('Welcome home'), 'dvoxlnv slnv')
 
     def test_equal_3(self):
-        self.assertEqual(mirror("hello"), "svool")
+        self.assertEqual(mirror('hello'), 'svool')
 
     def test_equal_4(self):
-        self.assertEqual(mirror("goodbye"), "tllwybv")
+        self.assertEqual(mirror('goodbye'), 'tllwybv')
 
     def test_equal_5(self):
-        self.assertEqual(mirror("ngmlsoor"), "mtnohlli")
+        self.assertEqual(mirror('ngmlsoor'), 'mtnohlli')
 
     def test_equal_6(self):
-        self.assertEqual(mirror("gsrh rh z hvxivg"), "this is a secret")
+        self.assertEqual(mirror('gsrh rh z hvxivg'), 'this is a secret')
 
     def test_equal_7(self):
-        self.assertEqual(mirror("Welcome home", "w"), "welcome home")
+        self.assertEqual(mirror('Welcome home', 'w'), 'welcome home')
 
     def test_equal_8(self):
-        self.assertEqual(mirror("hello", "abcdefgh"), "adllo")
+        self.assertEqual(mirror('hello', 'abcdefgh'), 'adllo')
 
     def test_equal_9(self):
-        self.assertEqual(mirror("goodbye", ""), "goodbye")
+        self.assertEqual(mirror('goodbye', ''), 'goodbye')
 
     def test_equal_10(self):
-        self.assertEqual(mirror("CodeWars", "+-*/="), "codewars")
+        self.assertEqual(mirror('CodeWars', '+-*/='), 'codewars')
 
     def test_equal_11(self):
-        self.assertEqual(mirror("this is a secret", " *"), "this*is*a*secret")
+        self.assertEqual(mirror('this is a secret', ' *'), 'this*is*a*secret')
 
 
 if __name__ == '__main__':
