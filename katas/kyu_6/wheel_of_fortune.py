@@ -13,10 +13,10 @@ def winner(players):
                 return False
             score_total += score
             total_spins += 1
-        if score_total > 100:
-            continue
-        elif total_spins not in (1, 2):
+        if total_spins not in (1, 2):
             return False
+        elif score_total > 100:
+            continue
         elif score_total > winner_score:
             winner_name = name
             winner_score = score_total

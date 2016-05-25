@@ -83,8 +83,22 @@ class WinnerTestCase(unittest.TestCase):
         self.assertFalse(winner([
             {'name': 'Gildorome', 'scores': [10, 90]},
             {'name': 'Bostori', 'scores': [50, 56]},
-            {'name': 'Grawl', 'scores': [85]}])
-        )
+            {'name': 'Grawl', 'scores': [85]}
+        ]))
+
+    def test_false_13(self):
+        self.assertFalse(winner([
+            {'name': 'Muge Zorbados', 'scores': [55]},
+            {'name': 'Grawl', 'scores': [50, 45, 30]},
+            {'name': 'Bostori', 'scores': [70, 65]}
+        ]))
+
+    def test_false_14(self):
+        self.assertFalse(winner([
+            {'name': 'Muge Zorbados', 'scores': [15, 55]},
+            {'name': 'Helmat', 'scores': [95, 100]},
+            {'name': 'Grawl', 'scores': [85, 35, 15]}
+        ]))
 
 
 if __name__ == '__main__':
