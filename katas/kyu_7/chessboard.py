@@ -1,13 +1,10 @@
-from itertools import cycle
+from itertools import cycle, islice
 
 
 def chessboard(s):
     n, m = (int(a) for a in s.split())
-    if not m:
+    if not n or not m:
         return ''
-    star_dot = cycle('*.')
-    row = ''.join(next(star_dot) for _ in xrange(m))
-    if m % 2 == 0:
-        next(star_dot)
-    row2 = ''.join(next(star_dot) for _ in xrange(m))
-    return '\n'.join(row if b % 2 == 0 else row2 for b in xrange(n))
+    return '\n'.join(islice(cycle(
+        (''.join(islice(cycle('*.'), m)), ''.join(islice(cycle('.*'), m)))
+    ), n))
