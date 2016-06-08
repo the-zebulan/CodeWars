@@ -11,9 +11,17 @@ class ChessboardTestCase(unittest.TestCase):
         self.assertEqual(chessboard('5 2'), '*.\n.*\n*.\n.*\n*.')
 
     def test_equal_3(self):
+        self.assertEqual(chessboard('7 7'),
+                         '*.*.*.*\n.*.*.*.\n*.*.*.*\n'
+                         '.*.*.*.\n*.*.*.*\n.*.*.*.\n*.*.*.*')
+
+    def test_equal_4(self):
         self.assertEqual(chessboard('8 8'),
                          '*.*.*.*.\n.*.*.*.*\n*.*.*.*.\n.*.*.*.*\n'
                          '*.*.*.*.\n.*.*.*.*\n*.*.*.*.\n.*.*.*.*')
+
+    def test_equal_5(self):
+        self.assertEqual(chessboard('17 0'), '')
 
 
 if __name__ == '__main__':
