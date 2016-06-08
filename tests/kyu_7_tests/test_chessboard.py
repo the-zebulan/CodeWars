@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.chessboard import chessboard
+from katas.kyu_7.chessboard import chessboard
 
 
 class ChessboardTestCase(unittest.TestCase):
