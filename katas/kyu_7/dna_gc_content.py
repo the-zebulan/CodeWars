@@ -6,4 +6,4 @@ def gc_content(seq):
         if a in 'GC':
             gc_cnt += 1
         total_chars += 1
-    return int(100 * gc_cnt / total_chars)
+    return round(100.0 * gc_cnt / total_chars, 2)
