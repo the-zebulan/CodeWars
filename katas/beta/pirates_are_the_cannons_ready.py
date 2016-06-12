@@ -1,3 +1,2 @@
 def cannons_ready(gunners):
-    return 'Fire!' if all(a == 'aye' for a in gunners.itervalues()) else \
-        'Shiver me timbers!'
+    return 'Shiver me timbers!' if 'nay' in gunners.itervalues() else 'Fire!'
