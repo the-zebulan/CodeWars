@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.sir_show_me_your_id import show_me
+from katas.kyu_7.sir_show_me_your_id import show_me
 
 
 class ShowMeTestCase(unittest.TestCase):
