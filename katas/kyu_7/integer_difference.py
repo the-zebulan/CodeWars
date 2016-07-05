@@ -1,14 +1,8 @@
-from collections import deque
+from collections import Counter
 
 
 def int_diff(arr, n):
-    nums = deque(sorted(arr))
-    result = 0
-    while nums:
-        plus_n = nums.popleft() + n
-        for a in nums:
-            if a > plus_n:
-                break
-            elif a == plus_n:
-                result += 1
-    return result
+    cnts = Counter(arr)
+    if n == 0:
+        return sum(v * (v - 1) // 2 for v in cnts.values())
+    return sum(v * cnts[k + n] for k, v in cnts.items())
