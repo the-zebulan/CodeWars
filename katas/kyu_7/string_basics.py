@@ -1,5 +1,3 @@
 def get_users_ids(strng):
-    result = []
-    for a in strng.split(','):
-        result.append(a.lower().replace('#', '').replace('uid', '', 1).strip())
-    return result
+    return [a.replace('uid', '', 1).strip()
+            for a in strng.lower().replace('#', '').split(',')]
