@@ -16,3 +16,9 @@ class PrefillTestCase(unittest.TestCase):
     def test_equals_4(self):
         self.assertEqual(prefill(3, prefill(2, '2d')),
                          [['2d', '2d'], ['2d', '2d'], ['2d', '2d']])
+
+    def test_raises_1(self):
+        self.assertRaises(TypeError, prefill, 'z', 3)
+
+    def test_raises_2(self):
+        self.assertRaises(TypeError, prefill, lambda: 1, 5)
