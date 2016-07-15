@@ -9,7 +9,3 @@ class RepeatedSubstringTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(f('abcde'), ('abcde', 1))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -11,7 +11,3 @@ class DropCapTestCase(unittest.TestCase):
     def test_equals_2(self):
         self.assertEqual(drop_cap('aRQh yBdbvhcRglvirAcRpXat NlahSCaPlMkol'),
                          'Arqh Ybdbvhcrglviracrpxat Nlahscaplmkol')
-
-
-if __name__ == '__main__':
-    unittest.main()

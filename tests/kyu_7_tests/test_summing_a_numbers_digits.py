@@ -12,7 +12,3 @@ class SumDigitsTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(sumDigits(-32), 5)
-
-
-if __name__ == '__main__':
-    unittest.main()

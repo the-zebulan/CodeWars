@@ -53,7 +53,3 @@ class LeagueCalculateTestCase(unittest.TestCase):
         self.assertEqual(league_calculate('teamB', 'teamD', 'win'), [
             ['teamC', 11], ['teamB', 10], ['teamA', 9], ['teamD', 5]
         ])
-
-
-if __name__ == '__main__':
-    unittest.main()

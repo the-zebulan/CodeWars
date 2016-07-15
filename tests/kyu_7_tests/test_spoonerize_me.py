@@ -15,7 +15,3 @@ class SpoonerizeTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(spoonerize('pop corn'), 'cop porn')
-
-
-if __name__ == '__main__':
-    unittest.main()

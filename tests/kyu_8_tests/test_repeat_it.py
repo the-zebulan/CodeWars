@@ -11,7 +11,3 @@ class RepeatItTestCase(unittest.TestCase):
         self.assertEqual(repeat_it(
             'Hello', 11
         ), 'HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello')
-
-
-if __name__ == '__main__':
-    unittest.main()

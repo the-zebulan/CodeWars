@@ -15,7 +15,3 @@ class IsPalindromeTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(is_palindrome('abc'))
-
-
-if __name__ == '__main__':
-    unittest.main()

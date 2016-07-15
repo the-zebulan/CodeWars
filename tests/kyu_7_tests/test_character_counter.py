@@ -33,7 +33,3 @@ class ValidateWordTestCase(unittest.TestCase):
 
     def test_false_4(self):
         self.assertFalse(validate_word('abc:abc'))
-
-
-if __name__ == '__main__':
-    unittest.main()

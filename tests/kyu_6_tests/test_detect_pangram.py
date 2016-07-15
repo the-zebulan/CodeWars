@@ -26,7 +26,3 @@ class DetectPangramTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(is_pangram('abcdefghijklmopqrstuvwxyz'))
-
-
-if __name__ == '__main__':
-    unittest.main()

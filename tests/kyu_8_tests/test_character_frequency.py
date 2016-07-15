@@ -9,7 +9,3 @@ class CharacterFrequencyTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(char_freq('aaabbbccc'), {'a': 3, 'b': 3, 'c': 3})
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -14,7 +14,3 @@ class BracketBusterTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(bracket_buster('[I\'m] glad y\'all [set it]] off'),
                          ['I\'m', 'set it'])
-
-
-if __name__ == '__main__':
-    unittest.main()

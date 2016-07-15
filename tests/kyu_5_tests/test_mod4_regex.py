@@ -83,7 +83,3 @@ class Mod4RegexTestCase(unittest.TestCase):
 
     def test_is_not_none_12(self):
         self.assertIsNotNone(Mod.mod4.match(next(self.valid_tests)))
-
-
-if __name__ == '__main__':
-    unittest.main()

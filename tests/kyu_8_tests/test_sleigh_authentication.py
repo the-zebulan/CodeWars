@@ -18,7 +18,3 @@ class SleighTestCase(unittest.TestCase):
 
     def test_false_3(self):
         self.assertFalse(self.sleigh.authenticate('jhoffner', 'CodeWars'))
-
-
-if __name__ == '__main__':
-    unittest.main()

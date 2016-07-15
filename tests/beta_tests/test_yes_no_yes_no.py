@@ -20,7 +20,3 @@ class YesNoTestCase(unittest.TestCase):
 
     def test_equal_5(self):
         self.assertEqual(yes_no(['a', 'b']), ['a', 'b'])
-
-
-if __name__ == '__main__':
-    unittest.main()

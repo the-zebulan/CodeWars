@@ -55,7 +55,3 @@ class WordDictionaryTestCase(unittest.TestCase):
 
     def test_false_6(self):
         self.assertFalse(self.wd2.search('co..w..'))
-
-
-if __name__ == '__main__':
-    unittest.main()

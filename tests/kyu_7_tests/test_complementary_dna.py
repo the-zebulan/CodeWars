@@ -12,7 +12,3 @@ class DNAStrandTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(DNA_strand('GTAT'), 'CATA')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -21,7 +21,3 @@ class NewGPSSystemTestCase(unittest.TestCase):
             [0, 467, 60], [100, 367, 47.7], [200, 267, 35.40],
             [300, 167, 23.10], [400, 67, 10.80]
         ])
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -18,7 +18,3 @@ class CountByXTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(count_by(100, 5), [100, 200, 300, 400, 500])
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -33,7 +33,3 @@ class SatisfyingNumbersTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(smallest(10), 2520)
-
-
-if __name__ == '__main__':
-    unittest.main()

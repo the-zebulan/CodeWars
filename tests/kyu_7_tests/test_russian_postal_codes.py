@@ -27,7 +27,3 @@ class ZipValidateTestCase(unittest.TestCase):
 
     def test_false_5(self):
         self.assertFalse(zip_validate('1111111'))
-
-
-if __name__ == '__main__':
-    unittest.main()

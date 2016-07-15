@@ -28,7 +28,3 @@ class MumblingTestCase(unittest.TestCase):
         self.assertEqual(accum('HbideVbxncC'), 'H-Bb-Iii-Dddd-Eeeee-Vvvvvv-B'
                                                'bbbbbb-Xxxxxxxx-Nnnnnnnnn-Cc'
                                                'cccccccc-Ccccccccccc')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -33,7 +33,3 @@ class IsDigitTestCase(unittest.TestCase):
 
     def test_false_6(self):
         self.assertFalse(isDigit(' '))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -9,7 +9,3 @@ class InArrayTestCase(unittest.TestCase):
             ['live', 'arp', 'strong'],
             ['lively', 'alive', 'harp', 'sharp', 'armstrong']),
             ['arp', 'live', 'strong'])
-
-
-if __name__ == '__main__':
-    unittest.main()

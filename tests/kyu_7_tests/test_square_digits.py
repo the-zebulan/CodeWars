@@ -9,7 +9,3 @@ class SquareDigitsTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(square_digits(12345), 1491625)
-
-
-if __name__ == '__main__':
-    unittest.main()

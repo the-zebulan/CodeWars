@@ -12,7 +12,3 @@ class UniqueSumTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(unique_sum([-1, -1, 5, 2, -7]), -1)
-
-
-if __name__ == '__main__':
-    unittest.main()

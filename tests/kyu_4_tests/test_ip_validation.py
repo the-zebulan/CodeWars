@@ -27,7 +27,3 @@ class IPValidationTestCase(unittest.TestCase):
 
     def test_false_7(self):
         self.assertFalse(is_valid_IP('123.045.067.089'))
-
-
-if __name__ == '__main__':
-    unittest.main()

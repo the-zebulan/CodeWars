@@ -12,7 +12,3 @@ class SumArgsTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(sum_args(1, 2, 3, 4, 5), 15)
-
-
-if __name__ == '__main__':
-    unittest.main()

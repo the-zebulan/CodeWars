@@ -17,7 +17,3 @@ class SumConsecutivesTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(sum_consecutives([3, 3, 3, 3, 1]), [12, 1])
-
-
-if __name__ == '__main__':
-    unittest.main()

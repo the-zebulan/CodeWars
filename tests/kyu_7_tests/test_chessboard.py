@@ -22,7 +22,3 @@ class ChessboardTestCase(unittest.TestCase):
 
     def test_equal_5(self):
         self.assertEqual(chessboard('17 0'), '')
-
-
-if __name__ == '__main__':
-    unittest.main()

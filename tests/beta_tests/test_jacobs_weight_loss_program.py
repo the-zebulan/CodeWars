@@ -18,7 +18,3 @@ class LoseWeightTestCase(unittest.TestCase):
 
     def test_equal_5(self):
         self.assertEqual(lose_weight('F', 190, 8), 172.5)
-
-
-if __name__ == '__main__':
-    unittest.main()

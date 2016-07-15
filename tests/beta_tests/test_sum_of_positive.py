@@ -18,7 +18,3 @@ class PositiveSumTestCase(unittest.TestCase):
 
     def test_equal_5(self):
         self.assertEqual(positive_sum([-1, -2, -3, -4, -5]), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

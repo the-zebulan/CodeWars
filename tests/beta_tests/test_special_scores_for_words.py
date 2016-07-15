@@ -12,7 +12,3 @@ class FindWordTestCase(unittest.TestCase):
 
     def test_none(self):
         self.assertIsNone(find_word(9, 500))
-
-
-if __name__ == '__main__':
-    unittest.main()

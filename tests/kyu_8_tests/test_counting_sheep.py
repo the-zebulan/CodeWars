@@ -10,7 +10,3 @@ class CountSheepTestCase(unittest.TestCase):
             True, False, True, False, False, True, True, True, True, True,
             False, False, True, True
         ]), 17)
-
-
-if __name__ == '__main__':
-    unittest.main()

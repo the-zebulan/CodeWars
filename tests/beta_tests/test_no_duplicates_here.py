@@ -15,7 +15,3 @@ class ListDeDuplicateTestCase(unittest.TestCase):
             'code', 'wars', 'ain\'t', None, None, 'code', 'wars', 'ain\'t',
             'the', 'same', 'as', 'the', 'rest']),
             ['ain\'t', 'as', 'code', 'rest', 'same', 'the', 'wars'])
-
-
-if __name__ == '__main__':
-    unittest.main()

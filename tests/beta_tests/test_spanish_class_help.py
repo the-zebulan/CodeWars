@@ -19,7 +19,3 @@ class SpanishClassHelpTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(gender('lampas'), ['las lampas'])
-
-
-if __name__ == '__main__':
-    unittest.main()

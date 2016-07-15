@@ -12,7 +12,3 @@ class FooTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(self.f.convert('0', 1), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

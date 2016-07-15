@@ -12,7 +12,3 @@ class SquareTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(square(1), 1)
-
-
-if __name__ == '__main__':
-    unittest.main()

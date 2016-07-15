@@ -12,7 +12,3 @@ class GreekComparatorTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(greek_comparator('upsilon', 'rho'), 1)
-
-
-if __name__ == '__main__':
-    unittest.main()

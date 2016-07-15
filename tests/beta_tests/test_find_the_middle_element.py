@@ -9,7 +9,3 @@ class GimmeTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(gimme([5, 10, 14]), 1)
-
-
-if __name__ == '__main__':
-    unittest.main()

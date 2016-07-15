@@ -18,7 +18,3 @@ class WordSearchTestCase(unittest.TestCase):
         self.assertEqual(word_search(
             'XX', ['za', 'ab', 'abc', 'zab', 'zbc']
         ), ['None'])
-
-
-if __name__ == '__main__':
-    unittest.main()

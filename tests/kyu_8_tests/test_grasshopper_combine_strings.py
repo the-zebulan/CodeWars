@@ -12,7 +12,3 @@ class CombineNamesTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(combine_names('Arthur', 'Dent'), 'Arthur Dent')
-
-
-if __name__ == '__main__':
-    unittest.main()

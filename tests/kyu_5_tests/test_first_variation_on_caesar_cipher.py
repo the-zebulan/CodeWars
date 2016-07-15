@@ -17,7 +17,3 @@ class CaesarCipherTestCase(unittest.TestCase):
             '!!!', 1),
             ['J vltasl rlhr ', 'zdfog odxr ypw', ' atasl rlhr p ',
              'gwkzzyq zntyhv', ' lvz wp!!!'])
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -9,7 +9,3 @@ class MaximumSubarraySumTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(maxSequence([]), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

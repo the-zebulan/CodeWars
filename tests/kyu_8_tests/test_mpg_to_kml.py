@@ -12,7 +12,3 @@ class ConverterTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(converter(36), 12.74)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -55,7 +55,3 @@ class ProteinTestCase(unittest.TestCase):
             'NFPANGPVMQKKTCGWEPSTETVIPRDGGLLLRDTPALMLADGGHLSCFMETTYKSKKEVKL'
             'PELHFHHLRMEKLNISDDWKTVEQHESVVASYSQVPSKLGHN'
         )
-
-
-if __name__ == '__main__':
-    unittest.main()

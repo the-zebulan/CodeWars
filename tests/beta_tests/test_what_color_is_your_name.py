@@ -18,7 +18,3 @@ class StringColorTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(string_color('Mathew Smith'), '8B00F1')
-
-
-if __name__ == '__main__':
-    unittest.main()

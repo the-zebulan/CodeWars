@@ -18,7 +18,3 @@ class IntegerOrFloatTestCase(unittest.TestCase):
 
     def test_true_5(self):
         self.assertTrue(i_or_f('1e+1'))
-
-
-if __name__ == '__main__':
-    unittest.main()

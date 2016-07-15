@@ -23,7 +23,3 @@ class LowercaseCountTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(lowercase_count('abcdefghijklmnopqrstuvwxyz'), 26)
-
-
-if __name__ == '__main__':
-    unittest.main()

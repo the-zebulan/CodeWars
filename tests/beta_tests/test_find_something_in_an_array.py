@@ -9,7 +9,3 @@ class FindTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(find('anything', ['bye bye', 'hello']))
-
-
-if __name__ == '__main__':
-    unittest.main()

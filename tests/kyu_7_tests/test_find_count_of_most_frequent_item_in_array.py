@@ -17,7 +17,3 @@ class MostFrequentItemCountTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(most_frequent_item_count([9]), 1)
-
-
-if __name__ == '__main__':
-    unittest.main()

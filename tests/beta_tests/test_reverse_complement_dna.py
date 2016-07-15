@@ -15,7 +15,3 @@ class ReverseComplementTestCase(unittest.TestCase):
 
     def test_equal_4(self):
         self.assertEqual(reverse_complement('XYZ'), 'Invalid sequence')
-
-
-if __name__ == '__main__':
-    unittest.main()

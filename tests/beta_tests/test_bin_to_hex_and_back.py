@@ -33,7 +33,3 @@ class BinaryHexTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(hex_to_bin('A23'), '101000100011')
-
-
-if __name__ == '__main__':
-    unittest.main()

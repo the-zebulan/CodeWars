@@ -13,7 +13,3 @@ class HammingDistanceTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(hamming_distance(
             '100101011011010010010', '101100010110010110101'), 9)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -67,7 +67,3 @@ class ConvertToMixedNumeralTestCase(unittest.TestCase):
 
     def test_equal_21(self):
         self.assertEqual(convert_to_mixed_numeral('-21511/21'), '-1024 7/21')
-
-
-if __name__ == '__main__':
-    unittest.main()

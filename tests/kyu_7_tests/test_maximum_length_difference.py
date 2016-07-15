@@ -9,7 +9,3 @@ class MaximumLengthDifferenceTestCase(unittest.TestCase):
             'hoqq', 'bbllkw', 'oox', 'ejjuyyy', 'plmiis', 'xxxzgpsssa',
             'xxwwkktt', 'znnnnfqknaz', 'qqquuhii', 'dvvvwz'
         ], ['cccooommaaqqoxii', 'gggqaffhhh', 'tttoowwwmmww']), 13)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -66,7 +66,3 @@ class ParsingIntegersTestCase(unittest.TestCase):
 
     def test_none_9(self):
         self.assertIsNone(to_integer("0o18"))
-
-
-if __name__ == '__main__':
-    unittest.main()

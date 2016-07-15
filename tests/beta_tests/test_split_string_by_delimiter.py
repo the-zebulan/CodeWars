@@ -57,7 +57,3 @@ class MultipleSplitTestCase(unittest.TestCase):
     def test_equal_13(self):
         self.assertEqual(multiple_split('(((1+2)-(3)))', ['(', ')']),
                          ['1+2', '-', '3'])
-
-
-if __name__ == '__main__':
-    unittest.main()

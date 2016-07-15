@@ -18,7 +18,3 @@ class ConvertTimeTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(convert_time('12', '21:13'), '09:13PM')
-
-
-if __name__ == '__main__':
-    unittest.main()

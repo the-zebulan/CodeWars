@@ -18,7 +18,3 @@ class ParallelogramTestCase(unittest.TestCase):
                         '    12345678   \n   12345678    \n  12345678     \n'
                         ' 12345678      \n12345678       '
         )
-
-
-if __name__ == '__main__':
-    unittest.main()

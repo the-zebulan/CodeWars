@@ -14,7 +14,3 @@ class BuildStringTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(build_string('Chocolate'), 'I like Chocolate!')
-
-
-if __name__ == '__main__':
-    unittest.main()

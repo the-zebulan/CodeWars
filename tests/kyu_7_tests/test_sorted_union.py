@@ -35,7 +35,3 @@ class UniteUniqueTestCase(unittest.TestCase):
     def test_equal_10(self):
         self.assertEqual(unite_unique([], [1, 2, 1, 2], [2, 1, 1, 2, 1]),
                          [1, 2])
-
-
-if __name__ == '__main__':
-    unittest.main()

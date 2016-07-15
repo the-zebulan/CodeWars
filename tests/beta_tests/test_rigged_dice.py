@@ -12,7 +12,3 @@ class RiggedDiceTestCase(unittest.TestCase):
         self.assertTrue(any(
             21700 <= self.count_sixes() <= 22300 for _ in xrange(10)
         ))
-
-
-if __name__ == '__main__':
-    unittest.main()

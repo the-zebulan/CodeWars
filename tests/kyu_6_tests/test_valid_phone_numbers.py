@@ -15,7 +15,3 @@ class ValidPhoneNumberTestCase(unittest.TestCase):
 
     def test_false_3(self):
         self.assertFalse(validPhoneNumber('(123) 456-7890abc'))
-
-
-if __name__ == '__main__':
-    unittest.main()

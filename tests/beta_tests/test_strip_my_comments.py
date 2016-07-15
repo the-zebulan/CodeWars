@@ -15,7 +15,3 @@ class StripMyCommentsTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(strip_it(' x = 10;// ten !'), ' x = 10;')
-
-
-if __name__ == '__main__':
-    unittest.main()

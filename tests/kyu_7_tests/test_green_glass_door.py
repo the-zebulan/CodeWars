@@ -21,7 +21,3 @@ class StepThroughWithTestCase(unittest.TestCase):
 
     def test_false_3(self):
         self.assertFalse(step_through_with('branch'))
-
-
-if __name__ == '__main__':
-    unittest.main()

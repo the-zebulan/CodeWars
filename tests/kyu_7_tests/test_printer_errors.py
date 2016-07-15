@@ -14,7 +14,3 @@ class PrinterErrorTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(printer_error('aaaxbbbbyyhwawiwjjjwwm'), '8/22')
-
-
-if __name__ == '__main__':
-    unittest.main()

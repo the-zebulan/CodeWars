@@ -71,7 +71,3 @@ class Base64TestCase(unittest.TestCase):
         left, right = next(self.test_cases)
         self.assertEqual(to_base_64(left), right)
         self.assertEqual(from_base_64(right), left)
-
-
-if __name__ == '__main__':
-    unittest.main()

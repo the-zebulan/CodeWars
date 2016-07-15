@@ -15,7 +15,3 @@ class HeadTailInitLastTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(last([7, 2]), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()

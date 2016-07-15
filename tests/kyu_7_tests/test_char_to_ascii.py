@@ -12,7 +12,3 @@ class CharToAsciiTestCase(unittest.TestCase):
 
     def test_none(self):
         self.assertIsNone(char_to_ascii(''))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -262,7 +262,3 @@ class FindDiscountedTestCase(unittest.TestCase):
 
     def test_equal_10(self):
         self.assertEqual(find_discounted(''), '')
-
-
-if __name__ == '__main__':
-    unittest.main()

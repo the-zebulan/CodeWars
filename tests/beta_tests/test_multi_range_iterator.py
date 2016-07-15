@@ -17,7 +17,3 @@ class MultiIterTestCase(unittest.TestCase):
     def test_equals_4(self):
         self.assertEqual(list(multiiter(3, 2)), [(0, 0), (0, 1), (1, 0),
                                                  (1, 1), (2, 0), (2, 1)])
-
-
-if __name__ == '__main__':
-    unittest.main()

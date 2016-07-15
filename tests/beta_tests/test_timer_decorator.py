@@ -16,7 +16,3 @@ class TimerDecoratorTestCase(unittest.TestCase):
         def bar():
             sleep(1.1)
         self.assertFalse(bar())
-
-
-if __name__ == '__main__':
-    unittest.main()

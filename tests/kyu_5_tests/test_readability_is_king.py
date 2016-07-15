@@ -24,7 +24,3 @@ class FleschKincaidTestCase(unittest.TestCase):
             'Jumps hyperactive sweet sweet happy rests purrs jumps armchair?'
             ' Sleeps sleeps food hyperactive cuddles armchair walks rests so'
             'ft? Sleeps soft cover rests cat sun fun.'), 10.68)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -24,7 +24,3 @@ class BucketTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(bucket_of('slimeslimeslimeslimewater'), 'sludge')
-
-
-if __name__ == '__main__':
-    unittest.main()

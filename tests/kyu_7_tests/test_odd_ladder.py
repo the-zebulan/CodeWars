@@ -12,7 +12,3 @@ class OddLadderTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(pattern(5), '1\n333\n55555')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -9,7 +9,3 @@ class AlwaysTestCase(unittest.TestCase):
 
     def test_equals(self):
         self.assertEqual(self.three(), 3)
-
-
-if __name__ == '__main__':
-    unittest.main()

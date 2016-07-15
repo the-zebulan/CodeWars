@@ -12,7 +12,3 @@ class IntegerToBinaryTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(int_to_bin(7), '111')
-
-
-if __name__ == '__main__':
-    unittest.main()

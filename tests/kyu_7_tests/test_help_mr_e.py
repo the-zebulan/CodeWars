@@ -11,7 +11,3 @@ class EvenatorTestCase(unittest.TestCase):
     def test_equals_2(self):
         self.assertEqual(evenator('I got a hole in 1!'),
                          'II gott aa hole in 11')
-
-
-if __name__ == '__main__':
-    unittest.main()

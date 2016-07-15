@@ -24,7 +24,3 @@ class RGBToHexTestCase(unittest.TestCase):
 
     def test_equals_7(self):
         self.assertEqual(rgb(255, 255, 300), 'FFFFFF')
-
-
-if __name__ == '__main__':
-    unittest.main()

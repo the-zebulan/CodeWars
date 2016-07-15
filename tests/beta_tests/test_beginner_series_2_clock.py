@@ -18,7 +18,3 @@ class PastTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(past(1, 0, 0), 3600000)
-
-
-if __name__ == '__main__':
-    unittest.main()

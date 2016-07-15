@@ -25,7 +25,3 @@ class LargestFiveDigitNumberTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(solution('1234567898765'), 98765)
-
-
-if __name__ == '__main__':
-    unittest.main()

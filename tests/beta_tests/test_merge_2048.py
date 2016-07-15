@@ -21,7 +21,3 @@ class Merge2048TestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(merge([0, 0, 2, 2]), [4, 0, 0, 0])
-
-
-if __name__ == '__main__':
-    unittest.main()

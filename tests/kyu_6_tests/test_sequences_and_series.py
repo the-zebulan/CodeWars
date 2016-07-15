@@ -18,7 +18,3 @@ class GetScoreTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(get_score(5), 750)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -12,7 +12,3 @@ class FindMostFrequentTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(find_most_frequent([1, 1, '2', '2', 3]), {1, '2'})
-
-
-if __name__ == '__main__':
-    unittest.main()

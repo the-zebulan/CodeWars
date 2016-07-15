@@ -13,7 +13,3 @@ class MakeBackronymTestCase(unittest.TestCase):
         self.assertEqual(make_backronym('codewars'),
                          'confident oscillating disturbing eager weird aweso'
                          'me rant stylish')
-
-
-if __name__ == '__main__':
-    unittest.main()

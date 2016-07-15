@@ -12,7 +12,3 @@ class CompoundArrayTestCase(unittest.TestCase):
         self.assertEqual(compound_array(
             [0, 1, 2], [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
         ), [0, 9, 1, 8, 2, 7, 6, 5, 4, 3, 2, 1, 0])
-
-
-if __name__ == '__main__':
-    unittest.main()

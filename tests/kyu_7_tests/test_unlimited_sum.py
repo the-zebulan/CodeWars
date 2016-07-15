@@ -9,7 +9,3 @@ class UnlimitedSumTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(sum('1', 1, '2', 2), 3)
-
-
-if __name__ == '__main__':
-    unittest.main()

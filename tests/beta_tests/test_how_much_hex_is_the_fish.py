@@ -42,7 +42,3 @@ class FisHexTestCase(unittest.TestCase):
 
     def test_equal_13(self):
         self.assertEqual(fisHex('sea squab'), 5)
-
-
-if __name__ == '__main__':
-    unittest.main()

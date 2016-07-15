@@ -21,7 +21,3 @@ class RoundByHalfStepsTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(solution(4.8), 5)
-
-
-if __name__ == '__main__':
-    unittest.main()

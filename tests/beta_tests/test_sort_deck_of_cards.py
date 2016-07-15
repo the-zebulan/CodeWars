@@ -18,7 +18,3 @@ class SortCardsTestCase(unittest.TestCase):
         self.assertEqual(sort_cards(
             ['5', '4', 'T', 'Q', 'K', 'J', '6', '9', '3', '2', '7', 'A', '8']
         ), ['A', '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K'])
-
-
-if __name__ == '__main__':
-    unittest.main()

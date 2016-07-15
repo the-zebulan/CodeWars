@@ -33,7 +33,3 @@ class SimpleElevatorTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(goto(2, '2'), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

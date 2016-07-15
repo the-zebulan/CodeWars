@@ -27,7 +27,3 @@ class ReverseOrRotateTestCase(unittest.TestCase):
 
     def test_equals_8(self):
         self.assertEqual(revrot('123456779', 0), '')
-
-
-if __name__ == '__main__':
-    unittest.main()

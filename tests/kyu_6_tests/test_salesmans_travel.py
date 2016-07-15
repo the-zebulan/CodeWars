@@ -20,7 +20,3 @@ class TravelTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(travel(self.test, 'NY 5643'), 'NY 5643:/')
-
-
-if __name__ == '__main__':
-    unittest.main()

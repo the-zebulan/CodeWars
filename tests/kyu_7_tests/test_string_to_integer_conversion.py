@@ -18,7 +18,3 @@ class StringToIntegerConversionTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(my_parse_int('16.5'), 'NaN')
-
-
-if __name__ == '__main__':
-    unittest.main()

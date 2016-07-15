@@ -12,7 +12,3 @@ class FireTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(fire(1, 1), 'center')
-
-
-if __name__ == '__main__':
-    unittest.main()

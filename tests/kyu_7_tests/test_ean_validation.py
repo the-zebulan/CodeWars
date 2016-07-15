@@ -21,7 +21,3 @@ class ValidateEANTestCase(unittest.TestCase):
 
     def test_false_3(self):
         self.assertFalse(validate_ean("9783815820864"))
-
-
-if __name__ == '__main__':
-    unittest.main()

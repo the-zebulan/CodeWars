@@ -17,7 +17,3 @@ class ComposeTestCase(unittest.TestCase):
 
     def test_equal_3(self):
         self.assertEqual(compose(self.sub_2, self.add_1)(3), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()

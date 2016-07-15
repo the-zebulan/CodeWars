@@ -15,7 +15,3 @@ class GraderTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(grader(-1), 'F')
-
-
-if __name__ == '__main__':
-    unittest.main()

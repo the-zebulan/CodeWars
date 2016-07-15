@@ -18,7 +18,3 @@ class BarksdaleCodeTestCase(unittest.TestCase):
 
     def test_equal_5(self):
         self.assertEqual(decode('4107056043'), '6953504567')
-
-
-if __name__ == '__main__':
-    unittest.main()

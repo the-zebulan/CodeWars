@@ -22,7 +22,3 @@ class FormatDurationTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(format_duration(0), 'now')
-
-
-if __name__ == '__main__':
-    unittest.main()

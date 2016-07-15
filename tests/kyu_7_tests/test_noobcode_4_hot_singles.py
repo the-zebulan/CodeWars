@@ -28,7 +28,3 @@ class HotSinglesTestCase(unittest.TestCase):
         self.assertEqual(hot_singles(
             [1, 2, 3, 3], [3, 2, 1, 4, 5, 4]
         ), [4, 5])
-
-
-if __name__ == '__main__':
-    unittest.main()

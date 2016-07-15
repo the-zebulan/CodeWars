@@ -18,7 +18,3 @@ class TestItTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(solution(1, 3), 3)
-
-
-if __name__ == '__main__':
-    unittest.main()

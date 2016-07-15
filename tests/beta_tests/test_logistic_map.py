@@ -22,7 +22,3 @@ class LogisticMapTestCase(unittest.TestCase):
     def test_equal_5(self):
         self.assertEqual(logistic_map(2, 2, [], []),
                          [[None, None], [None, None]])
-
-
-if __name__ == '__main__':
-    unittest.main()

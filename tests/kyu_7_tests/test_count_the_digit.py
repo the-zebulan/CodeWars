@@ -15,7 +15,3 @@ class CountTheDigitTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(nb_dig(11549, 1), 11905)
-
-
-if __name__ == '__main__':
-    unittest.main()

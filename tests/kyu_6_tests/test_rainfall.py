@@ -45,7 +45,3 @@ class RainfallTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(variance('Sundre', self.test), -1)
-
-
-if __name__ == '__main__':
-    unittest.main()

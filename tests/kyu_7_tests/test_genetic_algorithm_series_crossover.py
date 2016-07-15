@@ -10,7 +10,3 @@ class CrossoverTestCase(unittest.TestCase):
     def test_equals_2(self):
         self.assertEqual(crossover('111000', '000110', 3),
                          ['111110', '000000'])
-
-
-if __name__ == '__main__':
-    unittest.main()

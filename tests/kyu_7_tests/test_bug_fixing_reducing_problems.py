@@ -18,7 +18,3 @@ class CalculateTotalTestCase(unittest.TestCase):
 
     def test_false_3(self):
         self.assertFalse(calculate_total([], []))
-
-
-if __name__ == '__main__':
-    unittest.main()

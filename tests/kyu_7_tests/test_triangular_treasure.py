@@ -19,7 +19,3 @@ class TriangularTestCase(unittest.TestCase):
     def test_equals_5(self):
         self.assertEqual(triangular(613827063227449),
                          188391831775217643091685137525)
-
-
-if __name__ == '__main__':
-    unittest.main()

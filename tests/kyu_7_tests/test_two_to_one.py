@@ -15,7 +15,3 @@ class LongestTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(longest('inmanylanguages', 'theresapairoffunctions'),
                          'acefghilmnoprstuy')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -13,7 +13,3 @@ class FlattenTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(flatten([[[1, 2, 3]]]), [[1, 2, 3]])
-
-
-if __name__ == '__main__':
-    unittest.main()

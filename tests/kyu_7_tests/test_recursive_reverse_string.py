@@ -9,7 +9,3 @@ class ReverseTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(reverse('dlrow olleh'), 'hello world')
-
-
-if __name__ == '__main__':
-    unittest.main()

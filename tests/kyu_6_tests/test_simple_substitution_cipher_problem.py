@@ -33,7 +33,3 @@ class CipherTestCase(unittest.TestCase):
 
     def test_equals_8(self):
         self.assertEqual(self.test2.encode('ajqqtb'), 'tjuukf')
-
-
-if __name__ == '__main__':
-    unittest.main()

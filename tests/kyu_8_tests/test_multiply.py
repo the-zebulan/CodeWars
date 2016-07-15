@@ -9,7 +9,3 @@ class MultiplyTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(multiply(10, 10), 100)
-
-
-if __name__ == '__main__':
-    unittest.main()

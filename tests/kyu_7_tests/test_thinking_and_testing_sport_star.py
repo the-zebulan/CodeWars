@@ -28,7 +28,3 @@ class SportStarTestCase(unittest.TestCase):
         self.assertEqual(solution(
             ['jump', 'run', 'jump', 'run', 'jump'], '_|_|_'
         ), 'x/x/x')
-
-
-if __name__ == '__main__':
-    unittest.main()

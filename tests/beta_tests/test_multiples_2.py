@@ -15,7 +15,3 @@ class MultiplesTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(multiples(51), 'Far')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -15,7 +15,3 @@ class AnagramsTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(anagrams('laser', ['lazing', 'lazy', 'lacer']), [])
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -33,7 +33,3 @@ class AmicableNumbersTestCase(unittest.TestCase):
 
     def test_false_4(self):
         self.assertFalse(amicable_numbers(999220, 2849))
-
-
-if __name__ == '__main__':
-    unittest.main()

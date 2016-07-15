@@ -33,7 +33,3 @@ class MetersTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(meters(9000000000.0), '9Gm')
-
-
-if __name__ == '__main__':
-    unittest.main()

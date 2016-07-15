@@ -57,7 +57,3 @@ class RotateTestCase(unittest.TestCase):
 
     def test_equals_17(self):
         self.assertEqual(rotate([True, True, False], 1), [False, True, True])
-
-
-if __name__ == '__main__':
-    unittest.main()

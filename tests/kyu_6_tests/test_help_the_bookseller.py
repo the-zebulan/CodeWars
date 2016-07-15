@@ -16,7 +16,3 @@ class StockListTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(stock_list([], self.b), '')
-
-
-if __name__ == '__main__':
-    unittest.main()

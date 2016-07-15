@@ -114,7 +114,3 @@ class FlattenTestCase(unittest.TestCase):
                 'GML',
             'glossary/GlossDiv/GlossList/GlossEntry/GlossSee': 'markup'
         })
-
-
-if __name__ == '__main__':
-    unittest.main()

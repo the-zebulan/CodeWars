@@ -9,7 +9,3 @@ class AddExtraTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(len(AddExtra([])), 1)
-
-
-if __name__ == '__main__':
-    unittest.main()

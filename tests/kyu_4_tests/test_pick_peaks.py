@@ -36,7 +36,3 @@ class PickPeaksTestCase(unittest.TestCase):
     def test_equal_8(self):
         self.assertEqual(pick_peaks([2, 1, 3, 1, 2, 2, 2, 2]),
                          {'pos': [2], 'peaks': [3]})
-
-
-if __name__ == '__main__':
-    unittest.main()

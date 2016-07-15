@@ -21,7 +21,3 @@ class DuplicateCountTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(duplicate_count('indivisibilities'), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()

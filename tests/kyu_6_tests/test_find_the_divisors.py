@@ -15,7 +15,3 @@ class FindTheDivisorsTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(divisors(15), [3, 5])
-
-
-if __name__ == '__main__':
-    unittest.main()

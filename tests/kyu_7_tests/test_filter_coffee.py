@@ -18,7 +18,3 @@ class SearchTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(search(24, [24, 0, 100, 2, 5]), '0,2,5,24')
-
-
-if __name__ == '__main__':
-    unittest.main()

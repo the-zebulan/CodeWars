@@ -31,7 +31,3 @@ class HashifyTestCase(unittest.TestCase):
     def test_equals_6(self):
         self.assertEqual(hashify('CcCcCcCc'), {
             'c': ['C', 'C', 'C', 'C'], 'C': ['c', 'c', 'c', 'c']})
-
-
-if __name__ == '__main__':
-    unittest.main()

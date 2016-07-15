@@ -15,7 +15,3 @@ class PersistenceTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(persistence(999), 4)
-
-
-if __name__ == '__main__':
-    unittest.main()

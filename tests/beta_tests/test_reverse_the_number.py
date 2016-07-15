@@ -15,7 +15,3 @@ class ReverseTheNumberTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(reverse(1234567891011), 1101987654321)
-
-
-if __name__ == '__main__':
-    unittest.main()

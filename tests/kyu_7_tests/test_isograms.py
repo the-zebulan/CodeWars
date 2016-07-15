@@ -21,7 +21,3 @@ class IsogramTestCase(unittest.TestCase):
 
     def test_false_3(self):
         self.assertFalse(is_isogram('isIsogram'))
-
-
-if __name__ == '__main__':
-    unittest.main()

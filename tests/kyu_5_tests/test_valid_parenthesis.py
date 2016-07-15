@@ -18,7 +18,3 @@ class ValidParenthesisTestCase(unittest.TestCase):
 
     def test_false_3(self):
         self.assertFalse(valid_parentheses("hi())("))
-
-
-if __name__ == '__main__':
-    unittest.main()

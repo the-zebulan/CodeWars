@@ -13,7 +13,3 @@ class SpamTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(spam(14),
                          'huehuehuehuehuehuehuehuehuehuehuehuehuehue')
-
-
-if __name__ == '__main__':
-    unittest.main()

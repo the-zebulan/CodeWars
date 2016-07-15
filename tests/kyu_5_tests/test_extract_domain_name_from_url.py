@@ -17,7 +17,3 @@ class DomainNameTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(domain_name('www.xakep.ru'), 'xakep')
-
-
-if __name__ == '__main__':
-    unittest.main()

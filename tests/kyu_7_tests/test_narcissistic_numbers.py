@@ -27,7 +27,3 @@ class NarcissisticTestCase(unittest.TestCase):
 
     def test_false_4(self):
         self.assertFalse(is_narcissistic(825))
-
-
-if __name__ == '__main__':
-    unittest.main()

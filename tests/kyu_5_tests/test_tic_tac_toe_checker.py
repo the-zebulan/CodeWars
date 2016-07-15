@@ -9,7 +9,3 @@ class TicTacToeTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(isSolved([[1, 2, 1], [1, 1, 2], [2, 1, 2]]), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

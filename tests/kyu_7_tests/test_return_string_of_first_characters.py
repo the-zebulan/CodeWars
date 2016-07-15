@@ -15,7 +15,3 @@ class MakeStringTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(make_string('kaks de gan has a big head'), 'kdghabh')
-
-
-if __name__ == '__main__':
-    unittest.main()

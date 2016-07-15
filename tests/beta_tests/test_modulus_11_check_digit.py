@@ -15,7 +15,3 @@ class AddCheckDigitTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(add_check_digit('9735597355'), '97355973550')
-
-
-if __name__ == '__main__':
-    unittest.main()

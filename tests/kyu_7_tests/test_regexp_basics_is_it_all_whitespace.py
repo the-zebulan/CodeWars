@@ -33,7 +33,3 @@ class WhitespaceTestCase(unittest.TestCase):
 
     def test_false_4(self):
         self.assertFalse(whitespace('\n\r\n\r 3'))
-
-
-if __name__ == '__main__':
-    unittest.main()

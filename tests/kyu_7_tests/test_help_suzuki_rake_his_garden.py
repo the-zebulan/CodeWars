@@ -67,7 +67,3 @@ class RakeGardenTestCase(unittest.TestCase):
             'gravel gravel gravel gravel gravel gravel rock gravel gravel r'
             'ock gravel gravel gravel gravel gravel gravel gravel rock grav'
             'el gravel gravel gravel gravel gravel gravel rock gravel gravel')
-
-
-if __name__ == '__main__':
-    unittest.main()

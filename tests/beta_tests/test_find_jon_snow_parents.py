@@ -25,6 +25,3 @@ class JonSnowParentsTestCase(unittest.TestCase):
             jonSnowParents('Rhaegar Targaryen', 'Lyanna Stark'),
             'Jon Snow, you know nothing'
         )
-
-if __name__ == '__main__':
-    unittest.main()

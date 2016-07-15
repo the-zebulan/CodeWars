@@ -23,7 +23,3 @@ class StripURLParamsTestCase(unittest.TestCase):
     def test_equals_5(self):
         self.assertEqual(strip_url_params('www.codewars.com', ['b']),
                          'www.codewars.com')
-
-
-if __name__ == '__main__':
-    unittest.main()

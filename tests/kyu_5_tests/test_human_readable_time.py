@@ -18,7 +18,3 @@ class HumanReadableTimeTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(make_readable(359999), '99:59:59')
-
-
-if __name__ == '__main__':
-    unittest.main()

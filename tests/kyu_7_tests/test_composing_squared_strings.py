@@ -53,7 +53,3 @@ class ComposeTestCase(unittest.TestCase):
         self.assertEqual(compose(
             'wEGa\nhICc\nPrvY\nCuSd', 'qfYz\nwJfU\noHhO\nNxaV'
         ), 'wNxaV\nhIoHh\nPrvwJ\nCuSdq')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -15,7 +15,3 @@ class LogicalCalculatorTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(logical_calc([True, False], 'AND'))
-
-
-if __name__ == '__main__':
-    unittest.main()

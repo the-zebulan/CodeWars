@@ -33,7 +33,3 @@ class SubtractSumTestCase(unittest.TestCase):
 
     def test_equal_10(self):
         self.assertEqual(SubtractSum(111), 'apple')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -50,7 +50,3 @@ class GetBestWordTestCase(unittest.TestCase):
         self.assertEqual(get_best_word(self.points, [
             'LGVMJDW', 'HSPASA', 'CFHMVZNGH', 'ESKSKB', 'JDO', 'BQJUECZ',
             'BB', 'IVVLXBC', 'ZRENSWMG']), 5)
-
-
-if __name__ == '__main__':
-    unittest.main()

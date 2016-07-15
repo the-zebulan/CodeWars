@@ -95,7 +95,3 @@ class MixWordsTestCase(unittest.TestCase):
 
     def test_not_equal_3(self):
         self.assertNotEqual(self.test3, 'hello, Pippi!')
-
-
-if __name__ == '__main__':
-    unittest.main()

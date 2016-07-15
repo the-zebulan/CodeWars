@@ -12,7 +12,3 @@ class CamelizeTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(camelize('Rugby:Club:2013'), 'RugbyClub2013')
-
-
-if __name__ == '__main__':
-    unittest.main()

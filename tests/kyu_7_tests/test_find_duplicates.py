@@ -10,7 +10,3 @@ class FindDuplicatesTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(duplicates([0, 1, 2, 3, 4, 5]), [])
-
-
-if __name__ == '__main__':
-    unittest.main()

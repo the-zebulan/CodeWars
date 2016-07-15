@@ -15,7 +15,3 @@ class ShorterReverseLongerTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(shorter_reverse_longer('abcde', 'fghi'),
                          'fghiedcbafghi')
-
-
-if __name__ == '__main__':
-    unittest.main()

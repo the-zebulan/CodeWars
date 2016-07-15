@@ -15,7 +15,3 @@ class SexyPrimeTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(sexy_prime(1, 11))
-
-
-if __name__ == '__main__':
-    unittest.main()

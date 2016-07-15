@@ -18,7 +18,3 @@ class SumAllTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(sum_all(1, -32, "codewars", 1076))
-
-
-if __name__ == '__main__':
-    unittest.main()

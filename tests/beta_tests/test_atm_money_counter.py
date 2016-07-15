@@ -24,7 +24,3 @@ class AtmTestCase(unittest.TestCase):
     def test_equals_6(self):
         self.assertEqual(atm('sos100'),
                          'Can\'t do 100 SOS. Value must be divisible by 1000!')
-
-
-if __name__ == '__main__':
-    unittest.main()

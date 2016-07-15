@@ -24,7 +24,3 @@ class MotifLocatorTestCase(unittest.TestCase):
 
     def test_equal_7(self):
         self.assertEqual(motif_locator('ACGT', 'ACGTGAC'), [])
-
-
-if __name__ == '__main__':
-    unittest.main()

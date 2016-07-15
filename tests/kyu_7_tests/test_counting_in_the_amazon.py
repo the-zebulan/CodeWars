@@ -15,7 +15,3 @@ class CountAraraTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(count_arara(9), 'adak adak adak adak anane')
-
-
-if __name__ == '__main__':
-    unittest.main()

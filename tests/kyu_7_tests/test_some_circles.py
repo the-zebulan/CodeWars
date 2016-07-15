@@ -20,7 +20,3 @@ class SumCirclesTestCase(unittest.TestCase):
     def test_equals_5(self):
         self.assertEqual(sum_circles(1, 1, 1, 2, 3, 4, 5),
                          'We have this much circle: 45')
-
-
-if __name__ == '__main__':
-    unittest.main()

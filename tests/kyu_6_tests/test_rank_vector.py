@@ -18,7 +18,3 @@ class RankVectorTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(ranks([3, 3, 3, 3, 3, 5, 1]), [2, 2, 2, 2, 2, 1, 7])
-
-
-if __name__ == '__main__':
-    unittest.main()

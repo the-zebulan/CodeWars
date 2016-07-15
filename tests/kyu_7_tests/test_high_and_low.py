@@ -12,7 +12,3 @@ class HighAndLowTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(high_and_low('1 9 3 4 -5'), '9 -5')
-
-
-if __name__ == '__main__':
-    unittest.main()

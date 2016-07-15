@@ -38,7 +38,3 @@ class AnythingTestCase(unittest.TestCase):
 
     def test_true_11(self):
         self.assertTrue(anything({}) == [])
-
-
-if __name__ == '__main__':
-    unittest.main()

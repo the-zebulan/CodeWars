@@ -38,7 +38,3 @@ class CalculateAgeTestCase(unittest.TestCase):
     def test_equal_10(self):
         self.assertEqual(calculate_age(2000, 1999),
                          'You will be born in 1 year.')
-
-
-if __name__ == '__main__':
-    unittest.main()

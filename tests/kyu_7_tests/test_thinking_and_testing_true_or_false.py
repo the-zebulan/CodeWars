@@ -42,7 +42,3 @@ class ThinkingAndTestingTestCase(unittest.TestCase):
 
     def test_equals_13(self):
         self.assertEqual(solution(10000), 5)
-
-
-if __name__ == '__main__':
-    unittest.main()

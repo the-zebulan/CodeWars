@@ -42,7 +42,3 @@ class DistancesFromTheAverageTestCase(unittest.TestCase):
     def test_equals_10(self):
         self.assertEqual(distances_from_average(xrange(1000001)),
                          range(500000, -500001, -1))
-
-
-if __name__ == '__main__':
-    unittest.main()

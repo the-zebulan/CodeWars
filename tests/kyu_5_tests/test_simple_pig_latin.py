@@ -11,7 +11,3 @@ class PigLatinTestCase(unittest.TestCase):
     def test_equals_2(self):
         self.assertEqual(pig_it('This is my string'),
                          'hisTay siay ymay tringsay')
-
-
-if __name__ == '__main__':
-    unittest.main()

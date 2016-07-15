@@ -17,7 +17,3 @@ class PatternFourTestCase(unittest.TestCase):
         self.assertEqual(pattern(10),
                          '12345678910\n2345678910\n345678910\n45678910\n'
                          '5678910\n678910\n78910\n8910\n910\n10')
-
-
-if __name__ == '__main__':
-    unittest.main()

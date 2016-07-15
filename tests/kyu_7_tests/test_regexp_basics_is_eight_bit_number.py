@@ -79,7 +79,3 @@ class EightBitNumberTestCase(unittest.TestCase):
 
     def test_false_20(self):
         self.assertFalse(signed_eight_bit_number("--1"))
-
-
-if __name__ == '__main__':
-    unittest.main()

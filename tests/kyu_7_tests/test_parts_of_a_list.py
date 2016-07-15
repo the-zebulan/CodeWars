@@ -21,7 +21,3 @@ class PartsListTestCase(unittest.TestCase):
             ("vJQ", "anj mQDq sOZ"), ("vJQ anj", "mQDq sOZ"),
             ("vJQ anj mQDq", "sOZ")
         ])
-
-
-if __name__ == '__main__':
-    unittest.main()

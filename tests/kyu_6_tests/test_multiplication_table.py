@@ -10,7 +10,3 @@ class MultiplicationTableTestCase(unittest.TestCase):
     def test_equals_2(self):
         self.assertEqual(multiplication_table(3, 3),
                          [[1, 2, 3], [2, 4, 6], [3, 6, 9]])
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -33,7 +33,3 @@ class PrintCommaDelimitedTestCase(unittest.TestCase):
         self.assertEqual(print_array([
             ['hello', 'this', 'is', 'an', 'array!'], [1, 2, 3, 4, 5]
         ]), "['hello', 'this', 'is', 'an', 'array!'],[1, 2, 3, 4, 5]")
-
-
-if __name__ == '__main__':
-    unittest.main()

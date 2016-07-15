@@ -27,7 +27,3 @@ class RepeatingFractionsTestCase(unittest.TestCase):
 
     def test_equals_8(self):
         self.assertEqual(repeating_fractions(32, 11), '2.90909090909')
-
-
-if __name__ == '__main__':
-    unittest.main()

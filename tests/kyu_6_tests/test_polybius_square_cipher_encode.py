@@ -10,7 +10,3 @@ class PolybiusTestCase(unittest.TestCase):
     def test_equals_2(self):
         self.assertEqual(polybius('POLYBIUS SQUARE CIPHER'),
                          '3534315412244543 434145114215 132435231542')
-
-
-if __name__ == '__main__':
-    unittest.main()

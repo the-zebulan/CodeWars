@@ -47,7 +47,3 @@ class SubstringTestCase(unittest.TestCase):
 
     def test_false_5(self):
         self.assertFalse(substring_test('', ''))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -12,7 +12,3 @@ class SongDecoderTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(song_decoder('WUBAWUBBWUBCWUB'), 'A B C')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -13,7 +13,3 @@ class CannonsReadyTestCase(unittest.TestCase):
         self.assertEqual(cannons_ready({
             'Mike': 'aye', 'Joe': 'nay', 'Johnson': 'aye', 'Peter': 'aye'
         }), 'Shiver me timbers!')
-
-
-if __name__ == '__main__':
-    unittest.main()

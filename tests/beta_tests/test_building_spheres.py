@@ -21,7 +21,3 @@ class SphereTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(self.ball.get_density(), 1.49208)
-
-
-if __name__ == '__main__':
-    unittest.main()

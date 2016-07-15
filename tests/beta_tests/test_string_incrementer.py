@@ -33,7 +33,3 @@ class IncrementStringTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(increment_string(''), '1')
-
-
-if __name__ == '__main__':
-    unittest.main()

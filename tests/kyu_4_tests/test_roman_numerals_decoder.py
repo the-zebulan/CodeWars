@@ -18,7 +18,3 @@ class RomanNumeralsDecoderTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(solution('MDCLXVI'), 1666)
-
-
-if __name__ == '__main__':
-    unittest.main()

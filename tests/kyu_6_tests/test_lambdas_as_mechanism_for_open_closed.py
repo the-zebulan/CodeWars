@@ -14,7 +14,3 @@ class LambdasTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(greet(whispered, 'Hello'), 'hello.')
-
-
-if __name__ == '__main__':
-    unittest.main()

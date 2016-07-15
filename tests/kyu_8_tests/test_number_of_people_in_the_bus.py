@@ -14,7 +14,3 @@ class PeopleInTheBusTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(number(
             [[3, 0], [9, 1], [4, 8], [12, 2], [6, 1], [7, 8]]), 21)
-
-
-if __name__ == '__main__':
-    unittest.main()

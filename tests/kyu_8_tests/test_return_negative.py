@@ -12,7 +12,3 @@ class MakeNegativeTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(make_negative(0), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

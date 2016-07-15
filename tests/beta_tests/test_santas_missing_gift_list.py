@@ -18,7 +18,3 @@ class GiftsTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(gifts(160), ['Football', 'Teddy'])
-
-
-if __name__ == '__main__':
-    unittest.main()

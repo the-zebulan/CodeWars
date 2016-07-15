@@ -11,7 +11,3 @@ class GreetTestCase(unittest.TestCase):
     def test_equals_2(self):
         self.assertEqual(greet('Zebulan'),
                          'Hello, Zebulan how are you doing today?')
-
-
-if __name__ == '__main__':
-    unittest.main()

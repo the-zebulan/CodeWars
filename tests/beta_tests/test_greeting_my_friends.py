@@ -12,7 +12,3 @@ class GreetingTestCase(unittest.TestCase):
 
     def test_none_2(self):
         self.assertIsNone(greeting_for_all_friends([]))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -48,7 +48,3 @@ class IPV4AddressTestCase(unittest.TestCase):
 
     def test_false_11(self):
         self.assertFalse(ipv4_address(' 127.0.0.1 '))
-
-
-if __name__ == '__main__':
-    unittest.main()

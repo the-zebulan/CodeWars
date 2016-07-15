@@ -29,7 +29,3 @@ class LogicalAndNonNegativeMatrixTestCase(unittest.TestCase):
         self.assertFalse(sum_nonnegative_logical_matrix(
             [[-1, 0], [-1, 0]], [[0, -1], [0, -1]]
         ))
-
-
-if __name__ == '__main__':
-    unittest.main()

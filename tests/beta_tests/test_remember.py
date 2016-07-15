@@ -22,7 +22,3 @@ class RememberTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(remember('11pinguin'), ['1', 'i', 'n'])
-
-
-if __name__ == '__main__':
-    unittest.main()

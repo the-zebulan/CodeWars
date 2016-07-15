@@ -18,7 +18,3 @@ class InsertDashTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(insert_dash(13579), '1-3-5-7-9')
-
-
-if __name__ == '__main__':
-    unittest.main()

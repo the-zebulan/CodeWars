@@ -33,7 +33,3 @@ class UnicodeTotalTestCase(unittest.TestCase):
 
     def test_equal_10(self):
         self.assertEqual(uni_total('And so does Strive'), 1661)
-
-
-if __name__ == '__main__':
-    unittest.main()

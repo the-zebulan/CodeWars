@@ -37,7 +37,3 @@ class FindABTestCase(unittest.TestCase):
 
     def test_is_none_2(self):
         self.assertIsNone(find_a_b([0, 0, 2], 4))
-
-
-if __name__ == '__main__':
-    unittest.main()

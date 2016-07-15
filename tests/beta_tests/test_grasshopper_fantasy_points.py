@@ -24,7 +24,3 @@ class GrasshopperTestCase(unittest.TestCase):
 
     def test_equal_7(self):
         self.assertEqual(g.points, 89)
-
-
-if __name__ == '__main__':
-    unittest.main()

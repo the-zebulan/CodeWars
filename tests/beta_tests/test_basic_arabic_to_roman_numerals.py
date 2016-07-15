@@ -33,7 +33,3 @@ class ArabicToRomanTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(arabic_to_roman(599), 'DXCIX')
-
-
-if __name__ == '__main__':
-    unittest.main()

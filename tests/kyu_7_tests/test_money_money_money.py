@@ -12,7 +12,3 @@ class CalculateYearsTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(calculate_years(1000, 0.05, .18, 1000), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

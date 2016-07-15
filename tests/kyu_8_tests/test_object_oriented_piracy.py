@@ -12,7 +12,3 @@ class PirateShipTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(Ship(0, 0).is_worth_it())
-
-
-if __name__ == '__main__':
-    unittest.main()

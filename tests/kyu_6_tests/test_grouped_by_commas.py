@@ -27,7 +27,3 @@ class GroupByCommasTestCase(unittest.TestCase):
 
     def test_equals_8(self):
         self.assertEqual(group_by_commas(35235235), '35,235,235')
-
-
-if __name__ == '__main__':
-    unittest.main()

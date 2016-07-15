@@ -20,7 +20,3 @@ class CalculatorTestCase(unittest.TestCase):
 
     def test_equal_5(self):
         self.assertEqual(evaluate('( 1.1 + 2.8 ) / ( 3 * 4 )'), 0.325)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -19,7 +19,3 @@ class MutateTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(mutate(self.one, 0), self.one)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -30,7 +30,3 @@ class ColourAssociationTestCase(unittest.TestCase):
         self.assertEqual(colour_association([
             ['white', 'goodness'], ['blue', 'goodness']
         ]), [{'white': 'goodness'}, {'blue': 'goodness'}])
-
-
-if __name__ == '__main__':
-    unittest.main()

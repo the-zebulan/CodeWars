@@ -17,7 +17,3 @@ class PatterncraftVisitorTestCase(unittest.TestCase):
     def test_equals_2(self):
         self.armored.accept(self.bullet2)
         self.assertEqual(self.armored.health, 125 - 32)
-
-
-if __name__ == '__main__':
-    unittest.main()

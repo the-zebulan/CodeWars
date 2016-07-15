@@ -19,7 +19,3 @@ class SecureListTestCase(unittest.TestCase):
         b = SecureList(self.base)
         print 'Current List: {!r}'.format(b)
         self.assertEqual(len(b), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

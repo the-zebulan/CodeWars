@@ -12,7 +12,3 @@ class DNAToRNATestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(DNAtoRNA('GACCGCCGCC'), 'GACCGCCGCC')
-
-
-if __name__ == '__main__':
-    unittest.main()

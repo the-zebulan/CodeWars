@@ -42,7 +42,3 @@ class MakeSentencesTestCase(unittest.TestCase):
              'days', ',', 'I', 'know', 'that', '.', '.', '.', '.', '.', '.',
              '.', '.', '.', '.', '.', '.']),
             'The Earth rotates around The Sun in 365 days, I know that.')
-
-
-if __name__ == '__main__':
-    unittest.main()

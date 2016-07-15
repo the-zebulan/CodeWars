@@ -71,7 +71,3 @@ class GreatestDifferenceTestCase(unittest.TestCase):
 
     def test_false_1(self):
         self.assertFalse(diff(['11-11', '344-344']))
-
-
-if __name__ == '__main__':
-    unittest.main()

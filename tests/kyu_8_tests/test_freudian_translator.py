@@ -20,7 +20,3 @@ class ToFreudTestCase(unittest.TestCase):
     def test_equal_5(self):
         self.assertEqual(to_freud("You're becoming a true freudian expert"),
                          'sex sex sex sex sex sex')
-
-
-if __name__ == '__main__':
-    unittest.main()

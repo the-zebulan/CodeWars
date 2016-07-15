@@ -39,7 +39,3 @@ class ShowMeTestCase(unittest.TestCase):
 
     def test_false_9(self):
         self.assertFalse(show_me('Jean-Luc-Picard-'))
-
-
-if __name__ == '__main__':
-    unittest.main()

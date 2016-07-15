@@ -16,7 +16,3 @@ class GuesserTestCase(unittest.TestCase):
         guesser = Guesser(10, 2)
         guesser.guess(1)
         self.assertFalse(guesser.guess(1))
-
-
-if __name__ == '__main__':
-    unittest.main()

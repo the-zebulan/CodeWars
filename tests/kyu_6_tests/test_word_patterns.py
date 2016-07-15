@@ -18,7 +18,3 @@ class WordPatternTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(word_pattern('aaaa', 'cat cat dog cat'))
-
-
-if __name__ == '__main__':
-    unittest.main()

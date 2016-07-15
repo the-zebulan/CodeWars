@@ -34,7 +34,3 @@ class BobTestCase(unittest.TestCase):
     def test_equal_7(self):
         self.assertEqual(err_bob('Hello from the other siiiiideeee'),
                          'Hello fromerr the othererr siiiiideeee')
-
-
-if __name__ == '__main__':
-    unittest.main()

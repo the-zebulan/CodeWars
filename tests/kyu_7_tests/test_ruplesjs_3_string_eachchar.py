@@ -25,7 +25,3 @@ class EachCharacterTestCase(unittest.TestCase):
             'I12 0ca431n35no55t 77re3321231ad 4t4h7771i888973s.',
             lambda c: '' if c in '0123456789' else c
         ), 'I cannot read this.')
-
-
-if __name__ == '__main__':
-    unittest.main()

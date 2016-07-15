@@ -120,7 +120,3 @@ class BracketPairsTestCase(unittest.TestCase):
 
     def test_false_14(self):
         self.assertFalse(bracket_pairs("((first)and(second)"))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -15,7 +15,3 @@ class LeonardoTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(leo(90), 'Leo got one already!')
-
-
-if __name__ == '__main__':
-    unittest.main()

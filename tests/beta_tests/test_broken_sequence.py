@@ -18,7 +18,3 @@ class MissingNumberTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(find_missing_number('1 2 3'), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

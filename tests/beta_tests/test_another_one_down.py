@@ -9,7 +9,3 @@ class CheckTestCase(unittest.TestCase):
 
     def test_is_none_1(self):
         self.assertIsNone(check('my_string'))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -21,7 +21,3 @@ class NextBiggerTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(next_bigger(531), -1)
-
-
-if __name__ == '__main__':
-    unittest.main()

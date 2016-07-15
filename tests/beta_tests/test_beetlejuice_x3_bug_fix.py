@@ -16,7 +16,3 @@ class BeetleJuiceTestCase(unittest.TestCase):
     def test_equal_4(self):
         self.assertEqual(beetle_juice("Shoshanna!"),
                          "Shoshanna!  Shoshanna!  Shoshanna!")
-
-
-if __name__ == '__main__':
-    unittest.main()

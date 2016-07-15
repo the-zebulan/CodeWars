@@ -12,7 +12,3 @@ class RepeatSumTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(repeat_sum([[1, 8, 8], [8, 8, 8], [8, 8, 8, 1]]), 9)
-
-
-if __name__ == '__main__':
-    unittest.main()

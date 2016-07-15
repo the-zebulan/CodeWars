@@ -12,7 +12,3 @@ class OKTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(okkOokOo('Ok, Ok, Okkk?  Okk, Okkkk?  Okkk, Ook, O?  Okk, Okk, Oo?  Okk, Ook, Oo?  Ook, Ooook!'), 'World!')
-
-
-if __name__ == '__main__':
-    unittest.main()

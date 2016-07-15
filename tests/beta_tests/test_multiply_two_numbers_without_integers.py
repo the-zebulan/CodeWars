@@ -22,7 +22,3 @@ class MultiplyTwoNumberWithoutIntegersTestCase(unittest.TestCase):
     def test_equals_6(self):
         self.assertEqual(multiplyMyNumbers('12345' * 10, '00000002'),
                          '24690246902469024690246902469024690246902469024690')
-
-
-if __name__ == '__main__':
-    unittest.main()

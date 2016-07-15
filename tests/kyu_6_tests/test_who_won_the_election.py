@@ -18,7 +18,3 @@ class GetWinnerTestCase(unittest.TestCase):
 
     def test_none_3(self):
         self.assertIsNone(getWinner(('A', 'A', 'B', 'B', 'C')))
-
-
-if __name__ == '__main__':
-    unittest.main()

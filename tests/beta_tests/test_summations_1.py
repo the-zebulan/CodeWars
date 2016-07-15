@@ -15,7 +15,3 @@ class SummationTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(summation(67.9), 'Error 404')
-
-
-if __name__ == '__main__':
-    unittest.main()

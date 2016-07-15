@@ -21,7 +21,3 @@ class EvalObjectTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(eval_object({'a': 1, 'b': 1, 'operation': '**'}), 1)
-
-
-if __name__ == '__main__':
-    unittest.main()

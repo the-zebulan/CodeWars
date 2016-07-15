@@ -12,7 +12,3 @@ class ArchersReadyTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(archers_ready([1, 2, 3, 4]))
-
-
-if __name__ == '__main__':
-    unittest.main()

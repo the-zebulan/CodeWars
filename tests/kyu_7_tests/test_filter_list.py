@@ -13,7 +13,3 @@ class FilterListTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(filter_list([1, 2, 'aasf', '1', '123', 123]),
                          [1, 2, 123])
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -27,7 +27,3 @@ class WhatCenturyTestCase(unittest.TestCase):
 
     def test_equals_8(self):
         self.assertEqual(whatCentury('2000'), '20th')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -16,7 +16,3 @@ class CombineTestCase(unittest.TestCase):
         self.assertEqual(combine(
             ['a', 'b', 'c'], [1, 2, 3, 4, 5], [6, 7], [8]),
             ['a', 1, 6, 8, 'b', 2, 7, 'c', 3, 4, 5])
-
-
-if __name__ == '__main__':
-    unittest.main()

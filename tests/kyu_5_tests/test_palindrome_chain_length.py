@@ -18,7 +18,3 @@ class PalindromeChainLengthTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(palindrome_chain_length(10), 1)
-
-
-if __name__ == '__main__':
-    unittest.main()

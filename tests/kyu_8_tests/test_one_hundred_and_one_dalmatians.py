@@ -29,7 +29,3 @@ class DalmatiansTestCase(unittest.TestCase):
 
     def test_equals_8(self):
         self.assertEqual(how_many_dalmatians(101), '101 DALMATIONS!!!')
-
-
-if __name__ == '__main__':
-    unittest.main()

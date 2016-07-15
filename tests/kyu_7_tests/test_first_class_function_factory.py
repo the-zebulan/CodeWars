@@ -14,7 +14,3 @@ class FactoryTestCase(unittest.TestCase):
     def test_equals_2(self):
         fives = factory(5)
         self.assertEqual(fives(self.my_arr), [5, 10, 15])
-
-
-if __name__ == '__main__':
-    unittest.main()

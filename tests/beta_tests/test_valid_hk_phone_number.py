@@ -116,7 +116,3 @@ class ValidHKPhoneNumberTestCase(unittest.TestCase):
         self.assertFalse(has_valid_HK_phone_number(
             '8c65 2i86wioeruwioeruweoi'
         ))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -45,7 +45,3 @@ class ConsecutiveTestCase(unittest.TestCase):
     def test_equals_9(self):
         self.assertEqual(longest_consec(
             ['it', 'wkppv', 'ixoyx', '3452', 'zzzzzzzzzzzz'], 0), '')
-
-
-if __name__ == '__main__':
-    unittest.main()

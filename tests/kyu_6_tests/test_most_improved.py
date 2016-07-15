@@ -151,7 +151,3 @@ class CalculateImprovedTestCase(unittest.TestCase):
             {'name': 'Lucy Act', 'improvement': 0},
             {'name': 'Timmy, Bug', 'improvement': 0}
         ])
-
-
-if __name__ == '__main__':
-    unittest.main()

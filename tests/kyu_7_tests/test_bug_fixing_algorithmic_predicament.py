@@ -34,7 +34,3 @@ class HighestAgeTestCase(unittest.TestCase):
             {'name': 'kay', 'age': 2}, {'name': 'john', 'age': 130},
             {'name': 'kay', 'age': 130}
         ], self.g2), 'kay')
-
-
-if __name__ == '__main__':
-    unittest.main()

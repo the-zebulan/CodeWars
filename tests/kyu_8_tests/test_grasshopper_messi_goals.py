@@ -17,7 +17,3 @@ class MessiTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(total_goals, 58)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -13,7 +13,3 @@ class GhostbustersTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(ghostbusters('BusStation'),
                          'You just wanted my autograph didn\'t you?')
-
-
-if __name__ == '__main__':
-    unittest.main()

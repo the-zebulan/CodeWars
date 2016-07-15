@@ -12,7 +12,3 @@ class FilterNumbersTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(filter_numbers('aa1bb2cc3dd'), 'aabbccdd')
-
-
-if __name__ == '__main__':
-    unittest.main()

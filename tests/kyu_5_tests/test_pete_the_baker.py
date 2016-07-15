@@ -88,7 +88,3 @@ class CakesTestCase(unittest.TestCase):
 
     def test_equal_11(self):
         self.assertEqual(cakes({'flour': 400, 'eggs': 4}, {}), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

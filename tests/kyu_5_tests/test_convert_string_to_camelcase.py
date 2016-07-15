@@ -17,7 +17,3 @@ class ToCamelCaseTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(to_camel_case(''), '')
-
-
-if __name__ == '__main__':
-    unittest.main()

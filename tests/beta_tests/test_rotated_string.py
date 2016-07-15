@@ -15,7 +15,3 @@ class IsRotationTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(is_rotation('hello', 'hellohello'))
-
-
-if __name__ == '__main__':
-    unittest.main()

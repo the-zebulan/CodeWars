@@ -41,7 +41,3 @@ class SeanTestCase(unittest.TestCase):
     def test_equal_10(self):
         self.assertEqual(sean("SEAN SEAN SEAN SEAN SEAN\nSEAN"),
                          "Ohhhhh it's SEAN! SEAN! SEAN! SEAN!")
-
-
-if __name__ == '__main__':
-    unittest.main()

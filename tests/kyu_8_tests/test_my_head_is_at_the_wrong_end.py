@@ -33,7 +33,3 @@ class FixTheMeerkatTestCase(unittest.TestCase):
             fix_the_meerkat(['ground', 'rainbow', 'sky']),
             ['sky', 'rainbow', 'ground']
         )
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -9,7 +9,3 @@ class DivisibleByFourTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(divisible_by_four(7))
-
-
-if __name__ == '__main__':
-    unittest.main()

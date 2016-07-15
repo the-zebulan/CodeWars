@@ -15,7 +15,3 @@ class IsOddTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(is_odd(4))
-
-
-if __name__ == '__main__':
-    unittest.main()

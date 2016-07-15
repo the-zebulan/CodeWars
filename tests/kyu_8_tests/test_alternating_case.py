@@ -50,7 +50,3 @@ class AlternatingCaseTestCase(unittest.TestCase):
             to_alternating_case('ALTerNAtiNG CaSe <=> altERnaTIng cAsE'),
             'altERnaTIng cAsE <=> ALTerNAtiNG CaSe'
         )
-
-
-if __name__ == '__main__':
-    unittest.main()

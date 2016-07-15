@@ -38,7 +38,3 @@ class MeanTestCase(unittest.TestCase):
             'f', '6', 'u', 'i', '6', '6', 't']),
             [6.1, 'vukbgzfuit']
         )
-
-
-if __name__ == '__main__':
-    unittest.main()

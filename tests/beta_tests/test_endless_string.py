@@ -20,7 +20,3 @@ class EndlessStringTestCase(unittest.TestCase):
         self.assertEqual(endlessString('1x2x3x4x', -1532, -100),
                          'x2x3x4x1x2x3x4x1x2x3x4x1x2x3x4x1x2x3x4x1x2x3x4x1x2'
                          'x3x4x1x2x3x4x1x2x3x4x1x2x3x4x1x2x3x4x1x2x3x4x1x2x3')
-
-
-if __name__ == '__main__':
-    unittest.main()

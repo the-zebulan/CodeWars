@@ -36,7 +36,3 @@ class SumOfPairsTestCase(unittest.TestCase):
 
     def test_is_none_2(self):
         self.assertIsNone(sum_pairs([20, -13, 40], -7))
-
-
-if __name__ == '__main__':
-    unittest.main()

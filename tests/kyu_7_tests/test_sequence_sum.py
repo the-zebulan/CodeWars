@@ -15,7 +15,3 @@ class SequenceSumTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(sum_of_n(-4), [0, -1, -3, -6, -10])
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -32,7 +32,3 @@ class MidpointSumTestCase(unittest.TestCase):
 
     def test_none_2(self):
         self.assertIsNone(midpoint_sum([0, 0, 1]))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -33,7 +33,3 @@ class FizzBuzzTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(fizzbuzz(45), 'fizz buzz')
-
-
-if __name__ == '__main__':
-    unittest.main()

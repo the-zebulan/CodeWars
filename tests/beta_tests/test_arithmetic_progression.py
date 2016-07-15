@@ -11,7 +11,3 @@ class ArithmeticSequenceTestCase(unittest.TestCase):
     def test_equals_2(self):
         self.assertEqual(arithmetic_sequence_elements(1, -3, 10),
                          '1, -2, -5, -8, -11, -14, -17, -20, -23, -26')
-
-
-if __name__ == '__main__':
-    unittest.main()

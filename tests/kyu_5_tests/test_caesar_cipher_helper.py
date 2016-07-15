@@ -12,7 +12,3 @@ class CaesarCipherTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(self.caesar.decode('BFKKQJX'), 'WAFFLES')
-
-
-if __name__ == '__main__':
-    unittest.main()

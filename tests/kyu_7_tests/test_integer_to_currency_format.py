@@ -15,7 +15,3 @@ class IntegerToCurrencyTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(to_currency(123456789012), '123,456,789,012')
-
-
-if __name__ == '__main__':
-    unittest.main()

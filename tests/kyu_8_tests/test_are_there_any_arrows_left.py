@@ -21,7 +21,3 @@ class ArrowsTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(any_arrows([]))
-
-
-if __name__ == '__main__':
-    unittest.main()

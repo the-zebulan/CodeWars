@@ -13,7 +13,3 @@ class FindEmployeesRoleTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(find_employees_role('Anna Bell'), 'Admin')
-
-
-if __name__ == '__main__':
-    unittest.main()

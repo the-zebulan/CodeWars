@@ -29,7 +29,3 @@ class RadLadiesTestCase(unittest.TestCase):
         self.assertEqual(rad_ladies('??£@%&a5d15??e599713%l%%e%75913 1£$%&@g'
                                     '@£%o&$@13l5d11s$%&t15i9n&5%%@%e@£$!£%$£'),
                          'ADELE GOLDSTINE!')
-
-
-if __name__ == '__main__':
-    unittest.main()

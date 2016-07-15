@@ -42,7 +42,3 @@ class HowManyWordTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(solution('Can you find more word for me?'), 1)
-
-
-if __name__ == '__main__':
-    unittest.main()

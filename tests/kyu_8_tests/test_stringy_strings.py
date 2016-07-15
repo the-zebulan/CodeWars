@@ -15,7 +15,3 @@ class StringyTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(stringy(12), '101010101010')
-
-
-if __name__ == '__main__':
-    unittest.main()

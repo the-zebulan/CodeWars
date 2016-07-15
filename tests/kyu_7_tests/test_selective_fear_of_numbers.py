@@ -18,7 +18,3 @@ class AmIAfraidTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(am_I_afraid('Tuesday', 2))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -45,7 +45,3 @@ class MasterOfFilesTestCase(unittest.TestCase):
 
     def test_false_5(self):
         self.assertFalse(is_img("animate bounce.GIF"))
-
-
-if __name__ == '__main__':
-    unittest.main()

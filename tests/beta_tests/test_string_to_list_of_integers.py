@@ -28,7 +28,3 @@ class StringToIntegerListTestCase(unittest.TestCase):
 
     def test_equal_7(self):
         self.assertEqual(string_to_int_list(',,,,,,,,'), [])
-
-
-if __name__ == '__main__':
-    unittest.main()

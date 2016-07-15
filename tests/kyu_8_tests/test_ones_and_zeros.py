@@ -15,7 +15,3 @@ class BinaryArrayToNumberTestCase(unittest.TestCase):
 
     def test_equal_4(self):
         self.assertEqual(binary_array_to_number([0, 1, 1, 0]), 6)
-
-
-if __name__ == '__main__':
-    unittest.main()

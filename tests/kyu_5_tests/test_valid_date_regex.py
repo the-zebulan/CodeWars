@@ -33,7 +33,3 @@ class ValidDateTestCase(unittest.TestCase):
 
     def test_not_none_6(self):
         self.assertIsNotNone(valid_date.search("[02-[08-11]04]"))
-
-
-if __name__ == '__main__':
-    unittest.main()

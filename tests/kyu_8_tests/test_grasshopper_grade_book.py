@@ -48,7 +48,3 @@ class GetGradeTestCase(unittest.TestCase):
 
     def test_equals_15(self):
         self.assertEqual(get_grade(58, 59, 60), 'F')
-
-
-if __name__ == '__main__':
-    unittest.main()

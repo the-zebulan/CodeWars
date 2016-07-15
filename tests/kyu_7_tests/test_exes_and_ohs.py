@@ -12,7 +12,3 @@ class XOTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(xo('xxxoo'))
-
-
-if __name__ == '__main__':
-    unittest.main()

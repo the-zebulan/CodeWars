@@ -20,7 +20,3 @@ class RemoveMarkedElementsTestCase(unittest.TestCase):
         self.assertEqual(self.lst.remove_(
             [8, 2, 7, 2, 3, 4, 6, 5, 4, 4, 1, 2, 3], [2, 4, 3]
         ), [8, 7, 6, 5, 1])
-
-
-if __name__ == '__main__':
-    unittest.main()

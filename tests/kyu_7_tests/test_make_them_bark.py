@@ -13,7 +13,3 @@ class DogTestCase(unittest.TestCase):
         self.assertEqual(
             Dog('Zeus', 'Dobermann', 'male', '4').bark(), 'Woof!'
         )
-
-
-if __name__ == '__main__':
-    unittest.main()

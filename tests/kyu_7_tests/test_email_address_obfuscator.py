@@ -10,7 +10,3 @@ class ObfuscateTestCase(unittest.TestCase):
     def test_equals_2(self):
         self.assertEqual(obfuscate('Code_warrior@foo.ac.uk'),
                          'Code_warrior [at] foo [dot] ac [dot] uk')
-
-
-if __name__ == '__main__':
-    unittest.main()

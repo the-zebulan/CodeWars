@@ -16,7 +16,3 @@ class IsAnagramTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(isAnagram('Car', 'Cat'))
-
-
-if __name__ == '__main__':
-    unittest.main()

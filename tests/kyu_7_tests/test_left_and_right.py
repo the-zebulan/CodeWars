@@ -42,7 +42,3 @@ class TestCase(unittest.TestCase):
 
     def test_equals_12(self):
         self.assertEqual(right("Don't Repeat Yourself", 'Repeat '), 'Yourself')
-
-
-if __name__ == '__main__':
-    unittest.main()

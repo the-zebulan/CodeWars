@@ -146,7 +146,3 @@ class IsBalancedTestCase(unittest.TestCase):
 
     def test_false_25(self):
         self.assertFalse(is_balanced('-a@b@cd@e@fghi', '--@@'))
-
-
-if __name__ == '__main__':
-    unittest.main()

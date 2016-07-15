@@ -78,7 +78,3 @@ class ExcelFunctionsTestCase(unittest.TestCase):
 
     def test_equals_23(self):
         self.assertEqual(average_if([99, 95.5, 0, 83], '<>0'), 92.5)
-
-
-if __name__ == '__main__':
-    unittest.main()

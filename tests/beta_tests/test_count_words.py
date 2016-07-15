@@ -31,7 +31,3 @@ class WordCountTestCase(unittest.TestCase):
             ' take to stop smelling that way if no one ever used it at all;'
             ' a lot of ink had been spent there, and the wet smell of it '
             'must be deep into everything.'), 112)
-
-
-if __name__ == '__main__':
-    unittest.main()

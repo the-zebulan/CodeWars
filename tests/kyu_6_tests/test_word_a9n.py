@@ -20,7 +20,3 @@ class AbbreviateTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(abbreviate('elephant-ride'), 'e6t-r2e')
-
-
-if __name__ == '__main__':
-    unittest.main()

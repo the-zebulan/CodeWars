@@ -27,7 +27,3 @@ class GetIssuerTestCase(unittest.TestCase):
 
     def test_equals_8(self):
         self.assertEqual(get_issuer(9111111111111111), 'Unknown')
-
-
-if __name__ == '__main__':
-    unittest.main()

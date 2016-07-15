@@ -42,7 +42,3 @@ class AlternateSquareSumTestCase(unittest.TestCase):
 
     def test_equals_11(self):
         self.assertEqual(alternate_sq_sum([11, 8, 14, 5, 7, 15]), 346)
-
-
-if __name__ == '__main__':
-    unittest.main()

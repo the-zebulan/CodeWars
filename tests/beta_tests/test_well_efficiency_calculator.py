@@ -21,7 +21,3 @@ class IsEfficientTestCase(unittest.TestCase):
 
     def test_false_3(self):
         self.assertFalse(is_efficient(0, 0, 2.3))
-
-
-if __name__ == '__main__':
-    unittest.main()

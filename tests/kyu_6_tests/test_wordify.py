@@ -30,7 +30,3 @@ class WordifyTestCase(unittest.TestCase):
 
     def test_equals_9(self):
         self.assertEqual(wordify(326), 'three hundred twenty six')
-
-
-if __name__ == '__main__':
-    unittest.main()

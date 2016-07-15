@@ -22,7 +22,3 @@ class FindNeedleTestCase(unittest.TestCase):
             3, 4, 2, 34, 234, 23, 4, 234, 324, 324, 'needle', 1, 2, 3, 4,
             5, 5, 6, 5, 4, 32, 3, 45, 54
         ]), 'found the needle at position 30')
-
-
-if __name__ == '__main__':
-    unittest.main()

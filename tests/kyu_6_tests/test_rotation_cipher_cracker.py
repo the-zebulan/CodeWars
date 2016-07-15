@@ -20,7 +20,3 @@ class DecodeTestCase(unittest.TestCase):
 
     def test_in_2(self):
         self.assertIn('themaxvalueisinfinity', self.decoded_msgs)
-
-
-if __name__ == '__main__':
-    unittest.main()

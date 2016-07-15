@@ -258,7 +258,3 @@ class DidYouMeanTestCase(unittest.TestCase):
         self.assertEqual(Dictionary([
             'Shalbart', 'Iscandar', 'Gamilas', 'Aquarius', 'Gatlantis'
         ]).find_most_similar('Iscanar'), 'Iscandar')
-
-
-if __name__ == '__main__':
-    unittest.main()

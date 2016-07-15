@@ -31,7 +31,3 @@ class ExampleSortTestCase(unittest.TestCase):
             ['Alice', 'Bryan', 'Chad', 'Darrell', 'Ellie', 'Fiona'],
             ['Alice', 'Bryan', 'Chad', 'Darrell', 'Ellie', 'Fiona']
         ), ['Alice', 'Bryan', 'Chad', 'Darrell', 'Ellie', 'Fiona'])
-
-
-if __name__ == '__main__':
-    unittest.main()

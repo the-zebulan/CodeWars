@@ -23,7 +23,3 @@ class SomethingCapitalizedTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(solution('a b c'), 'A B C')
-
-
-if __name__ == '__main__':
-    unittest.main()

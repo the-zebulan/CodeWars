@@ -38,7 +38,3 @@ class MirrorTestCase(unittest.TestCase):
 
     def test_equal_11(self):
         self.assertEqual(mirror('this is a secret', ' *'), 'this*is*a*secret')
-
-
-if __name__ == '__main__':
-    unittest.main()

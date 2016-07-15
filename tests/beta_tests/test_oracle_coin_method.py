@@ -83,7 +83,3 @@ class OracleTestCase(unittest.TestCase):
             ['five', 't', 'h', 't'], ['six', 't', 'h', 't']]),
             '---------\n---------\n---- ----\n---- ----\n---------\n---- ----'
         )
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -8,7 +8,3 @@ class FilterLongWordsTestCase(unittest.TestCase):
         self.assertEqual(filter_long_words(
             'The quick brown fox jumps over the lazy dog', 4),
             ['quick', 'brown', 'jumps'])
-
-
-if __name__ == '__main__':
-    unittest.main()

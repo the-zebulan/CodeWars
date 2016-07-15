@@ -9,7 +9,3 @@ class SmashTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(smash(['hello', 'world']), 'hello world')
-
-
-if __name__ == '__main__':
-    unittest.main()

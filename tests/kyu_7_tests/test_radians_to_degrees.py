@@ -10,7 +10,3 @@ class RadiansToDegreesTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(math.radians(180), '3.14rad')
-
-
-if __name__ == '__main__':
-    unittest.main()

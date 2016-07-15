@@ -12,7 +12,3 @@ class ComputerToPhoneTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(computer_to_phone('0789456123'), '0123456789')
-
-
-if __name__ == '__main__':
-    unittest.main()

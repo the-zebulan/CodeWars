@@ -18,7 +18,3 @@ class TheVarTestCase(unittest.TestCase):
 
     def test_equal_5(self):
         self.assertEqual(the_var('b+y'), 27)
-
-
-if __name__ == '__main__':
-    unittest.main()

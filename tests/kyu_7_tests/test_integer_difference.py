@@ -21,7 +21,3 @@ class IntegerDifferenceTestCase(unittest.TestCase):
 
     def test_equal_6(self):
         self.assertEqual(int_diff([], 3), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

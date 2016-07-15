@@ -23,7 +23,3 @@ class DownArrowTestCase(unittest.TestCase):
     def test_equals_5(self):
         self.assertEqual(get_a_down_arrow_of(5),
                          '123454321\n 1234321\n  12321\n   121\n    1')
-
-
-if __name__ == '__main__':
-    unittest.main()

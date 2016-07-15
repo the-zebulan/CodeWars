@@ -18,7 +18,3 @@ class LowestProductTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(lowest_product('1234111'), 4)
-
-
-if __name__ == '__main__':
-    unittest.main()

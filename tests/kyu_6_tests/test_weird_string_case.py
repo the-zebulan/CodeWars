@@ -12,7 +12,3 @@ class WeirdStringCaseTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(to_weird_case('This is a test'), 'ThIs Is A TeSt')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -27,7 +27,3 @@ class RemoveSmallestTestCase(unittest.TestCase):
 
     def test_equal_8(self):
         self.assertEqual(remove_smallest(2, [1, 2, 1, 2, 1]), [2, 2, 1])
-
-
-if __name__ == '__main__':
-    unittest.main()

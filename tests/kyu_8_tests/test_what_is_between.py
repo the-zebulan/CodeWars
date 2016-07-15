@@ -27,7 +27,3 @@ class WhatIsBetweenTestCase(unittest.TestCase):
 
     def test_equal_8(self):
         self.assertEqual(between(0, 0), range(0, 0 + 1))
-
-
-if __name__ == '__main__':
-    unittest.main()

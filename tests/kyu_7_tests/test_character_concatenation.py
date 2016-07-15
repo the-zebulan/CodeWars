@@ -9,7 +9,3 @@ class CharacterConcatenationTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(char_concat('abc!def'), 'af1be2cd3')
-
-
-if __name__ == '__main__':
-    unittest.main()

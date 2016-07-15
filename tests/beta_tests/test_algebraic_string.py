@@ -29,7 +29,3 @@ class SumsAndProductsTestCase(unittest.TestCase):
         self.assertEqual(
             sum_prod("1.333333333*1.23456789+0.003*0.002"), '1.64610e+00'
         )
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -42,7 +42,3 @@ class GetCountTestCase(unittest.TestCase):
     def test_equals_10(self):
         self.assertEqual(get_count(None),
                          {'vowels': 0, 'consonants': 0})
-
-
-if __name__ == '__main__':
-    unittest.main()

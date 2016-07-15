@@ -30,7 +30,3 @@ class AlanAnnoyingKidTestCase(unittest.TestCase):
             "Today I learned to code like a pro."
         ), "I don't think you learned to code like a pro today, I think you "
            "didn't learn at all!")
-
-
-if __name__ == '__main__':
-    unittest.main()

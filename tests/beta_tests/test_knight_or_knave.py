@@ -162,7 +162,3 @@ class KnightOrKnaveTestCase(unittest.TestCase):
 
     def test_equal_48(self):
         self.assertEqual(knight_or_knave('not True'), 'Knave! Do not trust.')
-
-
-if __name__ == '__main__':
-    unittest.main()

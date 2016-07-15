@@ -26,7 +26,3 @@ class OrderingTheWordsTestCase(unittest.TestCase):
 
     def test_equals_7(self):
         self.assertEqual(order_word(None), 'Invalid String!')
-
-
-if __name__ == '__main__':
-    unittest.main()

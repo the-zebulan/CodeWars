@@ -12,7 +12,3 @@ class GenerateTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(len(generate(64)), 64)
-
-
-if __name__ == '__main__':
-    unittest.main()

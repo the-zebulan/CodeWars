@@ -16,7 +16,3 @@ class PrefillTestCase(unittest.TestCase):
     def test_equals_4(self):
         self.assertEqual(prefill(3, prefill(2, '2d')),
                          [['2d', '2d'], ['2d', '2d'], ['2d', '2d']])
-
-
-if __name__ == '__main__':
-    unittest.main()

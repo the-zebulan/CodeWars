@@ -9,7 +9,3 @@ class StringEndsWithTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(solution('abc', 'd'))
-
-
-if __name__ == '__main__':
-    unittest.main()

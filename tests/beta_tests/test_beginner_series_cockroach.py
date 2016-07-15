@@ -12,7 +12,3 @@ class CockroachSpeedTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(cockroach_speed(0), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

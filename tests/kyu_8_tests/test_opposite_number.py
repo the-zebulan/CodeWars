@@ -21,6 +21,3 @@ class OppositeNumberTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(opposite(-95858588225), 95858588225)
-
-if __name__ == '__main__':
-    unittest.main()

@@ -15,7 +15,3 @@ class PermutationAverageTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(permutation_average(737), 629)
-
-
-if __name__ == '__main__':
-    unittest.main()

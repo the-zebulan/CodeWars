@@ -27,7 +27,3 @@ class KonttiTestCase(unittest.TestCase):
 
     def test_equals_8(self):
         self.assertEqual(kontti('silly grrr'), 'kolly-sintti grrr')
-
-
-if __name__ == '__main__':
-    unittest.main()

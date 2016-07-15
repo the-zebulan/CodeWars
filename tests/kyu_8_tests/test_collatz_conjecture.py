@@ -15,7 +15,3 @@ class CollatzConjectureTestCase(unittest.TestCase):
 
     def test_equal_4(self):
         self.assertEqual(hotpo(23), 15)
-
-
-if __name__ == '__main__':
-    unittest.main()

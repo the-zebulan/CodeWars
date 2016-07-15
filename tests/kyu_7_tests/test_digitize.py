@@ -18,7 +18,3 @@ class DigitizeTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(digitize(8675309), [8, 6, 7, 5, 3, 0, 9])
-
-
-if __name__ == '__main__':
-    unittest.main()

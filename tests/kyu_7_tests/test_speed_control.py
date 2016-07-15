@@ -30,7 +30,3 @@ class GPSTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(gps(10, []), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -9,7 +9,3 @@ class PaperworkTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(paperwork(-2, 10), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

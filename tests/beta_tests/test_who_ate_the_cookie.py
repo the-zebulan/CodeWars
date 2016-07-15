@@ -19,7 +19,3 @@ class CookieTestCase(unittest.TestCase):
     def test_equals_4(self):
         self.assertEqual(cookie(True),
                          'Who ate the last cookie? It was the dog!')
-
-
-if __name__ == '__main__':
-    unittest.main()

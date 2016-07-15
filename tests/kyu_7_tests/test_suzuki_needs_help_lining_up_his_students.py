@@ -43,7 +43,3 @@ class LineupStudentsTestCase(unittest.TestCase):
              'Naoko', 'Naoki', 'Mikio', 'Yuki', 'Yuji', 'Yori', 'Yogi',
              'Toyo', 'Toru', 'Tomi', 'Taro', 'Tama', 'Shin', 'Shig',
              'Ryuu', 'Rafu', 'Nori', 'Nobu', 'Miki', 'Ryo', 'Nao'])
-
-
-if __name__ == '__main__':
-    unittest.main()

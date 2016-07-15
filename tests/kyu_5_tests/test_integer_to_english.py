@@ -17,7 +17,3 @@ class IntegerToEnglishTestCase(unittest.TestCase):
         self.assertEqual(int_to_english(25161045656),
                          'twenty five billion one hundred sixty one million '
                          'forty five thousand six hundred fifty six')
-
-
-if __name__ == '__main__':
-    unittest.main()

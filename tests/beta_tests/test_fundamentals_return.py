@@ -39,7 +39,3 @@ class FundamentalsTestCase(unittest.TestCase):
 
     def test_equals_12(self):
         self.assertEqual(subt(5832, 1832), 4000)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -15,7 +15,3 @@ class GapTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(gap(15), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -99,7 +99,3 @@ class WinnerTestCase(unittest.TestCase):
             {'name': 'Helmat', 'scores': [95, 100]},
             {'name': 'Grawl', 'scores': [85, 35, 15]}
         ]))
-
-
-if __name__ == '__main__':
-    unittest.main()

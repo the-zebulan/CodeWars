@@ -18,7 +18,3 @@ class CountBitsTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(countBits(10), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()

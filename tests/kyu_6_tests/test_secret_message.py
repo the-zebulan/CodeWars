@@ -19,7 +19,3 @@ class FindSecretMessageTestCase(unittest.TestCase):
         self.assertEqual(find_secret_message(
             'asdf qwer zxcv. zxcv fdsa rewq. qazw asdf sxed. qwer crfv.'),
             'zxcv asdf qwer')
-
-
-if __name__ == '__main__':
-    unittest.main()

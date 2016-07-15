@@ -12,7 +12,3 @@ class LongestPossibleTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(longest_possible(13))
-
-
-if __name__ == '__main__':
-    unittest.main()

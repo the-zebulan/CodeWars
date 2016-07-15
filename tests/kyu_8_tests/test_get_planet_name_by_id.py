@@ -21,7 +21,3 @@ class GetPlanetNameTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(get_planet_name(1), 'Mercury')
-
-
-if __name__ == '__main__':
-    unittest.main()

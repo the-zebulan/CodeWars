@@ -21,7 +21,3 @@ class HeroTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(self.myHero.damage, 5)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -24,7 +24,3 @@ class TurkishNationalIdentityNumberTestCase(unittest.TestCase):
 
     def test_false_4(self):
         self.assertFalse(check_valid_tr_number(12762438338))
-
-
-if __name__ == '__main__':
-    unittest.main()

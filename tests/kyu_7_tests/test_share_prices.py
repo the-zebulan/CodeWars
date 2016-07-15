@@ -18,7 +18,3 @@ class SharePriceTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(share_price(1000, [0, 2, 3, 6]), '1113.64')
-
-
-if __name__ == '__main__':
-    unittest.main()

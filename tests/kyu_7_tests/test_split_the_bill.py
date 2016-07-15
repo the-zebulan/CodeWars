@@ -11,7 +11,3 @@ class SplitTheBillTestCase(unittest.TestCase):
     def test_equals_2(self):
         self.assertEqual(split_the_bill({'A': 40, 'B': 25, 'X': 10}),
                          {'A': 15, 'B': 0, 'X': -15})
-
-
-if __name__ == '__main__':
-    unittest.main()

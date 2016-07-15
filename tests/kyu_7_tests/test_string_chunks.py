@@ -17,7 +17,3 @@ class StringChunkTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(string_chunk('everlong', 100), ['everlong'])
-
-
-if __name__ == '__main__':
-    unittest.main()

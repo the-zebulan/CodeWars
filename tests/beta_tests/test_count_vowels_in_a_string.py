@@ -9,7 +9,3 @@ class CountVowelsTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(count_vowels('asdfdsafdsafds'), 3)
-
-
-if __name__ == '__main__':
-    unittest.main()

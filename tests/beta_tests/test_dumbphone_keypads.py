@@ -13,7 +13,3 @@ class SequenceTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(sequence('#hashtag'), '#442777744824')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -11,7 +11,3 @@ class PlayingWithPassphrasesTestCase(unittest.TestCase):
         self.assertEqual(play_pass(
             'MY GRANMA CAME FROM NY ON THE 23RD OF APRIL 2015', 2),
             '4897 NkTrC Hq fT67 GjV Pq aP OqTh gOcE CoPcTi aO')
-
-
-if __name__ == '__main__':
-    unittest.main()

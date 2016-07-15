@@ -12,7 +12,3 @@ class CalculateTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(calculate('1', '1', 'multiply'), '1')
-
-
-if __name__ == '__main__':
-    unittest.main()

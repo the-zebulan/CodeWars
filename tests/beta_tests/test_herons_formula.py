@@ -12,7 +12,3 @@ class HeronTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(heron(17, 25, 26), 204)
-
-
-if __name__ == '__main__':
-    unittest.main()

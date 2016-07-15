@@ -9,7 +9,3 @@ class CollatzTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(collatz(15), 18)
-
-
-if __name__ == '__main__':
-    unittest.main()

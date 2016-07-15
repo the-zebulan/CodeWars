@@ -14,7 +14,3 @@ class ListTestCase(unittest.TestCase):
     def test_equals_2(self):
         self.assertEqual(self.my_list.add(5),
                          'This item is not of type: str')
-
-
-if __name__ == '__main__':
-    unittest.main()

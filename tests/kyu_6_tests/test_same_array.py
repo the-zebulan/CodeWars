@@ -29,7 +29,3 @@ class SameTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(same([[2, 3], [3, 2]], [[2, 3]]))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -24,7 +24,3 @@ class ShiftedDiffTestCase(unittest.TestCase):
 
     def test_equals_7(self):
         self.assertEqual(shifted_diff('yoyo', 'oyoyoy'), -1)
-
-
-if __name__ == '__main__':
-    unittest.main()

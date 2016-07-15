@@ -15,7 +15,3 @@ class MatchArraysTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(match_arrays(
             [True, 3, 9, 11, 15], [True, 3, 11]), 3)
-
-
-if __name__ == '__main__':
-    unittest.main()

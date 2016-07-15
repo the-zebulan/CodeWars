@@ -29,7 +29,3 @@ class MorseConverterTestCase(unittest.TestCase):
     def test_equals_8(self):
         self.assertEqual(morse_converter(
             '.----..---...--....-.....-....--...---..----.-----'), 1234567890)
-
-
-if __name__ == '__main__':
-    unittest.main()

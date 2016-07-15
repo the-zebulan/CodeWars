@@ -15,7 +15,3 @@ class SplitIntegerTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(splitInteger(20, 5), [4, 4, 4, 4, 4])
-
-
-if __name__ == '__main__':
-    unittest.main()

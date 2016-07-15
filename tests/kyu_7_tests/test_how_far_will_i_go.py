@@ -33,7 +33,3 @@ class TravelTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(travel(500, 100, 10, 0), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

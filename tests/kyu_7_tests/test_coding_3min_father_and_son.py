@@ -36,7 +36,3 @@ class FatherAndSonTestCase(unittest.TestCase):
 
     def test_equals_11(self):
         self.assertEqual(sc('BANAna'), 'ANAna')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -9,7 +9,3 @@ class CalculatorTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(Calculator().evaluate('10 * 20 / 30'), 6)
-
-
-if __name__ == '__main__':
-    unittest.main()

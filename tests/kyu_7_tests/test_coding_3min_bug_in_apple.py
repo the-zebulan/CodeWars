@@ -30,7 +30,3 @@ class BugInAppleTestCase(unittest.TestCase):
             ['A', 'A', 'A', 'A', 'A'],
             ['A', 'B', 'A', 'A', 'A']
         ]), [4, 1])
-
-
-if __name__ == '__main__':
-    unittest.main()

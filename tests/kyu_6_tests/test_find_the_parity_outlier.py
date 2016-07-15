@@ -12,7 +12,3 @@ class FindOutlierTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(find_outlier([2, 6, 8, 10, 3]), 3)
-
-
-if __name__ == '__main__':
-    unittest.main()

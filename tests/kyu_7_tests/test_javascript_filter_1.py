@@ -8,7 +8,3 @@ class SearchNamesTestCase(unittest.TestCase):
         self.assertEqual(search_names(
             [['foo', 'foo@foo.com'], ['bar_', 'bar@bar.com']]
         ), [['bar_', 'bar@bar.com']])
-
-
-if __name__ == '__main__':
-    unittest.main()

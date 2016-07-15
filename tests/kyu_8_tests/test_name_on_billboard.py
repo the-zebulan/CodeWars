@@ -36,7 +36,3 @@ class BillboardTestCase(unittest.TestCase):
 
     def test_equal_11(self):
         self.assertEqual(billboard("Simon Eadwulf"), 390)
-
-
-if __name__ == '__main__':
-    unittest.main()

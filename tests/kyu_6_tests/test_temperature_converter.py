@@ -21,7 +21,3 @@ class ConvertTemperatureTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(convert_temp(666, 'K', 'K'), 666)
-
-
-if __name__ == '__main__':
-    unittest.main()

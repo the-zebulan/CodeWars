@@ -15,7 +15,3 @@ class EncryptorTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(encryptor(27, 'Whoopi Goldberg'), 'Xippqj Hpmecfsh')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -13,7 +13,3 @@ class AverageTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(average([40, 20, 5]), 21)
-
-
-if __name__ == '__main__':
-    unittest.main()

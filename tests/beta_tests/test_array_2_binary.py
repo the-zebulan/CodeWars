@@ -18,7 +18,3 @@ class ArrayToBinaryTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(arr2bin([94, 23, 73, True, 61]))
-
-
-if __name__ == '__main__':
-    unittest.main()

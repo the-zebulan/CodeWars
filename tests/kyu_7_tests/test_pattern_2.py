@@ -17,7 +17,3 @@ class PatternTwoTestCase(unittest.TestCase):
         self.assertEqual(pattern(10),
                          '10987654321\n1098765432\n109876543\n10987654\n'
                          '1098765\n109876\n10987\n1098\n109\n10')
-
-
-if __name__ == '__main__':
-    unittest.main()

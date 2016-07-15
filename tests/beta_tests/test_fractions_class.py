@@ -46,7 +46,3 @@ class FractionTestCase(unittest.TestCase):
     def test_equal_11(self):
         self.assertEqual(Fraction(212, 979) + Fraction(46, 580),
                          Fraction(83997, 283910))
-
-
-if __name__ == '__main__':
-    unittest.main()

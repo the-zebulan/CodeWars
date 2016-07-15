@@ -12,7 +12,3 @@ class GetWordsTestCase(unittest.TestCase):
         self.assertEqual(get_words({2: ['a'], 1: ['b', 'c']}),
                          ['aabc', 'aacb', 'abac', 'abca', 'acab', 'acba',
                           'baac', 'baca', 'bcaa', 'caab', 'caba', 'cbaa'])
-
-
-if __name__ == '__main__':
-    unittest.main()

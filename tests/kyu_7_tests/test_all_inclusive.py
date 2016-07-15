@@ -26,7 +26,3 @@ class RotationsTestCase(unittest.TestCase):
             'TzYxlgfnhf', 'yqVAuoLjMLy', 'BhRXjYA', 'YABhRXj', 'hRXjYAB',
             'jYABhRX', 'XjYABhR', 'ABhRXjY'
         ]))
-
-
-if __name__ == '__main__':
-    unittest.main()

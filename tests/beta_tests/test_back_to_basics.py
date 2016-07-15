@@ -15,7 +15,3 @@ class TypesTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(types(True), 'bool')
-
-
-if __name__ == '__main__':
-    unittest.main()

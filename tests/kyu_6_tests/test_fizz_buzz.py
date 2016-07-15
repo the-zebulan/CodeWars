@@ -15,7 +15,3 @@ class FizzBuzzTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(solution(300), [80, 40, 19])
-
-
-if __name__ == '__main__':
-    unittest.main()

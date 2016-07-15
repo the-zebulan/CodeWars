@@ -18,7 +18,3 @@ class MaximumRotationTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(max_rot(69418307), 94183076)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -13,7 +13,3 @@ class TwoDecimalPlacesTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(two_decimal_places(4.653725356), 4.65)
-
-
-if __name__ == '__main__':
-    unittest.main()

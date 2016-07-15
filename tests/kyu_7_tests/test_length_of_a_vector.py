@@ -12,7 +12,3 @@ class VectorLengthTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(vector_length([[1, -1], [1, -1]]), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

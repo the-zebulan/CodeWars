@@ -27,7 +27,3 @@ class FirstDuplicateTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(first_dup('1a2b3a3c'), 'a')
-
-
-if __name__ == '__main__':
-    unittest.main()

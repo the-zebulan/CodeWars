@@ -15,7 +15,3 @@ class HTMLGeneratorTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(self.test.title('hmm'), '<title>hmm</title>')
-
-
-if __name__ == '__main__':
-    unittest.main()

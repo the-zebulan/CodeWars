@@ -9,7 +9,3 @@ class FooTestCase(unittest.TestCase):
 
     def test_instance(self):
         self.assertIsInstance(foo(), int)
-
-
-if __name__ == '__main__':
-    unittest.main()

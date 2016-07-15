@@ -27,7 +27,3 @@ class UnusualSortTestCase(unittest.TestCase):
     def test_equals_7(self):
         self.assertEqual(unusual_sort([3, '2', 1, '1', '3', 2]),
                          [1, '1', 2, '2', 3, '3'])
-
-
-if __name__ == '__main__':
-    unittest.main()

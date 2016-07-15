@@ -21,7 +21,3 @@ class VanityPlateTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(vanity_plate('a 00000 a'), 'A00000A')
-
-
-if __name__ == '__main__':
-    unittest.main()

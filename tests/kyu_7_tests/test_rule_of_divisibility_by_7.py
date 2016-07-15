@@ -18,7 +18,3 @@ class SevenTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(seven(0), (0, 0))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -49,7 +49,3 @@ class PairZerosTestCase(unittest.TestCase):
     def test_equal_14(self):
         self.assertEqual(pair_zeros([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
                          [0, 0, 0, 0, 0, 0, 0])
-
-
-if __name__ == '__main__':
-    unittest.main()

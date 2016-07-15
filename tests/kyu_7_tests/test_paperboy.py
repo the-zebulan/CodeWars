@@ -33,7 +33,3 @@ class CheapestQuoteTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(cheapest_quote(499), 48.06)
-
-
-if __name__ == '__main__':
-    unittest.main()

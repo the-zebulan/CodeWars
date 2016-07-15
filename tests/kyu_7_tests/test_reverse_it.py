@@ -15,7 +15,3 @@ class ReverseItTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(reverse_it('123.123'), '321.321')
-
-
-if __name__ == '__main__':
-    unittest.main()

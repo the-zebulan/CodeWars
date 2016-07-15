@@ -19,7 +19,3 @@ class ShortenTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(shorten('hello world', 6, '....'), 'h....d')
-
-
-if __name__ == '__main__':
-    unittest.main()

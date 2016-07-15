@@ -15,7 +15,3 @@ class GetSlopeTestCase(unittest.TestCase):
 
     def test_none_2(self):
         self.assertIsNone(getSlope([1, 1], [1, 1]))
-
-
-if __name__ == '__main__':
-    unittest.main()

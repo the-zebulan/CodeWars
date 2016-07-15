@@ -24,7 +24,3 @@ class CompareVersionsTestCase(unittest.TestCase):
 
     def test_false_4(self):
         self.assertFalse(compare_versions('10.4.9', '10.5'))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -33,7 +33,3 @@ class ToSecondsTestCase(unittest.TestCase):
 
     def test_none_7(self):
         self.assertIsNone(to_seconds('\n00:00:00'))
-
-
-if __name__ == '__main__':
-    unittest.main()

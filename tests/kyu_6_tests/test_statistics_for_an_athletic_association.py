@@ -12,7 +12,3 @@ class StatTestCase(unittest.TestCase):
         self.assertEqual(stat(
             '02|15|59, 2|47|16, 02|17|20, 2|32|34, 2|17|17, 2|22|00, 2|31|41'),
             'Range: 00|31|17 Average: 02|26|18 Median: 02|22|00')
-
-
-if __name__ == '__main__':
-    unittest.main()

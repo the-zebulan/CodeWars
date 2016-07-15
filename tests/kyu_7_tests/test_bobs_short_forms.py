@@ -63,7 +63,3 @@ class ShortFormTestCase(unittest.TestCase):
 
     def test_equals_20(self):
         self.assertEqual(short_form('pygmy'), 'pygmy')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -16,7 +16,3 @@ class NothingSpecialTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(nothing_special(25), 'Not a string!')
-
-
-if __name__ == '__main__':
-    unittest.main()

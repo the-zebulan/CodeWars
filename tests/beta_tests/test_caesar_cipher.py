@@ -12,7 +12,3 @@ class CaesarTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(caesar('ZZ Top', 3), 'CC Wrs')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -65,7 +65,3 @@ class XmasTreeTestCase(unittest.TestCase):
             '______#______',
             '______#______'
         ])
-
-
-if __name__ == '__main__':
-    unittest.main()

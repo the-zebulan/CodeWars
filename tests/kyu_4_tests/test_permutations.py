@@ -13,7 +13,3 @@ class PermutationsTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(sorted(permutations('aabb')),
                          ['aabb', 'abab', 'abba', 'baab', 'baba', 'bbaa'])
-
-
-if __name__ == '__main__':
-    unittest.main()

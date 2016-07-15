@@ -154,7 +154,3 @@ class MakeLazyTestCase(unittest.TestCase):
 
     def test_equal_50(self):
         self.assertEqual(make_lazy(mod, 14, 1)(), mod(14, 1))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -15,7 +15,3 @@ class LastManStandingTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(last_man_standing(1000), 510)
-
-
-if __name__ == '__main__':
-    unittest.main()

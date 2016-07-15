@@ -12,7 +12,3 @@ class HighestProfitTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(min_max([1]), [1, 1])
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -12,7 +12,3 @@ class AlphaNumericTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(alphanumeric('     '))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -36,7 +36,3 @@ class GetUsersIDsTestCase(unittest.TestCase):
 
     def test_equal_10(self):
         self.assertEqual(get_users_ids(' uidT#e#S#t# '), ['test'])
-
-
-if __name__ == '__main__':
-    unittest.main()

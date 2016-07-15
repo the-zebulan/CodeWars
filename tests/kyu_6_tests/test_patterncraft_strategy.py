@@ -26,7 +26,3 @@ class VikingTestCase(unittest.TestCase):
         viking.move_behavior = Fly()
         viking.move()
         self.assertEqual(viking.position, 11)
-
-
-if __name__ == '__main__':
-    unittest.main()

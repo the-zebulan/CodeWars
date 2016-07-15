@@ -33,7 +33,3 @@ class HotDogsTestCase(unittest.TestCase):
 
     def test_equal_10(self):
         self.assertEqual(sale_hotdogs(100), 9000)
-
-
-if __name__ == '__main__':
-    unittest.main()

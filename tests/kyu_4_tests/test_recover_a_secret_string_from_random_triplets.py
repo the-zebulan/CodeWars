@@ -195,7 +195,3 @@ class RecoverSecretStringTestCase(unittest.TestCase):
             ['d', 'v', 'x'], ['l', 'r', 'u'], ['f', 'k', 'y'],
             ['f', 'x', 'y'], ['h', 'm', 'n'], ['s', 'v', 'x']]
         ), 'abcdefghijklmnopqrstuvwxyz')
-
-
-if __name__ == '__main__':
-    unittest.main()

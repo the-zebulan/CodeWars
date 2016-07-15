@@ -9,7 +9,3 @@ class RotateTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(rotate([[3, 1], [4, 2]]), [[4, 3], [2, 1]])
-
-
-if __name__ == '__main__':
-    unittest.main()

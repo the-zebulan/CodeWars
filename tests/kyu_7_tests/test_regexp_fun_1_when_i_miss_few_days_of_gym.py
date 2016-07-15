@@ -109,7 +109,3 @@ class GymSlangTestCase(unittest.TestCase):
         self.assertEqual(gym_slang(
             "combination combination Combination combination Combination"
         ), "combo combo Combo combo Combo")
-
-
-if __name__ == '__main__':
-    unittest.main()

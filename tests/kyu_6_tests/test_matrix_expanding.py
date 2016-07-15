@@ -29,7 +29,3 @@ class MatrixExpandingTestCase(unittest.TestCase):
                    ['HI', 'HI', 3, 4, 5, 6, 'HI', 'HI'],
                    ['HI', 'HI', 'HI', 'HI', 'HI', 'HI', 'HI', 'HI'],
                    ['HI', 'HI', 'HI', 'HI', 'HI', 'HI', 'HI', 'HI']])
-
-
-if __name__ == '__main__':
-    unittest.main()

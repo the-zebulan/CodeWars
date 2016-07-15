@@ -21,7 +21,3 @@ class IsPerfectTestCase(unittest.TestCase):
 
     def test_false_3(self):
         self.assertFalse(isPerfect(4986))
-
-
-if __name__ == '__main__':
-    unittest.main()

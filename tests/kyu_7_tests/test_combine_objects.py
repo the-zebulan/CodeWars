@@ -48,7 +48,3 @@ class CombineObjectsTestCase(unittest.TestCase):
     def test_equals_10(self):
         self.assertEqual(combine(self.a, {}, self.a),
                          {'a': 20, 'b': 40, 'c': 60})
-
-
-if __name__ == '__main__':
-    unittest.main()

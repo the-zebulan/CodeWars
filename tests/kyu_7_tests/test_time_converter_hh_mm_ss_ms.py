@@ -44,7 +44,3 @@ class ConvertTestCase(unittest.TestCase):
     def test_equals_10(self):
         self.assertEqual(convert(datetime(1850, 12, 30, 0, 0, 0, 321939)),
                          '00:00:00,321')
-
-
-if __name__ == '__main__':
-    unittest.main()

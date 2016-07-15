@@ -17,7 +17,3 @@ class DecodeMorseTestCase(unittest.TestCase):
             ' -. ..-. --- -..- .--- ..- -- .--. ... --- ...- . .-. - .... . '
             '.-.. .- --.. -.-- -.. --- --. .-.-.-'),
             'SOS!THEQUICKBROWNFOXJUMPSOVERTHELAZYDOG.')
-
-
-if __name__ == '__main__':
-    unittest.main()

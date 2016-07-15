@@ -23,7 +23,3 @@ class GenerateLinkTestCase(unittest.TestCase):
     def test_equals_5(self):
         self.assertEqual(generate_link('colbydauph'),
                          'http://www.codewars.com/users/colbydauph')
-
-
-if __name__ == '__main__':
-    unittest.main()

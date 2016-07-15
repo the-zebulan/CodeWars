@@ -18,7 +18,3 @@ class TitleToNumberTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(title_to_number('BA'), 53)
-
-
-if __name__ == '__main__':
-    unittest.main()

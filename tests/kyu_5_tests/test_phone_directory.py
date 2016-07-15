@@ -66,7 +66,3 @@ class PhoneDirectoryTestCase(unittest.TestCase):
     def test_equals_8(self):
         self.assertEqual(phone(self.addresses, '5-555-555-5555'),
                          'Error => Not found: 5-555-555-5555')
-
-
-if __name__ == '__main__':
-    unittest.main()

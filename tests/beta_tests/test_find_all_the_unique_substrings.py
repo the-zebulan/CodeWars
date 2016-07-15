@@ -10,7 +10,3 @@ class GetSubstringsTestCase(unittest.TestCase):
     def test_equals_2(self):
         self.assertEqual(getSubstrings(
             'I am but a string in the meadow.'), 511)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -45,7 +45,3 @@ class FindSpaceshipTestCase(unittest.TestCase):
 
     def test_equals_12(self):
         self.assertEqual(type(find_spaceship('')), str)
-
-
-if __name__ == '__main__':
-    unittest.main()

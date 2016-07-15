@@ -17,7 +17,3 @@ class SpinWordsTestCase(unittest.TestCase):
     def test_equals_4(self):
         self.assertEqual(spin_words('This is another test'),
                          'This is rehtona test')
-
-
-if __name__ == '__main__':
-    unittest.main()

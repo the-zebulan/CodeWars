@@ -25,7 +25,3 @@ class SequenceGeneratorTestCase(unittest.TestCase):
 
     def test_equals_7(self):
         self.assertEqual(generator(10, 20, -5), [])
-
-
-if __name__ == '__main__':
-    unittest.main()

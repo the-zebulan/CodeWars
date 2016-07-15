@@ -33,6 +33,3 @@ class ValidateHelloTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(validate_hello('meh'))
-
-if __name__ == '__main__':
-    unittest.main()

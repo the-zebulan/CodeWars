@@ -9,7 +9,3 @@ class SplitWorkloadTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(split_workload([]), (None, None))
-
-
-if __name__ == '__main__':
-    unittest.main()

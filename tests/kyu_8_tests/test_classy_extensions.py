@@ -13,7 +13,3 @@ class CatTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(Cat('$$Money Bags$$').speak(),
                          '$$Money Bags$$ meows.')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -12,7 +12,3 @@ class UnscrambleTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(unscramble('amle'), ['male', 'meal'])
-
-
-if __name__ == '__main__':
-    unittest.main()

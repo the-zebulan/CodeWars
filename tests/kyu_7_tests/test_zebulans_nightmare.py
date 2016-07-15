@@ -20,7 +20,3 @@ class ZebulanTestCase(unittest.TestCase):
 
     def test_equal_5(self):
         self.assertEqual(zebulansNightmare('repeat'), 'repeat')
-
-
-if __name__ == '__main__':
-    unittest.main()

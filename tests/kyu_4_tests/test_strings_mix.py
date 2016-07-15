@@ -47,7 +47,3 @@ class MixTestCase(unittest.TestCase):
         self.assertEqual(mix('A generation must confront the looming ',
                              'codewarrs'),
                          '1:nnnnn/1:ooooo/1:tttt/1:eee/1:gg/1:ii/1:mm/=:rr')
-
-
-if __name__ == '__main__':
-    unittest.main()

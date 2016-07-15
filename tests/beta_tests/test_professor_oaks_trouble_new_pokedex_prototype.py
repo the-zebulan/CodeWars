@@ -75,7 +75,3 @@ class PokeScanTestCase(unittest.TestCase):
     def test_equal_18(self):
         self.assertEqual(PokeScan('Bulbasaur', 100, 'grass').info(),
                          'Bulbasaur, a grassy and strong Pokemon.')
-
-
-if __name__ == '__main__':
-    unittest.main()

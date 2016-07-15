@@ -73,7 +73,3 @@ class GetStartTimeTestCase(unittest.TestCase):
 
     def test_is_none_5(self):
         self.assertIsNone(get_start_time(self.schedule_3, 11))
-
-
-if __name__ == '__main__':
-    unittest.main()

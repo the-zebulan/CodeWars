@@ -65,7 +65,3 @@ class CheckDNATestCase(unittest.TestCase):
 
     def test_false_11(self):
         self.assertFalse(check_DNA('ATGCTACG', 'CGTAGCAA'))
-
-
-if __name__ == '__main__':
-    unittest.main()

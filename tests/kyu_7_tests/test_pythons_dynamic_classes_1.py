@@ -31,7 +31,3 @@ class ClassNameChangerTestCase(unittest.TestCase):
 class MyClass(object):
     def __str__(self):
         return str(type(self))
-
-
-if __name__ == '__main__':
-    unittest.main()

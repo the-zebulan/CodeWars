@@ -12,7 +12,3 @@ class DescendingOrderTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(Descending_Order(123456789), 987654321)
-
-
-if __name__ == '__main__':
-    unittest.main()

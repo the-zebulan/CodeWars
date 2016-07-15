@@ -48,7 +48,3 @@ class ToCentsTestCase(unittest.TestCase):
 
     def test_none_8(self):
         self.assertIsNone(to_cents('$9.692'))
-
-
-if __name__ == '__main__':
-    unittest.main()

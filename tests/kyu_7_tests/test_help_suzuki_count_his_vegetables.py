@@ -32,7 +32,3 @@ class CountVegetablesTestCase(unittest.TestCase):
              (10, 'carrot'), (9, 'potato'), (7, 'onion'), (6, 'tofu'),
              (6, 'pepper'), (5, 'cucumber'), (4, 'celery')]
         )
-
-
-if __name__ == '__main__':
-    unittest.main()

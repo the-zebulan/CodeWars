@@ -22,7 +22,3 @@ class TemplateTestCase(unittest.TestCase):
         self.assertEqual(
             self.template2(first='Smitty', other='other'), 'Smitty '
         )
-
-
-if __name__ == '__main__':
-    unittest.main()

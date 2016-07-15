@@ -15,7 +15,3 @@ class OddityTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(oddity(100), 'odd')
-
-
-if __name__ == '__main__':
-    unittest.main()

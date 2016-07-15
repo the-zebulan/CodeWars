@@ -21,7 +21,3 @@ class ReduceMyFractionTestCase(unittest.TestCase):
 
     def test_equal_6(self):
         self.assertEqual(solution([1, 1]), [1, 1])
-
-
-if __name__ == '__main__':
-    unittest.main()

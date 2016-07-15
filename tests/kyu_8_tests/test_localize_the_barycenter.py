@@ -15,7 +15,3 @@ class BarycenterTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(bar_triang(
             [4, 8], [8, 2], [16, 6]), [9.3333, 5.3333])
-
-
-if __name__ == '__main__':
-    unittest.main()

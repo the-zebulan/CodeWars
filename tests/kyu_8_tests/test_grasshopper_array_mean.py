@@ -18,7 +18,3 @@ class FindAverageTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(find_average([]), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -15,7 +15,3 @@ class ReindeerTestCase(unittest.TestCase):
 
     def test_exception(self):
         self.assertRaises(AssertionError, reindeer, 200)
-
-
-if __name__ == '__main__':
-    unittest.main()

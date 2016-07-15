@@ -7,7 +7,3 @@ class LetterFrequencyTestCase(unittest.TestCase):
     def test_equals(self):
         self.assertEqual(letter_frequency('aaAabb dddDD hhcc'),
                          [('d', 5), ('a', 4), ('b', 2), ('c', 2), ('h', 2)])
-
-
-if __name__ == '__main__':
-    unittest.main()

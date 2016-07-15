@@ -54,7 +54,3 @@ class CountTheOnesTestCase(unittest.TestCase):
 
     def test_equal_17(self):
         self.assertEqual(hamming_weight(1489), 6)
-
-
-if __name__ == '__main__':
-    unittest.main()

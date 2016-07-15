@@ -16,7 +16,3 @@ class WinnerTestCase(unittest.TestCase):
             list('9QQAT7693Q43744Q6568Q8484AJA8JK36T4557K9'),
             list('TQK284TA753A9KJ75337JQK9Q3696K7AQ2752AJ4')),
             'Steve wins 20 to 18')
-
-
-if __name__ == '__main__':
-    unittest.main()

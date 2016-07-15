@@ -23,7 +23,3 @@ class ValidateTestCase(unittest.TestCase):
     def test_equals_5(self):
         self.assertEqual(validate('Admin', 'gs5bw"||1==1//'),
                          'Wrong username or password!')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -18,7 +18,3 @@ class CircleAreaTestCase(unittest.TestCase):
 
     def test_false_3(self):
         self.assertFalse(circleArea('number'))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -50,7 +50,3 @@ class HollowTriangleTestCase(unittest.TestCase):
             '_#_____________#_',
             '#################'
         ])
-
-
-if __name__ == '__main__':
-    unittest.main()

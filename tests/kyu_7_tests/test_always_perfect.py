@@ -18,7 +18,3 @@ class CheckRootTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(check_root('10,11,12,13'), '17161, 131')
-
-
-if __name__ == '__main__':
-    unittest.main()

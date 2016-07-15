@@ -20,7 +20,3 @@ class PipeFixTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(pipe_fix([1, 2, 3]), [1, 2, 3])
-
-
-if __name__ == '__main__':
-    unittest.main()

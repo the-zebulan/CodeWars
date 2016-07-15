@@ -41,7 +41,3 @@ class GetSocksTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(get_socks('Punky', []), [])
-
-
-if __name__ == '__main__':
-    unittest.main()

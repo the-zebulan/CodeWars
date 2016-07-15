@@ -9,7 +9,3 @@ class PascalToSnakeTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(to_underscore(5), '5')
-
-
-if __name__ == '__main__':
-    unittest.main()

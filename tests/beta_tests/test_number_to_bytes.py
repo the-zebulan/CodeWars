@@ -25,7 +25,3 @@ class NumberToBytesTestCase(unittest.TestCase):
     def test_equals_7(self):
         self.assertEqual(to_bytes(0x1020304),
                          ['00000001', '00000010', '00000011', '00000100'])
-
-
-if __name__ == '__main__':
-    unittest.main()

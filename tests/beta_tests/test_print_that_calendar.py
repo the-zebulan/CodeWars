@@ -40,7 +40,3 @@ class ShowCalendarTestCase(unittest.TestCase):
             '21 22 23 24 25 26 27\n'
             '28 29 30 31\n'
         )
-
-
-if __name__ == '__main__':
-    unittest.main()

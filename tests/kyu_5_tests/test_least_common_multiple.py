@@ -18,7 +18,3 @@ class LeastCommonMultipleTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(lcm(0, 1), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

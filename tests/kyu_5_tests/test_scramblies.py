@@ -18,7 +18,3 @@ class ScrambliesTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(scramble('katas', 'steak'))
-
-
-if __name__ == '__main__':
-    unittest.main()

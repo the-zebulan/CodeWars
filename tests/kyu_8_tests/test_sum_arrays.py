@@ -15,7 +15,3 @@ class SumArrayTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(sum_array([4, 5, 6]), 15)
-
-
-if __name__ == '__main__':
-    unittest.main()

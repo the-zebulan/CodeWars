@@ -129,7 +129,3 @@ class NaughtyOrNiceTestCase(unittest.TestCase):
                 '30': 'Nice', '31': 'Nice'
             }
         }), 'Nice!')
-
-
-if __name__ == '__main__':
-    unittest.main()

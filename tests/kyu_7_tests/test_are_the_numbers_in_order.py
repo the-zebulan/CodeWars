@@ -22,7 +22,3 @@ class AscendingOrderTestCase(unittest.TestCase):
     def test_false_3(self):
         self.assertFalse(in_asc_order(
             [56, 98, 123, 67, 742, 1024, 32, 90969]))
-
-
-if __name__ == '__main__':
-    unittest.main()

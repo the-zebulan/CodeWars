@@ -15,7 +15,3 @@ class CaffeineBuzzTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(caffeineBuzz(12), 'CoffeeScript')
-
-
-if __name__ == '__main__':
-    unittest.main()

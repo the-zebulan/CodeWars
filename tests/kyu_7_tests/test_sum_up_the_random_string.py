@@ -13,7 +13,3 @@ class SumFromStringTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(sum_from_string('e=mc^2'), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()

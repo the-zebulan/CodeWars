@@ -14,7 +14,3 @@ class BobTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(bob('werepuppy'),
                          'I have friggin no idea yet, idjits!')
-
-
-if __name__ == '__main__':
-    unittest.main()

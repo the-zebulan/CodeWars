@@ -33,7 +33,3 @@ class DeclareWinnerTestCase(unittest.TestCase):
         self.assertEqual(declare_winner(
             Fighter('Jerry', 30, 3), Fighter('Harald', 20, 5), 'Harald'
         ), 'Harald')
-
-
-if __name__ == '__main__':
-    unittest.main()

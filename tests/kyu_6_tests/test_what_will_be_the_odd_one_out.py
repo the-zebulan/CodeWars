@@ -26,7 +26,3 @@ class OddOneOutTestCase(unittest.TestCase):
 
     def test_equals_7(self):
         self.assertEqual(odd_one_out('Mama'), ['M', 'm'])
-
-
-if __name__ == '__main__':
-    unittest.main()

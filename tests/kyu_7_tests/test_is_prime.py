@@ -18,7 +18,3 @@ class IsPrimeTestCase(unittest.TestCase):
 
     def test_false_3(self):
         self.assertFalse(is_prime(12))
-
-
-if __name__ == '__main__':
-    unittest.main()

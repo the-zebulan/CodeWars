@@ -9,7 +9,3 @@ class AdditionCalcTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(addition_calc(997, 1087), 2084)
-
-
-if __name__ == '__main__':
-    unittest.main()

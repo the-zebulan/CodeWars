@@ -37,7 +37,3 @@ class BlockTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(self.b2.get_surface_area(), 24)
-
-
-if __name__ == '__main__':
-    unittest.main()

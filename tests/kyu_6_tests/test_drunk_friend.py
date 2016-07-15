@@ -18,7 +18,3 @@ class DrunkFriendTestCase(unittest.TestCase):
     def test_equals_4(self):
         self.assertEqual(decode('Tl slnv, blf\'iv wifmp'),
                          'Go home, you\'re drunk')
-
-
-if __name__ == '__main__':
-    unittest.main()

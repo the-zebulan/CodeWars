@@ -9,7 +9,3 @@ class JoJoTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(is_jojo('Dio Brando'))
-
-
-if __name__ == '__main__':
-    unittest.main()

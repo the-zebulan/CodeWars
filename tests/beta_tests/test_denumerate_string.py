@@ -19,7 +19,3 @@ class DenumerateTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(denumerate([(1, 'a'), (2, 'b')]))
-
-
-if __name__ == '__main__':
-    unittest.main()

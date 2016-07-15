@@ -9,7 +9,3 @@ class RomanNumeralsHelperTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(RomanNumerals.from_roman('M'), 1000)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -15,7 +15,3 @@ class AdditionTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(total_after(37), 137438953471)
-
-
-if __name__ == '__main__':
-    unittest.main()

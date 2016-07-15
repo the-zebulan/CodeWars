@@ -15,7 +15,3 @@ class StripCommentsTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(solution('\n§', ['#', '\xc2\xa7']), '\n')
-
-
-if __name__ == '__main__':
-    unittest.main()

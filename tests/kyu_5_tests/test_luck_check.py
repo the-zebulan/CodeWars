@@ -9,7 +9,3 @@ class LuckCheckTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(luck_check('683000'))
-
-
-if __name__ == '__main__':
-    unittest.main()

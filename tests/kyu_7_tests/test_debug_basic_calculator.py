@@ -15,7 +15,3 @@ class CalculateTestCase(unittest.TestCase):
 
     def test_none_2(self):
         self.assertIsNone(calculate(4, "/", 0))
-
-
-if __name__ == '__main__':
-    unittest.main()

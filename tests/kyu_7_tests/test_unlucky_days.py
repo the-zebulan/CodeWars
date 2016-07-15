@@ -48,7 +48,3 @@ class UnluckyDaysTestCase(unittest.TestCase):
 
     def test_equals_15(self):
         self.assertEqual(unlucky_days(1797), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()

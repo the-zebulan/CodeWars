@@ -9,7 +9,3 @@ class BallTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(Ball('super').ball_type, 'super')
-
-
-if __name__ == '__main__':
-    unittest.main()

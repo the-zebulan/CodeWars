@@ -33,7 +33,3 @@ class NoonerizeTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(noonerize([0, 1]), 1)
-
-
-if __name__ == '__main__':
-    unittest.main()

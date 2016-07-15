@@ -16,7 +16,3 @@ class LastTestCase(unittest.TestCase):
     def test_equals_4(self):
         self.assertEqual(last((['a', 'b', 'c', 'k', 'x', 'y', 'z'],),
                               ['a', 'b', 'c', 'k', 'x', 'y', 'z']), 'z')
-
-
-if __name__ == '__main__':
-    unittest.main()

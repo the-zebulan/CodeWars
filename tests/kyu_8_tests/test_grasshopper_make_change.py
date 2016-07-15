@@ -20,7 +20,3 @@ class MakeChangeTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(soda, 1)
-
-
-if __name__ == '__main__':
-    unittest.main()

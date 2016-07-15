@@ -36,7 +36,3 @@ class FindDigitTestCase(unittest.TestCase):
 
     def test_equal_11(self):
         self.assertEqual(find_digit(0, -3), -1)
-
-
-if __name__ == '__main__':
-    unittest.main()

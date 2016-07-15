@@ -21,7 +21,3 @@ class TitleCaseTestCase(unittest.TestCase):
     def test_equals_5(self):
         self.assertEqual(title_case('the quick brown fox'),
                          'The Quick Brown Fox')
-
-
-if __name__ == '__main__':
-    unittest.main()

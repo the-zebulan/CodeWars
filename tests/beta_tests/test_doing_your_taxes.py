@@ -12,7 +12,3 @@ class TaxTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(tax('Hello'), 'Error 404')
-
-
-if __name__ == '__main__':
-    unittest.main()

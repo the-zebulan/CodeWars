@@ -78,7 +78,3 @@ class MostFrequentWeekdaysTestCase(unittest.TestCase):
 
     def test_equals_25(self):
         self.assertEqual(most_frequent_days(1794), ['Wednesday'])
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -27,7 +27,3 @@ class ScaleTestCase(unittest.TestCase):
 
     def test_equal_8(self):
         self.assertEqual(scale("CG\nla", 2, 3), "CCGG\nCCGG\nCCGG\nllaa\nllaa\nllaa")
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -31,7 +31,3 @@ class PaginationTextTestCase(unittest.TestCase):
     def test_equals_7(self):
         self.assertEqual(pagination_text(43, 15, 3456),
                          'Showing 631 to 645 of 3456 Products.')
-
-
-if __name__ == '__main__':
-    unittest.main()

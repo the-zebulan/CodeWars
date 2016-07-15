@@ -15,7 +15,3 @@ class PlayingWithDigitsTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(dig_pow(92, 1), -1)
-
-
-if __name__ == '__main__':
-    unittest.main()

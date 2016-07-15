@@ -15,7 +15,3 @@ class DigitalRootTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(digital_root(493193), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()

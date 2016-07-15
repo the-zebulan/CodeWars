@@ -27,7 +27,3 @@ class PrizeDrawTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(rank('', [4, 2, 1, 4, 3, 1, 2], 6), 'No participants')
-
-
-if __name__ == '__main__':
-    unittest.main()

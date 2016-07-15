@@ -30,7 +30,3 @@ class FactorsTestCase(unittest.TestCase):
 
     def test_equals_9(self):
         self.assertEqual(factors(1), [1])
-
-
-if __name__ == '__main__':
-    unittest.main()

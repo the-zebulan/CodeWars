@@ -24,7 +24,3 @@ class NumberOfOccurrencesTestCase(unittest.TestCase):
         self.assertEqual(number_of_occurrences(
             'abc', ['abc', '123', '123', 'abc']
         ), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()

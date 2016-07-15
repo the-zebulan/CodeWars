@@ -18,7 +18,3 @@ class IsDigitTestCase(unittest.TestCase):
 
     def test_false_4(self):
         self.assertFalse(is_digit("a5"))
-
-
-if __name__ == '__main__':
-    unittest.main()

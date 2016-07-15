@@ -9,7 +9,3 @@ class ReverseFunTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(ReverseFun('jointhedarkside'), 'ejdoiisnktrhaed')
-
-
-if __name__ == '__main__':
-    unittest.main()

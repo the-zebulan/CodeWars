@@ -18,7 +18,3 @@ class BuyOrPassTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(buy_or_pass(1000, 1000), 'Pass')
-
-
-if __name__ == '__main__':
-    unittest.main()

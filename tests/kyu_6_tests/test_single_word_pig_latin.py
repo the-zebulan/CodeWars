@@ -12,7 +12,3 @@ class PigLatinTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(pig_latin('spaghetti'), 'aghettispay')
-
-
-if __name__ == '__main__':
-    unittest.main()

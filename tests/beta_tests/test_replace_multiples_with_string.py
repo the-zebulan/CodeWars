@@ -63,6 +63,3 @@ class ReplaceMultiplesWithStringTestCase(unittest.TestCase):
             1, 'BOTH', -1, -2, 'THREE', -4, 'FIVE', 'THREE', -7, -8,
             'THREE', 'FIVE', -11, 'THREE', -13, -14, 'BOTH'
         ])
-
-if __name__ == '__main__':
-    unittest.main()

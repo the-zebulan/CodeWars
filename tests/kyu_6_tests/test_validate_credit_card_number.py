@@ -42,7 +42,3 @@ class ValidateCreditCardNumberTestCase(unittest.TestCase):
 
     def test_false_6(self):
         self.assertFalse(validate(8675309))
-
-
-if __name__ == '__main__':
-    unittest.main()

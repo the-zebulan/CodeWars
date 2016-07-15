@@ -18,7 +18,3 @@ class AddBinaryTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(add_binary(51, 12), '111111')
-
-
-if __name__ == '__main__':
-    unittest.main()

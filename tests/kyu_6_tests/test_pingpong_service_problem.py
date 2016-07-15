@@ -27,7 +27,3 @@ class ServiceTestCase(unittest.TestCase):
 
     def test_equals_8(self):
         self.assertEqual(service('21:22'), 'second')
-
-
-if __name__ == '__main__':
-    unittest.main()

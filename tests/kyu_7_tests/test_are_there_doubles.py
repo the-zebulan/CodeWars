@@ -21,7 +21,3 @@ class DoubleCheckTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(double_check('a b c d e f g h i h k'))
-
-
-if __name__ == '__main__':
-    unittest.main()

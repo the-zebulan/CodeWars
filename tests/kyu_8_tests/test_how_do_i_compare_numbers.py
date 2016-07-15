@@ -18,7 +18,3 @@ class WhatIsTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(what_is(42 * 42), 'everything squared')
-
-
-if __name__ == '__main__':
-    unittest.main()

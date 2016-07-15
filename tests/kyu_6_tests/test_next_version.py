@@ -18,7 +18,3 @@ class NextVersionTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(next_version('9.9'), '10.0')
-
-
-if __name__ == '__main__':
-    unittest.main()

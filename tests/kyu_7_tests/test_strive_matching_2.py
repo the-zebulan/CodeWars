@@ -24,7 +24,3 @@ class StriveMatchingTestCase(unittest.TestCase):
         self.assertEqual(len(match({
             'equity_max': 1.2, 'locations': ['New York', 'Kentucky']},
             self.candidates)), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()

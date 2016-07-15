@@ -12,7 +12,3 @@ class PressesTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(presses('WHERE DO U WANT 2 MEET L8R'), 47)
-
-
-if __name__ == '__main__':
-    unittest.main()

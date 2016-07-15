@@ -7,7 +7,3 @@ class ListAnimalsTestCase(unittest.TestCase):
     def test_equals(self):
         self.assertEqual(list_animals(['dog', 'cat', 'elephant']),
                          '1. dog\n2. cat\n3. elephant\n')
-
-
-if __name__ == '__main__':
-    unittest.main()

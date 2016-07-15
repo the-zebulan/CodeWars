@@ -24,7 +24,3 @@ class RemoveTestCase(unittest.TestCase):
             'codewars', {'c': 5, 'o': 1, 'd': 1, 'e': 1, 'w': 1, 'z': 1,
                          'a': 1, 'r': 1, 's': 1}
         ), '')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -21,7 +21,3 @@ class MultiplesByPermutationsTestCase(unittest.TestCase):
 
     def test_equal_6(self):
         self.assertEqual(search_permMult(10000, 3), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()

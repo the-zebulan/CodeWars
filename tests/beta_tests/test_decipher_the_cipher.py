@@ -18,7 +18,3 @@ class TestDecipherTheCipher(unittest.TestCase):
 
     def test_equal_5(self):
         self.assertEqual(encrypter("goodbye"), "gyyjloi")
-
-
-if __name__ == '__main__':
-    unittest.main()

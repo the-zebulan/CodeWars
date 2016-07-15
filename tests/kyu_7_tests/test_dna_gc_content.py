@@ -18,7 +18,3 @@ class DnaGcContentTestCase(unittest.TestCase):
 
     def test_equal_5(self):
         self.assertEqual(gc_content('ACTGACTGAACCA'), 46.15)
-
-
-if __name__ == '__main__':
-    unittest.main()

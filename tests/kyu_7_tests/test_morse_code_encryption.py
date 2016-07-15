@@ -22,7 +22,3 @@ class EncryptionTestCase(unittest.TestCase):
     def test_equals_5(self):
         self.assertEqual(encryption('JUMPED OVER THE'),
                          '.--- ..- -- .--. . -..   --- ...- . .-.   - .... .')
-
-
-if __name__ == '__main__':
-    unittest.main()

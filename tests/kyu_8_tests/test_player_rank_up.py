@@ -11,7 +11,3 @@ class PlayerRankUpTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(playerRankUp(64))
-
-
-if __name__ == '__main__':
-    unittest.main()

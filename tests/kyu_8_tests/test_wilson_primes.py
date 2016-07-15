@@ -24,7 +24,3 @@ class WilsonPrimesTestCase(unittest.TestCase):
 
     def test_false_4(self):
         self.assertFalse(am_i_wilson(9))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -12,7 +12,3 @@ class DiamondTestCase(unittest.TestCase):
 
     def test_none_2(self):
         self.assertIsNone(diamond(-1))
-
-
-if __name__ == '__main__':
-    unittest.main()

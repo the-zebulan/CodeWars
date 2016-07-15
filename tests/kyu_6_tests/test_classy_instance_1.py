@@ -26,7 +26,3 @@ class Vehicle:
 class Planet:
     def __init__(self, moon):
         self.moon = moon
-
-
-if __name__ == '__main__':
-    unittest.main()

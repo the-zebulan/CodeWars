@@ -24,7 +24,3 @@ class ListTestCase(unittest.TestCase):
     def test_equals_4(self):
         self.assertEqual(self.lst.count_spec_digits(
             [], [1, 8, 4]), [(1, 0), (8, 0), (4, 0)])
-
-
-if __name__ == '__main__':
-    unittest.main()

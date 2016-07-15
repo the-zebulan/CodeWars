@@ -16,7 +16,3 @@ class AddLengthTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(add_length('y'), ['y 1'])
-
-
-if __name__ == '__main__':
-    unittest.main()

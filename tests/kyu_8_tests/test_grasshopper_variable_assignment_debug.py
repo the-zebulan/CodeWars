@@ -12,7 +12,3 @@ class VariablesTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(name, 'devLab')
-
-
-if __name__ == '__main__':
-    unittest.main()

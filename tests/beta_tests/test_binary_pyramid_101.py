@@ -16,7 +16,3 @@ class BinaryPyramidTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(binary_piramid(21, 60), '1100000100010001010100')
-
-
-if __name__ == '__main__':
-    unittest.main()

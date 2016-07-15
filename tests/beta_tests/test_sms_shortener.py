@@ -38,7 +38,3 @@ class ShortenerTestCase(unittest.TestCase):
             'cdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghij'
         ), 'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabc'
            'defghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghij')
-
-
-if __name__ == '__main__':
-    unittest.main()

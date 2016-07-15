@@ -9,7 +9,3 @@ class EvenOrOddTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(even_or_odd(11), 'Odd')
-
-
-if __name__ == '__main__':
-    unittest.main()

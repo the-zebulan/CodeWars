@@ -26,7 +26,3 @@ class CountingStarTestCase(unittest.TestCase):
 
     def test_equals_7(self):
         self.assertEqual(hail_caesar('EBG13'), 'ROT13')
-
-
-if __name__ == '__main__':
-    unittest.main()

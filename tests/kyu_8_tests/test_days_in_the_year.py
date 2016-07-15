@@ -33,7 +33,3 @@ class YearDaysTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(year_days(-1), '-1 has 365 days')
-
-
-if __name__ == '__main__':
-    unittest.main()

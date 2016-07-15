@@ -22,7 +22,3 @@ class SumDigitsToConsecutivePowersTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(sum_dig_pow(89, 135), [89, 135])
-
-
-if __name__ == '__main__':
-    unittest.main()

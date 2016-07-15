@@ -15,7 +15,3 @@ class ClosestPointsTestCase(unittest.TestCase):
              (19, 17), (13, 16), (10, 18), (14, 13), (12, 14), (11, 15),
              (7, 15)]),
             [14, [[(7, 15), (8, 14)], [(11, 15), (12, 14)]], 1.4142])
-
-
-if __name__ == '__main__':
-    unittest.main()

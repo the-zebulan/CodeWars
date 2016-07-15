@@ -13,7 +13,3 @@ class OwlTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(owl_pic('t6ggggggggWw'), 'TWW\'\'0v0\'\'WWT')
-
-
-if __name__ == '__main__':
-    unittest.main()

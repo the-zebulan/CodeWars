@@ -70,7 +70,3 @@ class BreadcrumbGeneratorTestCase(unittest.TestCase):
                          '<a href="/">HOME</a> * <a href="/important/">IMPOR'
                          'TANT</a> * <a href="/important/confidential/">CONF'
                          'IDENTIAL</a> * <span class="active">DOCS</span>')
-
-
-if __name__ == '__main__':
-    unittest.main()

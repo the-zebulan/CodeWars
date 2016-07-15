@@ -12,7 +12,3 @@ class SillyCaseTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(sillycase('brian'), 'briAN')
-
-
-if __name__ == '__main__':
-    unittest.main()

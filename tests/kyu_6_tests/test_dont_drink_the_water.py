@@ -26,7 +26,3 @@ class SeparateLiquidsTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(separate_liquids([]), [])
-
-
-if __name__ == '__main__':
-    unittest.main()

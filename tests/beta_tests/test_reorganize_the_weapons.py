@@ -24,7 +24,3 @@ class WeaponsTestCase(unittest.TestCase):
 
     def test_equals_7(self):
         self.assertEqual(identify_weapon('Anything Else!'), 'Not a character')
-
-
-if __name__ == '__main__':
-    unittest.main()

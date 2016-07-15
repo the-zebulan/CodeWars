@@ -27,7 +27,3 @@ class RainAmountTestCase(unittest.TestCase):
     def test_equal_5(self):
         self.assertEqual(rain_amount(0),
                          'You need to give your plant 40mm of water')
-
-
-if __name__ == '__main__':
-    unittest.main()

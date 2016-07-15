@@ -35,7 +35,3 @@ class SexyNameTestCase(unittest.TestCase):
     def test_equal_10(self):
         self.assertEqual(sexy_name('PAMELA ANDERSON'),
                          'THE ULTIMATE SEXIEST')
-
-
-if __name__ == '__main__':
-    unittest.main()

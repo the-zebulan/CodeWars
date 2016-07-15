@@ -27,7 +27,3 @@ class CaeserTestCase(unittest.TestCase):
 
     def test_equals_8(self):
         self.assertEqual(caeser('final one', 9), 'ORWJU XWN')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -35,7 +35,3 @@ class FindTestCase(unittest.TestCase):
 
     def test_equals_9(self):
         self.assertEqual(find('___4$&%$--___', '-..,.44$&%$--,.,'), 3)
-
-
-if __name__ == '__main__':
-    unittest.main()

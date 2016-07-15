@@ -12,7 +12,3 @@ class IPToInt32TestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(ip_to_int32('128.32.10.1'), 2149583361)
-
-
-if __name__ == '__main__':
-    unittest.main()

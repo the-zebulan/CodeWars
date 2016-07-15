@@ -12,7 +12,3 @@ class EvilOrOdiousTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(evil(3), 'It\'s Evil!')
-
-
-if __name__ == '__main__':
-    unittest.main()

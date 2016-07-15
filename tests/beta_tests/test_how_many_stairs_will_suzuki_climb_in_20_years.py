@@ -50,7 +50,3 @@ class StairsIn20YearsTestCase(unittest.TestCase):
               6567, 8524, 7613, 7809, 5562, 7799, 7179, 5184, 7960, 9455,
               5633, 9085]]
         ]), 54636040)
-
-
-if __name__ == '__main__':
-    unittest.main()

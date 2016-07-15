@@ -51,7 +51,3 @@ class TaxCalculatorTestCase(unittest.TestCase):
 
     def test_equals_16(self):
         self.assertEqual(tax_calculator('monkey'), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

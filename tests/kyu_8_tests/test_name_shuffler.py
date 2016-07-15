@@ -12,7 +12,3 @@ class NameShufflerTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(name_shuffler('tom jerry'), 'jerry tom')
-
-
-if __name__ == '__main__':
-    unittest.main()

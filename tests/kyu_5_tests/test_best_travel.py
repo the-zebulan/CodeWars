@@ -16,7 +16,3 @@ class BestSumTestCase(unittest.TestCase):
 
     def test_none(self):
         self.assertIsNone(choose_best_sum(430, 8, self.distances))
-
-
-if __name__ == '__main__':
-    unittest.main()

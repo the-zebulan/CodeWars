@@ -33,7 +33,3 @@ class SelfDescriptiveNumbersTestCase(unittest.TestCase):
 
     def test_false_4(self):
         self.assertFalse(self_descriptive(11201))
-
-
-if __name__ == '__main__':
-    unittest.main()

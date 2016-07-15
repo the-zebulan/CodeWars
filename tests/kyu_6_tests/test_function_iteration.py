@@ -19,7 +19,3 @@ class CreateIteratorTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(self.get_quadruple(5), 20)
-
-
-if __name__ == '__main__':
-    unittest.main()

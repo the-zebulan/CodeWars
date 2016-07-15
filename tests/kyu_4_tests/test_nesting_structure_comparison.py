@@ -21,7 +21,3 @@ class SameStructureAsTestCase(unittest.TestCase):
 
     def test_false_3(self):
         self.assertFalse(same_structure_as([[[], []]], [[1, 1]]))
-
-
-if __name__ == '__main__':
-    unittest.main()

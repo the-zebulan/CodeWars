@@ -20,7 +20,3 @@ class ShoppingListTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(totalPrice, 118.5)
-
-
-if __name__ == '__main__':
-    unittest.main()

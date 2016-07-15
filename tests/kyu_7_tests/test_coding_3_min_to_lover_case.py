@@ -21,7 +21,3 @@ class ToLoverCaseTestCase(unittest.TestCase):
 
     def test_equal_6(self):
         self.assertEqual(to_lover_case('jrvz,'), 'OOOO,')
-
-
-if __name__ == '__main__':
-    unittest.main()

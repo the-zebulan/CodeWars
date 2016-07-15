@@ -11,7 +11,3 @@ class ReverseWordsTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(reverseWords('hello world!'), 'world! hello')
-
-
-if __name__ == '__main__':
-    unittest.main()

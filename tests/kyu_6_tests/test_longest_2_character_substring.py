@@ -42,7 +42,3 @@ class SubstringTestCase(unittest.TestCase):
 
     def test_equals_13(self):
         self.assertEqual(substring('cefageaacceaccacca'), 'accacca')
-
-
-if __name__ == '__main__':
-    unittest.main()

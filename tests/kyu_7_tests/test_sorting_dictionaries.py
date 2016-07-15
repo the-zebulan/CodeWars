@@ -19,7 +19,3 @@ class SortDictTestCase(unittest.TestCase):
     def test_equals_4(self):
         self.assertEqual(sort_dict({1: 5, 3: 10, 2: 2, 6: 3, 8: 8}),
                          [(3, 10), (8, 8), (1, 5), (6, 3), (2, 2)])
-
-
-if __name__ == '__main__':
-    unittest.main()

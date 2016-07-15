@@ -15,7 +15,3 @@ class RentalCarCostTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(rental_car_cost(8), 270)
-
-
-if __name__ == '__main__':
-    unittest.main()

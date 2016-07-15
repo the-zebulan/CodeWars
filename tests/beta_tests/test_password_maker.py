@@ -11,7 +11,3 @@ class MakePasswordTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(make_password('Keep Calm and Carry On'), 'KCaC0')
-
-
-if __name__ == '__main__':
-    unittest.main()

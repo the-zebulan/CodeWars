@@ -12,7 +12,3 @@ class DescreasingInputsTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(add(4, -3, -2), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()

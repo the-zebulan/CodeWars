@@ -22,7 +22,3 @@ class SmallerTestCase(unittest.TestCase):
     def test_equals_6(self):
         self.assertEqual(smaller([5, 4, 7, 9, 2, 4, 4, 5, 6]),
                          [4, 1, 5, 5, 0, 0, 0, 0, 0])
-
-
-if __name__ == '__main__':
-    unittest.main()

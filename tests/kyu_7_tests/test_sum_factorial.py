@@ -9,7 +9,3 @@ class SumFactorialTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(sum_factorial([5, 4, 1]), 145)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -23,7 +23,3 @@ class ShortenToDateTestCase(unittest.TestCase):
     def test_equals_5(self):
         self.assertEqual(shorten_to_date('Tuesday January 29, 10pm'),
                          'Tuesday January 29')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -15,7 +15,3 @@ class DivideTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(divide(67))
-
-
-if __name__ == '__main__':
-    unittest.main()

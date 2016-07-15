@@ -18,7 +18,3 @@ class ReversedColorTestCase(unittest.TestCase):
 
     def test_raises_2(self):
         self.assertRaises(ValueError, get_reversed_color, '#FFFFFFF')
-
-
-if __name__ == '__main__':
-    unittest.main()

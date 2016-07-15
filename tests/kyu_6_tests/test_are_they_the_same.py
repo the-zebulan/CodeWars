@@ -14,7 +14,3 @@ class AreTheyTheSameTestCase(unittest.TestCase):
 
     def test_false(self):
         self.assertFalse(comp([], None))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -35,7 +35,3 @@ class LooseChangeTestCase(unittest.TestCase):
     def test_equals_8(self):
         self.assertEqual(loose_change(3.9), {'Nickels': 0, 'Pennies': 3,
                                              'Dimes': 0, 'Quarters': 0})
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -147,7 +147,3 @@ class BubbleSortTestCase(unittest.TestCase):
             [35, 237, 189, 316, 318, 641, 804],
             [35, 189, 237, 316, 318, 641, 804]]
         )
-
-
-if __name__ == '__main__':
-    unittest.main()

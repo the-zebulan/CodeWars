@@ -33,7 +33,3 @@ class DayAndTimeTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(day_and_time(-349000), 'Tuesday 15:20')
-
-
-if __name__ == '__main__':
-    unittest.main()

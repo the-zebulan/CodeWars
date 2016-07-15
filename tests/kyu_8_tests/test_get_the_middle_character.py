@@ -18,7 +18,3 @@ class GetMiddleTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(get_middle('of'), 'of')
-
-
-if __name__ == '__main__':
-    unittest.main()

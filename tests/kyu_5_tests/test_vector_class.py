@@ -31,7 +31,3 @@ class VectorTestCase(unittest.TestCase):
 
     def test_exception(self):
         self.assertRaises(TypeError, self.a.add, self.c)
-
-
-if __name__ == '__main__':
-    unittest.main()

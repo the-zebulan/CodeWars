@@ -96,7 +96,3 @@ class FlipBitTestCase(unittest.TestCase):
     def test_equal_24(self):
         self.assertEqual(flip_bit(2189951082260115788, 52),
                          2192202882073801036)
-
-
-if __name__ == '__main__':
-    unittest.main()

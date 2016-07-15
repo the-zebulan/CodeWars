@@ -15,7 +15,3 @@ class GoodVsEvilTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(goodVsEvil('1 0 0 0 0 0', '1 0 0 0 0 0 0'),
                          'Battle Result: No victor on this battle field')
-
-
-if __name__ == '__main__':
-    unittest.main()

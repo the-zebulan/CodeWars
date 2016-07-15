@@ -12,7 +12,3 @@ class IsAnagramTestCase(unittest.TestCase):
 
     def test_true_3(self):
         self.assertTrue(is_anagram('Buckethead', 'DeathCubeK'))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -36,7 +36,3 @@ class MyFirstKataTestCase(unittest.TestCase):
 
     def test_false_6(self):
         self.assertFalse(my_first_kata([], "pippi"))
-
-
-if __name__ == '__main__':
-    unittest.main()

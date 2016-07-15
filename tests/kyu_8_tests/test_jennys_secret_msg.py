@@ -9,7 +9,3 @@ class GreetTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(greet('Johnny'), 'Hello, my love!')
-
-
-if __name__ == '__main__':
-    unittest.main()

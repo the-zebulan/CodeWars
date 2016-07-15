@@ -9,7 +9,3 @@ class PrintXTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(print_x('x'), 'x')
-
-
-if __name__ == '__main__':
-    unittest.main()

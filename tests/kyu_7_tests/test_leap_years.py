@@ -15,7 +15,3 @@ class IsLeapYearTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(isLeapYear(1100))
-
-
-if __name__ == '__main__':
-    unittest.main()

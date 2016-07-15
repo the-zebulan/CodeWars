@@ -15,7 +15,3 @@ class StringToNumberTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(string_to_number('1234'), 1234)
-
-
-if __name__ == '__main__':
-    unittest.main()

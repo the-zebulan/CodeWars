@@ -21,7 +21,3 @@ class ValidatePinTestCase(unittest.TestCase):
 
     def test_false_4(self):
         self.assertFalse(validate_pin('-1234'))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -15,7 +15,3 @@ class GreatestDistanceTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(greatest_distance([1, 2, 3, 4]), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

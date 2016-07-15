@@ -20,7 +20,3 @@ class ListDepthTestCase(unittest.TestCase):
     def test_equals_5(self):
         self.assertEqual(list_depth(
             [2.0, [2, 0], 3.7, [3, 7], 6.7, [6, 7]]), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -20,7 +20,3 @@ class AutocompleteTestCase(unittest.TestCase):
             'abnormal', 'arm-wrestling', 'absolute', 'airplane', 'airport',
             'amazing', 'apple', 'ball']), [
             'abnormal', 'arm-wrestling', 'absolute', 'airplane', 'airport'])
-
-
-if __name__ == '__main__':
-    unittest.main()

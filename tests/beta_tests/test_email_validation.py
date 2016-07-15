@@ -15,7 +15,3 @@ class ValidateTestCase(unittest.TestCase):
 
     def test_false_3(self):
         self.assertFalse(validate('5@a74qljvkfj.it'))
-
-
-if __name__ == '__main__':
-    unittest.main()

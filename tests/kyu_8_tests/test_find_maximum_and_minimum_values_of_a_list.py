@@ -35,7 +35,3 @@ class MinMaxOfListTestCase(unittest.TestCase):
 
     def test_equal_10(self):
         self.assertEqual(max([9]), 9)
-
-
-if __name__ == '__main__':
-    unittest.main()

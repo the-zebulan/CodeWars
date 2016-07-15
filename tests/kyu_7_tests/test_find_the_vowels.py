@@ -15,7 +15,3 @@ class VowelIndicesTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(vowel_indices("Apple"), [1, 5])
-
-
-if __name__ == '__main__':
-    unittest.main()

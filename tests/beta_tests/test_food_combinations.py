@@ -12,7 +12,3 @@ class ActuallyReallyGoodTestCase(unittest.TestCase):
         self.assertEqual(actually_really_good(['Peanut butter']),
                          'You know what\'s actually really good? Peanut '
                          'butter and more peanut butter.')
-
-
-if __name__ == '__main__':
-    unittest.main()

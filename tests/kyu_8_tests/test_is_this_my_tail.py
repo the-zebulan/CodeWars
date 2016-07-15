@@ -21,7 +21,3 @@ class CorrectTailTestCase(unittest.TestCase):
 
     def test_false_3(self):
         self.assertFalse(correct_tail('Giraffe', 'd'))
-
-
-if __name__ == '__main__':
-    unittest.main()

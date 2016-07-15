@@ -12,7 +12,3 @@ class GrowthOfAPopulationTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(nb_year(1500000, 0.25, 1000, 2000000), 94)
-
-
-if __name__ == '__main__':
-    unittest.main()

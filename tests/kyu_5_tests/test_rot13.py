@@ -16,7 +16,3 @@ class ROT13TestCase(unittest.TestCase):
                                ' BGURE thl\'f fubrf.'),
                          'In the elevators, the extrovert looks at the OTHER'
                          ' guy\'s shoes.')
-
-
-if __name__ == '__main__':
-    unittest.main()

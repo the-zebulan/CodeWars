@@ -21,7 +21,3 @@ class ZipItTestCase(unittest.TestCase):
             self.a, self.b, lambda g, h: g * ord(h[0])),
                                 lambda i, j: str(i) + str(j)),
                          ['a97', 'b196', 'c297', 'd400', 'e505'])
-
-
-if __name__ == '__main__':
-    unittest.main()

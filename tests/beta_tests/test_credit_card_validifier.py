@@ -18,7 +18,3 @@ class CreditTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(credit(4128374839283), 'VISA')
-
-
-if __name__ == '__main__':
-    unittest.main()

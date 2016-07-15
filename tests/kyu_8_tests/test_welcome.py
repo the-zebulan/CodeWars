@@ -18,7 +18,3 @@ class GreetTestCase(unittest.TestCase):
 
     def test_equal_5(self):
         self.assertEqual(greet(2), 'Welcome')
-
-
-if __name__ == '__main__':
-    unittest.main()

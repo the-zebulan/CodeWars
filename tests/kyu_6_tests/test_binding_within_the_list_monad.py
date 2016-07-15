@@ -19,7 +19,3 @@ class BindTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(bind([1, 2, 3], lambda a: [a + 1]), [2, 3, 4])
-
-
-if __name__ == '__main__':
-    unittest.main()

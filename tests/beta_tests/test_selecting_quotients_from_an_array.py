@@ -22,7 +22,3 @@ class SelectingQuotientsTestCase(unittest.TestCase):
             (6, (12, 2)), (6, (24, 4)), (7, (49, 7)),
             (8, (16, 2)), (12, (24, 2)), (47, (94, 2))
         ])
-
-
-if __name__ == '__main__':
-    unittest.main()

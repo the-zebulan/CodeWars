@@ -35,7 +35,3 @@ class WhereIsWallyTestCase(unittest.TestCase):
 
     def test_equals_10(self):
         self.assertEqual(wheres_wally('It\'s Wally\'s.'), 5)
-
-
-if __name__ == '__main__':
-    unittest.main()

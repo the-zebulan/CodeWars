@@ -18,7 +18,3 @@ class CreateArrayTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(create_array(5), [1, 2, 3, 4, 5])
-
-
-if __name__ == '__main__':
-    unittest.main()

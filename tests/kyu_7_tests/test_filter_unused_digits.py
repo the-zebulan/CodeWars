@@ -18,7 +18,3 @@ class UnusedDigitsTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(unused_digits(864, 896, 744), '01235')
-
-
-if __name__ == '__main__':
-    unittest.main()

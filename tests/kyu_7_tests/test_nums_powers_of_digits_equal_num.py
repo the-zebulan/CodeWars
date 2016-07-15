@@ -15,7 +15,3 @@ class PowersOfDigitsTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(eq_sum_powdig(370, 3), [153, 370])
-
-
-if __name__ == '__main__':
-    unittest.main()

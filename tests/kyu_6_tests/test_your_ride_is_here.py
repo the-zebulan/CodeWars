@@ -9,7 +9,3 @@ class RideTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(ride('STARAB', 'USACO'), 'STAY')
-
-
-if __name__ == '__main__':
-    unittest.main()

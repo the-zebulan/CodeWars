@@ -14,7 +14,3 @@ class SortItTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(sort_it('cat, dog, eel, bee', 3),
                          'bee, dog, eel, cat')
-
-
-if __name__ == '__main__':
-    unittest.main()

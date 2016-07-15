@@ -9,7 +9,3 @@ class FindSmallestIntegerTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(findSmallestInt([78, 56, -2, 12, 8, -33]), -33)
-
-
-if __name__ == '__main__':
-    unittest.main()

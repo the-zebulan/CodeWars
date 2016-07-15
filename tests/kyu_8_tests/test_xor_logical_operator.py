@@ -47,7 +47,3 @@ class XorTestCase(unittest.TestCase):
 
     def test_false_6(self):
         self.assertFalse(xor(xor(True, False), xor(True, False)))
-
-
-if __name__ == '__main__':
-    unittest.main()

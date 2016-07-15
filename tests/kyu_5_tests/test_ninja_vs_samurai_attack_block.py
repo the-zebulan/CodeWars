@@ -13,7 +13,3 @@ class WarriorTestCase(unittest.TestCase):
         self.samurai.block = 'l'
         self.ninja.attack(self.samurai, 'h')
         self.assertEqual(self.samurai.health, 90)
-
-
-if __name__ == '__main__':
-    unittest.main()

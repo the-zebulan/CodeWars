@@ -15,7 +15,3 @@ class IsUpperCaseTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(is_uppercase('hello I AM DONALD'))
-
-
-if __name__ == '__main__':
-    unittest.main()

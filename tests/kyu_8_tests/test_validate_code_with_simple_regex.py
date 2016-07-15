@@ -18,7 +18,3 @@ class ValidateCodeTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(validate_code(9453))
-
-
-if __name__ == '__main__':
-    unittest.main()

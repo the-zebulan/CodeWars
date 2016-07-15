@@ -79,7 +79,3 @@ class ShortenIPv6TestCase(unittest.TestCase):
     def test_equal_19(self):
         self.assertEqual(shorten('0000:0000:6B6F:63B3:0000:0001:0000:0000'),
                          '::6B6F:63B3:0:1:0:0')
-
-
-if __name__ == '__main__':
-    unittest.main()

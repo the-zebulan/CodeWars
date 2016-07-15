@@ -18,7 +18,3 @@ class NoBoringZerosTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(no_boring_zeros(0), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

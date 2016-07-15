@@ -9,7 +9,3 @@ class EvenLadderTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(pattern(5), '22\n4444')
-
-
-if __name__ == '__main__':
-    unittest.main()

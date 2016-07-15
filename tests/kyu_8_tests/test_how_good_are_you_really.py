@@ -14,7 +14,3 @@ class BetterThanAverageTestCase(unittest.TestCase):
     def test_true_3(self):
         self.assertTrue(better_than_average(
             [12, 23, 34, 45, 56, 67, 78, 89, 90], 69))
-
-
-if __name__ == '__main__':
-    unittest.main()

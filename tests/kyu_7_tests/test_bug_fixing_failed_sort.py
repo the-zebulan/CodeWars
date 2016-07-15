@@ -12,7 +12,3 @@ class SortArrayTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(sort_array('34251'), '12345')
-
-
-if __name__ == '__main__':
-    unittest.main()

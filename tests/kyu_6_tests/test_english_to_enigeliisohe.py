@@ -14,7 +14,3 @@ class ToexutoTestCase(unittest.TestCase):
         self.assertEqual(toexuto(
             'This is a test. This is only a test.'),
             'Toheiso iso a toesoto. Toheiso iso oniliyu a toesoto.')
-
-
-if __name__ == '__main__':
-    unittest.main()

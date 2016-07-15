@@ -11,7 +11,3 @@ class FilterWordsTestCase(unittest.TestCase):
     def test_equals_2(self):
         self.assertEqual(filter_words('You\'re MEAN! timmy!'),
                          'You\'re awesome! timmy!')
-
-
-if __name__ == '__main__':
-    unittest.main()

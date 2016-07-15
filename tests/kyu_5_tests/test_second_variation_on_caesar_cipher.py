@@ -24,7 +24,3 @@ class CaesarCipherTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(encode_str(self.s2, 1), self.lst2)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -15,7 +15,3 @@ class DataReverseTestCase(unittest.TestCase):
         self.assertEqual(data_reverse(
             [0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1]),
             [0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0])
-
-
-if __name__ == '__main__':
-    unittest.main()

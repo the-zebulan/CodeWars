@@ -18,7 +18,3 @@ class ArrayTestCase(unittest.TestCase):
 
     def test_none_3(self):
         self.assertIsNone(array('1, 3'))
-
-
-if __name__ == '__main__':
-    unittest.main()

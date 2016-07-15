@@ -40,7 +40,3 @@ class RequiredData2TestCase(unittest.TestCase):
     def test_equals_9(self):
         self.assertEqual(given_nth_value(self.list_1, 'string', 2),
                          'Incorrect value for k')
-
-
-if __name__ == '__main__':
-    unittest.main()

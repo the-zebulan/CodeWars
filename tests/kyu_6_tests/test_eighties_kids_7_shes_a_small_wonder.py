@@ -26,7 +26,3 @@ class RobotTestCase(unittest.TestCase):
     def test_equals_4(self):
         self.assertEqual(self.vicky.learn_word('Thank'),
                          'I already know the word Thank')
-
-
-if __name__ == '__main__':
-    unittest.main()

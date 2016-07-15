@@ -24,7 +24,3 @@ class CountInversionsTestCase(unittest.TestCase):
 
     def test_equal_7(self):
         self.assertEqual(count_inversion((3, 3, 3)), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

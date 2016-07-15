@@ -18,7 +18,3 @@ class GetSizeTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(get_size(10, 10, 10), [600, 1000])
-
-
-if __name__ == '__main__':
-    unittest.main()

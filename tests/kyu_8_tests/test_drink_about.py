@@ -18,7 +18,3 @@ class DrinkTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(people_with_age_drink(30), 'drink whisky')
-
-
-if __name__ == '__main__':
-    unittest.main()

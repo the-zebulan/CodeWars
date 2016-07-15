@@ -11,7 +11,3 @@ class RemoveRottenTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(remove_rotten([]), [])
-
-
-if __name__ == '__main__':
-    unittest.main()

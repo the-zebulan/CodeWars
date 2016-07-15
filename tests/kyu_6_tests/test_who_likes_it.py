@@ -20,7 +20,3 @@ class WhoLikesItTestCase(unittest.TestCase):
     def test_equals_5(self):
         self.assertEqual(likes(['Alex', 'Jacob', 'Mark', 'Max']),
                          'Alex, Jacob and 2 others like this')
-
-
-if __name__ == '__main__':
-    unittest.main()

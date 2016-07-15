@@ -22,7 +22,3 @@ class GroupInTensTestCase(unittest.TestCase):
     def test_equals_5(self):
         self.assertEqual(group_in_10s(100), [
             None, None, None, None, None, None, None, None, None, None, [100]])
-
-
-if __name__ == '__main__':
-    unittest.main()

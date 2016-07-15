@@ -24,7 +24,3 @@ class RequiredData1TestCase(unittest.TestCase):
         self.assertEqual(count_sel([
             4, 4, 2, -3, 1, 4, 3, 2, 0, -5, 2, -2, -2, -5]),
             [14, 8, 4, [[2, 4], 3]])
-
-
-if __name__ == '__main__':
-    unittest.main()

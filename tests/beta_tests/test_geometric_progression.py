@@ -15,7 +15,3 @@ class GeometricSequenceElementsTestCase(unittest.TestCase):
     def test_equals_3(self):
         self.assertEqual(geometric_sequence_elements(1, -2, 10),
                          '1, -2, 4, -8, 16, -32, 64, -128, 256, -512')
-
-
-if __name__ == '__main__':
-    unittest.main()

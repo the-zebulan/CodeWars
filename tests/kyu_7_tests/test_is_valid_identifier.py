@@ -33,7 +33,3 @@ class IsValidIdentifierTestCase(unittest.TestCase):
 
     def test_false_5(self):
         self.assertFalse(is_valid("no no"))
-
-
-if __name__ == '__main__':
-    unittest.main()

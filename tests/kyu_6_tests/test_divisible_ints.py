@@ -15,7 +15,3 @@ class GetCountTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(get_count(1111111111), 25)
-
-
-if __name__ == '__main__':
-    unittest.main()

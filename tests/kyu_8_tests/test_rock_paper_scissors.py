@@ -30,7 +30,3 @@ class RockPaperScissorsTestCase(unittest.TestCase):
 
     def test_equals_9(self):
         self.assertEqual(rps('paper', 'paper'), 'Draw!')
-
-
-if __name__ == '__main__':
-    unittest.main()

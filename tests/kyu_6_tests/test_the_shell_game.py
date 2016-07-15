@@ -9,7 +9,3 @@ class FindTheBallTestCase(unittest.TestCase):
 
     def test_equals_2(self):
         self.assertEqual(find_the_ball(0, [(0, 1), (2, 1), (0, 1)]), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()

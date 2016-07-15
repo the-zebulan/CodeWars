@@ -18,7 +18,3 @@ class KeywordCipherTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(self.cipher.decode('vxz'), 'xyz')
-
-
-if __name__ == '__main__':
-    unittest.main()

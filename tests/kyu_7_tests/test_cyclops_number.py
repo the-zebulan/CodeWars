@@ -18,7 +18,3 @@ class CyclopsTestCase(unittest.TestCase):
 
     def test_false_3(self):
         self.assertFalse(cyclops(13))
-
-
-if __name__ == '__main__':
-    unittest.main()

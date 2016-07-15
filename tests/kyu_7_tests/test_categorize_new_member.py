@@ -13,7 +13,3 @@ class OpenOrSeniorTestCase(unittest.TestCase):
         self.assertEqual(openOrSenior(
             [[16, 23], [73, 1], [56, 20], [1, -1]]
         ), ['Open', 'Open', 'Senior', 'Open'])
-
-
-if __name__ == '__main__':
-    unittest.main()

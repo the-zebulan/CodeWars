@@ -13,7 +13,3 @@ class PriceDisplayFractionTestCase(unittest.TestCase):
         pdf = PriceDisplayFraction(16)
         self.assertEqual(pdf.to_internal('123.45/2'), 12345.125)
         self.assertEqual(pdf.to_display(12345.125), '123.45/2')
-
-
-if __name__ == '__main__':
-    unittest.main()

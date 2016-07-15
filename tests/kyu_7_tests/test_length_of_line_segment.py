@@ -27,7 +27,3 @@ class LengthOfLineTestCase(unittest.TestCase):
 
     def test_equals_8(self):
         self.assertEqual(length_of_line([[-3, 4], [10, 5]]), '13.04')
-
-
-if __name__ == '__main__':
-    unittest.main()

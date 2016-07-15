@@ -39,7 +39,3 @@ class PowerOfTwoTestCase(unittest.TestCase):
 
     def test_false_4(self):
         self.assertFalse(power_of_two(16777215))
-
-
-if __name__ == '__main__':
-    unittest.main()

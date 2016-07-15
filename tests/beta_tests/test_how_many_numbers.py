@@ -24,7 +24,3 @@ class HowManyNumbersTestCase(unittest.TestCase):
 
     def test_equals_7(self):
         self.assertEqual(sel_number(50, 3), 12)
-
-
-if __name__ == '__main__':
-    unittest.main()

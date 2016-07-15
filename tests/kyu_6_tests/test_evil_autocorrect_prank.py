@@ -22,7 +22,3 @@ class AutocorrectPrankTestCase(unittest.TestCase):
             'ou'),
             'your sister your sister youville utube your sister youyouyou uu'
             'u raiyou united your sister your sister your sister')
-
-
-if __name__ == '__main__':
-    unittest.main()

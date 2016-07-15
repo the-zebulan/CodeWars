@@ -15,7 +15,3 @@ class MessageValidatorTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(validate('MDZHV 60 130 VATRUKH 58 89 54 54'))
-
-
-if __name__ == '__main__':
-    unittest.main()

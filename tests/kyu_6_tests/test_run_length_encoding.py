@@ -32,7 +32,3 @@ class RunLengthEncodingTestCase(unittest.TestCase):
             'WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWBWWWWWWWWWW'
             'WWWW'), [[12, 'W'], [1, 'B'], [12, 'W'], [3, 'B'],
                       [24, 'W'], [1, 'B'], [14, 'W']])
-
-
-if __name__ == '__main__':
-    unittest.main()

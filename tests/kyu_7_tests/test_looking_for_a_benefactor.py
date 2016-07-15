@@ -20,7 +20,3 @@ class NewAverageTestCase(unittest.TestCase):
 
     def test_exception(self):
         self.assertRaises(ValueError, new_avg, [0, 0], 0)
-
-
-if __name__ == '__main__':
-    unittest.main()

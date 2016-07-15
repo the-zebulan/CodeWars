@@ -12,7 +12,3 @@ class FindDuplicateTestCase(unittest.TestCase):
 
     def test_equals_3(self):
         self.assertEqual(duplicate([66, 55, 44, 33, 22, 44, 11, 11]), 44)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -27,7 +27,3 @@ class PowerOfFourTestCase(unittest.TestCase):
 
     def test_false_5(self):
         self.assertFalse(powerof4(True))
-
-
-if __name__ == '__main__':
-    unittest.main()

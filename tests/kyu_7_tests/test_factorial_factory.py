@@ -15,7 +15,3 @@ class FactorialTestCase(unittest.TestCase):
 
     def test_none(self):
         self.assertIsNone(factorial(-2))
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -18,7 +18,3 @@ class RemainderTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(remainder(27, 5), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()

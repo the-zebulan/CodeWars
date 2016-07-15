@@ -24,7 +24,3 @@ class ProcessArrayTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(process_array([], lambda val: val + 1), [])
-
-
-if __name__ == '__main__':
-    unittest.main()

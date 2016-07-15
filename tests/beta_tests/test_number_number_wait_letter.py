@@ -18,7 +18,3 @@ class DoMathTestCase(unittest.TestCase):
 
     def test_equal_5(self):
         self.assertEqual(do_math("1z 2t 3q 5x 6u 8a 7b"), 8)
-
-
-if __name__ == '__main__':
-    unittest.main()

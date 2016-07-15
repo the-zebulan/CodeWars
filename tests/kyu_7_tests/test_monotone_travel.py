@@ -21,7 +21,3 @@ class IsMonotoneTestCase(unittest.TestCase):
 
     def test_false_2(self):
         self.assertFalse(is_monotone(range(5, -40, -1)))
-
-
-if __name__ == '__main__':
-    unittest.main()

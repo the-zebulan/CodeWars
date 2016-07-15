@@ -21,7 +21,3 @@ class GuessMyNumberTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(guess_my_number('012345'), '123-451-2345')
-
-
-if __name__ == '__main__':
-    unittest.main()

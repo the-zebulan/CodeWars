@@ -33,7 +33,3 @@ class AlexMistakesTestCase(unittest.TestCase):
 
     def test_equal_10(self):
         self.assertEqual(alex_mistakes(20, 135), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()

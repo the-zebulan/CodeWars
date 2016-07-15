@@ -18,7 +18,3 @@ class SayHelloTestCase(unittest.TestCase):
         self.assertEqual(say_hello(
             ['Wallace', 'Russel', 'Osbourne'], 'Albany', 'New York'
         ), 'Hello, Wallace Russel Osbourne! Welcome to Albany, New York!')
-
-
-if __name__ == '__main__':
-    unittest.main()

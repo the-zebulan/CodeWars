@@ -18,7 +18,3 @@ class SortListTestCase(unittest.TestCase):
                   {'a': 1, 'b': 12}]
         ), [{'a': 4, 'b': 3}, {'a': 3, 'b': 40}, {'a': 2, 'b': 2},
             {'a': 1, 'b': 12}])
-
-
-if __name__ == '__main__':
-    unittest.main()

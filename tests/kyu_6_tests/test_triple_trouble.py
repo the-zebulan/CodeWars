@@ -18,7 +18,3 @@ class TripleTroubleTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(triple_double(10560002, 100), 1)
-
-
-if __name__ == '__main__':
-    unittest.main()

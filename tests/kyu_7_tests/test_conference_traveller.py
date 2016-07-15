@@ -64,7 +64,3 @@ class ConferencePickerTestCase(unittest.TestCase):
             ['Thay', 'Camelot'], ['Waterdeep', 'Washinkyo']
             ), 'Waterdeep'
         )
-
-
-if __name__ == '__main__':
-    unittest.main()

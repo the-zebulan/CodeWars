@@ -25,7 +25,3 @@ class DadFilterTestCase(unittest.TestCase):
         self.assertEqual(dad_filter(
             'Dead or alive,,,, you\'re coming with me,,,   '
         ), 'Dead or alive, you\'re coming with me')
-
-
-if __name__ == '__main__':
-    unittest.main()

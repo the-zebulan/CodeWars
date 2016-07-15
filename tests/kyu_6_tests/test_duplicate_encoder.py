@@ -15,7 +15,3 @@ class DuplicateEncoderTestCase(unittest.TestCase):
 
     def test_equals_4(self):
         self.assertEqual(duplicate_encode('(( @'), '))((')
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -37,7 +37,3 @@ class KeywordCipherTestCase(unittest.TestCase):
 
     def test_equal_10(self):
         self.assertEqual(keyword_cipher('Test', 'unbuntu'), 'raqr')
-
-
-if __name__ == '__main__':
-    unittest.main()

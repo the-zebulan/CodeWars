@@ -24,7 +24,3 @@ class BonusTimeTestCase(unittest.TestCase):
 
     def test_equals_7(self):
         self.assertEqual(bonus_time(67890, True), '$678900')
-
-
-if __name__ == '__main__':
-    unittest.main()

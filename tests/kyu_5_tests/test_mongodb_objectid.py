@@ -41,7 +41,3 @@ class MongoDbObjectIdTestCase(unittest.TestCase):
     def test_equal_1(self):
         self.assertEqual(Mongo.get_timestamp('507f1f77bcf86cd799439016'),
                          datetime(2012, 10, 17, 21, 13, 27))
-
-
-if __name__ == '__main__':
-    unittest.main()
