@@ -21,3 +21,6 @@ class NextBiggerTestCase(unittest.TestCase):
 
     def test_equals_6(self):
         self.assertEqual(next_bigger(531), -1)
+
+    def test_equals_7(self):
+        self.assertEqual(next_bigger(1234567890), 1234567908)
