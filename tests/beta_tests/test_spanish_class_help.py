@@ -19,3 +19,6 @@ class SpanishClassHelpTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(gender('lampas'), ['las lampas'])
+
+    def test_equals_6(self):
+        self.assertEqual(gender('chica'), ['la chica'])
