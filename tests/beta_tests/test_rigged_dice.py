@@ -3,7 +3,7 @@ import unittest
 from katas.beta.rigged_dice import throw_rigged
 
 
-class MyTestCase(unittest.TestCase):
+class RiggedDiceTestCase(unittest.TestCase):
     @staticmethod
     def count_sixes():
         return sum(throw_rigged() == 6 for _ in xrange(100000))

@@ -4,7 +4,7 @@ from katas.beta.valid_hk_phone_number import \
     has_valid_HK_phone_number, is_valid_HK_phone_number
 
 
-class MyTestCase(unittest.TestCase):
+class ValidHKPhoneNumberTestCase(unittest.TestCase):
     def test_true_1(self):
         self.assertTrue(is_valid_HK_phone_number('1234 5678'))
 

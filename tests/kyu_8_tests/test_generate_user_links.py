@@ -3,7 +3,7 @@ import unittest
 from katas.kyu_8.generate_user_links import generate_link
 
 
-class MyTestCase(unittest.TestCase):
+class GenerateLinkTestCase(unittest.TestCase):
     def test_equals(self):
         self.assertEqual(generate_link('matt c'),
                          'http://www.codewars.com/users/matt%20c')

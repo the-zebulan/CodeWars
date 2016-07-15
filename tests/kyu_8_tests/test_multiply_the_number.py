@@ -3,7 +3,7 @@ import unittest
 from katas.kyu_8.multiply_the_number import multiply
 
 
-class MyTestCase(unittest.TestCase):
+class MultiplyTheNumberTestCase(unittest.TestCase):
     def test_equals(self):
         self.assertEqual(multiply(10), 250)
 

@@ -3,7 +3,7 @@ import unittest
 from katas.beta.binary_operations_1 import flip_bit
 
 
-class MyTestCase(unittest.TestCase):
+class FlipBitTestCase(unittest.TestCase):
     def test_equal_1(self):
         self.assertEqual(flip_bit(127, 8), 255)
 
