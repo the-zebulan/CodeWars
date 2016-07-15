@@ -13,8 +13,8 @@ def is_balanced(s, pairs):
                 last = None
             if last != a:
                 closing_chars.append(pair_dict[a])
-            elif a != closing_chars.pop():
-                return False
+            else:
+                closing_chars.pop()
         elif in_keys:
             closing_chars.append(pair_dict[a])
         elif in_values:
