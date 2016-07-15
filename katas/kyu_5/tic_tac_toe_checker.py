@@ -22,6 +22,4 @@ def isSolved(board):
             return 1
         elif current == {2}:
             return 2
-        if cats_game and 0 in current:
-            cats_game = False
     return 0 if cats_game else -1
