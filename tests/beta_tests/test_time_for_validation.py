@@ -18,3 +18,15 @@ class ConvertTimeTestCase(unittest.TestCase):
 
     def test_equals_5(self):
         self.assertEqual(convert_time('12', '21:13'), '09:13PM')
+
+    def test_equals_6(self):
+        self.assertEqual(convert_time('24', '22:33'), '22:33')
+
+    def test_false_1(self):
+        self.assertFalse(convert_time('99', '01:23AM'))
+
+    def test_false_2(self):
+        self.assertFalse(convert_time(99, '01:23AM'))
+
+    def test_false_3(self):
+        self.assertFalse(convert_time('12', '99:88PM'))
