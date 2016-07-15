@@ -27,6 +27,9 @@ class ClassNameChangerTestCase(unittest.TestCase):
     def test_raises_2(self):
         self.assertRaises(NameError, class_name_changer, MyClass, '!@#$%%^')
 
+    def test_my_class(self):
+        self.assertIsInstance(MyClass().__str__(), str)
+
 
 class MyClass(object):
     def __str__(self):
