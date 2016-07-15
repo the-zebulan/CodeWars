@@ -19,9 +19,9 @@ class Warrior(object):
         enemy.set_health(enemy.health - damage)
 
     def set_health(self, new_health):
-        self.health = max(0, new_health)
-        if self.health == 0:
+        if new_health == 0:
             self.deceased = True
             self.zombie = False
         elif self.deceased:
             self.zombie = True
+        self.health = max(0, new_health)
