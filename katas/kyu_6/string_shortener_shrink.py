@@ -1,9 +1,9 @@
-def shorten(string, length, glue='...'):
+def shorten(strng, length, glue='...'):
     glue_length = len(glue)
     without_glue_length = length - glue_length
-    if len(string) <= length:
-        return string
+    if len(strng) <= length:
+        return strng
     elif without_glue_length < 2:
-        return string[:length]
+        return strng[:length]
     quo, rem = divmod(without_glue_length, 2)
-    return '{}{}{}'.format(string[:quo], glue, string[-(quo + rem):])
+    return '{}{}{}'.format(strng[:quo], glue, strng[-(quo + rem):])
