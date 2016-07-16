@@ -1,5 +1,5 @@
-def string_chunk(string, n=0):
+def string_chunk(strng, n=0):
     try:
-        return [string[a:a + n] for a in xrange(0, len(string), n)]
+        return [strng[a:a + n] for a in xrange(0, len(strng), n)]
     except (TypeError, ValueError):
         return []
