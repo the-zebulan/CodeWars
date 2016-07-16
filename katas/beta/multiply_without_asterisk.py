@@ -55,22 +55,3 @@ class MyNumber(object):
 
     def __rxor__(self, other):
         return MyNumber(other ** self.num)
-
-
-a = MyNumber(7)
-b = MyNumber(8)
-
-print a ^ b
-
-
-# print (a - 1)
-# print type(a - 1)
-# print a + 1
-# print a % 2
-# print a / 2
-# print a * 2
-
-print (a - 1)(b - 1), 42
-print (a)(b), 56
-print (1 - a) ^ 2, 36
-print (a - 1)(a)(a + 1), 336

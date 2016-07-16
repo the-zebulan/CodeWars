@@ -52,5 +52,11 @@ class MyNumberTestCase(unittest.TestCase):
     def test_equal_14(self):
         self.assertEqual((self.d + 4)(0), 0)
 
+    def test_equal_15(self):
+        self.assertEqual(int(self.a), 7)
+
+    def test_equal_16(self):
+        self.assertEqual(str(self.a), '7')
+
     def test_not_equal_1(self):
         self.assertNotEqual(self.a, 42)
