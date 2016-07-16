@@ -1,7 +1,7 @@
 HTML_TAG = '<{0}>{1}</{0}>'.format
 
 
-class HTMLGen:
+class HTMLGen(object):
     @staticmethod
     def comment(text):
         return '<!--{}-->'.format(text)
