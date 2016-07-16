@@ -16,3 +16,7 @@ class GuesserTestCase(unittest.TestCase):
         guesser = Guesser(10, 2)
         guesser.guess(1)
         self.assertFalse(guesser.guess(1))
+
+    def test_raises_1(self):
+        guesser = Guesser(10, 0)
+        self.assertRaises(Exception, guesser.guess, 4)
