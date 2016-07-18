@@ -5,9 +5,11 @@ def output(lst):
 
 
 def summary_ranges(nums):
-    result = []
+    if not nums:
+        return []
     group = []
     last = nums[0]
+    result = []
     for num in nums:
         if num - last > 1:
             result.append(output(group))
@@ -16,10 +18,3 @@ def summary_ranges(nums):
         last = num
     result.append(output(group))
     return result
-
-
-print summary_ranges([1, 1, 1, 1])  # == ['1']
-print summary_ranges([1, 2, 3, 4])  # == ['1->4']
-print summary_ranges([0, 1, 2, 5, 6, 9])  # == ["0->2", "5->6", "9"]
-print summary_ranges([0, 1, 2, 3, 3, 3, 4, 5, 6, 7])  # == ["0->7"]
-print summary_ranges([0, 1, 2, 3, 3, 3, 4, 4, 5, 6, 7])  # == ["0->7"]
