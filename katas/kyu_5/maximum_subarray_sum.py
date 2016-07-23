@@ -1,11 +1,8 @@
 def maxSequence(arr):
     """ max_sequence == PEP8 (forced mixedCase by CodeWars) """
-    total = 0
-    maximum = 0
+    maximum = total = 0
     for a in arr:
-        total += a
-        if total < 0:
-            total = 0
+        total = max(0, total + a)
         if total > maximum:
             maximum = total
     return maximum
