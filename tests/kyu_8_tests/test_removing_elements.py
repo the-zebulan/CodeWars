@@ -1,6 +1,6 @@
 import unittest
 
-from katas.beta.removing_elements import remove_every_other
+from katas.kyu_8.removing_elements import remove_every_other
 
 
 class RemoveEveryOtherTestCase(unittest.TestCase):
