@@ -1,0 +1,40 @@
+import unittest
+
+from katas.kyu_7.highest_and_lowest import high_and_low
+
+
+class HighAndLowTestCase(unittest.TestCase):
+    def test_equal_1(self):
+        self.assertEqual(high_and_low('1 2 3 4 5'), '5 1')
+
+    def test_equal_2(self):
+        self.assertEqual(high_and_low('1 2 -3 4 5'), '5 -3')
+
+    def test_equal_3(self):
+        self.assertEqual(high_and_low('1 9 3 4 -5'), '9 -5')
+
+    def test_equal_4(self):
+        self.assertEqual(
+            high_and_low('4 5 29 54 4 0 -214 542 -64 1 -3 6 -6'), '542 -214'
+        )
+
+    def test_equal_5(self):
+        self.assertEqual(high_and_low('1 -1'), '1 -1')
+
+    def test_equal_6(self):
+        self.assertEqual(high_and_low('1 1'), '1 1')
+
+    def test_equal_7(self):
+        self.assertEqual(high_and_low('-1 -1'), '-1 -1')
+
+    def test_equal_8(self):
+        self.assertEqual(high_and_low('1 -1 0'), '1 -1')
+
+    def test_equal_9(self):
+        self.assertEqual(high_and_low('1 1 0'), '1 0')
+
+    def test_equal_10(self):
+        self.assertEqual(high_and_low('-1 -1 0'), '0 -1')
+
+    def test_equal_11(self):
+        self.assertEqual(high_and_low('42'), '42 42')
