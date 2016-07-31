@@ -2,7 +2,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/the-zebulan/CodeWars/badge.svg?branch=master)](https://coveralls.io/github/the-zebulan/CodeWars?branch=master)
 [![Python Version](https://img.shields.io/badge/python-2.7-blue.svg)]()
 
-## Codewars - Python Solutions
+# Codewars - Python Solutions
 
 My solutions for Codewars problems are written using `Python 2.7` and unittests are run using pytest.
 
