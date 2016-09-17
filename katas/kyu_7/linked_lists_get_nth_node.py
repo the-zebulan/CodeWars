@@ -5,17 +5,11 @@ class Node(object):
 
 
 def get_nth(node, index):
-    if node is None or index < 0:
-        raise Exception
     current = node
-    dex = 0
-    while True:
+    dex = -1
+    while current is not None:
+        dex += 1
         if dex == index:
             return current
         current = current.next
-        if current is None:
-            break
-        dex += 1
-    if dex != index:
-        raise Exception
-    return current
+    raise Exception
