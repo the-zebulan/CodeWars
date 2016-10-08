@@ -12,3 +12,6 @@ class MeetingTestCase(unittest.TestCase):
 
     def test_equal_3(self):
         self.assertEqual(meeting(['X', 'X', 'O', 'X', 'X']), 2)
+
+    def test_equal_4(self):
+        self.assertEqual(meeting(['X']), 'None available!')
