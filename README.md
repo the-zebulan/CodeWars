@@ -10,7 +10,9 @@ My solutions for Codewars problems are written using `Python 2.7` and unittests 
 * Since `Python 3` support is relatively new to Codewars, a lot of the `Python` katas are only available for `Python 2`.
 
 ### [Profile](http://www.codewars.com/users/zebulan)
-I am currently ranked `2 kyu` with 900+ katas solved.
+![Codewars Rank](https://www.codewars.com/users/zebulan/badges/large)
+
+I am currently ranked `2 kyu` with 1000+ katas solved.
 
 ### [Ranking](http://www.codewars.com/about)
 ```
@@ -23,7 +25,7 @@ I am currently ranked `2 kyu` with 900+ katas solved.
 ```
 
 ### Repo Structure
-There are two directories in this repository, `katas` and `tests`.
+There are two main directories in this repository, `katas` and `tests`.
 
 ```
 ├── katas
