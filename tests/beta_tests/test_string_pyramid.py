@@ -1,4 +1,5 @@
 import unittest
+from textwrap import dedent
 
 from katas.beta.string_pyramid import (
     count_all_characters_of_the_pyramid,
@@ -35,13 +36,13 @@ class StringPyramidTestCase(unittest.TestCase):
 
     def test_equal_7(self):
         characters = '*#'
-        expected_watch_from_side = '''\
- # 
-***'''
-        expected_watch_from_above = '''\
-***
-*#*
-***'''
+        expected_watch_from_side = dedent('''\
+             # 
+            ***''')
+        expected_watch_from_above = dedent('''\
+            ***
+            *#*
+            ***''')
         self.assertEqual(
             count_visible_characters_of_the_pyramid(characters), 9
         )
@@ -53,16 +54,16 @@ class StringPyramidTestCase(unittest.TestCase):
 
     def test_equal_8(self):
         characters = 'abc'
-        expected_watch_from_side = '''\
-  c  
- bbb 
-aaaaa'''
-        expected_watch_from_above = '''\
-aaaaa
-abbba
-abcba
-abbba
-aaaaa'''
+        expected_watch_from_side = dedent('''\
+              c  
+             bbb 
+            aaaaa''')
+        expected_watch_from_above = dedent('''\
+            aaaaa
+            abbba
+            abcba
+            abbba
+            aaaaa''')
         self.assertEqual(
             count_visible_characters_of_the_pyramid(characters), 25
         )
@@ -74,16 +75,16 @@ aaaaa'''
 
     def test_equal_9(self):
         characters = 'aaa'
-        expected_watch_from_side = '''\
-  a  
- aaa 
-aaaaa'''
-        expected_watch_from_above = '''\
-aaaaa
-aaaaa
-aaaaa
-aaaaa
-aaaaa'''
+        expected_watch_from_side = dedent('''\
+              a  
+             aaa 
+            aaaaa''')
+        expected_watch_from_above = dedent('''\
+            aaaaa
+            aaaaa
+            aaaaa
+            aaaaa
+            aaaaa''')
         self.assertEqual(
             count_visible_characters_of_the_pyramid(characters), 25
         )
@@ -95,23 +96,23 @@ aaaaa'''
 
     def test_equal_10(self):
         characters = '54321'
-        expected_watch_from_side = '''\
-    1    
-   222   
-  33333  
- 4444444 
-555555555'''
+        expected_watch_from_side = dedent('''\
+                1    
+               222   
+              33333  
+             4444444 
+            555555555''')
 
-        expected_watch_from_above = '''\
-555555555
-544444445
-543333345
-543222345
-543212345
-543222345
-543333345
-544444445
-555555555'''
+        expected_watch_from_above = dedent('''\
+            555555555
+            544444445
+            543333345
+            543222345
+            543212345
+            543222345
+            543333345
+            544444445
+            555555555''')
         self.assertEqual(
             count_visible_characters_of_the_pyramid(characters), 81
         )
