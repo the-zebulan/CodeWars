@@ -1,5 +1,8 @@
 def to_tuple(s):
-    return tuple(int(a) if a else 0 for a in s.rstrip('0.').split('.'))
+    result = [int(a) for a in s.split('.')]
+    while result[-1] == 0:
+        result.pop()
+    return result
 
 
 def compare(s1, s2):
