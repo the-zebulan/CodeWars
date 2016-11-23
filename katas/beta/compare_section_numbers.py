@@ -1,6 +1,11 @@
 def to_tuple(s):
     result = [int(a) for a in s.split('.')]
-    while result[-1] == 0:
+    while True:
+        try:
+            if result[-1] != 0:
+                break
+        except IndexError:
+            return [0]
         result.pop()
     return result
 

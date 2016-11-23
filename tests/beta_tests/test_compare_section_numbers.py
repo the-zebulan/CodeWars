@@ -37,3 +37,6 @@ class CompareSectionNumbersTestCase(unittest.TestCase):
     def test_equal_11(self):
         self.assertEqual(compare('22.87.95.49.24.8.91.84.80',
                                  '22.87.95.49.24.8.91.84.34.23'), 1)
+
+    def test_equal_12(self):
+        self.assertEqual(compare('0.0.0', '1.0.0'), -1)
