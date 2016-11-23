@@ -1,4 +1,4 @@
-def to_tuple(s):
+def to_nums(s):
     result = [int(a) for a in s.split('.')]
     while True:
         try:
@@ -11,6 +11,6 @@ def to_tuple(s):
 
 
 def compare(s1, s2):
-    a = to_tuple(s1)
-    b = to_tuple(s2)
+    a = to_nums(s1)
+    b = to_nums(s2)
     return (a > b) - (a < b)
