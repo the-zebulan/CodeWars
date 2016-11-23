@@ -15,7 +15,3 @@ class DictionaryTestCase(unittest.TestCase):
 
     def test_equal_2(self):
         self.assertEqual(self.d.look('Banana'), "Can't find entry for Banana")
-
-
-if __name__ == '__main__':
-    unittest.main()
